@@ -1,0 +1,106 @@
+digital-twin-agent-service/
+│
+├── app/
+│   ├── main.py
+│   ├── config.py
+│   ├── dependencies.py
+│   │
+│   ├── api/
+│   │   ├── routes/
+│   │   │   ├── chat.py
+│   │   │   ├── agents.py
+│   │   │   ├── health.py
+│   │   │   └── debug.py
+│   │   └── schemas/
+│   │       ├── chat.py
+│   │       ├── agent.py
+│   │       └── orchestrator.py
+│   │
+│   ├── core/
+│   │   ├── logging.py
+│   │   ├── errors.py
+│   │   ├── constants.py
+│   │   └── utils.py
+│   │
+│   ├── llm/
+│   │   ├── client.py
+│   │   ├── prompts/
+│   │   │   ├── system/
+│   │   │   │   ├── orchestrator.txt
+│   │   │   │   ├── explanation_agent.txt
+│   │   │   │   ├── recovery_agent.txt
+│   │   │   │   └── inventory_agent.txt
+│   │   │   └── fewshot/
+│   │   │       ├── explanation_examples.json
+│   │   │       └── recovery_examples.json
+│   │   └── formatters/
+│   │       ├── answer_formatter.py
+│   │       └── convai_formatter.py
+│   │
+│   ├── graph/
+│   │   ├── state.py
+│   │   ├── nodes/
+│   │   │   ├── classify_intent.py
+│   │   │   ├── route_agent.py
+│   │   │   ├── call_explanation_agent.py
+│   │   │   ├── call_recovery_agent.py
+│   │   │   ├── call_inventory_agent.py
+│   │   │   ├── synthesize_response.py
+│   │   │   └── finalize.py
+│   │   ├── edges/
+│   │   │   └── routing.py
+│   │   └── flows/
+│   │       ├── main_orchestrator.py
+│   │       └── explanation_flow.py
+│   │
+│   ├── agents/
+│   │   ├── base.py
+│   │   ├── explanation_agent.py
+│   │   ├── recovery_agent.py
+│   │   ├── inventory_agent.py
+│   │   ├── schedule_agent.py
+│   │   └── readiness_agent.py
+│   │
+│   ├── tools/
+│   │   ├── base.py
+│   │   ├── printers.py
+│   │   ├── tasks.py
+│   │   ├── inventory.py
+│   │   ├── telemetry.py
+│   │   ├── scheduling.py
+│   │   └── recovery.py
+│   │
+│   ├── services/
+│   │   ├── backend_client.py
+│   │   ├── inventory_client.py
+│   │   ├── influx_client.py
+│   │   ├── sse_snapshot_client.py
+│   │   └── rag_service.py
+│   │
+│   ├── memory/
+│   │   ├── session_store.py
+│   │   ├── trace_store.py
+│   │   └── conversation_store.py
+│   │
+│   ├── rag/
+│   │   ├── ingest/
+│   │   ├── retrievers/
+│   │   ├── chunking/
+│   │   └── vectorstore/
+│   │
+│   └── tests/
+│       ├── test_tools.py
+│       ├── test_agents.py
+│       ├── test_graph.py
+│       └── test_api.py
+│
+├── scripts/
+│   ├── run_dev.sh
+│   ├── pull_model.sh
+│   └── smoke_test.py
+│
+├── .env
+├── docker-compose.yml
+├── Dockerfile
+├── requirements.txt
+└── README.md
