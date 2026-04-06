@@ -4,13 +4,13 @@ from app.graph.state import OrchestratorState
 def classify_intent(state: OrchestratorState) -> OrchestratorState:
     text = state["user_input"].lower()
 
-    if any(k in text for k in ["why", "what happened", "explain", "reason"]):
+    if any(k in text for k in ["why", "what happened", "explain", "reason", "status"]):
         intent = "explanation"
     elif any(k in text for k in ["retry", "recover", "requeue", "what next"]):
         intent = "recovery"
-    elif any(k in text for k in ["inventory", "stock", "material", "tool"]):
+    elif any(k in text for k in ["inventory", "stock", "material", "tool", "ams"]):
         intent = "inventory"
-    elif any(k in text for k in ["schedule", "assign", "best printer", "queue"]):
+    elif any(k in text for k in ["schedule", "assign", "best printer", "queue", "dispatch", "scheduler"]):
         intent = "schedule"
     else:
         intent = "explanation"
