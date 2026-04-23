@@ -1,0 +1,2986 @@
+THE FREE BEGINNER’S
+GUIDE TO
+
+3D PRINTING
+
+Table of Contents
+Chapter 01 : Introduction: What is 3D printing?
+
+05
+
+Chapter 02 : History of 3D Printing
+
+10
+
+Chapter 03 : 3D Printing Technology
+
+19
+
+Chapter 04 : 3D Printing Processes
+
+24
+
+Chapter 05 : 3D Printing Materials
+
+40
+
+Chapter 06 : 3D Printing Global Eﬀects
+
+48
+
+Chapter 07 : 3D Printing Beneﬁts & Value
+
+53
+
+Chapter 08 : 3D Printing Applications
+
+57
+
+Glossary
+
+72
+
+3D Printing Basics:
+Welcome to 3DPI’s Beginner’s Guide to 3D Printing. Whether you
+are new to 3D printing technology or just looking to close a few
+knowledge gaps, we’re glad you stopped by. By now, most of us
+have heard, at some level, about the potential of 3D printing. But
+with this guide we are oﬀering insights into the history and the
+reality of 3D printing — the processes, materials and applications —
+as well as measured thoughts on where it might be heading.
+
+!
+We hope you’ll ﬁnd this to be one of the most comprehensive 3D
+printing resources available, and that no matter what your skill level
+is, there will be plenty in here to meet your needs. As an added
+bonus, we’re working on a handy downloadable PDF version of the
+entire guide, and hope to have that ready very soon.
+
+!
+Are you ready? Let’s get started!
+3D Printing — also known as additive manufacturing — has
+been quoted in the Financial Times and by other sources as
+potentially being larger than the Internet. Some believe this is
+true. Many others urge that this is part of the extraordinary
+hype that exists around this very exciting technology area. So
+what really is 3D printing, who generally uses 3D printers and
+what for?
+
+!3
+
+3dprintingindustry.com
+
+Overview
+The term 3D printing covers a
+host of processes and
+technologies that oﬀer a full
+spectrum of capabilities for the
+production of parts and
+products in diﬀerent materials.
+Essentially, what all of the
+processes and technologies
+
+commentators on this
+
+have in common is the manner
+
+technology sector agree that,
+
+in which production is carried
+
+as of today, we are only just
+
+out — layer by layer in an
+
+beginning to see the true
+
+additive process — which is in
+
+potential of 3D printing. 3DPI, a
+
+contrast to traditional methods
+
+reliable media source for 3D
+
+of production involving
+
+printing, brings you all of the
+
+subtractive methods or
+
+latest news, views, process
+
+moulding/casting processes.
+
+developments and applications
+
+Applications of 3D printing are
+
+as they emerge in this exciting
+
+emerging almost by the day,
+
+ﬁeld. This overview article aims
+
+and, as this technology
+
+to provide the 3DPI audience
+
+continues to penetrate more
+
+with a reliable backgrounder
+
+widely and deeply across
+
+on 3D printing in terms of what
+
+industrial, maker and
+
+it is (technologies, processes
+
+consumer sectors, this is only
+
+and materials), its history,
+
+set to increase. Most reputable
+
+application areas and beneﬁts.
+!4
+
+3dprintingindustry.com
+
+CHAPTER
+
+Introduction
+What is 3D printing?
+
+!5
+
+Introduction – What is 3D printing?
+Technology has aﬀected recent
+
+newspapers and across online
+
+human history probably more
+
+resources. What really is this
+
+than any other ﬁeld. Think of a
+
+3D printing that some have
+
+light bulb, steam engine or,
+
+claimed will put an end to
+
+more latterly, cars and
+
+traditional manufacturing as
+
+aeroplanes, not to mention the
+
+we know it, revolutionize
+
+rise and rise of the world wide
+
+design and impose
+
+web. These technologies have
+
+geopolitical, economic, social,
+
+made our lives better in many
+
+demographic, environmental
+
+ways, opened up new avenues
+
+and security implications to
+
+and possibilities, but usually it
+
+our every day lives?
+
+takes time, sometimes even
+
+!
+
+decades, before the truly
+
+The most basic, diﬀerentiating
+
+disruptive nature of the
+
+principle behind 3D printing is
+
+technology becomes apparent.
+
+that it is an additive
+
+!
+
+manufacturing process. And
+
+It is widely believed that 3D
+
+this is indeed the key because
+
+printing or additive
+
+3D printing is a radically
+
+manufacturing (AM) has the
+
+diﬀerent manufacturing
+
+vast potential to become one
+
+method based on advanced
+
+of these technologies. 3D
+
+technology that builds up
+
+printing has now been covered
+
+parts, additively, in layers at
+
+across many television
+
+the sub mm scale. This is
+
+channels, in mainstream
+
+fundamentally diﬀerent from
+!6
+
+3dprintingindustry.com
+
+Introduction – What is 3D printing?
+any other existing traditional
+
+whether to achieve the end
+
+manufacturing techniques.
+
+product itself or to produce a
+
+!
+
+tool for casting or moulding
+
+There are a number of
+
+processes — and this is a
+
+limitations to traditional
+
+serious limitation within the
+
+manufacturing, which has
+
+overall manufacturing process.
+
+widely been based on human
+
+!
+
+labour and “made by hand”
+
+For many applications
+
+ideology rooting back to the
+
+traditional design and
+
+etymological origins of the
+
+production processes impose a
+
+French word for manufacturing
+
+number of unacceptable
+
+itself. However, the world of
+
+constraints, including the
+
+manufacturing has changed,
+
+expensive tooling as
+
+and automated processes such
+
+mentioned above, ﬁxtures, and
+
+as machining, casting, forming
+
+the need for assembly for
+
+and moulding are all (relatively)
+
+complex parts. In addition, the
+
+new, complex processes that
+require machines, computers
+and robot technology.
+
+!
+However, these technologies
+all demand subtracting
+material from a larger block —
+
+!7
+
+3dprintingindustry.com
+
+Introduction – What is 3D printing?
+subtractive manufacturing
+
+unprecedented design
+
+processes, such as machining,
+
+freedom while being a tool-less
+
+can result in up to 90% of the
+
+process that reduces
+
+original block of material being
+
+prohibitive costs and lead
+
+wasted.
+
+times. Components can be
+
+!
+
+designed speciﬁcally to avoid
+
+In contrast, 3D printing is a
+
+assembly requirements with
+
+process for creating objects
+
+intricate geometry and
+
+directly, by adding material
+
+complex features created at no
+
+layer by layer in a variety of
+
+extra cost. 3D printing is also
+
+ways, depending on the
+
+emerging as an energy-
+
+technology used. Simplifying
+
+eﬃcient technology that can
+
+the ideology behind 3D
+
+provide environmental
+
+printing, for anyone that is still
+
+eﬃciencies in terms of both
+
+trying to understand the
+
+the manufacturing process
+
+concept (and there are many),
+
+itself, utilising up to 90% of
+
+it could be likened to the
+
+standard materials, and
+
+process of building something
+
+throughout the product’s
+
+with Lego blocks automatically.
+
+operating life, through lighter
+
+!
+
+and stronger design.
+
+3D printing is an enabling
+
+!
+
+technology that encourages
+
+In recent years, 3D printing has
+
+and drives innovation with
+
+gone beyond being an
+
+!8
+
+3dprintingindustry.com
+
+Introduction – What is 3D printing?
+industrial prototyping and manufacturing process as the
+technology has become more accessible to small companies and
+even individuals. Once the domain of huge, multi-national
+corporations due to the scale and economics of owning a 3D
+printer, smaller (less capable) 3D printers can now be acquired for
+under $1000.
+
+!
+This has opened up the technology to a much wider audience,
+and as the exponential adoption rate continues apace on all
+fronts, more and more systems, materials, applications, services
+and ancillaries are emerging.
+
+!9
+
+3dprintingindustry.com
+
+CHAPTER
+
+History of 3D Printing
+
+!10
+
+History of 3D Printing
+The earliest 3D printing technologies ﬁrst
+became visible in the late 1980’s, at which
+time they were called Rapid Prototyping
+(RP) technologies. This is because the
+processes were originally conceived as a
+fast and more cost-eﬀective method for
+creating prototypes for product
+development within industry. As an
+interesting aside, the very ﬁrst patent
+application for RP technology was ﬁled by a
+Dr Kodama, in Japan, in May 1980.
+Unfortunately for Dr Kodama, the full
+patent speciﬁcation was subsequently not
+ﬁled before the one year deadline after the
+application, which is particularly disastrous
+considering that he was a patent lawyer! In
+real terms, however, the origins of 3D
+printing can be traced back to 1986, when
+the ﬁrst patent was issued for
+stereolithography apparatus (SLA). This
+patent belonged to one Charles (Chuck)
+Hull, who ﬁrst invented his SLA machine in
+1983. Hull went on to co-found 3D Systems
+Corporation — one of the largest and most
+!11
+
+3dprintingindustry.com
+
+History of 3D Printing
+proliﬁc organizations operating in the 3D
+printing sector today.
+
+!
+3D Systems’ ﬁrst commercial RP system, the
+SLA-1, was introduced in 1987 and following
+rigorous testing the ﬁrst of these system
+was sold in 1988. As is fairly typical with
+new technology, while SLA can claim to be
+the ﬁrst past the starting post, it was not
+the only RP technology in development at
+this time, for, in 1987, Carl Deckard, who
+was working at the University of Texas, ﬁled
+a patent in the US for the Selective Laser
+Sintering (SLS) RP process. This patent was
+issued in 1989 and SLS was later licensed to
+DTM Inc, which was later acquired by 3D
+Systems. 1989 was also the year that Scott
+Crump, a co-founder of Stratasys Inc. ﬁled a
+patent for Fused Deposition Modelling
+(FDM) — the proprietary technology that is
+still held by the company today, but is also
+the process used by many of the entry-level
+machines, based on the open source
+RepRap model, that are proliﬁc today. The FDM patent was issued
+to Stratasys in 1992. In Europe, 1989 also saw the formation of
+!12
+
+3dprintingindustry.com
+
+History of 3D Printing
+EOS GmbH in Germany,
+
+emerging during these years,
+
+founded by Hans Langer. After
+
+namely Ballistic Particle
+
+a dalliance with SL processes,
+
+Manufacturing (BPM) originally
+
+EOS’ R&D focus was placed
+
+patented by William Masters,
+
+heavily on the laser sintering
+
+Laminated Object
+
+(LS) process, which has
+
+Manufacturing (LOM) originally
+
+continued to go from strength
+
+patented by Michael Feygin,
+
+to strength. Today, the EOS
+
+Solid Ground Curing (SGC)
+
+systems are recognized around
+
+originally patented by Itzchak
+
+the world for their quality
+
+Pomerantz et al and ‘three
+
+output for industrial
+
+dimensional printing’ (3DP)
+
+prototyping and production
+
+originally patented by Emanuel
+
+applications of 3D printing.
+
+Sachs et al. And so the early
+
+EOS sold its ﬁrst ‘Stereos’
+
+nineties witnessed a growing
+
+system in 1990. The company’s
+
+number of competing
+
+direct metal laser sintering
+
+companies in the RP market
+
+(DMLS) process resulted from
+
+but only three of the originals
+
+an initial project with a division
+
+remain today — 3D Systems,
+
+of Electrolux Finland, which
+
+EOS and Stratasys.
+
+was later acquired by EOS.
+
+!
+
+!
+
+Throughout the 1990’s and
+
+Other 3D printing technologies
+
+early 2000’s a host of new
+
+and processes were also
+
+technologies continued to be
+
+!13
+
+3dprintingindustry.com
+
+History of 3D Printing
+ntroduced, still focused wholly
+
+Technologies (an established
+
+on industrial applications and
+
+vacuum casting OEM)
+
+while they were still largely
+
+introduced the SLM technology
+
+processes for prototyping
+
+in 2000, EnvisionTec was
+
+applications, R&D was also
+
+founded in 2002, ExOne was
+
+being conducted by the more
+
+established in 2005 as a spin-
+
+advanced technology providers
+
+oﬀ from the Extrude Hone
+
+for speciﬁc tooling, casting and
+
+Corporation and Sciaky Inc was
+
+direct manufacturing
+
+pioneering its own additive
+
+applications. This saw the
+
+process based on its
+
+emergence of new
+
+proprietary electron beam
+
+terminology, namely Rapid
+
+welding technology. These
+
+Tooling (RT), Rapid Casting and
+
+companies all served to swell
+
+Rapid Manufacturing (RM)
+
+the ranks of Western
+
+respectively.
+
+companies operating across a
+
+!
+
+global market. The terminology
+
+In terms of commercial
+
+had also evolved with a
+
+operations, Sanders Prototype
+
+proliferation of manufacturing
+
+(later Solidscape) and
+
+applications and the accepted
+
+ZCorporation were set up in
+
+umbrella term for all of the
+
+1996, Arcam was established in
+
+processes was Additive
+
+1997, Objet Geometries
+
+Manufacturing (AM). Notably,
+
+launched in 1998, MCP
+
+there were many parallel
+
+!14
+
+3dprintingindustry.com
+
+History of 3D Printing
+developments taking place in
+
+applications across the
+
+the Eastern hemisphere.
+
+aerospace, automotive,
+
+However, these technologies,
+
+medical and ﬁne jewellery
+
+while signiﬁcant in themselves
+
+sectors, as years of R&D and
+
+and enjoying some local
+
+qualiﬁcation are now paying
+
+success, did not really impact
+
+oﬀ. A great deal still remains
+
+the global market at that time.
+
+behind closed doors and/or
+
+!
+
+under non-disclosure
+
+During the mid noughties, the
+
+agreements (NDA). At the other
+
+sector started to show signs of
+
+end of the spectrum, some of
+
+distinct diversiﬁcation with two
+
+the 3D printing system
+
+speciﬁc areas of emphasis that
+
+manufacturers were
+
+are much more clearly deﬁned
+
+developing and advancing
+
+today. First, there was the high
+
+‘concept modellers’, as they
+
+end of 3D printing, still very
+
+were called at the time.
+
+expensive systems, which were
+
+Speciﬁcally, these were 3D
+
+geared towards part
+
+printers that kept the focus on
+
+production for high value,
+
+improving concept
+
+highly engineered, complex
+
+development and functional
+
+parts. This is still ongoing —
+
+prototyping, that were being
+
+and growing — but the results
+
+developed speciﬁcally as oﬃce-
+
+are only now really starting to
+
+and user-friendly, cost-eﬀective
+
+become visible in production
+
+systems. The prelude to
+
+!15
+
+3dprintingindustry.com
+
+History of 3D Printing
+today’s desktop machines.
+
+inﬂuences. The holy grail at
+
+However, these systems were
+
+that time was to get a 3D
+
+all still very much for industrial
+
+printer under $5000 — this
+
+applications.
+
+was seen by many industry
+
+!
+
+insiders, users and
+
+Looking back, this was really
+
+commentators as the key to
+
+the calm before the storm.
+
+opening up 3D printing
+
+!
+
+technology to a much wider
+
+At the lower end of the market
+
+audience. For much of that
+
+— the 3D printers that today
+
+year, the arrival of the highly-
+
+are seen as being in the mid
+
+anticipated Desktop Factory —
+
+range — a price war emerged
+
+which many predicted would
+
+together with incremental
+
+be the fulﬁllment of that holy
+
+improvements in printing
+
+grail — was heralded as the
+
+accuracy, speed and materials.
+
+one to watch. It came to
+
+!
+
+nothing as the organization
+
+In 2007, the market saw the
+
+faltered in the run up to
+
+ﬁrst system under $10,000
+
+production. Desktop Factory
+
+from 3D Systems, but this
+
+and its leader, Cathy Lewis,
+
+never quite hit the mark that it
+
+were acquired, along with the
+
+was supposed to. This was
+
+IP, by 3D Systems in 2008 and
+
+partly due to the system itself,
+
+all but vanished. As it turned
+
+but also other market
+
+out though, 2007 was actually
+
+!16
+
+3dprintingindustry.com
+
+History of 3D Printing
+the year that did mark the
+
+But it wasn’t until January 2009
+
+turning point for accessible 3D
+
+that the ﬁrst commercially
+
+printing technology — even
+
+available 3D printer – in kit
+
+though few realized it at the
+
+form and based on the RepRap
+
+time — as the RepRap
+
+concept – was oﬀered for sale.
+
+phenomenon took root. Dr
+
+This was the BfB RapMan 3D
+
+Bowyer conceived the RepRap
+
+printer. Closely followed by
+
+concept of an open source,
+
+Makerbot Industries in April
+
+self-replicating 3D printer as
+
+the same year, the founders of
+
+early as 2004, and the seed
+
+which were heavily involved in
+
+was germinated in the
+
+the development of RepRap
+
+following years with some
+
+until they departed from the
+
+heavy slog from his team at
+
+Open Source philosophy
+
+Bath, most notably Vik Oliver
+
+following extensive investment.
+
+and Rhys Jones, who
+
+Since 2009, a host of similar
+
+developed the concept through
+
+deposition printers have
+
+to working prototypes of a 3D
+
+emerged with marginal unique
+
+printer using the deposition
+
+selling points (USPs) and they
+
+process. 2007 was the year the
+
+continue to do so. The
+
+shoots started to show
+
+interesting dichotomy here is
+
+through and this embryonic,
+
+hat, while the RepRap
+
+open source 3D printing
+
+phenomenon has given rise to
+
+movement started to gain
+
+a whole new sector of
+
+visibility.
+
+commercial, entry-level 3D
+!17
+
+3dprintingindustry.com
+
+History of 3D Printing
+printers, the ethos of the
+
+in awareness and uptake
+
+RepRap community is all about
+
+across a growing maker
+
+Open Source developments for
+
+movement, 2012 was also the
+
+3D printing and keeping
+
+year that many diﬀerent
+
+commercialization at bay.
+
+mainstream media channels
+
+!
+
+picked up on the technology.
+
+2012 was the year that
+
+2013 was a year of signiﬁcant
+
+alternative 3D printing
+
+growth and consolidation. One
+
+processes were introduced at
+
+of the most notable moves was
+
+the entry level of the market.
+
+the acquisition of Makerbot by
+
+The B9Creator (utilising DLP
+
+Stratasys.
+
+technology) came ﬁrst in June,
+
+!
+
+followed by the Form 1
+
+Heralded as the 2nd, 3rd and,
+
+(utilising stereolithography) in
+
+sometimes even, 4th Industrial
+
+December. Both were
+
+Revolution by some, what
+
+launched via the funding site
+
+cannot be denied is the impact
+
+Kickstarter — and both
+
+that 3D printing is having on
+
+enjoyed huge success.
+
+the industrial sector and the
+
+!
+
+huge potential that 3D printing
+
+As a result of the market
+
+is demonstrating for the future
+
+divergence, signiﬁcant
+
+of consumers. What shape that
+
+advances at the industrial level
+
+potential will take is still
+
+with capabilities and
+
+unfolding before us.
+
+applications, dramatic increase
+!18
+
+3dprintingindustry.com
+
+CHAPTER
+
+3D Printing Technology
+
+!19
+
+3D Printing Technology
+The starting point for any 3D
+
+ceramics and sand are, now, all
+
+printing process is a 3D digital
+
+routinely used for industrial
+
+model, which can be created
+
+prototyping and production
+
+using a variety of 3D software
+
+applications. Research is also
+
+programmes — in industry this
+
+being conducted for 3D
+
+is 3D CAD, for Makers and
+
+printing bio materials and
+
+Consumers there are simpler,
+
+diﬀerent types of food.
+
+more accessible programmes
+
+Generally speaking though, at
+
+available — or scanned with a
+
+the entry level of the market,
+
+3D scanner. The model is then
+
+materials are much more
+
+‘sliced’ into layers, thereby
+
+limited. Plastic is currently the
+
+converting the design into a ﬁle
+
+only widely used material —
+
+readable by the 3D printer. The
+
+usually ABS or PLA, but there
+
+material processed by the 3D
+
+are a growing number of
+
+printer is then layered
+
+alternatives, including Nylon.
+
+according to the design and
+
+There is also a growing number
+
+the process. As stated, there
+
+of entry level machines that
+
+are a number of diﬀerent types
+
+have been adapted for
+
+of 3D printing technologies,
+
+foodstuﬀs, such as sugar and
+
+which process diﬀerent
+
+chocolate.
+
+materials in diﬀerent ways to
+create the ﬁnal object.
+Functional plastics, metals,
+
+!20
+
+3dprintingindustry.com
+
+How it Works
+The diﬀerent types of 3D
+printers each employ a
+diﬀerent technology that
+processes diﬀerent materials
+in diﬀerent ways. It is
+important to understand that
+one of the most basic
+limitations of 3D printing — in
+terms of materials and
+
+Start with a 3D CAD file either
+by creating the 3D model or
+scanned with a 3D scanner
+
+applications — is that there is
+no ‘one solution ﬁts all’. For
+example some 3D printers
+
+printing process, reminiscent
+
+process powdered materials
+
+of 2D inkjet printing, but with
+
+(nylon, plastic, ceramic, metal),
+
+superior materials to ink and a
+
+which utilize a light/heat
+
+binder to ﬁx the layers.
+
+source to sinter/melt/fuse
+
+Perhaps the most common
+
+layers of the powder together
+
+and easily recognized process
+
+in the deﬁned shape. Others
+
+is deposition, and this is the
+
+process polymer resin
+
+process employed by the
+
+materials and again utilize a
+
+majority of entry-level 3D
+
+light/laser to solidify the resin
+
+printers. This process extrudes
+
+in ultra thin layers. Jetting of
+
+plastics, commonly PLA or ABS,
+
+ﬁne droplets is another 3D
+
+!21
+
+3dprintingindustry.com
+
+How it Works
+negating the need for
+assembly.
+
+!
+However, another important
+point to stress is that none of
+the 3D printing processes
+come as plug and play options
+as of today. There are many
+steps prior to pressing print
+and more once the part comes
+
+Layer by layer the printer will
+create the predetermined
+shape
+
+oﬀ the printer — these are
+often overlooked. Apart from
+the realities of designing for 3D
+
+in ﬁlament form through a
+
+printing, which can be
+
+heated extruder to form layers
+
+demanding, ﬁle preparation
+
+and create the predetermined
+
+and conversion can also prove
+
+shape.
+
+time-consuming and
+
+!
+
+complicated, particularly for
+
+Because parts can be printed
+
+parts that demand intricate
+
+directly, it is possible to
+
+supports during the build
+
+produce very detailed and
+
+process. However there are
+
+intricate objects, often with
+
+continual updates and
+
+functionality built in and
+
+upgrades of software for these
+
+!22
+
+3dprintingindustry.com
+
+How it Works
+functions and the situation is improving. Furthermore, once oﬀ
+the printer, many parts will need to undergo ﬁnishing operations.
+Support removal is an obvious one for processes that demand
+support, but others include sanding, lacquer, paint or other types
+of traditional ﬁnishing touches, which all typically need to be done
+by hand and require skill and/or time and patience.
+
+You will soon start to see
+the object become more
+recognizable
+
+At the end of the print
+process you will have your
+finalized object
+
+!23
+
+3dprintingindustry.com
+
+CHAPTER
+
+3D Printing Processes
+
+!24
+
+Stereolithography
+
+Stereolithography (SL) is widely recognized as the ﬁrst 3D printing
+process; it was certainly the ﬁrst to be commercialised. SL is a
+laser-based process that works with photopolymer resins, that
+react with the laser and cure to form a solid in a very precise way
+to produce very accurate parts. It is a complex process, but simply
+put, the photopolymer resin is held in a vat with a movable
+platform inside. A laser beam is directed in the X-Y axes across the
+surface of the resin according to the 3D data supplied to the
+machine (the .stl ﬁle), whereby the resin hardens precisely where
+the laser hits the surface. Once the layer is completed, the
+platform within the vat drops down by a fraction (in the Z axis)
+and the subsequent layer is traced out by the laser. This
+continues until the entire object is completed and the platform
+can be raised out of the vat for removal.
+!25
+
+3dprintingindustry.com
+
+Stereolithography
+Because of the nature of the SL process, it requires support
+structures for some parts, speciﬁcally those with overhangs or
+undercuts. These structures need to be manually removed.
+
+!
+In terms of other post processing steps, many objects 3D printed
+using SL need to be cleaned and cured. Curing involves subjecting
+the part to intense light in an oven-like machine to fully harden
+the resin.
+
+!
+Stereolithography is generally accepted as being one of the most
+accurate 3D printing processes with excellent surface ﬁnish.
+However limiting factors include the post-processing steps
+required and the stability of the materials over time, which can
+become more brittle.
+
+!26
+
+3dprintingindustry.com
+
+DLP
+
+DLP — or digital light processing — is a similar process to
+stereolithography in that it is a 3D printing process that works
+with photopolymers. The major diﬀerence is the light source. DLP
+uses a more conventional light source, such as an arc lamp, with a
+liquid crystal display panel or a deformable mirror device (DMD),
+which is applied to the entire surface of the vat of photopolymer
+resin in a single pass, generally making it faster than SL.
+
+!
+Also like SL, DLP produces highly accurate parts with excellent
+resolution, but its similarities also include the same requirements
+for support structures and post-curing. However, one advantage
+of DLP over SL is that only a shallow vat of resin is required to
+facilitate the process, which generally results in less waste and
+lower running costs.
+!27
+
+3dprintingindustry.com
+
+Laser Sintering / Laser Melting
+
+Laser sintering and laser melting are interchangeable terms that
+refer to a laser based 3D printing process that works with
+powdered materials. The laser is traced across a powder bed of
+tightly compacted powdered material, according to the 3D data
+fed to the machine, in the X-Y axes. As the laser interacts with the
+surface of the powdered material it sinters, or fuses, the particles
+to each other forming a solid. As each layer is completed the
+powder bed drops incrementally and a roller smoothes the
+powder over the surface of the bed prior to the next pass of the
+laser for the subsequent layer to be formed and fused with the
+previous layer.
+
+!28
+
+3dprintingindustry.com
+
+Laser Sintering / Laser Melting
+The build chamber is completely sealed as it is necessary to
+maintain a precise temperature during the process speciﬁc to the
+melting point of the powdered material of choice. Once ﬁnished,
+the entire powder bed is removed from the machine and the
+excess powder can be removed to leave the ‘printed’ parts. One of
+the key advantages of this process is that the powder bed serves
+as an in-process support structure for overhangs and undercuts,
+and therefore complex shapes that could not be manufactured in
+any other way are possible with this process.
+
+!
+However, on the downside, because of the high temperatures
+required for laser sintering, cooling times can be considerable.
+Furthermore, porosity has been an historical issue with this
+process, and while there have been signiﬁcant improvements
+towards fully dense parts, some applications still necessitate
+inﬁltration with another material to improve mechanical
+characteristics.
+
+!
+Laser sintering can process plastic and metal materials, although
+metal sintering does require a much higher powered laser and
+higher in-process temperatures. Parts produced with this process
+are much stronger than with SL or DLP, although generally the
+surface ﬁnish and accuracy is not as good.
+
+!29
+
+3dprintingindustry.com
+
+Extrusion / FDM / FFF
+
+3D printing utilizing the extrusion of thermoplastic material is
+easily the most common — and recognizable — 3DP process. The
+most popular name for the process is Fused Deposition Modelling
+(FDM), due to its longevity, however this is a trade name,
+registered by Stratasys, the company that originally developed it.
+Stratasys’ FDM technology has been around since the early 1990’s
+and today is an industrial grade 3D printing process. However, the
+proliferation of entry-level 3D printers that have emerged since
+2009 largely utilize a similar process, generally referred to as
+Freeform Fabrication (FFF), but in a more basic form due to
+patents still held by Stratasys. The earliest RepRap machines and
+all subsequent evolutions — open source and commercial —
+
+!30
+
+3dprintingindustry.com
+
+Extrusion / FDM / FFF
+employ extrusion methodology. However, following Stratasys’
+patent infringement ﬁling against Aﬁnia there is a question mark
+over how the entry-level end of the market will develop now, with
+all of the machines potentially in Stratasys’ ﬁring line for patent
+infringements.
+
+!
+The process works by melting plastic ﬁlament that is deposited,
+via a heated extruder, a layer at a time, onto a build platform
+according to the 3D data supplied to the printer. Each layer
+hardens as it is deposited and bonds to the previous layer.
+
+!
+Stratasys has developed a range of proprietary industrial grade
+materials for its FDM process that are suitable for some
+production applications. At the entry-level end of the market,
+materials are more limited, but the range is growing. The most
+common materials for entry-level FFF 3D printers are ABS and
+PLA.
+
+!
+The FDM/FFF processes require support structures for any
+applications with overhanging geometries. For FDM, this entails a
+second, water-soluble material, which allows support structures
+to be relatively easily washed away, once the print is complete.
+Alternatively, breakaway support materials are also possible,
+which can be removed by manually snapping them oﬀ the part.
+!31
+
+3dprintingindustry.com
+
+Extrusion / FDM / FFF
+Support structures, or lack thereof, have generally been a
+limitation of the entry level FFF 3D printers. However, as the
+systems have evolved and improved to incorporate dual extrusion
+heads, it has become less of an issue.
+
+!
+In terms of models produced, the FDM process from Stratasys is
+an accurate and reliable process that is relatively oﬃce/studiofriendly, although extensive post-processing can be required. At
+the entry-level, as would be expected, the FFF process produces
+much less accurate models, but things are constantly improving.
+
+!
+The process can be slow for some part geometries and layer-tolayer adhesion can be a problem, resulting in parts that are not
+watertight. Again, post-processing using Acetone can resolve
+these issues.
+
+!32
+
+3dprintingindustry.com
+
+Inkjet: Binder Jetting
+There are two 3D printing process that utilize a jetting technique.
+
+!
+!
+
+!
+
+!
+!
+!
+!
+!
+!
+!
+Binder jetting: where the material being jetted is a binder, and is
+selectively sprayed into a powder bed of the part material to fuse
+it a layer at a time to create/print the required part. As is the case
+with other powder bed systems, once a layer is completed, the
+powder bed drops incrementally and a roller or blade smoothes
+the powder over the surface of the bed, prior to the next pass of
+the jet heads, with the binder for the subsequent layer to be
+formed and fused with the previous layer.
+
+!33
+
+3dprintingindustry.com
+
+Inkjet: Binder Jetting
+Advantages of this process, like with SLS, include the fact that the
+need for supports is negated because the powder bed itself
+provides this functionality. Furthermore, a range of diﬀerent
+materials can be used, including ceramics and food. A further
+distinctive advantage of the process is the ability to easily add a
+full colour palette which can be added to the binder.
+
+!
+The parts resulting directly from the machine, however, are not as
+strong as with the sintering process and require post-processing
+to ensure durability.
+
+!34
+
+3dprintingindustry.com
+
+Inkjet: Material Jetting
+
+Material jetting: a 3D printing process whereby the actual build
+materials (in liquid or molten state) are selectively jetted through
+multiple jet heads (with others simultaneously jetting support
+materials). However, the materials tend to be liquid
+photopolymers, which are cured with a pass of UV light as each
+layer is deposited.
+
+!
+The nature of this product allows for the simultaneous deposition
+of a range of materials, which means that a single part can be
+produced from multiple materials with diﬀerent characteristics
+and properties. Material jetting is a very precise 3D printing
+method, producing accurate parts with a very smooth ﬁnish.
+!35
+
+3dprintingindustry.com
+
+Selective Deposition Lamination (SDL)
+
+SDL is a proprietary 3D printing process developed and
+manufactured by Mcor Technologies. There is a temptation to
+compare this process with the Laminated Object Manufacturing
+(LOM) process developed by Helisys in the 1990’s due to
+similarities in layering and shaping paper to form the ﬁnal part.
+However, that is where any similarity ends.
+
+!
+The SDL 3D printing process builds parts layer by layer using
+standard copier paper. Each new layer is ﬁxed to the previous
+layer using an adhesive, which is applied selectively according to
+the 3D data supplied to the machine. This means that a much
+higher density of adhesive is deposited in the area that will
+become the part, and a much lower density of adhesive is applied
+
+!36
+
+3dprintingindustry.com
+
+Selective Deposition Lamination (SDL)
+in the surrounding area that will serve as the support, ensuring
+relatively easy “weeding,” or support removal.
+
+!
+After a new sheet of paper is fed into the 3D printer from the
+paper feed mechanism and placed on top of the selectively
+applied adhesive on the previous layer, the build plate is moved
+up to a heat plate and pressure is applied. This pressure ensures
+a positive bond between the two sheets of paper. The build plate
+then returns to the build height where an adjustable Tungsten
+carbide blade cuts one sheet of paper at a time, tracing the object
+outline to create the edges of the part. When this cutting
+sequence is complete, the 3D printer deposits the next layer of
+adhesive and so on until the part is complete.
+
+SDL is one of the very few 3D printing processes that can produce
+full colour 3D printed parts, using a CYMK colour palette. And
+because the parts are standard paper, which require no post!37
+
+3dprintingindustry.com
+
+EBM
+The Electron Beam Melting 3D printing
+technique is a proprietary process
+developed by Swedish company
+Arcam. This metal printing method is
+very similar to the Direct Metal Laser
+Sintering (DMLS) process in terms of
+the formation of parts from metal
+powder. The key diﬀerence is the heat
+source, which, as the name suggests is
+an electron beam, rather than a laser,
+which necessitates that the procedure
+is carried out under vacuum
+conditions.
+
+!
+EBM has the capability of creating fullydense parts in a variety of metal alloys,
+even to medical grade, and as a result
+the technique has been particularly
+successful for a range of production
+applications in the medical industry,
+particularly for implants. However,
+other hi-tech sectors such as
+aerospace and automotive have also
+looked to EBM technology for
+manufacturing fulﬁllment.
+!38
+
+3dprintingindustry.com
+
+EBM
+processing, they are wholly safe and eco-friendly. Where the
+process is not able to compete favourably with other 3D printing
+processes is in the production of complex geometries and the
+build size is limited to the size of the feedstock.
+
+!39
+
+3dprintingindustry.com
+
+CHAPTER
+
+3D Printing Materials
+
+!40
+
+3D Printing Materials
+The materials available for 3D printing have come a long way
+since the early days of the technology. There is now a wide variety
+of diﬀerent material types, that are supplied in diﬀerent states
+(powder, ﬁlament, pellets, granules, resin etc).
+
+!
+Speciﬁc materials are now generally developed for speciﬁc
+platforms performing dedicated applications (an example would
+be the dental sector) with material properties that more precisely
+suit the application.
+
+!
+However, there are now way too many proprietary materials from
+the many diﬀerent 3D printer vendors to cover them all here.
+Instead, this article will look at the most popular types of material
+in a more generic way. And also a couple of materials that stand
+out.
+
+!41
+
+3dprintingindustry.com
+
+3D Printing Materials: Plastics
+Nylon, or Polyamide, is commonly
+used in powder form with the
+sintering process or in ﬁlament form
+with the FDM process. It is a strong,
+ﬂexible and durable plastic material
+that has proved reliable for 3D
+printing. It is naturally white in colour
+but it can be coloured — pre- or post
+printing. This material can also be
+combined (in powder format) with
+powdered aluminium to produce
+another common 3D printing material for sintering — Alumide.
+
+!
+ABS is another common plastic used for 3D printing, and is widely
+used on the entry-level FDM 3D printers in ﬁlament form. It is a
+particularly strong plastic and comes in a wide range of colours.
+ABS can be bought in ﬁlament form from a number of nonpropreitary sources, which is another reason why it is so popular.
+
+!
+PLA is a bio-degradable plastic material that has gained traction
+with 3D printing for this very reason. It can be utilized in resin
+format for DLP/SL processes as well as in ﬁlament form for the
+FDM process. It is oﬀered in a variety of colours, including
+transparent, which has proven to be a useful option for some
+
+!42
+
+3dprintingindustry.com
+
+3D Printing Materials: Plastics
+some applications of 3D printing. However it is not as durable or
+as ﬂexible as ABS.
+
+!
+LayWood is a specially developed 3D printing material for entrylevel extrusion 3D printers. It comes in ﬁlament form and is a
+wood/polymer composite (also referred to as WPC).
+
+!43
+
+3dprintingindustry.com
+
+3D Printing Materials: Metals
+A growing number of metals and
+metal composites are used for
+industrial grade 3D printing. Two
+of the most common are
+aluminium and cobalt derivatives.
+
+!
+One of the strongest and therefore most commonly used metals
+for 3D printing is Stainless Steel in powder form for the sintering/
+melting/EBM processes. It is naturally silver, but can be plated
+with other materials to give a gold or bronze eﬀect.
+
+!
+In the last couple of years Gold and Silver have been added to the
+range of metal materials that can be 3D printed directly, with
+obvious applications across the jewellery sector. These are both
+very strong materials and are processed in powder form.
+
+!
+Titanium is one of the strongest possible metal materials and has
+been used for 3D printing industrial applications for some time.
+Supplied in powder form, it can be used for the sintering/melting/
+EBM processes.
+
+!44
+
+3dprintingindustry.com
+
+3D Printing Materials
+Ceramics
+Ceramics are a relatively new group
+of materials that can be used for 3D
+printing with various levels of
+success. The particular thing to
+note with these materials is that,
+post printing, the ceramic parts need
+to undergo the same processes as any
+ceramic part made using traditional
+methods of production — namely ﬁring and glazing.
+
+Paper
+Standard A4 copier paper is a 3D printing
+material employed by the proprietary
+SDL process supplied by Mcor
+Technologies. The company operates a
+notably diﬀerent business model to
+other 3D printing vendors, whereby the
+capital outlay for the machine is in the
+mid-range, but the emphasis is very
+much on an easily obtainable, cost-eﬀective
+material supply, that can be bought locally. 3D printed models
+made with paper are safe, environmentally friendly, easily
+recyclable and require no post-processing.
+!45
+
+3dprintingindustry.com
+
+3D Printing Materials
+Bio Materials
+There is a huge amount of research
+being conducted into the potential of
+3D printing bio materials for a host of
+medical (and other) applications. Living
+tissue is being investigated at a number
+of leading institutions with a view to
+developing applications that include printing human organs for
+transplant, as well as external tissues for replacement body parts.
+Other research in this area is focused on developing food stuﬀs —
+meat being the prime example.
+
+Food
+Experiments with extruders for 3D
+printing food substances has
+increased dramatically over the last
+couple of years. Chocolate is the
+most common (and desirable).
+There are also printers that work
+with sugar and some experiments
+with pasta and meat. Looking to the future, research is being
+undertaken, to utilize 3D printing technology to produce ﬁnely
+balanced whole meals.
+
+!46
+
+3dprintingindustry.com
+
+3D Printing Materials
+Other
+And ﬁnally, one company that does have a unique (proprietary)
+material oﬀering is Stratasys, with its digital materials for the
+Objet Connex 3D printing platform. This oﬀering means that
+standard Objet 3D printing materials can be combined during the
+printing process — in various and speciﬁed concentrations — to
+form new materials with the required properties. Up to 140
+diﬀerent Digital Materials can be realized from combining the
+existing primary materials in diﬀerent ways.
+
+!47
+
+3dprintingindustry.com
+
+CHAPTER
+
+3D Printing Global Eﬀects
+
+!48
+
+Global Effects on Manufacturing
+
+3D printing is already having
+
+bring production closer to the
+
+an eﬀect on the way that
+
+end user and/or the consumer,
+
+products are manufactured –
+
+thereby reducing the current
+
+the nature of the technology
+
+supply chain restrictions. The
+
+permits new ways of thinking
+
+customisation value of 3D
+
+in terms of the social,
+
+printing and the ability to
+
+economic, environmental and
+
+produce small production
+
+security implications of the
+
+batches on demand is a sure
+
+manufacturing process with
+
+way to engage consumers AND
+
+universally favourable results.
+
+reduce or negate inventories
+
+!
+
+and stock piling — something
+
+One of the key factors behind
+
+similar to how Amazon
+
+this statement is that 3D
+
+operates its business.
+
+printing has the potential to
+!49
+
+3dprintingindustry.com
+
+Global Effects on Manufacturing
+Shipping spare parts and
+
+pass, and even more rigorous
+
+products from one part of the
+
+debate about the time frame in
+
+world to the other could
+
+which it may occur.
+
+potentially become obsolete,
+
+!
+
+as the spare parts might
+
+The wider adoption of 3D
+
+possibly be 3D printed on site.
+
+printing would likely cause re-
+
+This could have a major impact
+
+invention of a number of
+
+on how businesses large and
+
+already invented products,
+
+small, the military and
+
+and, of course, an even bigger
+
+consumers operate and
+
+number of completely new
+
+interact on a global scale in the
+
+products. Today previously
+
+future. The ultimate aim for
+
+impossible shapes and
+
+many is for consumers to
+
+geometries can be created
+
+operate their own 3D printer at
+
+with a 3D printer, but the
+
+home, or within their
+
+journey has really only just
+
+community, whereby digital
+
+begun. 3D printing is believed
+
+designs of any (customizable)
+
+by many to have very great
+
+product are available for
+
+potential to inject growth into
+
+download via the internet, and
+
+innovation and bring back local
+
+can be sent to the printer,
+
+manufacturing.
+
+which is loaded with the
+correct material(s). Currently,
+there is some debate about
+whether this will ever come to
+!50
+
+3dprintingindustry.com
+
+Potential Effects to the Global Economy
+The use of 3D printing
+
+all the way to intellectual
+
+technology has potential
+
+property legal disputes and
+
+eﬀects on the global economy,
+
+settlements. Piracy is a current
+
+if adopted world wide. The
+
+concern related to 3D printing
+
+shift of production and
+
+for many IP holders.
+
+distribution from the current
+
+!
+
+model to a localized
+
+The eﬀect of 3D printing on the
+
+production based on-demand,
+
+developing world is a double-
+
+on site, customized production
+
+edged sword. One example of
+
+model could potentially reduce
+
+the positive eﬀect is lowered
+
+the imbalance between export
+
+manufacturing cost through
+
+and import countries.
+
+recycled and other local
+
+!
+
+materials, but the loss of
+
+3D printing would have the
+
+manufacturing jobs could hit
+
+potential to create new
+
+many developing countries
+
+industries and completely new
+
+severely, which would take
+
+professions, such as those
+
+time to overcome.
+
+related to the production of 3D
+
+!
+
+printers. There is an
+opportunity for professional
+services around 3D printing,
+ranging from new forms of
+product designers, printer
+operators, material suppliers
+!51
+
+3dprintingindustry.com
+
+Potential Effects to the Global Economy
+The developed world, would beneﬁt perhaps the most from 3D
+printing, where the growing aged society and shift of age
+demographics has been a concern related to production and work
+force. Also the health beneﬁts of the medical use of 3D printing
+would cater well for an aging western society.
+
+!52
+
+3dprintingindustry.com
+
+CHAPTER
+
+3D Printing Beneﬁts & Value
+
+!53
+
+3D Printing Benefits & Value
+
+3D printing, whether at an industrial, local or personal level,
+brings a host of beneﬁts that traditional methods of manufacture
+(or prototyping) simply cannot.
+
+Customisation
+3D printing processes allow for mass customization — the ability
+to personalize products according to individual needs and
+requirements. Even within the same build chamber, the nature of
+3D printing means that numerous products can be manufactured
+at the same time according to the end-users requirements at no
+additional process cost.
+
+!54
+
+3dprintingindustry.com
+
+3D Printing Benefits & Value
+Complexity
+The advent of 3D printing has seen a proliferation of products
+(designed in digital environments), which involve levels of
+complexity that simply could not be produced physically in any
+other way. While this advantage has been taken up by designers
+and artists to impressive visual eﬀect, it has also made a
+signiﬁcant impact on industrial applications, whereby applications
+are being developed to materialize complex components that are
+proving to be both lighter and stronger than their predecessors.
+Notable uses are emerging in the aerospace sector where these
+issues are of primary importance.
+
+Tool-less
+
+For industrial manufacturing, one of the most cost-, time- and
+labour-intensive stages of the product development process is the
+production of the tools. For low to medium volume applications,
+industrial 3D printing — or additive manufacturing — can eliminate
+the need for tool production and, therefore, the costs, lead times
+and labour associated with it. This is an extremely attractive
+proposition, that an increasing number or manufacturers are
+taking advantage of. Furthermore, because of the complexity
+advantages stated above, products and components can be
+designed speciﬁcally to avoid assembly requirements with intricate
+geometry and complex features further eliminating the labour and
+costs associated with assembly processes.
+!55
+
+3dprintingindustry.com
+
+3D Printing Benefits & Value
+Sustainable / Environmentally Friendly
+3D printing is also emerging as an energy-eﬃcient technology
+that can provide environmental eﬃciencies in terms of both the
+manufacturing process itself, utilising up to 90% of standard
+materials, and, therefore, creating less waste, but also throughout
+an additively manufactured product’s operating life, by way of
+lighter and stronger design that imposes a reduced carbon
+footprint compared with traditionally manufactured products.
+
+!
+Furthermore, 3D printing is showing great promise in terms of
+fulﬁlling a local manufacturing model, whereby products are
+produced on demand in the place where they are needed —
+eliminating huge inventories and unsustainable logistics for
+shipping high volumes of products around the world.
+
+!56
+
+3dprintingindustry.com
+
+CHAPTER
+
+3D Printing Applications
+
+!57
+
+3D Printing Applications
+The origins of 3D printing in ‘Rapid Prototyping’ were founded on the
+principles of industrial prototyping as a means of speeding up the
+earliest stages of product development with a quick and
+straightforward way of producing prototypes that allows for multiple
+iterations of a product to arrive more quickly and eﬃciently at an
+optimum solution. This saves time and money at the outset of the
+entire product development process and ensures conﬁdence ahead
+of production tooling.
+
+!
+
+Prototyping is still probably the largest, even though sometimes
+overlooked, application of 3D printing today.
+
+!
+
+The developments and improvements of the process and the
+materials, since the emergence of 3D printing for prototyping, saw
+the processes being taken up for applications further down the
+product development process chain. Tooling and casting
+applications were developed utilizing the advantages of the diﬀerent
+processes. Again, these applications are increasingly being used and
+adopted across industrial sectors.
+
+!
+
+Similarly for ﬁnal manufacturing operations, the improvements are
+continuing to facilitate uptake.
+
+!
+
+In terms of the industrial vertical markets that are beneﬁtting greatly
+from industrial 3D printing across all of these broad spectrum
+applications, the following is a basic breakdown:
+!58
+
+3dprintingindustry.com
+
+3D Printing Applications
+Medical and Dental
+
+The medical sector is viewed as
+
+addition to making prototypes
+
+being one that was an early
+
+to support new product
+
+adopter of 3D printing, but
+
+development for the medical
+
+also a sector with huge
+
+and dental industries, the
+
+potential for growth, due to the
+
+technologies are also utilized
+
+customization and
+
+to make patterns for the
+
+personalization capabilities of
+
+downstream metal casting of
+
+the technologies and the ability
+
+dental crowns and in the
+
+to improve people’s lives as the
+
+manufacture of tools over
+
+processes improve and
+
+which plastic is being vacuum
+
+materials are developed that
+
+formed to make dental
+
+meet medical grade standards.
+
+aligners. The technology is also
+
+!
+
+taken advantage of directly to
+
+3D printing technologies are
+
+manufacture both stock items,
+
+being used for a host of
+
+such as hip and knee implants,
+
+diﬀerent applications. In
+
+and bespoke patient-speciﬁc
+
+!59
+
+3dprintingindustry.com
+
+3D Printing Applications
+products, such as hearing aids, orthotic insoles for shoes,
+personalised prosthetics and one-oﬀ implants for patients
+suﬀering from diseases such as osteoarthritis, osteoporosis and
+cancer, along with accident and trauma victims. 3D printed
+surgical guides for speciﬁc operations are also an emerging
+application that is aiding surgeons in their work and patients in
+their recovery. Technology is also being developed for the 3D
+printing of skin, bone, tissue, pharmaceuticals and even human
+organs. However, these technologies remain largely decades away
+from commercialisation.
+
+!60
+
+3dprintingindustry.com
+
+3D Printing Applications
+Aerospace
+
+Like the medical sector, the
+
+Because of the critical nature
+
+aerospace sector was an early
+
+of aircraft development, the
+
+adopter of 3D printing
+
+R&D is demanding and
+
+technologies in their earliest
+
+strenuous, standards are
+
+forms for product
+
+critical and industrial grade 3D
+
+development and prototyping.
+
+printing systems are put
+
+These companies, typically
+
+through their paces. Process
+
+working in partnership with
+
+and materials development
+
+academic and research
+
+have seen a number of key
+
+institutes, have been at the
+
+applications developed for the
+
+sharp end in terms or pushing
+
+aerospace sector — and some
+
+the boundaries of the
+
+non-critical parts are all-ready
+
+technologies for
+
+ﬂying on aircraft.
+
+manufacturing applications.
+
+!
+
+!
+!61
+
+3dprintingindustry.com
+
+3D Printing Applications
+High proﬁle users include GE / Morris Technologies, Airbus / EADS,
+Rolls-Royce, BAE Systems and Boeing. While most of these
+companies do take a realistic approach in terms of what they are
+doing now with the technologies, and most of it is R&D, some do
+get quite bullish about the future.
+
+!62
+
+3dprintingindustry.com
+
+3D Printing Applications
+Automotive
+
+Another general early adopter
+
+improved materials and end
+
+of Rapid Prototying
+
+results for automotive parts.
+
+technologies — the earliest
+
+!
+
+incarnation of 3D printing —
+
+Many automotive companies
+
+was the automotive sector.
+
+are now also looking at the
+
+Many automotive companies
+
+potential of 3D printing to fulﬁll
+
+— particularly at the cutting
+
+after sales functions in terms
+
+edge of motor sport and F1 —
+
+of production of spare/
+
+have followed a similar
+
+replacement parts, on
+
+trajectory to the aerospace
+
+demand, rather than holding
+
+companies. First (and still)
+
+huge inventories.
+
+using the technologies for
+prototyping applications, but
+developing and adapting their
+manufacturing processes to
+incorporate the beneﬁts of
+
+!63
+
+3dprintingindustry.com
+
+3D Printing Applications
+Jewellery
+
+Traditionally, the design and
+
+is investment casting — the
+
+manufacturing process for
+
+origins of which can be traced
+
+jewellery has always required
+
+back more than 4000 years.
+
+high levels of expertise and
+
+!
+
+knowledge involving speciﬁc
+
+For the jewellery sector, 3D
+
+disciplines that include
+
+printing has proved to be
+
+fabrication, mould-making,
+
+particularly disruptive. There is
+
+casting, electroplating, forging,
+
+a great deal of interest — and
+
+silver/gold smithing, stone-
+
+uptake — based on how 3D
+
+cutting, engraving and
+
+printing can, and will,
+
+polishing. Each of these
+
+contribute to the further
+
+disciplines has evolved over
+
+development of this industry.
+
+many years and each requires
+
+From new design freedoms
+
+technical knowledge when
+
+enabled by 3D CAD and 3D
+
+applied to jewellery
+
+printing, through improving
+
+manufacture. Just one example
+
+traditional processes for
+
+!64
+
+3dprintingindustry.com
+
+3D Printing Applications
+jewellery production all the way to direct 3D printed production
+eliminating many of the traditional steps, 3D printing has had —
+and continues to have — a tremendous impact in this sector.
+
+!65
+
+3dprintingindustry.com
+
+3D Printing Applications
+Art / Design / Sculpture
+
+Artists and Sculptors are engaging with 3D printing in myriad of
+diﬀerent ways to explore form and function in ways previously
+impossible. Whether purely to ﬁnd new original expression or to
+learn from old masters this is a highly charged sector that is
+increasingly ﬁnding new ways of working with 3D printing and
+introducing the results to the world. There are numerous artists
+that have now made a name for themselves by working
+speciﬁcally with 3D modelling, 3D scanning and 3D printing
+technologies.
+
+!
+• Joshua Harker
+• Dizingof
+• Jessica Rosenkrantz at Nervous System
+• Pia Hinze
+• Nick Ervinck
+• Lionel Dean
+• And many others.
+!66
+
+3dprintingindustry.com
+
+3D Printing Applications
+The discipline of 3D scanning in conjunction with 3D printing also
+brings a new dimension to the art world, however, in that artists
+and students now have a proven methodology of reproducing the
+work of past masters and creating exact replicas of ancient (and
+more recent) sculptures for close study – works of art that they
+would otherwise never have been able to interact with in person.
+The work of Cosmo Wenman is particularly enlightening in this
+ﬁeld.
+
+!67
+
+3dprintingindustry.com
+
+3D Printing Applications
+Architecture
+
+Architectural models have long
+
+for increased innovation and
+
+been a staple application of 3D
+
+improved communication.
+
+printing processes, for
+
+!
+
+producing accurate
+
+More recently some visionary
+
+demonstration models of an
+
+architects are looking to 3D
+
+architect’s vision. 3D printing
+
+printing as a direct
+
+oﬀers a relatively fast, easy and
+
+construction method. Research
+
+economically viable method of
+
+is being conducted at a
+
+producing detailed models
+
+number of organizations on
+
+directly from 3D CAD, BIM or
+
+this front, most notably
+
+other digital data that
+
+Loughborough University,
+
+architects use. Many successful
+
+Contour Crafting and Universe
+
+architectural ﬁrms, now
+
+Architecture.
+
+commonly use 3D printing (in
+house or as a service) as a
+critical part of their workﬂow
+
+!68
+
+3dprintingindustry.com
+
+3D Printing Applications
+Fashion
+
+As 3D printing processes have
+
+gowns and even some under
+
+improved in terms of
+
+wear have debuted at diﬀerent
+
+resolution and more ﬂexible
+
+fashion venues around the
+
+materials, one industry,
+
+world.
+
+renowned for experimentation
+
+!
+
+and outrageous statements,
+
+Iris van Herpen should get a
+
+has come to the fore. We are of
+
+special mention as the leading
+
+course talking about fashion!
+
+pioneer in this vein. She has
+
+!
+
+produced a number of
+
+3D printed accessories
+
+collections — modelled on the
+
+including shoes, head-pieces,
+
+catwalks of Paris and Milan —
+
+hats and bags have all made
+
+that incorporate 3D printing to
+
+their way on to global catwalks.
+
+blow up the ‘normal rules’ that
+
+And some even more visionary
+
+no longer apply to fashion
+
+fashion designers have
+
+design. Many have followed,
+
+demonstrated the capabilities
+
+and continue to follow, in her
+
+of the tech for haute couture
+
+footsteps, often with wholly
+
+— dresses, capes, full-length
+
+original results.
+!69
+
+3dprintingindustry.com
+
+3D Printing Applications
+Food
+
+Although a late-comer to the
+
+market. Some other early
+
+3D printing party, food is one
+
+experiments with food
+
+emerging application (and/or
+
+including the 3D printing of
+
+3D printing material) that is
+
+“meat” at the cellular protein
+
+getting people very excited and
+
+level. More recently pasta is
+
+has the potential to truly take
+
+another food group that is
+
+the technology into the
+
+being researched for 3D
+
+mainstream. After all, we will
+
+printing food.
+
+all, always, need to eat! 3D
+
+!
+
+printing is emerging as a new
+
+Looking to the future 3D
+
+way of preparing and
+
+printing is also being
+
+presenting food.
+
+considered as a complete food
+
+!
+
+preparation method and a way
+
+Initial forays into 3D printing
+
+of balancing nutrients in a
+
+food were with chocolate and
+
+comprehensive and healthy
+
+sugar, and these developments
+
+way.
+
+have continued apace with
+speciﬁc 3D printers hitting the
+!70
+
+3dprintingindustry.com
+
+3D Printing Applications
+Consumers
+The holy grail for 3D printing vendors is consumer 3D printing.
+There is a widespread debate as to whether this is a feasible
+future. Currently, consumer uptake is low due to the accessibility
+issues that exist with entry level (consumer machines). There is
+headway being made in this direction by the larger 3D printing
+companies such as 3D Systems and Makerbot, as a subsidiary of
+Stratasys as they try to make the 3D printing process and the
+ancillary components (software, digital content etc) more
+accessible and user-friendly. There are currently three main ways
+that the person on the street can interact with 3D printing tech for
+consumer products:
+
+!
+• design + print
+• choose + print
+• choose + 3D printing service fulﬁllment
+
+!71
+
+3dprintingindustry.com
+
+CHAPTER
+
+3D Printing Glossary
+
+!72
+
+3D Printing Glossary
+
+#
+3DP
+
+!
+
+3D Printing
+
+Aa
+ABS
+
+!
+
+Acrylonitrile Butadiene Styrene
+
+AM
+
+!
+Additive Manufacturing
+!
+
+Cc
+CAD / CAM
+
+!
+
+Computer-aided design / Computer-aided
+
+CAE
+
+!
+Computer-aided engineering
+!
+!73
+
+3dprintingindustry.com
+
+3D Printing Glossary
+
+Dd
+DLP
+
+!
+
+Digital Light Processing
+
+DMD
+
+!
+
+Direct Metal Deposition
+
+DMLS
+
+!
+Direct Metal Laser Sintering
+!
+
+Ff
+FDM
+
+!
+
+Fused Deposition Modelling (Trademark of Stratasys)
+
+FFF
+
+!
+Freeform Fabrication
+!
+
+!74
+
+3dprintingindustry.com
+
+3D Printing Glossary
+
+Ll
+LENS
+
+!
+
+Laser Engineering Net-Shaping (Trademark of
+SNL, licensed to Optomec)
+
+LS
+
+!
+Laser Sintering
+!
+
+Pp
+PLA
+
+!
+
+Polylactic Acid
+
+Rr
+RE
+
+!
+
+Reverse Engineering
+
+!75
+
+3dprintingindustry.com
+
+3D Printing Glossary
+
+Rr
+RM
+
+!
+
+Rapid Manufacturing
+
+RP
+
+!
+
+Rapid Prototyping
+
+RT
+
+!
+
+Rapid Tooling
+
+Ss
+SL
+
+!
+
+Stereolithography
+
+SLA
+
+!
+
+Stereolithography Apparatus (Registered Trademark of 3D Systems)
+
+SLM
+
+!
+
+Selective Laser Melting
+
+!76
+
+3dprintingindustry.com
+
+3D Printing Glossary
+
+Ss
+SLS
+
+!
+
+Selective Laser Sintering (Registered
+Trademark of 3D Systems)
+
+STL / .stl
+
+!
+
+Stereo Lithograpic
+
+!77
+
+3dprintingindustry.com
+
+

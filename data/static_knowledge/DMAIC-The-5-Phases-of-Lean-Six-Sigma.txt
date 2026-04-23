@@ -1,0 +1,391 @@
+DMAIC:
+The 5 Phases of
+Lean Six Sigma
+Start your journey towards increased revenue,
+reduced costs and improved collaboration by using
+Lean Six Sigma Process Improvement.
+
+www.GoLeanSixSigma.com / Connect with us: Twitter / LinkedIn
+Copyright 2012 Go Lean Six Sigma. All Rights Reserved.
+
+Table of Contents
+What is DMAIC and Lean Six Sigma? .................................................................................................1
+Before Beginning DMAIC: Select the Right Projects ........................................................................2
+Deﬁne .......................................................................................................................................................3
+Deﬁne the Problem ......................................................................................................................................................3
+Deﬁne the problem by developing a “Problem Statement” ................................................................................3
+Deﬁne the goal by developing a “Goal Statement” ...............................................................................................4
+Deﬁne process by developing maps of the process .............................................................................................4
+Deﬁne your customer and their requirements .......................................................................................................4
+
+Measure ...................................................................................................................................................5
+Map Out the Current Process.....................................................................................................................................5
+Determine how the process currently performs....................................................................................................5
+Look for what might be causing problem ...............................................................................................................5
+Create a plan to collect the data................................................................................................................................5
+Ensure your data is reliable.........................................................................................................................................5
+Update your project charter ......................................................................................................................................6
+
+Analyze .....................................................................................................................................................7
+Identify the Cause of the Problem .............................................................................................................................7
+Closely examine the process......................................................................................................................................7
+Visually inspect the data..............................................................................................................................................7
+Brainstorm potential cause(s) of the problem ........................................................................................................8
+Verify the cause(s) of the problem ...........................................................................................................................8
+Update your Project Charter ......................................................................................................................................8
+
+Improve ...................................................................................................................................................9
+Implement and Verify the Solution(s).......................................................................................................................9
+Brainstorm solutions that might ﬁx the problem ...................................................................................................9
+Select the practical solutions .....................................................................................................................................9
+Develop maps of processes based on different solutions ...................................................................................9
+Select the best solution(s)...........................................................................................................................................9
+Implement the solution(s) .........................................................................................................................................10
+Measure improvement ..............................................................................................................................................10
+
+Control .....................................................................................................................................................11
+
+Maintain the Solution(s) ..............................................................................................................................................11
+Continuously improve the process using Lean principles ...................................................................................11
+Ensure the process is being managed and monitored properly ........................................................................11
+Expand the improved process throughout organization .....................................................................................12
+Apply new knowledge to other processes in your organization .......................................................................12
+Share and celebrate your success ...........................................................................................................................12
+
+About Go Lean Six Sigma ...................................................................................................................13
+
+GoLeanSixSigma.com
+
+The Basics of Lean Six Sigma
+www.GoLeanSixSigma.com
+
+ii
+
+What is DMAIC and Lean Six Sigma?
+Lean Six Sigma is simply a process for solving a problem.
+It consists of ﬁve basic phases:
+
+Deﬁne, Measure, Analyze, Improve, and Control. This process is also
+known as DMAIC (pronounced “duh-may-ik”), its acronym.
+Lean and Six Sigma complement each other. Lean accelerates Six Sigma,
+delivering greater results than what would typically be achieved by Lean or
+Six Sigma individually.
+Combining these two methods gives your improvement team a
+comprehensive tool set to increase the speed and effectiveness of any
+process within your organization – resulting in increased revenue, reduced
+costs and improved collaboration.
+
+The Basics of Lean Six Sigma
+www.GoLeanSixSigma.com
+
+1
+
+Before Beginning DMAIC:
+Select the Right Projects
+Before beginning any process improvement project, it’s vital that you choose projects that
+are good candidates for improvement. A good project for improvement:
+n Has an obvious problem within the process
+n Has the potential to result in increased revenue, reduced cost or improved
+efﬁciency
+n Has collectable data
+DMAIC (Lean Six Sigma) is also a system of management that results in a steady pipeline
+of projects that are ready for improvement. There are obstacles to smooth operations in
+any business, and Lean Six Sigma provides guidelines to help you select the right projects
+at the right time. Once projects are selected, you and your improvement team(s) can use
+DMAIC to further reﬁne the projects and deliver quantiﬁable, sustainable results.
+Now, on to the DMAIC process!
+
+The Basics of Lean Six Sigma
+www.GoLeanSixSigma.com
+
+2
+
+Deﬁne
+Deﬁne the Problem
+What problem would you like to ﬁx? The Deﬁne Phase is the ﬁrst phase
+of the Lean Six Sigma improvement process. In this phase, the leaders
+of the project create a “Project Charter”, create a high-level view of the
+process, and begin to understand the needs of the customers of the
+process. This is a critical phase of Lean Six Sigma in which your teams
+deﬁne the outline of their efforts for themselves and the leadership
+(executives) of your organization.
+
+Deﬁne the problem by developing a “Problem Statement”
+Conﬁrm the process is causing problems.
+At this stage the team should have access to some existing data that shows an ongoing
+problem. They will reﬁne the data during data collection, but they must conﬁrm that there
+are indications of an issue.
+Conﬁrm the problem is high priority and will have a high impact.
+Having established the existence of a process issue, the team must create a Problem
+Statement. The Problem Statement includes:
+n Severity: How big is the problem? This can consist of the percentage of the time
+there are errors, the number of late orders per month, etc. Be speciﬁc to put data
+into perspective. Speciﬁc data may not be available right away, so the team can ﬁll
+in the blanks later during the Measure Phase.
+n Business Impact: What is the pain felt by the business or why should anyone care
+about the solving this issue? Will solving the problem result in greater revenue or
+cost savings?
+n Speciﬁc Area: What department or what units are involved?
+Conﬁrm resources are available.
+Are there people close to the issue who can spend time working on the issue? Is there
+someone in a leadership position who would like to see the issue resolved? It is critical to
+have some form of team leader (also known as a Black Belt or Green Belt), as well as
+someone in a leadership position, who is called a Sponsor or Project Champion, involved
+with the project. Team members can come from different areas but should all have some
+connection to the project area.
+The Basics of Lean Six Sigma
+www.GoLeanSixSigma.com
+
+3
+
+Deﬁne the goal by developing a “Goal Statement”
+The Goal Statement should be a direct reﬂection of the Problem Statement. For example, if
+orders are 10% late, then the goal might be to cut that down to 5% late. This statement
+deﬁnes measurable, time-bound terms of exactly when the team and project will be
+considered successful.
+
+Deﬁne process by developing maps of the process
+The team begins with the a bird’s eye view of the process, also known as a high-level
+process map. The classic tool here is called a SIPOC which stands for Suppliers, Inputs,
+Process, Outputs and Customers. This initial one-page document is used throughout the
+life of the project.
+Once the high-level map is completed, the team can choose a key area of the process to
+conduct a deep dive into more process detail. This is called Detailed Mapping. This can be
+done in lanes representing departments, or it can be done as a simple ﬂow-chart.
+
+Deﬁne your customer and their requirements
+The focus of each project is the customer of the process. The customer is deﬁned as the
+individuals or groups who receive the goods or services of the process. Customers can be
+external to the organization or an internal component of the organization.
+During the Deﬁne phase, the team must contact customers to better understand their
+requirements of the process, or the “Voice of the Customer.” After interviewing or
+surveying customers, the team must translate that information into measurable
+requirements that will give the team insight on how to improve the process or solve the
+problem.
+
+The Basics of Lean Six Sigma
+www.GoLeanSixSigma.com
+
+4
+
+Measure
+Map Out the Current Process
+How does the process currently perform? Measurement is critical
+throughout the life of the project and as the team focuses on data
+collection initially they have two focuses: determining the start point or
+baseline of the process and looking for clues to understand the root
+cause of the process. Since data collection takes time and effort it’s good
+to consider both at the start of the project.
+
+Determine how the process currently performs
+First, your team must establish the current state, or the “baseline” of the process before
+making any changes. The baseline becomes the standard against which any improvement
+is measured. This is a key step as the data collected will be used throughout the life of
+your project.
+
+Look for what might be causing problem
+To do this, your team collects data and reviews it to try to uncover the reasons, or the “root
+cause” for Waste in the process or defects as a result of the process.
+
+Create a plan to collect the data
+Once the team has determined how to ﬁnd both baseline and root cause data, they must
+consider where to get the data, how much to get and who will do the collecting. A wellthought out data collection plan is critical as the data that is gathered must be accurate
+and reliable.
+
+Ensure your data is reliable
+By deﬁning, testing and reﬁning their measurements throughout the life of the project, the
+team will be able to make good decisions on sound information. This ensures future
+corrective action is based on facts and data, rather than assumptions and opinions.
+
+The Basics of Lean Six Sigma
+www.GoLeanSixSigma.com
+
+5
+
+Update your project charter
+Once the team has conducted their initial data collection they will have more details
+around process performance, potential causes and potential goals. This data is
+incorporated into the Charter to more accurately describe the issue.
+
+The Basics of Lean Six Sigma
+www.GoLeanSixSigma.com
+
+6
+
+Analyze
+Identify the Cause of the Problem
+What does your data tell you? This phase is often intertwined with the
+Measure Phase. As data is collected, the team may consist of different
+people who will collect different sets of data or additional data. As the
+team reviews the data collected during the Measure Phase, they may
+decide to adjust the data collection plan to include additional
+information. This continues as the team analyzes both the data and the
+process in an effort to narrow down and verify the root causes of waste
+and defects.
+
+Closely examine the process
+After creating, verifying and examining detailed process maps created in the Measure
+Phase, the team will be able to list concerns or pain points within the process. This allows
+the team to take advantage of the collective wisdom of process participants. Then, the
+team can determine the value of each step by performing analyzing the process by
+performing “Process Analysis” which consists of:
+n “Time Analysis“: focuses on the actual time work is being done in the process in
+versus the time spent waiting. What teams discover is that whereas people are 99%
+busy, “things” are 99% idle.
+n “Value Added Analysis“: adds another dimension of discovery by looking at the
+process through the eyes of the customer to uncover the cost of doing business.
+n “Value Stream Mapping”: combines process data with a map of the value-adding
+steps to help determine where Waste can be removed.
+
+Visually inspect the data
+After data collection, the team will be able to display the data using charts and graphs for
+visual indications for problems in the process. The transformation of numbers into visuals
+allows the team to easily communicate their ﬁndings to leadership and other process
+participants.
+
+The Basics of Lean Six Sigma
+www.GoLeanSixSigma.com
+
+7
+
+Brainstorm potential cause(s) of the problem
+Teams are able to develop theories around possible causes of the problem by
+brainstorming together. By using a tool called a “Cause & Effect Diagram“, the teams are
+able to perform structured brainstorming that can help them narrow down to the vital few
+causes of lost time, defects and waste in the process.
+
+Verify the cause(s) of the problem
+Before moving on to the next phase (Improve), the team must conﬁrm the proposed root
+cause is creating the problem by verifying their data through process analysis, data
+analysis, process observation and comparative analysis.
+
+Update your Project Charter
+After the team has further investigated the data, they will have additional detail around
+process performance and the potential for improvement. The team can update their
+Charter with the additional information so they have a more accurate reﬂection of the
+project status.
+
+The Basics of Lean Six Sigma
+www.GoLeanSixSigma.com
+
+8
+
+Improve
+Implement and Verify the Solution(s)
+How will you ﬁx the problem? Once the project teams are satisﬁed with
+their data and determined that additional analysis will not add to their
+understanding of the problem, it’s time to move on to solution
+development. The team is most likely collecting improvement ideas
+throughout the project, but a structured improvement effort can lead to
+innovative and elegant solutions.
+
+Brainstorm solutions that might ﬁx the problem
+The teams efforts at this stage are to produce as many ideas as possible based on the idea
+that from Quantity, comes Quality. Creative idea generation consists of a host of
+techniques intended to lead the team to out-of-the-box solutions.
+
+Select the practical solutions
+In many cases, a project team can employ a list of improvements to their processes, but
+when they are forced to chose between conﬂicting options, there are tools like the
+“Weighted Criteria Matrix”, which helps your team make the best decision.
+
+Develop maps of processes based on different solutions
+With solutions in mind to reduce rework loops, waste and wait times, the team can draw
+an improved map of the process, also known as “To-Be Maps.” These new maps are
+helpful in guiding the team’s efforts toward the new process, and can be used as a
+reference for new employees as they are trained on the new process.
+
+Select the best solution(s)
+In order to ensure the right decision is made, the team may employ mini testing cycles
+known as “PDCA” or Plan Do Check Act, which can help reﬁne the ideas while collecting
+valuable stakeholder feedback. These cycles are a great way to ﬁnd out if small
+improvements are viable in a fast and low impact way.
+
+The Basics of Lean Six Sigma
+www.GoLeanSixSigma.com
+
+9
+
+Implement the solution(s)
+Accomplishing successful implementation requires careful planning. The team must
+consider logistics, training, documentation and communication plans. The more time the
+team spends on planning , the faster they reach total adaptation to the improvements by
+their process participants.
+
+Measure improvement
+Once the team is able to show that the solution has resulted in measurable improvement,
+then the team can move on to the Control Phase.
+
+The Basics of Lean Six Sigma
+www.GoLeanSixSigma.com
+
+10
+
+Control
+Maintain the Solution(s)
+How do you sustain the newly achieved improvement? This phase is a
+mini version of process management. The team has been building a form
+of infrastructure throughout the life of the project, and during the Control
+Phase they begin to document exactly how they want to pass that
+structure on to the employees who work within the process.
+
+Continuously improve the process using Lean
+principles
+The four principles of Value, Flow, Pull and Perfection should remain a constant focus for
+every organization. As Continuous Improvement teams hand over the results of each
+project, they must make efforts to relay this focus to the employees using the newly
+improved process. The process can always be improved.
+n Value: Determine what steps are required (are of “Value”) to the customer
+n Flow: Remove Waste in the system to optimize the process to achieve a smoother
+pace
+n Pull: Ensure the process responds to customer demand (“Pull” = want)
+n Perfection: Continuously pursue “Perfection” within the process.
+
+Ensure the process is being managed and monitored properly
+In order to maintain this focus, the team must narrow down the vital few measurements
+they want to maintain for ongoing monitoring of the process performance. This monitoring
+is accompanied by a response plan indicating the levels at which the process should
+operate and what to do in the case that the process should exceed those levels. This may
+lead to continued process reﬁnement.
+
+The Basics of Lean Six Sigma
+www.GoLeanSixSigma.com
+
+11
+
+Expand the improved process throughout organization
+At this point, the team must update their documentation: process maps, document
+checklists, cheat sheets, etc. The better their ﬁnal documentation, the easier it will be for
+process participants to adopt the new way of doing things.
+
+Apply new knowledge to other processes in your organization
+One of the ways to increase the power and “bang for the buck” of Lean Six Sigma efforts is
+to apply the gains from one project into other areas within the organization. This transfer
+of improvement ideas can come from large and small efforts but quickly multiplies the
+impact for each business.
+
+Share and celebrate your success
+The sharing of project success leads to greater momentum of change within the
+organization. Even if the project cannot be transferred to other areas, there may be parts
+of it that could be adapted and shared. The marketing and publicizing of each success
+increases the speed with with future gains can be realized. Lean Six Sigma success drives
+more success.
+
+The Basics of Lean Six Sigma
+www.GoLeanSixSigma.com
+
+12
+
+About Go Lean Six Sigma
+
+Go Lean Six Sigma is dedicated to helping small- and medium-sized businesses (SMBs)
+increase revenue, reduce costs and improve collaboration in today's increasingly
+competitive economy.
+For more information, please contact us at contact@goleansixsigma.com.
+
+The Basics of Lean Six Sigma
+www.GoLeanSixSigma.com
+
+13
+
+

@@ -1,0 +1,1145 @@
+03 0132300214_sect01.qxd
+
+6/27/07
+
+12:17 PM
+
+Page 13
+
+1
+Define-Measure-AnalyzeImprove-Control (DMAIC)
+Six Sigma’s most common and well-known methodology is its problem-solving
+DMAIC approach. This section overviews the methodology and its high-level
+requirements, given that the requirements define the appropriate deliverables,
+which dictate the tasks and the tool selection to aid in the task. This section also
+outlines the DMAIC standard toolset, through the understanding of the tooltask-deliverables linkage, to facilitate appropriate selection of a tool when referencing the “how to” tool articles in Part 2 of this book.
+
+What Is the Main Objective of this Approach?
+The DMAIC (Define-Measure-Analyze-Improve-Control) is the classic Six
+Sigma problem-solving process. Traditionally, the approach is to be applied
+to a problem with an existing, steady-state process or product and/or
+service offering. Variation is the enemy—variation from customer specifications in either a product or process is the primary problem.
+Variation can take on many forms. DMAIC resolves issues of defects
+or failures, deviation from a target, excess cost or time, and deterioration.
+Six Sigma reduces variation within and across the value-adding steps in a
+process. DMAIC identifies key requirements, deliverables, tasks, and
+standard tools for a project team to utilize when tackling a problem.
+
+Brief Description of DMAIC Applications
+This classic or traditional Six Sigma methodology was designed to solve a
+problematic process or product and/or service offering to regain control.
+It addresses improvements in productivity (how many), financial (how
+much money), quality (how well) and time (how fast)—PFQT. Originally
+costs dominated the financial aspects, but lately project focus has shifted
+13
+
+03 0132300214_sect01.qxd
+
+14
+
+6/27/07
+
+12:17 PM
+
+Page 14
+
+Define-Measure-Analyze-Improve-Control (DMAIC)
+
+to revenues and growth. The 5-step DMAIC [pronounced “duh-MAY-ick”]
+method often is called the process improvement methodology.
+The classic strategy reduces process variance (in total, across the activities and within-step) to bring it back on target—the customer specification or requirement. Knowing that Six Sigma resolves more issues than
+just cycle time, Figure 1-1 highlights its impact on cycle time by contrasting a problematic process versus its post-Six Sigma improved state.
+Step 1
+
+Step 2
+
+Step 3
+
+Step 4
+
+Problematic
+Process
+
+Process
+After
+Six Sigma
+
+Step 1
+
+Step 2
+
+Step 3
+
+Step 4
+
+Cycle Time
+
+Figure 1-1: Six Sigma’s Impact on Cycle Time
+
+The DMAIC approach is designed to allow for flexibility and iterativework, if necessary. As more is learned through the 5-step process,
+assumptions or hypotheses as to the root cause of the problem may be
+disproved, requiring the project team to revisit them and modify or to
+explore alternative possibilities. For example, root cause to a sales force
+effectiveness issue may have been hypothesized as a sales training problem in a specific geographic region. Rather than jumping to conclusions
+without facts by implementing a new sales training program, the Six
+Sigma project team wisely decides to gather facts about the problem first.
+After some investigation and analysis, the team discovers that the root
+cause points to an issue with sales management direction, not lack of
+sales representatives’ knowledge and skills. If the project team acted
+upon the original assumption, time and money would have been wasted
+on developing a mismatched solution that would have produced poor
+results; the team’s hard work would have gone to waste. Instead, the
+team did a mid-course correction based on facts, adjusted its hypothesis,
+and developed a solution directly aimed at the true root cause—hence
+favorable results ensued.
+DMAIC builds on three fundamental principles:
+• Results-focused; driven by data, facts, and metrics.
+• Work is project-based (short-term in nature, with length depending
+
+on scope and complexity) and project-structured, versus an ongoing
+process.
+
+03 0132300214_sect01.qxd
+
+6/27/07
+
+12:17 PM
+
+Page 15
+
+Brief De scription of DMAIC Applications
+
+15
+
+• Inherent combination of tools-tasks-deliverables linkage that
+
+The DMAIC methodology uses a process-step structure. Steps generally
+are sequential; however, some activities from various steps may occur
+concurrently or may be iterative. Deliverables for a given step must be
+completed prior to formal gate review approval. Step Reviews do occur
+sequentially. The DMAIC five steps are
+Step 1. DEFINE the problem and scope the work effort of the project
+team. The description of the problem should include the pain
+felt by the customer and/or business as well as how long the
+issue has existed. Hence, identify the customer(s), the project
+goals, and timeframe for completion.
+
+The appropriate types of problems have unlimited scope and
+scale, from employee problems to issues with the production
+process or advertising. Regardless of the type of problem, it
+should be systemic—part of an existing, steady-state process
+wherein the problem is not a one-time event, but has caused
+pain for a couple of cycles.
+Step 2. MEASURE the current process or performance. Identify what
+data is available and from what source. Develop a plan to gather
+it. Gather the data and summarize it, telling a story to describe
+the problem. This usually involves utilization of graphical tools.
+Step 3. ANALYZE the current performance to isolate the problem.
+Through analysis (both statistical and qualitatively), begin to formulate and test hypotheses about the root cause of the problem.
+Step 4. IMPROVE the problem by selecting a solution. Based on the
+identified root cause(s) in the prior step, directly address the
+cause with an improvement. Brainstorm potential solutions, prioritize them based on customer requirements, make a selection,
+and test to see if the solution resolves the problem.
+Step 5. CONTROL the improved process or product performance to
+ensure the target(s) are met. Once the solution has resolved the
+problem, the improvements must be standardized and sustained
+over time. The standard-operating-procedures may require revision, and a control plan should be put in place to monitor ongoing performance. The project team transitions the standardized
+improvements and sustaining control plan to the process players
+and closes out the project.
+A DMAIC project typically runs for a relatively short duration (three to
+nine months), versus product development projects (using UAPL or
+DFSS) and operational line management (using LMAD), which can run
+
+DMAIC
+
+varies by step in the method.
+
+03 0132300214_sect01.qxd
+
+16
+
+6/27/07
+
+12:17 PM
+
+Page 16
+
+Define-Measure-Analyze-Improve-Control (DMAIC)
+
+years. Given the relatively shorter duration to other types of Six Sigma
+methodologies, we distinguish the DMAIC as having five steps, rather
+than phases.
+The DMAIC method is primarily based on the application of statistical
+process control, quality tools, and process capability analysis; it is not a
+product development methodology. It can be used to help redesign a
+process—any process, given that the redesign fixes the initial process
+problem. To be implemented, the method requires four components:
+• A measurement system (a gauge) of the process or product/service
+
+offering in trouble.
+• Standard toolset that supports tasks to produce deliverables
+
+(including statistical, graphical, and qualitative tools and
+techniques).
+• An ability to define an adjustment factor(s) to correct the process or
+
+product/service offering back on target.
+• A control scheme to maintain the improvement or correction over
+
+time by implementing a control plan with a monitoring system to
+audit the response performance against statistical control limits and
+defined action plans if needed.
+
+What Key Overall Requirements Define this Approach?
+Requirements come from the customer and the business, depending on
+the problem scenario. The (internal and external) customer requirements
+get translated into what is critical-to-quality (CTQ). These CTQs define the
+criteria to evaluate what good looks like—how well the project scope and
+deliverables meet requirements. Hence, the project team must meet the
+requirements of a phase before declaring completion and closing it out.
+The DMAIC method was designed and structured to answer the following overall business questions:
+• What does the customer define as the problem?
+(Secondarily, is the problem sustained over time, is it chronic, or is it
+a one-time occurrence?)
+• What characterizes the current problem (e.g., process and performance metrics), and how has it changed over time?
+(Secondarily, is the process in control, and does it have a good measurement system? Is the process capable of producing the customer
+requirements?)
+
+03 0132300214_sect01.qxd
+
+6/27/07
+
+12:17 PM
+
+Page 17
+
+What Requirement Determine s the Key Activitie s in this Approach?
+
+17
+
+(Secondarily, is the process capable of producing the customer
+requirements?)
+• What controls should be implemented to sustain this improvement,
+including a warning system, action plan, and communication plan
+needed in case requirements fail to be met?
+(Secondarily, can the improvements be sustained over time?)
+
+What Requirement Determines the Key Activities in this
+Approach?
+The preceding key business questions determine the DMAIC architecture.
+Figure 1-2 depicts a high-level process flow of the DMAIC method
+through its five steps.
+Define
+
+Measure
+
+Analyze
+
+Yes
+
+Improve
+No
+
+Problem
+over-time?
+
+In
+Control?
+
+No
+
+Yes
+
+No
+
+Remove
+Known
+Special
+Causes
+
+Process
+Capable?
+Yes
+
+Yes
+Close Project
+
+Close Project
+Good
+measurement
+system?
+
+Control
+Yes No
+
+No
+
+Process
+Capable?
+
+Sustained
+Improvement?
+
+Yes
+Close Project
+
+No
+Remove
+Measurement
+System variation
+
+Figure 1-2: High-Level DMAIC Process Flow
+
+Table 1-1 shows the linkage between the high-level business requirements and the five-step DMAIC method.
+
+DMAIC
+
+• What are the root causes, and what improvement actions correct
+them to meet customer requirements again?
+
+03 0132300214_sect01.qxd
+
+18
+
+6/27/07
+
+12:17 PM
+
+Page 18
+
+Define-Measure-Analyze-Improve-Control (DMAIC)
+Table 1-1: DMAIC Requirements-Step Linkage
+Requirements
+
+Resulting High Level Task (Step)
+
+What does the customer
+define as the problem?
+
+1. DEFINE
+• Describe in the words of the external or
+internal customer—Voice of Customer
+(VOC).
+• Define the boundary conditions set forth
+by the business, including regulatory
+environment—Voice of Business (VOB).
+• Understand the current process. What has
+happened over time, examine process
+control charts to identify incidents of
+common and special cause variation—
+Voice of the Process (VOP).
+
+What characterizes the
+current problem (that is,
+process and performance
+metrics), and how has it
+changed over-time?
+
+2. MEASURE
+• Measure the problem; describe it with
+facts, data, and performance metrics.
+Determine if the process in control and if
+the measurement system is accurate.
+• Considered iterative until metrics are
+gathered over time.
+
+What are the root causes?
+
+3. ANALYZE
+Determine if the process capable of producing the customer requirements. If not,
+consider it iterative until root causes are
+identified and verified with facts and
+data.
+
+What improvement actions
+correct the root causes to
+meet customer requirements again?
+
+4. IMPROVE
+Determing if the process is capable of
+producing the customer requirements.
+If not, consider it iterative until improvements are identified and verified with
+facts, data, and performance metrics.
+
+What controls should be
+implemented to sustain this
+improvement, including a
+warning system, action plan,
+and communication plan
+needed in case requirements fail to be met?
+
+5. CONTROL
+• Demonstrate how the improvements
+and/or changes can be sustained.
+• Manage Risks
+
+6/27/07
+
+12:17 PM
+
+Page 19
+
+What Tools Are Aligned to Each Step of the Proce ss?
+
+Figure 1-3 provides a DMAIC icon that reinforces both the overall flow
+of a method and the purpose of each step and respective interrelationships.
+It summarizes the five-step DMAIC process and its notable iterative nature.
+Throughout the remainder of this text, Figure 1-3 will symbolize the
+DMAIC approach and indicate a particular step within it if appropriate.
+
+Define
+
+Measure
+
+Analyze
+
+Improve
+
+Control
+
+Figure 1-3: DMAIC Icon
+
+What Tools Are Aligned to Each Step of the Process?
+Given the preceding High Level Task Step(s), the following series of
+tables summarize the subsequent tool-task-deliverables combination
+associated with each individual step within the five-step approach.
+The detail behind how to use each tool can be found in Part II, “Six
+Sigma Encyclopedia of Business Tools and Techniques: Choosing the
+Right Tool to Answer the Right Question at the Right Time.”
+Table 1-2: Define Tools-Tasks-Deliverables
+
+Step 1: DEFINE
+Define
+
+Measure
+
+Analyze
+
+Improve
+
+Control
+
+What does the customer
+define as the problem?
+
+Deliverables
+
+Tasks
+
+Candidate Tools and Techniques
+
+Project Charter Approved Identify Problem
+• SMART
+(contract with the
+statement/Opportunity • Project Charter Form
+Sponsor regarding
+and Goal statement.
+containing: Problem
+problem, project scope,
+Statement (As-Is),
+project goal(s), key
+Desired State (To Be),
+deliverables, timeframe,
+and the Business Reasons
+and budget)
+• Big “Y” over time
+
+continues
+
+19
+
+DMAIC
+
+03 0132300214_sect01.qxd
+
+03 0132300214_sect01.qxd
+
+20
+
+6/27/07
+
+12:17 PM
+
+Page 20
+
+Define-Measure-Analyze-Improve-Control (DMAIC)
+Table 1-2: Continued
+Deliverables
+
+Tasks
+
+Candidate Tools and Techniques
+
+High-level Process
+Map Constructed
+
+Develop High-level
+Process Map
+
+• Process Map
+• RACI Matrix
+
+Critical Parameters
+Hypothesized
+
+Gather VOC and
+Business
+Requirements
+
+• VOC/VOB Gathering
+techniques
+• Current process control
+charts (VOP)
+• Stakeholder Analysis
+• CTQ
+
+Project Charter
+Published and
+Communicated
+
+Develop Communication Plan
+
+Communication Plan
+template
+
+High-Level Project
+Plan Defined and
+Approved
+
+Finalize Project
+Charter
+
+• Project Charter Form
+• High-level Process
+Map
+• SIPOC
+• Project RACI Matrix
+
+Table 1-3: Measure Tools-Tasks-Deliverables
+
+Step 2: MEASURE
+Define
+
+Measure
+
+Analyze
+
+Improve
+
+Control
+
+What characterizes the
+current problem, and how has it changed
+over time?
+
+Deliverables
+
+Tasks
+
+Candidate Tools and Techniques
+
+Data Collected
+
+• Identify Sources
+• Y = f(X); Big “Y” and
+of Data
+little “Ys”
+• Collect Baseline
+• Data Gathering Plan
+Data from existing
+template
+process
+• Control Charts
+• Determine current
+• Statistical Sampling
+Process Performance; • Graphical Methods
+is it in control?
+• QFD (Quality Function
+• Remove any known
+Deployment)
+special causes; verify
+if process is in
+control
+
+6/27/07
+
+12:17 PM
+
+Page 21
+
+What Tools Are Aligned to Each Step of the Proce ss?
+Deliverables
+
+Tasks
+
+Candidate Tools and Techniques
+
+Process Map Defined
+In-depth With Current
+Measures
+
+Develop Detailed
+Process Map
+
+• Detailed Process Map
+• RACI Matrix, revised
+
+Current Measurement
+System Capability
+Evaluated
+
+• Validate measurements and
+collection system
+• Is the process
+capable of meeting
+requirements?
+
+• Measurement System
+Analysis (MSA)
+• Process Capability
+Analysis
+
+Project Charter and
+Plan updated, as
+necessary
+
+• Revise Problem and • Project Charter; its plan
+Goal statements as
+and milestones
+needed
+• Project RACI Matrix
+• Update Project
+Plan, as needed
+
+Table 1-4: Analyze Tools-Tasks-Deliverables
+
+Step 3: ANALYZE
+Define
+
+Measure
+
+Analyze
+
+Improve
+
+Control
+
+What are the root causes
+of the current problem?
+
+Deliverables
+
+Tasks
+
+Candidate Tools and Techniques
+
+Data Analyzed
+
+• Validate gaps in
+• Y = f(X); Big “Y”; little
+requirements vs.
+“Ys” and the “Xs”
+current metrics
+• Critical Gap/Step
+• Establish Y=f(X)
+Analysis
+• Quantify Opportunity • Pareto Charts
+to close gaps
+• Statistical Analysis:
+Normal Distribution,
+Variation
+• Correlation and
+Regression
+
+continues
+
+21
+
+DMAIC
+
+03 0132300214_sect01.qxd
+
+03 0132300214_sect01.qxd
+
+22
+
+6/27/07
+
+12:17 PM
+
+Page 22
+
+Define-Measure-Analyze-Improve-Control (DMAIC)
+Table 1-4: Continued
+Deliverables
+
+Tasks
+
+Candidate Tools and Techniques
+
+Process Analyzed
+
+• Develop Detailed
+• Detailed Process Map
+Process Map
+(inputs, outputs, met• Establish Y=f(X)
+rics, process step
+• Quantify Opportunity
+owners)
+to close gaps
+• RACI Matrix, revised
+• Process Mapping of
+Critical Parameters
+• Y = f(X)
+• Pareto Charts
+• Process Capability
+Analysis
+
+Root Cause Analyzed
+
+• Conduct Root
+Cause Analysis
+• Prioritize Root
+Causes
+• Quantify Opportunity to close gaps
+
+Project Charter and
+Plan updated, as
+necessary
+
+• Revise Problem and • Project Charter;
+Goal statements as
+its plan and milestones
+needed
+• Project RACI Matrix
+• Update Project Plan,
+as needed
+
+• Brainstorming
+Technique
+• Cause and Effect
+Diagrams
+• Five Whys
+• Affinity Diagram (KJ)
+• Hypothesis Testing of
+key causes and/or
+critical parameters (vital
+few Xs)
+• Inferential statistics
+(Correlation and
+Regression)
+• DOE
+• FMEA
+
+03 0132300214_sect01.qxd
+
+6/27/07
+
+12:17 PM
+
+Page 23
+
+What Tools Are Aligned to Each Step of the Proce ss?
+
+23
+
+Table 1-5: Improve Tools-Tasks-Deliverables
+
+Define
+
+Measure
+
+Analyze
+
+Improve
+
+Control
+
+What improvement actions correct
+the root causes to meet
+customer requirements again?
+
+Deliverables
+
+Tasks
+
+Candidate Tools and Techniques
+
+Potential Solution
+Generated
+
+Develop Potential
+Improvements or
+solutions for root
+causes
+
+• Brainstorming
+Technique
+• Positive Deviance
+• TRIZ
+
+Potential Solution
+Evaluated
+
+• Develop Evaluation
+Criteria
+• Measure results
+• Evaluate improvements meet targets
+• Evaluate for Risk
+
+• Basic DOE
+• Pilots/Tests
+• FMEA
+• Cost/Benefit Analysis
+
+Solution Selected
+
+Select and Implement • Pugh Concept
+improved process and
+Evaluation
+metrics
+• Solution Selection
+matrix
+• Force Field diagram
+• QFD
+• Measurement System
+Analysis (MSA)
+• Process Capability
+Analysis
+
+Improved Path
+Forward Implemented
+
+Develop Detailed
+Future Process Map
+of improvement
+
+Project Charter and
+Plan updated, as
+necessary
+
+• Revise Problem and • Project Charter; its plan
+Goal statements as
+and milestones
+needed
+• Project RACI Matrix
+• Update Project Plan,
+as needed
+
+• Detailed Process Map
+• RACI Matrix, future
+• Procedure manual
+(standard operating
+procedure)
+• Implementation and
+Transition Plan
+
+DMAIC
+
+Step 4: IMPROVE
+
+03 0132300214_sect01.qxd
+
+24
+
+6/27/07
+
+12:17 PM
+
+Page 24
+
+Define-Measure-Analyze-Improve-Control (DMAIC)
+Table 1-6: Control Tools-Tasks-Deliverables
+
+Step 5: CONTROL
+Define
+
+Measure
+
+Analyze
+
+Improve
+
+Control
+
+What controls should be implemented
+to sustain this improvement?
+
+Deliverables
+
+Tasks
+
+Candidate Tools and Techniques
+
+Control Plan Defined
+
+• Document New
+Measurement
+Process
+• Define control plan
+
+• Control Plan Design
+• Control Charts (SPC)
+• FMEA/Risk Analysis
+• Communication Plan
+• Stakeholders Analysis
+
+Improvements/
+Validate metrics and
+Innovation Implemented collection systems
+
+• Measurement System
+Analysis (MSA)
+• Process Capability
+Analysis
+• Cost/Benefit Analysis
+
+Training Conducted
+
+Train
+
+• Training/Transition plan
+
+Process Documented
+
+Document recommend- • Process Map
+ation or improvement • RACI
+summary and highlight • Procedure manuals
+changes from As-Is to
+Improved
+
+Tracking System
+Deployed
+
+Establish Tracking
+Procedure
+
+• Scorecard or Dashboard
+• Data Mining (MINITAB
+graphical data analysis)
+
+Lessons Learned
+Documented and
+Project Closed
+
+• Revise Problem and
+Goal statements to
+reflect actual
+• Update Project Plan
+to reflect actual
+• Record lessons
+learned and
+file along with
+final project
+documentation
+
+• Project Charter; its plan
+and milestones
+• Project RACI Matrix
+• New SIPOC
+
+03 0132300214_sect01.qxd
+
+6/27/07
+
+12:17 PM
+
+Page 25
+
+What Are Some of the Key Concepts that Characterize this
+Approach?
+
+25
+
+There are some key characteristics that distinguish DMAIC from other Six
+Sigma methods. The following overview wraps up the DMAIC highlights
+and introduces some of its variants.
+
+How Is the Problem Defined?
+The problem statement in a Project Charter typically speaks to defects or
+variance from a target over time with an existing, steady state, process, or
+product. (The charter is part of a standard Six Sigma toolset used to document the project scope. See Also “SMART,” in Part II, p. 665) Typically,
+the customer should determine the target; however, at times the business,
+industry standard, or regulatory agency may set it. Time-based problem
+statements indicate the problem may be chronic (has persisted for a
+period of time), which helps create a case for change (versus a one-time
+occurrence) to incite interest in and resources to tackle the issue.
+Common metrics include DPMO (Defects per Million Opportunities
+(or units)), PPM (Parts per Million), Mean Time between Failures (MTBF),
+Cost, Percent Variance, or Errors.
+
+What Is Commonly Measured?
+Typically, three key items are measured:
+• Output (or Outcome)—The end result of the process (or product)
+requiring improvement
+• Process—The workflow (of activities and items) that produces the
+output
+• Inputs—The raw materials and information used by the process to
+produce the output
+The relationship of these three key items often is described as an equation: Y = f(x), which reads, “Y is a function of X.” The “Y” refers to the output(s); the “X” refers to the key measures from the process variables
+(inputs and/or the process itself). See Also “Y=f(x),” in Part II, p. 758.
+The DMAIC project goal is to identify the critical (or vital few) Xs—the
+root cause of the problem—and select their optimal level(s) to best drive
+the desired improvement in the output performance (sometimes called
+the “Big Y”). This language sounds foreign to many people not comfortable with mathematically-structured sentences; however, it is readily
+used in most Six Sigma texts. A simpler articulation is the goal of a
+DMAIC project is to improve PFQT—Productivity (how many), Financial
+(how much money), Quality (how well), and Time (how fast).
+
+DMAIC
+
+What Are Some of the Key Concepts that Characterize
+this Approach?
+
+03 0132300214_sect01.qxd
+
+26
+
+6/27/07
+
+12:17 PM
+
+Page 26
+
+Define-Measure-Analyze-Improve-Control (DMAIC)
+
+Are There any DMAIC Variations?
+There are two prevalent variations to the traditional DMAIC method.
+Both build on the DMAIC fundamentals but add new dimensions to
+extend its applications. The first is DMAIIC, wherein innovation is added
+for situations where a simple improvement modification is inadequate
+and a new design may be required. (Note that in the technical, engineering arena that an innovation adaptation typically aligns with the
+DMADV method. DMADV distinguishes itself from DMAIIC by not only
+its often unique environment scenario, but also it usually calls for a
+requirement of building a new process (or product design) from scratch
+at the start of the project; whereas, DMAIIC often is unaware of the
+redesign requirement until much later into the project lifecycle. See Also
+“DFSS,” in Section 3, p. 45) The second is Lean Six Sigma, which adds
+concepts of velocity, value-add, and flow to the DMAIC concepts.
+1. DMAIIC—Adding an “I” for Innovation—Many organizations
+have found that improving a current process or product may not be
+enough to deliver the desired results, and at times innovation is
+needed. Since the project teams have just completed the Define-Measure-Analyze stages of the process and are in the midst of Improve,
+rather than starting over from scratch, project teams have found that
+the work done to this point is a good foundation for innovation
+work. Hence, some companies have built on the DMAIC framework
+already in-place and added a second “I” for innovation to keep the
+project team progressing. Therefore, the variation is Define-MeasureAnalyze-Improve/Innovate-Control.
+Figure 1-4 shows the DMAIIC flow diagram and depicts how the Innovate tasks integrate into the classic DMAIC model.
+2. Lean Six Sigma—Adding Lean Concepts—By incorporating lean
+concepts into DMAIC, the project adds a dimension of velocity (i.e.
+improved cycle time), value-add, and flow to what Six Sigma
+already offers.
+
+Both concepts share similar views on customer-focus, process-centric
+work, and appropriate tools. Lean simply adds a deeper set of tools to
+eliminate waste between process steps handoffs. Often DMAIC provides a project the big picture view (what the customer values balanced
+by business values) and process stabilization and capability—while
+Lean introduces speed and flow concepts at a more detailed level. The
+Define-Measure-Analyze-Improve-Control structure still holds true for
+Lean Six Sigma projects. See Also “Lean and Lean Six Sigma,” Section
+2, p. 29, for more details on Lean.
+
+6/27/07
+
+12:17 PM
+
+Page 27
+
+Summar y
+Define
+
+Measure
+
+Improve/
+Innovate
+
+Analyze
+
+Yes
+
+No
+
+Problem
+over-time?
+
+In
+Control?
+
+No
+
+Yes
+
+No
+
+Remove
+Known
+Special
+Causes
+
+Process
+Capable?
+Yes
+
+Yes
+
+Control
+Yes
+
+Process
+Capable?
+
+Yes
+No
+Close Project
+
+Close Project
+Good
+measurement
+system?
+
+No
+Sustained
+Improvement?
+
+Yes
+Close Project
+
+Can goals
+be achieved
+with existing
+process?
+
+No
+Remove
+Measurement
+System variation
+
+27
+
+No
+Resign process
+and/or product/
+services offering
+
+Figure 1-4: High-level DMAIC Process Flow
+
+Summary
+Many view DMAIC as the foundation of Six Sigma. DMAIC is best used
+as an iterative problem-solving method to combat variation in an existing, steady-state process. Students of the quality and process improvement often start by learning the DMAIC approach because most other
+methodologies derive from its fundamental structure and concepts. Components of the standard DMAIC toolset also can be found in the tool suite
+of other Six Sigma approaches.
+
+DMAIC
+
+03 0132300214_sect01.qxd
+
+03 0132300214_sect01.qxd
+
+6/27/07
+
+12:17 PM
+
+Page 28
+
+

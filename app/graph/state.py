@@ -1,4 +1,4 @@
-from typing import TypedDict, Any, Dict, List, Optional
+from typing import TypedDict, Any, Dict, List
 
 
 class OrchestratorState(TypedDict, total=False):
@@ -18,6 +18,9 @@ class OrchestratorState(TypedDict, total=False):
     final_response: str
     confidence: float
     grounded: bool
+
+    convai: Dict[str, Any]
+    session_memory: Dict[str, Any]
 
     errors: List[str]
     trace: List[Dict[str, Any]]

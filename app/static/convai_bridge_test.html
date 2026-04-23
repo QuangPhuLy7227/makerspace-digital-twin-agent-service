@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>ConvAI Bridge Test</title>
+</head>
+<body>
+  <h2>Makerspace ConvAI Bridge Test</h2>
+
+  <input id="msg" style="width: 500px;" value="Why did task 1774131148533 fail?" />
+  <button onclick="sendMessage()">Send</button>
+
+  <pre id="output"></pre>
+
+  <script>
+    const sessionId = "convai-web-test-1";
+
+    async function sendMessage() {
+      const message = document.getElementById("msg").value;
+
+      const res = await fetch("/chat", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          message,
+          session_id: sessionId,
+          convai_mode: true
+        })
+      });
+
+      const data = await res.json();
+      document.getElementById("output").textContent = JSON.stringify(data, null, 2);
+
+      const spoken = data?.convai?.spoken_answer || data?.response || "";
+      if (spoken) {
+        const utterance = new SpeechSynthesisUtterance(spoken);
+        speechSynthesis.speak(utterance);
+      }
+    }
+  </script>
+</body>
+</html>

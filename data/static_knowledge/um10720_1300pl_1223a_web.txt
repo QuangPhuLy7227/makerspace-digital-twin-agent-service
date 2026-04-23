@@ -1,0 +1,9572 @@
+OPERATOR'S MANUAL
+
+Original Instructions
+Version 1223A
+
+Copyright
+Notice
+Information is subject to change without notice by Tormach, Inc. For the most recent version of this document,
+see tormach.com/support.
+You're welcome to make copies of this document for evaluating, learning about, and/or using the machine.
+You may not charge for any copies you make beyond the cost of printing.
+Unless otherwise noted, companies, names, and various data used in examples are fictitious.
+
+To the Reader
+We're dedicated to continually improving our documentation and products, and welcome any clarifications,
+corrections, or suggestions.
+
+Credits
+Tormach®, 1300PL®, and PathPilot® are trademarks or registered trademarks of Tormach, Inc. Our milling
+machines and accessories are covered by one or more of the following U.S. Patents: 7,386,362; D606,568;
+D612,406; D621,859; and other patent(s) pending.
+Other product or company names may be the trademarks of their respective owners.
+Copyright © Tormach, Inc. 2023
+
+Page 2
+
+ABOUT THIS DOCUMENT
+
+o
+
+SAVE THESE INSTRUCTIONS!
+
+o
+
+From the PathPilot interface, on the Status tab,
+record any available information.
+
+This document contains important safety warnings and
+
+Use a digital multimeter for voltage readings.
+
+4. Once you've gathered the information in Step 3, contact
+
+operating instructions for your machine. Before operating this
+machine in any way, you and all other operators must read and
+understand all instructions. If you don't, there's a risk of voided
+warranty, property damage, serious injury, or death.
+Keep these instructions with your machine so that they're
+
+us in the following ways:
+a. Create a support ticket: Go to tormach.com/how-tosubmit-a-support-ticket
+b. Phone: (608) 849-8381 (Monday through Friday, 8
+a.m. to 5 p.m. U.S. Central Standard Time)
+
+readily accessible.
+
+PURPOSE AND SCOPE
+
+SHARE LOG DATA .ZIP FILES
+
+This document is intended to provide sufficient information to
+
+The controller keeps log data on how the machine has been
+
+allow you to install, configure, and use your machine. It
+
+working, which you can export as a .zip file. This information
+
+assumes that you have appropriate experience and/or access
+
+helps us troubleshoot software situations much faster.
+To share log data .zip files:
+
+to training for any computer-aided design or manufacturing
+
+1. Put a USB drive into the PathPilot controller.
+
+software for use with the machine.
+
+2. From the PathPilot controller, on the Status tab, select
+
+GETTING HELP
+
+Log Data.
+PathPilot creates a file called logdata_[TODAY'S-
+
+We provide no-cost technical support through multiple
+channels. The quickest way to get the answers you need is
+
+DATE].zip, and saves it on your USB drive.
+
+normally in this order:
+
+3. Remove the USB drive from the controller. Create a
+
+1. Read this document.
+
+support ticket with Tormach Technical Support at
+
+2. Read related documents at tormach.com/support.
+
+tormach.com/how-to-submit-a-support-ticket for
+
+3. If you still need answers, gather the following
+
+guidance on how to proceed.
+
+information so that we may help you as quickly as
+
+ADDITIONAL INFORMATION
+
+possible:
+Your phone number, address, and company name (if
+
+For additional technical information and support videos, see
+
+applicable).
+
+tormach.com/support.
+
+Machine model and serial number, which are located
+
+LIABILITY DISCLAIMER
+
+next to the Main Disconnect switch.
+
+We've made every effort to provide comprehensive and
+
+l
+
+The version of PathPilot that you’re running.
+
+accurate information, but no warranty or fitness is claimed or
+
+l
+
+Any accessories that you have for your machine.
+
+implied. All information provided is on an as is basis. The
+
+l
+
+A clear and concise description of the issue.
+
+authors, publisher, and Tormach, Inc. ("we", "us", and so on)
+
+l
+
+Any supporting media and information that you can
+
+l
+
+l
+
+shall not have any liability for, or responsibility to, any person
+or entity for any reason for any loss or damage arising from
+
+share with us. For example, you could:
+o
+
+the information contained in this document.
+This document provides guidance on safety precautions and
+
+Analyze what might have changed since the
+machine last worked correctly.
+
+techniques, but because the specifics of any one workshop or
+
+o
+
+Record a short video.
+
+o
+
+Take a picture of a part.
+
+responsibility for machine performance or any damage or
+
+o
+
+For software, share log data .zip files, screen
+
+injury caused by its use. It's your responsibility to verify that
+
+captures, or program files.
+For information, see "Share Log Data .zip Files"
+
+you fully understand the implications of what you're doing and
+
+(below).
+
+your city, state, or nation.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+other local conditions can vary greatly, we accept no
+
+comply with any legislation and codes of practice applicable to
+
+Page 3
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+TABLE OF CONTENTS
+
+SAFETY
+
+9
+
+1.1 Intended Use
+1.2 Machine Standards
+1.2.1 American National Safety Institute (ANSI)
+1.2.2 Occupational Safety and Health Administration (OSHA)
+1.3 Safety Overview
+1.3.1 Safety Messages
+Personal Injury
+Property Damage
+1.3.2 Safety Decals
+On the Electrical Cabinet Door
+On the Front of the Bed
+On the Gantry and the Plasma Head
+1.3.3 Information Decals
+Serial Number Plate
+1.4 Machine Safety
+1.4.1 General Shop Safety
+1.4.2 Operational Safety
+General
+Workholding
+1.4.3 Electrical Safety
+
+10
+10
+10
+10
+10
+10
+10
+11
+11
+11
+11
+12
+12
+12
+12
+12
+13
+13
+14
+14
+
+ABOUT YOUR MACHINE
+
+15
+
+2.1 Performance Expectations Reference
+2.1.1 Cutting Performance Reference
+2.1.2 Torch Height Control Reference
+2.1.3 Resolution and Accuracy Reference
+2.2 Specifications Reference
+2.2.1 Machine Specifications
+
+16
+16
+16
+16
+17
+17
+
+SITE REQUIREMENTS
+
+19
+
+3.1 General Site and Space Requirements
+3.1.1 Site Requirements
+3.1.2 Space Requirements
+3.2 Electrical and Power Requirements
+3.2.1 Electrical Requirements
+3.2.2 Power Requirements
+3.2.3 Plasma Source Power Requirements
+3.2.4 Options for Non-Conforming Sites
+3.3 Air Requirements
+3.4 Plasma Source Requirements
+
+20
+20
+20
+20
+20
+20
+20
+21
+21
+21
+
+INSTALLATION
+
+23
+
+4.1 Before You Begin
+
+24
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 4
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+TABLE OF CONTENTS
+
+4.1.1 Installation Tools and Items
+4.2 Move the Pallet
+4.3 Unpack the Machine Crate
+4.3.1 Open the Crate
+4.3.2 Unpack the Machine
+4.4 Remove Frame from Crate
+4.4.1 Lifting Frame
+4.4.2 Installing Legs and Righting Machine
+4.5 Level the Machine Frame and Water Table
+4.5.1 Level the Machine Frame
+4.5.2 Level the Water Table
+4.6 Install Side Panels and Cable Carriers
+4.7 Attach the Cable Guard
+4.8 Install Plasma Torch and Lead
+4.9 Make Electrical Connections
+4.10 Install Machine Arm and Connect Controller
+4.11 Fill Water Table
+4.12 Verify the Installation
+4.12.1 Check Machine Breakers
+4.12.2 Power On the Machine
+4.12.3 Power Off the Machine
+4.12.4 Verify Axes Function
+4.12.5 Check Belt Tension
+4.12.6 Testing Plasma Source Control
+4.12.7 Testing Ohmic Probing
+4.12.8 Testing Torch Breakaway
+4.13 Set Torch Home Position (G30)
+4.14 Calibrate Initial Height Sensing
+4.14.1 Set Ohmic Probing Sensitivity
+4.14.2 Set Physical Touch Switch Trigger Depth
+4.15 Set Up the PathPilot Controller
+4.15.1 Specify the Date and Time
+4.15.2 Specify the Keyboard Language
+4.15.3 Configure the Optional Touch Screen Kit
+4.15.4 Update PathPilot
+
+24
+24
+24
+25
+25
+25
+25
+27
+27
+28
+28
+29
+30
+31
+32
+32
+34
+34
+34
+34
+36
+36
+37
+37
+37
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+
+SYSTEM BASICS
+
+41
+
+5.1 System Reference
+5.1.1 Water Table
+5.1.2 Z Torch Head
+Ohmic Touchoff
+Physical Touch Switch
+5.2 Basic Controls Reference
+5.2.1 Machine Controls
+5.2.2 PathPilot Interface
+
+42
+42
+42
+42
+42
+43
+43
+43
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 5
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+TABLE OF CONTENTS
+
+5.3 Connectors Reference
+5.4 Plasma Source Control
+5.5 Plasma Settings Reference
+5.5.1 Touch Switch Trigger Depth
+5.5.2 Minimum Touchoff Spacing
+5.5.3 Enable Ohmic Touchoff
+5.5.4 Enable THC
+5.5.5 Enable Arc-Ok Checking
+
+43
+45
+46
+46
+46
+47
+47
+47
+
+BASIC OPERATIONS
+
+49
+
+6.1 Select a Method for Initial Height Sensing (IHS)
+6.1.1 Physical Touch Switch
+6.1.2 Ohmic Probing
+6.2 Make Your First Cuts
+6.2.1 Test G-Code
+6.2.2 Code Breakdown
+6.2.3 Run the Test Program
+6.3 Use the AutoFS Material Picker
+6.3.1 Writing G-Code with AutoFS
+6.3.2 Using AutoFS
+6.3.3 Creating Custom AutoFS Presets
+6.3.4 Deleting Custom AutoFS Presets
+
+50
+50
+50
+50
+50
+50
+51
+51
+52
+52
+52
+52
+
+PROGRAMMING
+
+53
+
+7.1 Plasma Specific G-Codes
+7.2 Plasma Specific M-Codes
+
+54
+54
+
+MACHINE MAINTENANCE
+
+57
+
+8.1 Maintenance Safety
+8.1.1 All Maintenance Procedures
+8.1.2 Swarf Maintenance Procedures
+8.2 Maintenance Schedules
+8.2.1 Daily
+8.2.2 Weekly
+8.2.3 Monthly
+8.2.4 Semi-Annually
+8.2.5 As Needed
+8.3 Adjust Belt Tension
+8.4 Adjust Rack and Pinion Preload
+8.4.1 Y-Axis
+8.4.2 X-Axis
+
+58
+58
+58
+58
+58
+58
+58
+58
+58
+58
+59
+59
+60
+
+TROUBLESHOOTING
+
+61
+
+9.1 Ohmic Probing
+9.1.1 Ohmic Probe Does Not Trigger
+
+62
+62
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 6
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+TABLE OF CONTENTS
+
+9.1.2 Ohmic Probe Triggers Early or Between Cuts
+9.2 Touch Off
+9.2.1 The Torch Pierces Too High
+9.2.2 The Torch Bends the Workpiece During Touch-off
+9.3 Cutting
+9.3.1 Torch Shuts Off During Cut
+9.4 Voltage Feedback
+9.4.1 No Voltage Reading in PathPilot
+9.5 Torch Height Control
+9.5.1 Torch Cuts Too High
+9.5.2 Torch Drags on the Material When Cutting
+9.6 Servo Drives
+9.6.1 Servos Fault on Fast Direction Changes
+
+63
+64
+64
+65
+65
+65
+66
+66
+67
+67
+68
+69
+69
+
+DIAGRAMS AND PARTS LISTS
+
+71
+
+10.1 Base Machine Exploded View
+10.2 Base Machine Parts List
+10.3 Frame Assembly Exploded View
+10.4 Frame Assembly Parts List
+10.5 Water Table Exploded View
+10.6 Water Table Assembly Parts List
+10.7 Y-Axis Gantry Assembly Exploded View
+10.8 Y-Axis Gantry Assembly Parts List
+10.9 X-Axis Carriage Assembly Exploded View
+10.10 X-Axis Carriage Assembly Parts List
+10.11 Z-Axis Lifter Assembly Exploded View
+10.12 Z-Axis Lifter Assembly Parts List
+
+72
+73
+74
+75
+77
+78
+79
+80
+82
+83
+84
+85
+
+ELECTRICAL SCHEMATICS
+
+87
+
+11.1 230 Vac Power (Sheet 2)
+11.2 24 Vdc Controls (Sheet 3)
+11.3 Axis Drive Control (Sheet 4)
+11.4 A-Axis Driver (Sheet 5)
+11.5 Plasma Source Control (Sheet 6)
+11.6 Machine Control Board (Sheet 7)
+11.7 Torch Limit and Breakaway Switches (Sheet 8)
+11.8 Accessory and Auxiliary Power (Sheet 9)
+11.9 Grounds (Sheet 10)
+11.10 Terminal Strips (Sheets 11-16)
+11.10.1 TB1: AC Terminal Strip (Sheet 11)
+11.10.2 TB1: AC Terminal Strip (Sheet 12)
+11.10.3 TB2: Control Terminal Strip (Sheet 13)
+11.10.4 TB2: Control Terminal Strip (Sheet 14)
+11.10.5 TB3: 75 Vdc Terminal Strip (Sheet 15)
+11.10.6 TB4: Ground Terminal Strip (Sheet 16)
+
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+97
+98
+99
+100
+101
+102
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 7
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+SAFETY
+IN THIS SECTION, YOU'LL LEARN:
+About the standards and safety precautions associated with this machine.
+Before operating the machine in any way, you must read and understand this section.
+Safe operation of the machine depends on its proper use and the precautions you take. Only trained personnel
+— with a clear and thorough understanding of its operation and safety requirements — shall operate this
+machine.
+
+CONTENTS
+1.1 Intended Use
+1.2 Machine Standards
+1.3 Safety Overview
+1.4 Machine Safety
+
+10
+10
+10
+12
+
+1: SAFETY
+
+l
+
+1.1 INTENDED USE
+
+ANSI Z49.1:2005 Safety in Welding, Cutting, and Allied
+Processes
+
+This machine is intended for general-purpose, computer
+numerical control (CNC) machining in the following
+
+1.2.2 Occupational Safety and Health Administration
+
+applications:
+
+(OSHA)
+
+l
+
+Educational environments
+
+l
+
+Hobby applications
+
+l
+
+Light production
+
+l
+
+Prototyping
+
+l
+
+Research and development
+
+l
+
+Secondary operations
+
+l
+
+Machines
+
+1.3 SAFETY OVERVIEW
+Any machine tool is potentially dangerous. A CNC machine's
+automation presents added risk not present in a manual
+machine.
+Before operating the machine in any way, you must read and
+
+The intended use includes:
+l
+
+Appropriate workholding, toolholding, tooling, systems,
+
+understand this section.
+
+and machining parameters.
+l
+
+l
+
+Plasma cutting and engraving of ferrous and non-ferrous
+
+Read and understand all safety messages used in this
+document.
+
+metals.
+The intended use does not include machining materials that:
+l
+
+OSHA 1910.212 General Requirements for All
+
+Are abrasive, carcinogenic, explosive, flammable,
+
+l
+
+Locate and understand all safety decals on the machine.
+
+l
+
+Locate and become familiar with all information decals
+on the machine.
+
+radioactive, or toxic
+l
+
+1.3.1 Safety Messages
+
+Produce aerosols or fine particulates when machined
+
+The intended use does not include the following materials (not
+
+The following examples show the standard safety message
+
+a full list):
+
+types used to draw your attention to important information.
+The standards distinguish between personal injury safety
+
+l
+
+Beryllium and its alloys
+
+l
+
+Ceramics
+
+l
+
+Fiberglass
+
+Personal Injury
+
+l
+
+G10 fiberglass laminate
+
+Personal injury safety messages have safety alert symbols and
+
+l
+
+Graphite
+
+l
+
+Magnesium and its alloys
+
+messages and property damage warning messages.
+
+the following hazard level labels:
+DANGER! Indicates a hazard with a high level of risk
+
+To safely operate products, you must obey all safety
+
+which, if not avoided, will result in death or serious
+
+precautions and warnings that are on the machines and in the
+
+injury.
+
+documentation.
+
+1.2 MACHINE STANDARDS
+
+WARNING! Indicates a hazard with a medium level
+
+When installed and operated as intended (see "Intended Use"
+
+of risk which, if not avoided, can result in death or
+
+(above)), this machine complies with the following standards.
+
+serious injury.
+
+You must follow the requirements listed in the standards so
+that the machine remains compliant.
+CAUTION! Indicates a hazard with a low level of risk
+
+1.2.1 American National Safety Institute (ANSI)
+l
+
+which, if not avoided, can result in minor or moderate
+
+ANSI B11.TR3-2000 Risk Assessment and Risk
+
+injury.
+
+Reduction — A Guideline to Estimate, Evaluate, and
+Reduce Risks Associated with Machine Tools
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 10
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+1: SAFETY
+
+1. WARNING! Electrocution Hazard. Points in the electrical
+
+Property Damage
+
+cabinet contain high voltages, which can electrocute or
+shock you, causing death or serious injury. Even after the
+
+NOTICE! Indicates a hazard which, if not avoided, can
+
+machine is powered off, electronic devices in the
+
+cause property damage.
+
+electrical cabinet can retain dangerous electrical
+voltages. Use caution when servicing the machine inside
+
+1.3.2 Safety Decals
+
+the electrical cabinet.
+
+Before operating the machine in any way, you must read and
+
+2. Lockout/Tagout. Before servicing the machine, you must
+
+understand all installed safety decals on the machine and
+
+power off the machine and use an approved
+
+equipment. Do not remove any safety decals. If any safety
+
+lockout/tagout device to secure the Main Disconnect
+
+decals become worn or damaged, contact Tormach Technical
+
+switch in the OFF position. Points in the electrical
+
+Support for guidance on receiving replacement decals.
+The following types of safety symbols are on the decals:
+
+cabinet contain high voltages, which can electrocute or
+
+l
+
+Warning
+
+shock you, causing death or serious injury.
+
+This symbol indicates a hazard which, if not
+
+avoided, can result in personal injury or property
+
+On the Front of the Bed
+
+damage.
+l
+
+Prohibition
+
+This symbol indicates an action that
+
+shall not be taken or that shall be stopped.
+l
+
+Mandatory Action
+
+This symbol indicates an action
+
+Figure 1-2: Example of a safety decal on the front of the
+bed.
+
+that you must take to avoid a hazard.
+
+1. WARNING! Arc Flash Hazard. The plasma arc process
+
+On the Electrical Cabinet Door
+
+produces very bright ultraviolet and infrared rays, which
+can injure your eyes and burn your skin. Always wear
+appropriate personal protective equipment to avoid
+damage to your eyes and skin.
+2. Don't Operate with an Active Implanted Cardiac Device.
+If you wear an implanted cardiac device, you must
+consult with your doctor before operating this machine.
+The machine-generated electromagnetic fields could
+either interfere with or damage an implanted cardiac
+device.
+3. WARNING! Fire Hazard. The machine is not designed to
+contain fire or explosions. Only use materials and
+coolants that are intended for the specific machining
+operation. Never use flammable or explosive items.
+Before operating the machine in any way, you must read
+all Safety Data Sheets (SDSs) for any workpiece
+materials, coatings, coolants, lubricants, and other
+consumables used.
+
+Figure 1-1: Example of a safety decal on the electrical
+cabinet door.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 11
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+1: SAFETY
+4. WARNING! Inhalation Hazard. The machine does not
+
+Serial Number Plate
+
+protect you from airborne particulates. Chips, dust, and
+
+The serial number plate is on the side of the electrical cabinet,
+
+vapors from certain materials can be toxic or otherwise
+
+near the Main Disconnect switch.
+
+harmful. Before operating the machine in any way, you
+must read all Safety Data Sheets (SDSs) for any
+workpiece materials, coatings, coolants, lubricants, and
+other consumables used.
+5. Personal Protective Equipment: Eyes. Prevent injury by
+always wearing protective safety eyewear. Before
+operating this machine in any way, you must verify that
+your eyewear is impact-resistant and rated for
+ANSI 787+.
+6. Operator Knowledge. Before operating this machine in
+
+Figure 1-4: Example of the serial number plate on the side
+of the electrical cabinet.
+
+any way, you and all other operators must read and
+understand all instructions. If you don't, there's a risk of
+
+1.4 MACHINE SAFETY
+
+voided warranty, property damage, serious injury, or
+death.
+
+Before operating the machine in any way, you must
+
+On the Gantry and the Plasma Head
+
+read and understand this section.
+Safe operation of the machine depends on its proper use and
+the precautions you take. Only trained personnel — with a
+clear and thorough understanding of its operation and safety
+requirements — shall operate this machine.
+1.4.1 General Shop Safety
+1.4.2 Operational Safety
+1.4.3 Electrical Safety
+
+12
+13
+14
+
+1.4.1 General Shop Safety
+Verify that only qualified machinery maintenance
+professionals install, set up, or perform maintenance on
+this machine.
+Keep the work area well-lit. Use additional lighting if
+
+Figure 1-3: Example of safety decals on the plasma head.
+
+needed. The work area should be illuminated to a
+
+WARNING! Crush Hazard. Moving parts can entangle,
+
+minimum of 500 lx.
+
+pinch, or cut you, causing death or serious injury. Before
+operating this machine in any way, you must verify that
+
+Keep the work area temperature- and humidity-controlled.
+
+all body parts, long hair, and clothes are clear of the
+
+Remove loose-fitting clothing, neckties, gloves, and
+
+machine's extent of motion.
+
+jewelry.
+Tie up long hair and secure it under a hat.
+
+1.3.3 Information Decals
+
+Wear safety eye protection rated for ANSI Z87+.
+
+Before operating the machine in any way, you must locate and
+
+Wear safety eye protection with a shade number of 6 or
+
+become familiar with all installed information decals on the
+
+greater when the torch is operating.
+
+machine and equipment.
+
+Wear closed-toed safety shoes.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 12
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+1: SAFETY
+
+Wear ear protection when you expect the machine or the
+
+Always use a chip scraper or brush when clearing away
+
+machining processes to exceed safe exposure limits.
+
+chips, oil, or coolant.
+
+Wear suitable work gloves when loading or unloading
+
+Examine all tools, fixtures, workpieces, and guarding for
+
+workpieces or stock that may be sharp or hot.
+
+signs of damage. Replace any damaged components as
+
+Wear respiratory protection appropriate for the material
+
+soon as you find them.
+Guards may not stop all types of projectiles, like broken or
+
+being cut.
+
+loose workpieces.
+
+Use welding blankets and screens to protect people and
+
+Stop the machine and verify that all machine motion has
+
+equipment outside of the machine's work area.
+
+completely stopped before doing any of the following:
+
+Keep a clearly labeled fire extinguisher close by the
+machine's work area. The fire extinguisher should be rated
+
+Adjusting a part, fixture, or coolant nozzle.
+
+for solid, combustible liquid, and electrical fires (NFPA
+
+Changing or parts.
+
+Type ABC). The fire extinguisher should be inspected on a
+
+Clearing away chips, oil, or coolant.
+
+periodic basis as recommended by the manufacturer.
+
+Reaching into any part of the machine's motion
+
+Remain near the machine after use for at least one half
+
+envelope.
+
+hour to detect and extinguish any possible smoldering
+
+Removing protective shields or safeguards.
+
+fires.
+
+Taking measurements.
+
+Keep the work area clean and free of clutter. Machine
+
+Doing any other action inside the machine's motion
+
+motion can occur if controls are accidentally activated.
+
+envelope.
+
+Immediately clean up spills after they occur.
+
+Use flood or MQL (mist) coolant as required by the
+
+Never operate the machine after consuming alcohol or
+
+machining operation.
+
+taking medication that could prevent you from safely
+
+Only use coolants designed for metal working applications
+
+operating the machine.
+
+such as soluble oils, semi-synthetic, or synthetic coolants.
+
+Never operate the machine while tired or otherwise
+
+Read the Safety Data Sheet (SDS) for all workpiece
+
+impaired.
+
+materials, coatings, coolants (flood or MQL), lubricants,
+
+Never operate the machine in an explosive (ATEX)
+
+and other consumables. Chips, dust, and vapors from
+
+atmosphere. Such explosive atmospheres include
+
+certain materials can be toxic or otherwise harmful.
+
+explosive gases, vapors, mists, powders, and dusts.
+
+Dispose of scrap and swarf according to local regulations
+
+Never wear synthetic or synthetic-blend fabrics while
+
+and guidelines.
+
+operating the machine. Synthetic and synthetic-blend
+
+Thoroughly read all safety precautions and instructions.
+
+fabrics can melt causing severe injury. Only wear natural
+
+When machining an unproven program, use feed, speed,
+
+fiber fabrics.
+
+and maximum velocity overrides, Distance-to-Go (DTG)
+
+Keep flammable materials out of the machine's work
+area. Ensure that the walls, ceilings, and work surfaces of
+the workshop are suitably protected from sparks and hot
+
+displays, single block, feed hold, and other control
+features.
+Never reach around a guard.
+
+materials.
+
+Never allow the machine to run unattended.
+
+1.4.2 Operational Safety
+
+Never obstruct the Emergency Stop button or any other
+controls.
+
+General
+
+Never allow untrained operators to install, operate, or
+
+Understand that the machine is automatically controlled
+
+maintain the machine.
+
+and can start at any time.
+
+Never modify, defeat, or bypass safety devices or
+
+Become familiar with all physical and software controls.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+interlocks.
+
+Page 13
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+1: SAFETY
+Never machine abrasive, carcinogenic, explosive,
+
+Confirm that the mains voltage conforms to requirements
+
+flammable, radioactive, or toxic materials. Such materials
+
+before connecting the machine.
+For more information, see "Electrical and Power
+
+include, but are not limited to:
+Beryllium and its alloys
+
+Requirements" (page 20).
+
+Ceramic
+
+Confirm that the machine installation meets all codes and
+regulations of your locality.
+
+Fiberglass
+
+Confirm that electrical connections are performed by a
+
+G10 fiberglass laminate
+
+certified electrician.
+
+Graphite
+
+Lock the electrical cabinet door and remove the keys when
+
+Lead and its alloys
+
+the machine is not being serviced to prevent unqualified or
+
+Magnesium and its alloys
+
+unauthorized personnel from accessing the electrical
+
+Never allow swarf to accumulate on or within the
+
+cabinet.
+
+machine.
+
+Never operate the machine with the electrical cabinet
+
+Never use flammable liquids (like alcohol, diesel fuel, or
+
+door open.
+
+kerosene) in the machine’s coolant system.
+
+Never reach into the electrical cabinet with the machine
+
+Never use water, coolants without rust inhibitors, or
+
+powered on.
+
+straight cutting oil in the machine’s coolant system.
+
+Never modify the machine's electronics.
+
+Workholding
+
+Never drill into the electrical cabinet.
+
+Secure workpieces with appropriate workholding devices.
+Verify that the workpiece is adequately secured.
+Monitor cutting operations for "tip-ups" or warped
+workpieces that could collide with the machine.
+Remove cutoff workpieces and other large chips before
+starting the machine.
+Never leave tools, stock, or other loose items inside the
+machine.
+
+1.4.3 Electrical Safety
+WARNING! Electrical Shock Hazard: You must power
+off the machine before making any electrical
+connections. If you don't, there's a risk of
+electrocution or shock.
+Power off the machine before servicing.
+Understand that certain electrical components can retain
+dangerous electrical voltages, even after the machine is
+powered off and all power is removed from the system.
+Understand that certain installation, maintenance, and
+troubleshooting procedures — for the machine and certain
+accessories — require access to or modification of wiring
+inside of the electrical cabinet. Only qualified electrical
+machinery technicians shall perform these procedures.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 14
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+ABOUT YOUR MACHINE
+IN THIS SECTION, YOU'LL LEARN:
+About this machine's specifications.
+
+CONTENTS
+2.1 Performance Expectations Reference
+2.2 Specifications Reference
+
+16
+17
+
+2: ABOUT YOUR MACHINE
+
+2.1 PERFORMANCE EXPECTATIONS REFERENCE
+
+Note: Positional accuracy takes into account
+items like backlash in the drive system and
+
+2.1.1 Cutting Performance Reference
+
+total composite error of the gear rack.
+
+This machine is capable of cutting any metal that can be cut
+with a plasma torch at or near the recommended feeds and
+speeds. Verify that the programmed cuts do not exceed the
+maximum feed rate in X and Y.
+l
+
+Maximum Feed Rate 1000 IPM (25.4 m/min)
+
+2.1.2 Torch Height Control Reference
+Success using torch height control depends largely on the
+voltage setting selected at run time, and its relation to cutting
+feed rate. Make sure that your material is flat enough that
+vertical movement of the torch would not exceed the
+maximum Z Torch Lifter feed rate.
+l
+
+Maximum Vertical Feed Rate 120 IPM (3.0 m/min)
+Tip! For a cut programmed at 140 IPM where the
+material rises 1" vertically over a 10" cut, the
+required vertical feed rate would be (1/10) * 140 = 14
+IPM.
+
+2.1.3 Resolution and Accuracy Reference
+Accuracy is heavily influenced by the techniques that the
+machinist uses. A skilled machinist can deliver accuracy that
+exceeds the specified accuracy from the manufacturer; an
+inexperienced machinist may have difficulty delivering the
+specified accuracy. We can't predict operator accuracy, but the
+specified accuracy is an important reference point.
+The accuracy and overall quality of plasma-cut parts depends
+on plasma torch settings, air supply quality, workpiece
+material properties, toolpath parameters, and other dynamic
+factors. As such, the following accuracy specifications are for
+the machine's motion control system only.
+l
+
+Resolution 0.0005" (.0127 mm)
+Note: The resolution of motion is the minimum
+discrete positional move.
+
+l
+
+Repeatability ±0.001" (±0.0254 mm)
+
+l
+
+Positional Accuracy ≤0.005 in./ft (130 micron / 300
+mm)
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 16
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+2: ABOUT YOUR MACHINE
+2.2 SPECIFICATIONS REFERENCE
+2.2.1 Machine Specifications
+Travels
+X-Axis
+
+50" (1270 mm)
+
+Y-Axis
+
+51.5" (1308 mm)
+
+Z-Axis
+
+3.9" (100 mm)
+Maximum Feed Rate
+
+X- and Y-Axis
+
+1000 IPM (25.4 m/min)
+
+Z-Axis
+
+120 IPM (3.0 m/min)
+Power
+
+Primary Power Required
+
+Single-Phase 230 Vac, 50/60 Hz
+
+Recommended Circuit Amperage
+
+20 A breaker
+
+Table Specifications
+Table Size
+
+51.2" x 51.2" (1300 mm x 1300 mm)
+
+Table Type
+
+Water Table
+
+Weight Capacity (Excluding Water)
+
+750 lb (340 kg)
+
+Water Capacity
+
+59 US gallons (223 liters)
+Machine Specifications
+
+Gantry Clearance
+
+7.0" (177 mm)
+
+Machine Footprint
+
+78" x 70" (1.95m m x 1.7 m)
+
+Overall System Height
+
+55" (1.4 m)
+
+Typical System Weight
+
+1232 lb (559 kg)
+Linear Motion Components
+
+X and Y Axis Motor
+
+Servo Driven
+
+Z Axis Motor
+
+NEMA 23 Stepper
+
+Guideways
+
+Precision Linear Guideway
+
+Power Transmission
+
+Planetary Gear (X Axis)
+5mm HTD Belt (Y Axis)
+Machine Construction
+
+Water Table
+
+Welded Steel
+
+Machine Base
+
+Welded Steel
+
+Gantry Bridge
+
+Aluminum
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 17
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+2: ABOUT YOUR MACHINE
+Gantry Supports
+
+Steel
+Controller
+
+Control System
+
+PathPilot (v2.4.x or newer)
+Resolution and Accuracy
+
+Resolution
+
+0.0005" (.0127 mm)
+
+Repeatability
+
+±0.001" (±0.0254 mm)
+
+Positional Accuracy
+
+≤0.005 in./ft (130 micron / 300 mm)
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 18
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+SITE REQUIREMENTS
+IN THIS SECTION, YOU'LL LEARN:
+About the site requirements of this machine (including electrical and power requirements).
+Before operating the machine in any way, you must read and understand this section.
+
+CONTENTS
+3.1 General Site and Space Requirements
+3.2 Electrical and Power Requirements
+3.3 Air Requirements
+3.4 Plasma Source Requirements
+
+20
+20
+21
+21
+
+3: SITE REQUIREMENTS
+
+3.1 GENERAL SITE AND SPACE REQUIREMENTS
+When choosing a location for your machine, you must verify
+that it meets all requirements outlined in this section.
+
+3.1.1 Site Requirements
+You must verify that the area:
+l
+
+Allows for unrestricted access to machine controls.
+
+l
+
+Conforms to the following:
+o
+
+Primary Power Required Single-Phase 230 Vac,
+50/60 Hz
+
+o
+
+Recommended Circuit Amperage 20 A breaker
+Note: For more information, see "Electrical and
+Figure 3-2: Dimensions of the machine and it's
+required added space, as viewed from above.
+
+Power Requirements" (below).
+
+l
+
+Has a fire extinguisher within the work area.
+
+3.2 ELECTRICAL AND POWER REQUIREMENTS
+
+l
+
+Is a dry, properly ventilated, and well-lit internal space.
+
+You must verify that the site conforms to the following
+
+l
+
+Provides for unobstructed machine motion and
+
+electrical and power requirements.
+
+operation.
+
+3.2.1 Electrical Requirements
+
+3.1.2 Space Requirements
+
+A certified electrician must make all electrical connections,
+
+The area must meet the following space requirements. Allow
+
+and it's your responsibility to verify that the electrical
+
+more space to access the rear of the machine for maintenance
+
+installation of the machine meets all local regulations and
+
+and repairs.
+
+electrical codes.
+
+l
+
+Machine Size 78" x 70" (1.95m m x 1.7 m)
+
+l
+
+Machine Height 55" (1.4 m)
+
+l
+
+Primary Power Required Single-Phase 230 Vac, 50/60
+Hz
+
+l
+
+Recommended Circuit Amperage 20 A breaker
+
+3.2.2 Power Requirements
+If the site conforms to the electrical requirements, verify that
+it meets the following power requirements:
+l
+
+Proper Grounding You must properly ground the
+power input to the machine. Examine the continuity
+between bare metal on the machine frame and true
+earth ground (a water pipe or similar) to verify that it's
+properly grounded.
+
+l
+
+NEMA 6-20P plug, designed for use with a NEMA 6-20R
+
+Figure 3-1: Dimensions of the machine itself, as
+viewed from the front.
+l
+
+Correct Plug Pattern The machine is shipped with a
+receptacle.
+
+Typical System Footprint 89" × 67" (2.3 m × 1.7 m)
+
+3.2.3 Plasma Source Power Requirements
+In addition to the requirements listed above for the machine
+itself, make sure that you have a separate circuit available to
+power your plasma source. For example, when using 220V
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 20
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+3: SITE REQUIREMENTS
+single-phase power the Hypertherm Powermax 45 XP requires
+
+units. The electrical noise spike generated by high-
+
+the following:
+
+frequency arc starts can interfere with the axis control
+
+l
+
+Primary Power Required 200 Vac – 240 Vac
+
+l
+
+Recommended Circuit Amperage 50 A
+
+l
+
+Plug Pattern NEMA 6-50P
+
+signals.
+l
+
+An internal voltage divider outputting a 50:1 torch
+voltage signal.
+
+Check with the manufacturer documentation for the specific
+
+l
+
+plasma source you are using before installation.
+
+An input for plasma arc start compatible with dry
+contact closure to activate (the 1300PL uses an open
+relay for torch off and closed relay for torch on)
+
+3.2.4 Options for Non-Conforming Sites
+l
+
+For sites that don't conform to the specified "Electrical and
+
+(Optional but recommended) Arc-ok output. Closed
+contacts when arc is active.
+
+Power Requirements" (on the previous page), you may
+consider the following. You must consult with an electrician to
+determine the suitability for your site.
+l
+
+Buck-Boost Transformer Used to adjust line voltages.
+While the machine can run on line voltages between 200
+to 240 Vac, performance is reduced on line voltages
+below 230 Vac, and damage to electrical components is
+possible on line voltages above 240 Vac. To prevent
+reduction in performance or damage to electrical
+components, we recommend the Buck-Boost
+Transformer (PN 32554).
+
+3.3 AIR REQUIREMENTS
+You must verify that the site conforms to the following air
+supply requirements.
+l
+
+Air Pressure Between 90 psi and 120 psi (620 kPa to
+825 kPa).
+If the air supply is more than 120 psi (825 kPa), you must
+use a regulator.
+
+l
+
+Air Volume At least 6 CFM at 90 psi. Check with your
+plasma source manufacturer in case your model requires
+more volume.
+
+l
+
+Dry Air We recommend using a compressed air dryer,
+desiccator, or filter between the air compressor and the
+machine.
+
+3.4 PLASMA SOURCE REQUIREMENTS
+Tormach recommends either the Hypertherm Powermax 45 XP
+or the Powermax 65 plasma sources for use with the 1300PL.
+Plasma sources ordered directly from Tormach will include the
+correct CNC control interface and cables.
+If you would like to use your own plasma source, the minimum
+requirements are as follows:
+l
+
+Blowback style arc-start. The 1300PL is not
+recommended for use with high-frequency style arc-start
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 21
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+INSTALLATION
+IN THIS SECTION, YOU'LL LEARN:
+About the installation process required for this machine.
+Before operating the machine in any way, you must read and understand this section.
+
+CONTENTS
+4.1 Before You Begin
+4.2 Move the Pallet
+4.3 Unpack the Machine Crate
+4.4 Remove Frame from Crate
+4.5 Level the Machine Frame and Water Table
+4.6 Install Side Panels and Cable Carriers
+4.7 Attach the Cable Guard
+4.8 Install Plasma Torch and Lead
+4.9 Make Electrical Connections
+4.10 Install Machine Arm and Connect Controller
+4.11 Fill Water Table
+4.12 Verify the Installation
+4.13 Set Torch Home Position (G30)
+4.14 Calibrate Initial Height Sensing
+4.15 Set Up the PathPilot Controller
+
+24
+24
+24
+25
+27
+29
+30
+31
+32
+32
+34
+34
+38
+39
+39
+
+4: INSTALLATION
+Shipments arrive in crates loaded on pallets, which the freight
+
+4.1 BEFORE YOU BEGIN
+
+carrier unloads onto the curb or loading dock.
+
+1. Read the packing list to see if there are any items that
+have not yet been delivered. We recommend waiting
+
+WARNING! Transportation and Lift Hazard: Before
+
+until you've received all shipments to begin installing the
+
+moving the machine, you must confirm that all
+
+machine. Depending on the product and options ordered,
+
+persons are clear of the area below the machine.
+
+the system may arrive in one or more shipments of:
+
+Qualified professionals must transport, lift, and move
+
+l
+
+Accessories (if applicable)
+
+the machine. Moving parts can entangle, pinch, or cut
+
+l
+
+Machine
+
+you, causing death or serious injury.
+
+Note: The machine system and large
+
+Verify that the ground surface is smooth and clean of
+
+accessories are sent by freight carrier. Smaller
+
+debris, and then use a pallet jack to move the pallet(s) to
+
+accessories may be sent by parcel service.
+
+the desired installation location.
+Note: If the ground is not smooth, you may
+
+2. Inspect the item(s):
+l
+
+l
+
+Photograph any damage that may have occurred
+
+need to use a forklift (or similar lifting
+
+during shipping.
+
+equipment rated for uneven surfaces) to move
+the pallet(s).
+
+Note any damage on the delivery receipt before
+signing for the shipment.
+
+One side of the crate is labeled Lift from this side only.
+
+Verify the received goods against the packing list.
+
+Verify that there's at least 8 ft (2.5 m) of free space
+
+If there is any damage or shortages, you must contact
+
+behind this side of the crate so that you can lay the
+
+Tormach within 30 days of receipt. Create a support
+
+machine down flat on the ground.
+
+l
+
+ticket with Tormach Technical Support at
+tormach.com/how-to-submit-a-support-ticket for
+guidance on how to proceed.
+
+4.1.1 Installation Tools and Items
+Before uncrating and installing your machine, collect the
+following tools and items.
+l
+
+Tin snips
+
+l
+
+Flat-blade screwdriver
+
+l
+
+Pliers
+
+l
+
+3mm, 4mm, 5mm, 6mm Allen key
+
+l
+
+Dead-blow hammer
+
+l
+
+Utility knife
+
+4.3 UNPACK THE MACHINE CRATE
+
+l
+
+Adjustable crescent wrench
+
+Tools and Items Required
+
+l
+
+Pallet jack
+
+l
+
+Pallet jack
+
+l
+
+Engine hoist, forklift, or gantry crane
+
+l
+
+Flat-blade screwdriver
+
+l
+
+Lifting sling (2200lb / 1000kg minimum rating)
+
+l
+
+Pliers
+
+l
+
+Tin snips
+
+l
+
+Safety eyewear that meets ANSI Z87+
+
+l
+
+Work gloves
+
+4.2 MOVE THE PALLET
+Tools and Items Required
+l
+
+Pallet jack
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 24
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+4: INSTALLATION
+
+CAUTION! Sharp Objects Hazard: Before opening the
+
+CAUTION! Be careful not to hit the torch lifter
+
+shipping crate, you must put on work gloves and
+
+head while removing panels from the crate.
+
+safety eyewear that meets ANSI Z87+. If you don't,
+the shipping crate and steel straps could cut you,
+
+7. Remove all plastic overwrap from the machine frame
+
+causing serious injury.
+
+and water table except for the Y axis energy chain (it will
+be unwrapped later).
+
+4.3.1 Open the Crate
+
+4.4 REMOVE FRAME FROM CRATE
+
+1. Put on work gloves and eye protection.
+
+This potion of the installation requires at least two people.
+
+2. Pry up the tabs holding the lid on to the sides of the
+
+Make sure that you have a partner before beginning the lifting
+
+crate. You may need to use pliers to fully straighten
+
+procedure.
+
+them so the lid can be removed.
+
+Tools and Items Required
+
+3. With a helper, lift the lid off of the crate and set aside.
+
+l
+
+Engine hoist or gantry crane rated for 825 lb (375 kg)
+
+4. Remove the screws from the base of the crate on all
+
+l
+
+Pallet jack
+
+l
+
+4x4 lumber (4ft long)
+
+l
+
+Lifting strap
+
+l
+
+Pry bar
+
+l
+
+Allen keys
+
+l
+
+Safety eye-wear that meets ANSI Z87+
+
+l
+
+Work gloves
+
+four sides.
+5. Straighten the tabs holding one of the panels on to the
+crate. The front panel is opposite the side of the crate
+stenciled "Lift from this side only".
+6. Remove the front panel from the crate and set aside.
+7. With a helper, lift the remaining three sides from the
+crate as a unit.
+8. Inspect the item(s):
+l
+
+l
+
+CAUTION! Lifting a machine can be dangerous if you
+
+Photograph any damage that may have occurred
+
+are unfamiliar with your equipment. Make sure to
+
+during shipping.
+
+know the load ratings of your lifting equipment and
+
+Verify the received goods against the packing list.
+
+hire a qualified rigging company if you are not
+
+If there is any damage or shortages, you must contact
+
+confident in its safe operation.
+
+Tormach within 30 days of receipt. Create a support
+ticket with Tormach Technical Support at
+
+4.4.1 Lifting Frame
+
+tormach.com/how-to-submit-a-support-ticket for
+
+1. If using an engine hoist, perform the following steps to
+
+guidance on how to proceed.
+
+lift the crate for clearance underneath. If using a forklift
+
+4.3.2 Unpack the Machine
+
+or gantry, proceed to the next step.
+
+1. Cut the strap holding the electrical cabinet to the crate
+
+a. Position a pallet jack under the machine and lift high
+
+and unwrap the plastic from it. Set it aside in a safe
+
+enough to place a 4x4 under the side supports.
+
+area.
+2. Remove the Hypertherm control cable and package of
+small parts from the crate.
+3. Unstrap and remove the cable tray and cable tray cover.
+4. Unstrap and remove the cable tray support brackets.
+5. Unstrap and remove all four legs.
+6. Remove the four side panels from underneath the
+machine frame.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 25
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+4: INSTALLATION
+
+b. Place two 4x4 pieces on the pallet jack legs and
+repeat the lift. Place another 4x4 under the side
+
+3. Position your engine hoist, crane or forklift above the
+
+supports.
+
+sling and put light tension on it, just enough to hold the
+frame upright when it is released.
+4. Remove the top two bolts holding the A-frame support
+of the crate to the machine frame.
+
+c. Repeat the above steps until the crate clears the front
+5. Remove the two bottom bolts connecting the crate
+
+legs of your engine hoist.
+
+frame to the machine leg mounting pockets.
+
+2. Attach a sling to the top frame rail of the plasma. Make
+sure the sling is positioned securely between two of the
+raised accessory mounting pads to prevent side-to-side
+slippage of the frame.
+WARNING! Make sure that the lifting device
+you are using is rated for the weight of the
+machine frame - 825 lb (375 kg).
+
+6. Use your lifting device to put enough upwards pressure
+on the machine that it will be fully supported. Use a pry
+bar to push the lower leg mounting pockets off of the
+crate mounting bosses.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 26
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+4: INSTALLATION
+
+7. Lift the machine frame enough to clear the crate and use
+
+3. Using gantry crane, slowly lower the top side of the
+
+a pallet jack to remove the crate from the area.
+
+machine frame until the two legs are on the ground.
+
+4. Move the lifting sling to the same position on the
+opposite end of the frame.
+
+4.4.2 Installing Legs and Righting Machine
+
+5. Lift the remaining end of the frame off of the 4x4 blocks.
+
+1. Lower the bottom end of the frame down on to 4x4
+
+6. Remove the two nuts (used to bolt to the crate frame)
+
+blocks to protect the paint and clear the engine hoist
+
+from inside the leg mounting holes. Do not discard the
+
+legs (if present).
+
+socket head cap screws attaching the nuts, these are
+used to attach the last two legs.
+
+2. Install the top two legs on the machine on the end
+supported by the lifting sling.
+7. Install the last two legs.
+
+4.5 LEVEL THE MACHINE FRAME AND WATER
+TABLE
+Tools and Items Required
+l
+
+Carpenter's Level
+
+l
+
+Crescent Wrench
+
+l
+
+Allen Key
+
+The water table can be leveled at any time, but it is easiest to
+do before the side panels have been installed.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 27
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+4: INSTALLATION
+from the step above.
+
+4.5.1 Level the Machine Frame
+1. Loosen the jam nuts on all machine feet
+
+5. Tighten all the jam nuts for the machine feet.
+
+4.5.2 Level the Water Table
+2. Place a carpenters level across the front frame rail of the
+machine and level it side-to-side using the threaded
+
+Note: If the water tank ball valve is not already
+
+feet.
+
+installed, apply sealant tape to the water tank drain
+threads and install the ball valve onto the water tank.
+1. Examine the level on the water table to determine if you
+must make adjustments. The water table on the 1300PL
+is supported on two adjustable rails, one on each side of
+the table. The frame has grub screws to adjust the
+height of these rails, leveling the water table to the
+machine frame.
+
+3. Perform the same procedure on the rear of the machine,
+leveling it side-to-side.
+4. Place the level one of the side rails of the machine
+frame and level it front to rear.
+You must adjust both front or rear feet the same number
+of turns while doing this to avoid losing side-to-side level
+
+2. Depending on what you determined in Step 1, do one of
+the following:
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 28
+
+l
+
+If the water table is level, proceed to the next section.
+
+l
+
+If the water table isn't level, go to Step 3.
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+4: INSTALLATION
+
+3. Loosen the socket head cap screws holding the water
+
+6. Move the torch carriage to the rear of the water table
+
+table support rails to the machine frame, just enough
+
+and repeat the procedure for the rear grub screws.
+
+that the rail can move vertically.
+
+7. Re-check the front corners and iterate the leveling
+process if needed until your table-to-lifter height
+4. By hand, move the torch carriage to the front left and
+
+matches in all four spots.
+
+right corners of the water table. Measure the vertical
+Note: Small variations in level will be
+
+distance from the torch holder to the water table slats.
+
+compensated for by torch height control. A
+table leveled to within 1/4" (6 mm) will
+perform well with THC.
+8. Tighten all the socket head cap screws holding the water
+table rails to the frame.
+
+4.6 INSTALL SIDE PANELS AND CABLE CARRIERS
+1. Install the front and rear panels using the M8 button
+head cap screws and washers from the small parts
+5. Using the two grub screws underneath the machine
+
+package. To prevent vibration, use one of the included
+
+frame, lift the water table rails so that the front two
+
+flat washers and then one lock washer for the top two
+
+corners are level.
+
+mounting screws on each of the panels.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 29
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+4: INSTALLATION
+2. Install the left side panel (viewed from the front), with
+
+4. Remove the top cover from the cable track (4x M3
+
+the flanges overlapping the front and rear panels. The
+
+screws). It will be reinstalled after hanging the electrical
+
+right side panel will be left off for now to allow access
+
+cabinet.
+
+to the bottom of the machine.
+
+5. Install the cable track to the mounts with four M6 button
+head cap screws.
+
+Note that this side panel has a small cable carrier on the
+inside of the frame to carry cables from the machine
+arm to the electrical cabinet.
+
+6. Hang the electrical cabinet from five M6 screws, leaving
+the one nearest the pass-through hole for electrical
+wires off (this is where a ground wire will be attached).
+
+3. Hang the cable track mounts on the two M8 button head
+mounting screws.
+
+4.7 ATTACH THE CABLE GUARD
+1. Unwrap the flexible black cable guard from where it is
+bundled on the side of the gantry and lay it out onto the
+cable track above the electrical panel.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 30
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+4: INSTALLATION
+
+2. Pass the bundle of connectors from the flexible cable
+guard down through the rectangular cutout in the cable
+track.
+3. Attach the cable guard to the cable track using 4 M6
+socket head cap screws.
+
+Tip! We recommend positioning the torch nose
+about 1" below the Z-axis cover plate to start.
+
+4.8 INSTALL PLASMA TORCH AND LEAD
+
+9. Attach the ohmic probing spade connector to your torch
+
+1. Install the cable retention loop into the base plate.
+
+cap.
+
+2. Locate the ohmic torch wire inside the X-axis motor
+cover. Pull it out and let it hang down for now.
+3. To prepare for the installation of the torch lead, remove
+all of the side-to-side covers from one side of the
+flexible cable guard using a flat-blade screwdriver.
+4. Remove the plasma power supply unit from its
+packaging.
+5. Put the plasma power supply at the back left of the
+machine. Then, locate the torch lead.
+6. Remove the brass gear from the torch body. Depending
+on which torch you have, do one of the following:
+l
+
+Unthread the body and slide the gear out of the
+housing.
+
+l
+
+Remove the two screws securing the gear.
+
+7. Using the manufacturer's instructions, install the torch
+consumables.
+8. Install the plasma torch into the breakaway torch holder
+using the two socket head screws. Only tighten these
+screws enough to securely hold the torch, do not
+overtighten.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 31
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+4: INSTALLATION
+14. Reinstall the cable guard covers that you removed in
+
+10. Install plasma torch lead into the cable guard from the X
+
+Step 3.
+
+carriage to the electrical cabinet and pass it through the
+rectangular access hole to bottom of track.
+
+4.9 MAKE ELECTRICAL CONNECTIONS
+1. Locate the cable cover with the integrated E-Stop and
+Reset button. The cable for the Reset button and E-Stop
+contains a green and yellow ground lead with a ring
+terminal on the end. Attach this ground lead for the
+reset panel to the fourth M6 mounting screw on the
+electrical cabinet that you left unpopulated earlier.
+
+Note: Do not try to pass the torch lead through
+the stepped section between the Y and X axis
+cable guards. Simply run the torch lead along
+the outside.
+
+2. Pass the connector for the reset panel down through
+cable track.
+3. Install the reset panel / cable cover using four M4 socket
+head cap screws.
+Note: The two inboard screws are slightly
+longer.
+4. Plug in all connectors at rear of cabinet, following the
+
+11. Plug the torch leads into the plasma power supply.
+
+"Connectors Reference" (page 43) guide in the "System
+
+12. Plug in the ground cable, and route the loose end of the
+
+Basics" (page 41) section.
+
+cable under the back of the machine and up to the water
+
+5. Pass the ground wire through the hole in the side panel,
+
+table.
+
+and then connect it to the ground block on the underside
+
+13. Connect the included Hypertherm control cable to the
+
+of the water table.
+
+electrical cabinet and plasma source (this cable is a 14pin CPC connector on one end and a 7-pin threaded -body
+
+4.10 INSTALL MACHINE ARM AND CONNECT
+
+connector on the other). For more information on this
+
+CONTROLLER
+
+cable see "Plasma Source Control" (page 45).
+
+1. Bolt your machine arm to the mounting pad on either
+the left or right hand leg of the machine.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 32
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+4: INSTALLATION
+
+6. Connect the Ethernet cable to the port on the rear of the
+electrical cabinet.
+
+2. Install the monitor, keyboard tray and controller mount
+on the machine arm.
+3. Mount the controller PC to the back of the monitor using
+the PathPilot Controller VESA Mount (PN 50382).
+4. Connect a keyboard and mouse to the controller PC.
+
+7. Run a power cable from the rear of the electrical cabinet
+
+5. Run the Ethernet cable included in your machine owner's
+
+to the power supply for the controller PC in the same
+
+kit down from the controller and through the hole in the
+
+way. Use the block of three IEC ports designated for
+
+front panel of the plasma table.
+
+Accessory Power in "Connectors Reference" (page 43).
+Repeat for the display's power cable.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 33
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+4: INSTALLATION
+8. Now that all connections have been made inside the
+
+3. Using a hose or buckets, fill the table with tap water
+
+machine frame, the right side panel can be installed.
+
+until the level is about 1" below the top of the slats.
+
+Before installing the panel, check that the drain valve on
+
+4. Add cutting fluid to the water to inhibit corrosion. Use
+
+the water table is fastened securely and in the closed
+
+the ratio recommended by the cutting fluid
+
+position.
+
+manufacturer. For reference, full water table capacity on
+the 1300PL is 59 US gallons (223 liters).
+5. Top the water table off to 0.5" below the top of the slats
+after adding cutting fluid if desired.
+
+4.12 VERIFY THE INSTALLATION
+After installing the base machine, you must verify the
+installation. Complete the following steps in the order listed:
+4.12.1 Check Machine Breakers
+4.12.2 Power On the Machine
+4.12.3 Power Off the Machine
+4.12.4 Verify Axes Function
+4.12.5 Check Belt Tension
+4.12.6 Testing Plasma Source Control
+4.12.7 Testing Ohmic Probing
+4.12.8 Testing Torch Breakaway
+
+9. Install all end panels on the frame rails.
+
+4.11 FILL WATER TABLE
+Tools and Items Required
+l
+
+Hose or bucket
+
+l
+
+Plasma cutting fluid (rust inhibitor such as GreenCut or
+
+34
+34
+36
+36
+37
+37
+37
+38
+
+4.12.1 Check Machine Breakers
+Check that all breakers in the electrical cabinet are switched on
+
+similar)
+
+(up position).
+A properly filled water table is critical for safe operation of the
+1300PL. The water table traps a majority of the metal
+particulates released in the cutting process and keeping it
+filled is important for maintaining good air quality in your shop
+space.
+1. Ensure that the drain valve on the bottom of the water
+table is in the closed position.
+2. Check that the two lock bolts that hold the table in place
+on the front-to-back tracks are in place.
+
+4.12.2 Power On the Machine
+1. Use a multimeter to verify that the electrical service in
+your location meets the following requirements. If your
+location does not meet these requirements, do not
+install the machine. Instead, you must consult with a
+local electrician about your options.
+l
+
+Primary Power Required Single-Phase 230 Vac,
+50/60 Hz
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 34
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+4: INSTALLATION
+
+l
+
+Recommended Circuit Amperage 20 A breaker
+
+Note: After you first configure PathPilot, the
+
+2. Connect the machine's mains power cable to the verified
+electrical service.
+
+operating system automatically launches
+whenever it's powered on.
+
+3. Find the Main Disconnect switch, and then remove the
+hang tag (if present).
+
+8. Depending on which monitor you have, do one of the
+following:
+a. Standard Monitor Go to the next step.
+b. Touch Screen Monitor You must first make sure
+that the monitor is configured and calibrated. From
+the PathPilot interface, in the MDI Line DRO field,
+type ADMIN TOUCHSCREEN. Then, select the Enter
+key, and follow the on-screen instructions.
+9. Rotate the Emergency Stop button on the operator box
+one-quarter turn clockwise to release it.
+
+Figure 4-1: The Main Disconnect switch on the side of
+the machine's electrical cabinet.
+4. Turn the Main Disconnect switch to ON.
+
+Figure 4-3: The Emergency Stop button on the
+operator box.
+10. Push the blue Reset button to enable the machine.
+
+Figure 4-2: Example of the Main Disconnect switch in
+the On position.
+Mains power is now connected to the machine.
+5. Push the Power button on the PathPilot controller, if it's
+not already powered on.
+6. Push the Power button on the monitor, if it's not already
+powered on.
+7. Follow the on-screen instructions to configure the
+PathPilot operating system and PathPilot controller.
+When configuration is complete, the PathPilot operating
+system launches.
+
+Figure 4-4: The Reset button on the operator box.
+The axis drives are now powered on.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 35
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+4: INSTALLATION
+3. When prompted, select OK.
+
+11. Verify that the blue Reset LED on the operator box
+comes on. From the PathPilot interface, on the Status
+
+4. Once the PathPilot interface indicates that it's safe to
+
+tab, verify that the Machine OK light changes from
+
+power off the machine, turn the Main Disconnect switch
+
+yellow to green.
+Once both are on, the machine is powered on and ready
+
+to OFF.
+
+to operate.
+
+Figure 4-5: Machine OK light on the Status tab.
+12. Select Reset.
+
+Figure 4-8: Example of the Main Disconnect switch in
+the Off position.
+Mains power is disconnected from the machine.
+
+4.12.4 Verify Axes Function
+You must confirm that the axes correctly operate.
+1. Power on the machine and bring it out of Reset.
+
+Figure 4-6: Reset button.
+
+2. Reference the axes: from the PathPilot interface, select
+
+4.12.3 Power Off the Machine
+
+Ref Z, Ref X and Ref Y.
+
+1. Push the Emergency Stop button on the operator box to
+lock it into the disabled position.
+
+Figure 4-9: Ref Z, Ref X, and Ref Y buttons.
+The machine moves to the reference position.
+3. Use the keyboard to verify axes motion:
+l
+
+Select the Right Arrow key and then the Left Arrow
+key.
+The torch carriage moves right (X+), then left (X-).
+
+l
+
+Select the Up Arrow key and then the Down Arrow
+key.
+The gantry moves toward the back end of the table
+
+Figure 4-7: Example of the Emergency Stop button
+locked in the disabled position.
+
+(Y+), then toward the front (Y-).
+l
+
+With the Emergency Stop button in the disabled position
+all motion function stops, and the Reset button is
+
+Select the Page Down key and then the Page Up key.
+The torch lifter moves down (Z-), then up (Z+).
+
+disabled. On the operator box, the blue Reset LED goes
+off. From the PathPilot interface, on the Status tab, the
+Machine OK light illuminates yellow.
+2. From the PathPilot interface, select Exit.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 36
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+4: INSTALLATION
+
+4. If applicable, verify the optional Jog Shuttle:
+l
+
+3. Activate the plasma source and create a pilot arc by
+pressing the TEST TORCH button in PathPilot.
+
+Press any axis button on the Jog Shuttle — X, Y, Z, or
+A — to select an axis.
+
+Figure 4-10: Functions on the optional Jog Shuttle.
+4. Verify that your plasma source activates and creates a
+
+From the PathPilot interface, on the Main tab, the
+
+pilot arc (you may have to press the button twice to
+
+corresponding green Axis light comes on.
+
+bypass the "warning puff" function on some plasma
+sources).
+5. While the pilot arc is active, watch the "Torch Voltage"
+readout at the bottom of your control screen.
+Figure 4-11: Axis lights.
+l
+
+Turn the Jog Shuttle Ring in any direction to move the
+selected axis, then turn it in the opposite direction to
+reverse the direction.
+
+4.12.5 Check Belt Tension
+Since brand new drive belts have a tendency to stretch slightly
+after first use, your Y-axis drive belts might need re-tensioning.
+If you notice that the Y axis gantry seems to have excessive
+backlash or that the servo is struggling to hold a consistent
+position, follow the maintenance procedure for "Adjust Belt
+Tension" (page 58)
+If Y-axis gantry movement seems normal and there is no
+noticeable backlash belt tension adjustment can be deferred
+
+You should see an open-circuit voltage of above 100V. If
+
+until the time defined in the "Maintenance Schedules"
+
+you do not see a voltage reading, follow the "Voltage
+
+(page 58).
+
+Feedback" (page 66) section of the Troubleshooting
+
+4.12.6 Testing Plasma Source Control
+
+guide.
+
+4.12.7 Testing Ohmic Probing
+
+1. Using the "Connectors Reference" (page 43) verify that
+the Hyperthem control cable is connected to the correct
+
+1. Make sure that the ohmic probing spade connector is
+
+spot on the rear of your electrical cabinet.
+
+connected to your torch cap.
+
+2. Jog the torch to a location several inches above the
+water table so that you can safely test the arc.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 37
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+4: INSTALLATION
+
+Note: You must be using shielded consumables
+
+4.12.8 Testing Torch Breakaway
+
+where the torch cap extends below the nozzle.
+
+Your Tormach 1300PL is equipped with torch breakaway
+
+If the nozzle contacts the workpiece before the
+
+detection to stop motion in the event that a tip-up during
+
+torch cap, ohmic probing will not work.
+
+cutting causes a collision with the torch. A proximity sensor is
+located in the touch mounting base to detect when the
+mounting clamp has been knocked off.
+
+2. Switch to the Status tab on your PathPilot controller and
+locate the OHMIC TOUCH led. It should be off initially.
+
+3. Touch the ground clamp lead from the plasma source to
+the torch cap. You should see the LED switch to green.
+
+1. Make sure that the machine is on and PathPilot is
+running.
+2. Switch to the Status tab on your PathPilot controller and
+
+If you your ohmic probe input is not responding the way
+
+locate the BREAKAWAY SWITCH led. It should be off
+
+described above, check the "Ohmic Probing" (page 62)
+
+initially.
+
+3. Pull the torch clamp away from the base. You should see
+the LED light up when the torch clamp is removed and
+extinguish when it is replaced.
+
+4.13 SET TORCH HOME POSITION (G30)
+The plasma torch will move up in Z to its home position (G30)
+between each cut, when the M205 command is executed.
+It is important to set the G30 position before running the
+machine, to ensure that the torch has a known position to
+return to.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 38
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+4: INSTALLATION
+
+1. Bring the machine out of E-Stop and reference all axes.
+
+4.14.2 Set Physical Touch Switch Trigger Depth
+
+2. Move the torch to a safe Z position, higher than the slats
+of the water table.
+
+The torch lifter head on the 1300PL contains a spring-loaded
+switch to serve as a backup for ohmic probing or to be used
+
+3. Click the Offsets tab in PathPilot.
+
+when ohmic probing is inconvenient. The spring compresses a
+
+4. Click the "Set G30" button to save the current torch
+
+certain distance in Z before triggering. This distance must be
+
+position.
+
+measured and input on the Settings tab in PathPilot.
+
+In the future, when you execute an M205 or G30 command in
+G-Code, the torch will return to this height.
+
+4.14 CALIBRATE INITIAL HEIGHT SENSING
+4.14.1 Set Ohmic Probing Sensitivity
+The ohmic probing system on the 1300PL relies on a calibrated
+resistance value between the torch cap and the workpiece. If
+you do not calibrate your ohmic probe, you may find that it is
+triggered by water on the work piece or inside the torch cap.
+1. Open the electrical cabinet and identify the Tormach
+THCT Board (PN 39096).
+
+2. Select a piece of sheet metal to use as a test workpiece.
+Connect it to the ground clamp.
+3. Jog the torch downwards in Z until the torch cap contacts
+the workpiece. Watch LED D8 on the bottom left of the
+board. If the LED lights up when the workpiece contacts
+
+Use the procedure in "Plasma Settings Reference" (page 46) to
+
+the torch cap, the THCT board is measuring contact
+
+measure and set the trigger depth.
+
+between the cap and ground as intended.
+
+4.15 SET UP THE PATHPILOT CONTROLLER
+
+4. If the LED did not light up, identify adjustment screw
+RV1 on the THCT board (indicated by the arrow in the
+
+Before operating your machine, configure in PathPilot the date,
+
+image above). Increase the sensitivity by rotating the
+
+time, keyboard language, and — if applicable — the optional
+
+screw clockwise, 1/16th turn at a time until the
+
+Touch Screen Kit (PN 35575).
+
+workpiece is detected.
+
+4.15.1 Specify the Date and Time
+
+5. Splash a small puddle of water onto your workpiece. Jog
+the torch cap down until it is contacting the water but
+
+1. From the PathPilot interface, on the Main tab, in the
+MDI Line DRO field, type ADMIN DATE. Then select the
+
+not the workpiece itself. If the LED is on, your THCT
+
+Enter key.
+The Time and Date Settings dialog box displays.
+
+sensitivity is too high. Decrease the sensitivity 1/16th of
+a turn at a time until the LED goes out.
+
+2. Complete the fields in the Time and Date Settings dialog
+
+If you have trouble adjusting the ohmic probing system or the
+
+box, and then select Close.
+
+LED never comes on, go to "Ohmic Probing" (page 62) in the
+Troubleshooting section.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 39
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+4: INSTALLATION
+
+4.15.2 Specify the Keyboard Language
+By default, the keyboard language is set to English.
+To specify a different keyboard language:
+1. From the PathPilot interface, on the Main tab, in the
+MDI Line DRO field, type ADMIN KEYBOARD. Then
+select the Enter key.
+The Keyboard Preferences dialog box displays.
+2. Select the Layouts tab and select the desired language.
+If the language you want is not listed, select Add to
+specify the language. Then, select Close.
+
+4.15.3 Configure the Optional Touch Screen Kit
+Before using a touch screen, you must make sure that it's
+configured and calibrated. To calibrate it:
+1. From the PathPilot interface, on the Main tab, in the
+MDI Line DRO field, type ADMIN TOUCHSCREEN. Then
+select the Enter key.
+2. Follow the on-screen instructions.
+
+4.15.4 Update PathPilot
+We're constantly updating PathPilot to bring you more
+features. Before operating your machine, update to the latest
+version.
+From the Status tab, select Update.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 40
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+SYSTEM BASICS
+IN THIS SECTION, YOU'LL LEARN:
+About the main components of the machine and how it moves.
+Before operating the machine in any way, you must read and understand this section.
+
+CONTENTS
+5.1 System Reference
+5.2 Basic Controls Reference
+5.3 Connectors Reference
+5.4 Plasma Source Control
+5.5 Plasma Settings Reference
+
+42
+43
+43
+45
+46
+
+5: SYSTEM BASICS
+The Z head is also responsible for material touch-off at the
+
+5.1 SYSTEM REFERENCE
+
+start of a cut. Touch-off on the material can occur one of two
+ways:
+
+5.1.1 Water Table
+The machine table is 51.2" x 51.2" (1300 mm x 1300 mm). It
+
+l
+
+Ohmic Touchoff
+
+can be moved backwards in the frame by up to 10" (250 mm)
+
+l
+
+Physical Touch Switch
+
+to provide an open area for cutting large or bulky objects that
+
+Ohmic Touchoff
+
+do not fit on top of the water table (items like large pipes or
+
+Ohmic Touchoff is a sensitive and precise method of Z
+
+weldments).
+
+positioning for initial cut height. The cap on the end of the
+torch is made of a conductive material (usually copper) that is
+
+Note: Make sure you do not forget to connect the
+
+linked to the machine's control system through a removable
+
+ground clamp to the workpiece when cutting
+
+lead.
+When the head touches the workpiece during the initial
+
+something that is too large for the water table.
+
+probing move before a cut, continuity between the torch cap
+
+The water table has an internal depth of about 5.2" (132 mm)
+
+and ground (through the plasma ground clamp) is detected by
+
+and a maximum water capacity of 59 US gallons (223 liters).
+Don't put more than 750 lb (340 kg) on the machine table
+
+the control system.
+This system works well for thin workpieces like 20 ga. (1 mm)
+
+(excluding water). Always verify that the workpiece and work-
+
+and thinner sheet metal, where the weight of the torch during
+
+holding devices are centered on the machine table.
+Always lock the water table in the forward or backwards
+
+probing could otherwise deform the sheet metal before the
+probe switch triggers.
+
+position before running a program.
+
+Physical Touch Switch
+
+5.1.2 Z Torch Head
+
+The physical touch switch acts as a backup to the ohmic touch
+
+The Z Torch head is responsible for control of torch height
+
+system. It consists of a micro-switch inside the lifter head that
+
+during cutting. It also contains the magnetic torch breakaway
+
+detects when the spring-loaded lead nut on the Z lifter is
+
+head and the proximity sensor required to detect a breakaway.
+The Z head can travel 3.9" (100 mm) vertically, which allows
+
+pushed back by contact with the workpiece.
+
+for cutting bulky items or even changing the height of the slats
+in the water table if cutting conditions require it.
+
+The physical touch switch will automatically be used when the
+ohmic touch switch does not trigger first. This can be useful in
+situations like cutting painted metal, where no continuity with
+the workpiece is possible.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 42
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+5: SYSTEM BASICS
+
+Note: Even though the physical touch switch allows
+
+5.2.2 PathPilot Interface
+
+you to touch off on painted metal, you will still need
+
+PathPilot is the primary means by which you interact with your
+
+to grind away enough paint for the ground clamp to
+
+machine. PathPilot controls all of the automatic motion of the
+
+make contact!
+
+machine axes and spindle, as well as some accessories. The
+PathPilot control system consists of one of the following:
+
+5.2 BASIC CONTROLS REFERENCE
+
+l
+
+Controller Arm
+o
+
+Controller
+
+become familiar with how it moves. The machine has two
+
+o
+
+(Optional) Jog Shuttle
+
+forms of basic controls: machine controls and the PathPilot
+
+o
+
+Keyboard
+
+interface.
+
+o
+
+Monitor or (Optional)Touch Screen Kit
+
+5.2.1 Machine Controls
+
+o
+
+Mouse
+
+To safely and effectively operate your machine, you must
+
+The following controls energize the machine's control
+
+l
+
+o
+
+Console (with integrated touch screen)
+
+The Main Disconnect switch, located on the front of the
+
+o
+
+(Optional) Keyboard
+
+electrical cabinet.
+
+o
+
+(Optional) Mouse
+
+o
+
+Jog pendant
+
+electronics:
+l
+
+Operator Console
+
+The Main Disconnect switch has two positions: OFF and
+ON. When it's in the OFF position, it separates the other
+machine control electronics from the mains electrical
+
+5.3 CONNECTORS REFERENCE
+
+supply. When it's in the ON position, the other machine
+control electronics are able to receive power.
+WARNING! Before opening the electrical
+cabinet for maintenance or troubleshooting,
+you must lockout the mains power: Turn the
+Main Disconnect switch to the OFF position,
+and secure an approved lockout device through
+the lockout rings at the bottom of the switch.
+
+l
+
+The operator box — which contains the blue Reset
+button and the red Emergency Stop button — located on
+the front of the machine.
+When pushed in, the Emergency Stop button interrupts
+power to the axis drives, and stops the machine’s
+motion. When the Emergency Stop button is twisted out,
+press the blue Reset button to enable the machine,
+allowing axis motion. The Reset button’s LED turns on
+when the machine is enabled and the axis drives receive
+power.
+
+Figure 5-1: Connector panel on the upper rear of the
+electrical cabinet.
+1. X-Axis Motor Power Connector
+Two pin power connector for the X-axis servo.
+2. Y-Axis Motor Power Connector
+Two pin power connector for the Y-axis servo.
+3. Ohmic Cap Connector
+Input for the ohmic probing circuit. Also connects
+machine grounds to the cabinet ground.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 43
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+5: SYSTEM BASICS
+4. X-Axis Motor Control Connector
+Eight pin control connector for the X-axis servo.
+5. Y-Axis Motor Control Connector
+Eight pin control connector for the Y-axis servo.
+6. Limit Switch Inputs
+Limit switch inputs from the Z Touch Lifter. Also contains
+the input for the torch breakaway and touch switches.
+7. Z-Axis Motor Connector
+The Z-Axis stepper motor output.
+8. A-Axis Motor Connector
+The A-axis motor connector is used to connect to a rotary
+Figure 5-2: Connector panel on the lower rear of the
+electrical cabinet.
+
+4th axis (used for indexing or continuous 4th axis
+machining).
+
+14. Switched Power Port
+The IEC-320 switched power port is used to supply power
+
+9. 24v Accessory Output
+24v outputs used to control things like pneumatic
+
+to accessories that can be controlled by PathPilot such as
+
+solenoids for air engravers or lifters.
+
+a downdraft extractor fan. This outlet outputs the same
+
+10. Emergency Stop Input
+Input cable from the operator panel containing the reset
+
+voltage as the machine input voltage (230 VAC).
+15. Accessory Power Port
+The IEC-320 accessory power ports are used to supply
+
+button and emergency stop.
+11. Plasma Source Control
+Control signals for the plasma source. Outputs an arc on-
+
+power to peripheral accessories (like the PathPilot
+controller and monitor). These outlets output the same
+
+off signal. Torch voltage and arc-ok feedback are
+
+voltage as the machine input voltage (230 VAC).
+
+received here. Reference "Plasma Source Control" (on
+
+16. Electrical Power Input
+Input power lead for the electrical cabinet.
+
+the next page)
+12. Accessory Input
+The accessory input is used to connect accessories (like
+probes, tool setters, and tool touch plates) to the
+machine.
+13. Controller Communications Port
+The controller communications port is used to connect
+the PathPilot controller to the machine. The controller
+communications port (and the cable that connects to it)
+sends all communication between the PathPilot
+interface and the machine.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 44
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+5: SYSTEM BASICS
+5.4 PLASMA SOURCE CONTROL
+The 1300PL uses a 7-pin connector for controlling the plasma source. A 7-pin to 14-pin cable is included with your machine to control
+Hypertherm plasma sources.
+The pin-out of the 7-pin connector on the electrical cabinet is as follows:
+Pin
+1
+
+Type
+
+Signal
+
+Notes
+
+Output
+
+Start Plasma
+
+Dry contact closure. Closed relay signals plasma on.
+
+Input
+
+Arc Voltage -
+
+An internal 50:1 voltage divider in the plasma source is required.
+
+2
+3
+4
+5
+
+Arc Voltage +
+Input
+
+Arc-Ok
+
+Expects dry contact closure at plasma source. Closed contacts signal arc-ok.
+
+6
+7
+
+Not Used
+
+The pin-out of the 14-pin Hypertherm connector on the end of the cable is as follows:
+Pin
+
+Type
+
+Signal
+
+Notes
+
+3
+
+Output
+
+Start Plasma
+
+Dry contact closure. Closed relay signals plasma on.
+
+Input
+
+Arc Voltage -
+
+An internal 50:1 voltage divider in the plasma source is required.
+
+4
+5
+6
+12
+
+Arc Voltage +
+Input
+
+Arc-Ok
+
+Expects dry contact closure at plasma source. Closed contacts signal arc-ok.
+
+14
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 45
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+5: SYSTEM BASICS
+6. Switch to the Status tab and watch the Touch Switch
+
+5.5 PLASMA SETTINGS REFERENCE
+
+LED. Very slowly, jog downwards until the LED comes on.
+
+PathPilot for the 1300PL has several machine-specific settings
+that you might need to adjust after setting up your machine.
+Note: For a full overview of how to use PathPilot,
+refer to the PathPilot manual at
+tormach.com/support.
+
+5.5.1 Touch Switch Trigger Depth
+
+7. Note the value in the Z DRO field. This is your Torch
+Touch Trigger Depth. Convert this value to a positive
+number and enter it on the Settings tab.
+
+When using the physical touchoff switch for material height
+sensing, there's a certain amount of lost motion in the Z-axis
+between when the torch head touches the material and when
+the micro-switch in the torch lifter triggers.
+It's important to set an accurate value for the distance
+between torch touch and touch switch triggering so that the
+
+8. Re-enable Ohmic Touchoff on the Settings page.
+
+initial pierce height can be correctly computed.
+To set torch touch trigger depth:
+
+5.5.2 Minimum Touchoff Spacing
+
+1. Power on the machine and reference all axes.
+2. From the PathPilot interface, on the Settings tab, disable
+Ohmic Touchoff.
+3. Put a piece of material on the machine table and
+position the torch above it.
+4. Using a slow jog speed (~5 IPM), jog the torch down
+until it's just contacting the material.
+Minimum touchoff spacing is a time saving setting designed to
+
+5. Zero your Z-axis at this position.
+
+avoid unnecessary probing during programs with a large
+number of individual cuts.
+After the machine has probed for initial cut height, if the next
+cut begins within this distance it will be assumed that the
+material height is the same. This allows the machine to skip
+the probing routine and proceed straight to pierce height.
+If your material is very flat and uniform, you can use a large
+distance for this setting (>2 in.). If your material is uneven or
+you would simply prefer to probe for height every time a cut
+begins, enter zero for this value.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 46
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+5: SYSTEM BASICS
+
+5.5.3 Enable Ohmic Touchoff
+This setting disables the ohmic sensing system entirely and
+relies solely on the physical touch switch for height sensing.
+This can be useful for cutting programs that result in water
+being repeatedly splashed into the torch nozzle, causing
+spurious probing trips.
+Note: Do not disable ohmic touch-off when cutting
+very thin material. The weight of the torch will bend
+the material during probing and cause inaccurate
+pierce height.
+
+5.5.4 Enable THC
+Disabling this setting stops all dynamic height adjustment
+during cutting. The torch will stay at the same height for the
+length of a cut and not adjust to follow the contours of the
+material.
+
+5.5.5 Enable Arc-Ok Checking
+Hypertherm plasma sources supply an arc-ok signal to
+PathPilot when the cutting arc is fully established. When this
+setting is enabled, the machine will pause during a G16 pierce
+until is receives an arc-ok signal.
+Disable this setting if your plasma source does not supply an
+arc-ok signal.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 47
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+BASIC OPERATIONS
+IN THIS SECTION, YOU'LL LEARN:
+About the basic operations required for most projects, organized as a suggested project workflow.
+
+CONTENTS
+6.1 Select a Method for Initial Height Sensing (IHS)
+6.2 Make Your First Cuts
+6.3 Use the AutoFS Material Picker
+
+50
+50
+51
+
+6: BASIC OPERATIONS
+
+6.1 SELECT A METHOD FOR INITIAL HEIGHT
+
+6.2.1 Test G-Code
+
+SENSING (IHS)
+
+The following code will probe, set feeds from the AutoFS
+
+Because plasma cutting workpieces are prone to heat-induced
+warping, it's common practice to probe the workpiece height
+
+system, and then cut a 4" line from (0, 0) to (0, 4).
+Open a text editor on your computer (like Notepad++), and
+
+before each cut using the initial height sensing (IHS) system.
+
+save the following code in a file named test.nc.
+
+This guarantees a consistent pierce height, which prolongs
+
+G90 (Absolute Distance Mode)
+
+consumable life.
+
+G64 P 0.0050 Q 0.0050 (PathBlending)
+
+The 1300PL has two methods of detecting the Z location of the
+
+G17 (XY Plane)
+
+workpiece before a cut. Choose which method to use based on
+
+G54 (Set Work Offset)
+
+your workpiece, cutting situation, and machine setup.
+
+T 1 M6 G43 H 1
+
+To select an IHS method:
+From the PathPilot interface, on the Settings tab, select
+
+G30 (Move Home)
+
+or clear the Enable Ohmic Touchoff checkbox.
+For more information, see "Plasma Settings Reference"
+
+G0 X0 Y0
+
+(page 46).
+
+M200 (AutoFS)
+G15 (probe)
+
+6.1.1 Physical Touch Switch
+
+G16 (pierce)
+
+The first (and simplest) IHS method is the physical touch off
+G1 X0 Y4
+
+switch in the torch lifter. A spring-loaded switch on the Z lead
+screw is triggered when the torch is pressed against the
+
+M205 (Torch Off)
+
+workpiece.
+Use the physical touch switch when:
+l
+
+Your workpiece is thicker than 18 ga (1.2 mm).
+
+l
+
+Making many small cuts, where water is splashed into
+
+G30 (Move Home)
+
+6.2.2 Code Breakdown
+Preamble: This code block resets the modal state of the
+
+the torch head between cuts.
+
+machine. It places the interpreter in absolute distance mode,
+
+6.1.2 Ohmic Probing
+
+sets reasonable values for smoothing, and selects the G54
+
+The second, and more accurate, method of IHS is ohmic
+
+work offset. For more detail on these G-codes, see the full
+
+probing. Ohmic probing uses the conductivity of the workpiece
+
+PathPilot manual.
+
+to detect when the torch cap is touching it. Ohmic probing
+
+G90 (Absolute Distance Mode)
+
+requires a very light touch and is very accurate, but can be
+
+G64 P 0.0050 Q 0.0050 (PathBlending)
+
+incorrectly triggered by water splashing into the torch head.
+Use ohmic probing when:
+
+G17 (XY Plane)
+
+l
+
+Your workpiece is thinner than 18 ga (1.2 mm).
+
+l
+
+Cutting large workpieces, where the torch is not crossing
+
+G54 (Set Work Offset)
+
+Tool Selection: Selects Tool 1 from the offsets table. On the
+plasma, convention is to use Tool 1 for the plasma torch.
+
+over open water between cuts.
+T 1 M6 G43 H 1
+
+6.2 MAKE YOUR FIRST CUTS
+
+Initial Move: Moves the torch to the home (G30) position in Z
+
+Once you've verified all subsystems of the machine and
+
+for safety and then performs a rapid move to coordinate (0, 0).
+
+plasma source, we recommend making a simple test program
+G30 (Move Home)
+
+to test the cutting and torch height control systems. This is
+
+G0 X0 Y0
+
+also a good quick-start tutorial on NC programming for the
+
+AutoFS: Uses the AutoFS material selector on the Main tab of
+
+1300PL.
+
+PathPilot to set feed rate, pierce delay, pierce height and
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 50
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+6: BASIC OPERATIONS
+plasma amperage. No explicit feedrate needs to be specified
+for G1 moves since AutoFS sets this for you.
+M200 (AutoFS)
+
+Probe and Pierce: Probe the material surface using ohmic
+sensing. Once the torch detects the surface, Z0 for the current
+
+If it isn't, type G54 into the MDI Line DRO field. Then
+
+Work Coordinate System is set at the surface. After probing,
+
+select the Enter key.
+7. Select Zero X and Zero Y to set your work coordinate
+
+G16 moves the torch to the pierce height set by AutoFS, fires
+the torch, waits for the AutoFS pierce delay and then moves to
+
+system zeros.
+
+cutting height.
+G15 (probe)
+G16 (pierce)
+
+Cut and Turn Torch Off: Performs a feed move from the current
+position (0, 0) to (0, 4). After the cutting move is complete, the
+torch is shut off and returned to the G30 home position.
+Note: You might notice that your torch pauses and
+continues to blow air for 10-20 seconds. This is a cool
+down procedure designed by the plasma source
+
+8. Copy your G-code from a USB drive and load it into
+
+manufacturer.
+
+PathPilot.
+9. Select the material you're using for your cut test in the
+
+G1 X0 Y4
+
+AutoFS dropdown on the Main tab.
+
+M205 (Torch Off)
+G30 (Move Home)
+
+6.2.3 Run the Test Program
+IMPORTANT! Before running your test program,
+make sure you have completed all steps in "Verify
+
+10. Adjust your plasma source to the amperage shown in the
+
+the Installation" (page 34).
+
+AMPS DRO field.
+
+1. Find a piece of scrap sheet steel large enough to make a
+4" test cut.
+
+11. Select Cycle Start.
+The machine performs the test cut that you
+programmed.
+
+2. Put the metal on the cutting table and connect the
+
+6.3 USE THE AUTOFS MATERIAL PICKER
+
+ground clamp to it.
+
+PathPilot on the 1300PL is designed so that you don't need to
+
+3. Bring PathPilot out of the Reset state and home the
+
+manually program feeds and speeds in your G-code. Instead,
+
+machine.
+
+feed rate, amperage, pierce parameters, and torch height
+
+4. Power on plasma source.
+5. Jog the cutting torch to a place at least 5" past the edge
+of the plate in Y- (towards the operator side of the
+machine).
+
+control voltage are all set at program run-time using
+automatic look-up tables based on the material you're cutting.
+AutoFS is designed so that you can export a program once
+from your post-processor and run it multiple times with
+
+6. Check that your current Work Coordinate System is G54
+
+different materials, all without re-posting. All material-specific
+
+to match the test cutting code.
+
+machine parameters are set by the M200 AutoFS M-code
+(rather than directly programmed in the G-code).
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 51
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+6: BASIC OPERATIONS
+To create new AutoFS presets:
+
+6.3.1 Writing G-Code with AutoFS
+
+1. From the Main tab, select the material you're cutting
+
+A standard block of G-code before a cutting operation might
+
+from the AutoFS dropdowns, and then type your cut
+
+look like this:
+
+parameters into the DRO fields.
+
+M210 P123 (Set THC voltage to 123v)
+
+2. Select Save.
+The values are stored as a new preset for that material.
+
+M211 P45 (Set plasma source to 45A)
+M207 P0.15 (Set pierce height to 0.15")
+
+6.3.4 Deleting Custom AutoFS Presets
+
+M208 P0.08 (Set cut height to 0.08")
+M209 P2 (Set a two second pierce delay)
+
+1. From the File tab, navigate to the fs_tables folder, and
+
+F225 (Set cutting feed rate of 225 IPM)
+
+open the plasma_user_fs_data.csv file.
+2. Highlight the line of the preset you want to delete and
+
+G15 (Perform ohmic probe)
+
+delete it. Then, save the file.
+
+G16 (Pierce and start cutting)
+
+The block of code shown above is totally valid and can be used
+if you prefer to hard code your cutting parameters.
+Alternatively, the code shown above can be replaced with the
+following when AutoFS is being used:
+M200 (Set cutting parameters from AutoFS tables)
+
+G15 (Perform ohmic probe)
+G16 (Pierce and start cutting)
+
+6.3.2 Using AutoFS
+1. On the Settings tab, select which plasma source you're
+Note: This file is read on boot only, so the
+
+using from the Auto FS Plasma Source drop-down menu.
+
+preset remains visible until the controller is
+power cycled.
+
+2. Before running your program, select the material you're
+cutting from the AutoFS dropdowns on the Main tab of
+PathPilot.
+The DROs turn green, which indicates that they were
+automatically set.
+With a material selected, the next time an M200 code is
+encountered in a program, PathPilot will set all of the cutting
+parameters for that material.
+
+6.3.3 Creating Custom AutoFS Presets
+Since your shop air supply and cutting conditions might differ
+from those used to create the AutoFS presets, you can save
+your own custom settings for a material at any time.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 52
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+PROGRAMMING
+IN THIS SECTION, YOU'LL LEARN:
+About the languages that are understood and interpreted by PathPilot.
+
+CONTENTS
+7.1 Plasma Specific G-Codes
+7.2 Plasma Specific M-Codes
+
+54
+54
+
+7: PROGRAMMING
+7.1 PLASMA SPECIFIC G-CODES
+Note: For information on all other supported G-codes, refer to the PathPilot manual at tormach.com/support.
+G-Code
+G15
+
+Name
+
+Description
+
+Workpiece
+
+Probe vertically downwards towards the end of travel until the ohmic cap contacts the work piece.
+Once the workpiece has been located, the Z coordinate of the current coordinate system is set to zero.
+G15 will trigger on either the ohmic cap making continuity with the workpiece or the physical touch switch in
+
+Probe
+
+the torch lifter detecting upwards pressure on the torch from the material.
+G16
+
+Pierce
+
+Raise the torch to the pierce height set in the variable #<_PierceHeight>. The torch is turned on and the
+program pauses for the pierce delay value set by AutoFS or M209.
+After the pierce delay, Torch Height Control (THC) is enabled and the program continues.
+
+7.2 PLASMA SPECIFIC M-CODES
+Set
+M-Code
+
+Description
+
+by
+
+Parameters
+
+M200
+M200
+
+AutoFS - Apply the automatically generated feed, speed and cutting
+values for the material selected in the main PathPilot UI. AutoFS will
+set feedrate, THC voltage, and pierce delay.
+
+M203
+
+Start Torch
+
+M205
+
+Stop Torch and return to G30 Z Height
+
+M207
+
+Set Pierce Height used when executing a G16 pierce. Set automatically
+
+Yes
+
+when using M200 AutoFS.
+M208
+
+P (Required): Pierce height in the current
+unit system (in. or mm.)
+
+Set Cut Height used when executing a G16 pierce. Set automatically
+
+Yes
+
+when using M200 AutoFS.
+
+P (Required): Cut height in the current
+unit system (in. or mm.)
+
+M209
+
+Set Pierce Delay used when executing a G16 pierce.
+Set automatically when using M200 AutoFS.
+
+Yes
+
+P (Required): Pierce delay in seconds
+
+M210
+
+Set THC voltage. Does not enable or disable THC.
+
+Yes
+
+P (Required): Desired THC Voltage
+
+M211
+
+Set plasma source cut current.
+
+Yes
+
+P (Required): Desired Cut Current in
+Amps
+
+If a Hypertherm adapter is not installed on the system, program run
+will be paused with an M01 break to allow the user to set the specified
+cut current.
+M212
+
+Set plasma source cut mode.
+
+No
+
+If a Hypertherm adapter is not installed on the system, program run
+will be paused with an M01 break to allow the user to set the specified
+cut mode.
+
+P (Required): Cut mode:
+Normal = 1
+CPA = 2
+Gouge = 3
+Note: For the Hypertherm Powermax 45
+Normal Mode and CPA Mode
+(Continuous Pilot Arc) are the same.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 54
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+7: PROGRAMMING
+Set
+M-Code
+
+Description
+
+by
+
+Parameters
+
+M200
+M213
+
+Set plasma source air pressure.
+
+No
+
+P: Desired Cut Pressure in PSI
+Note: When the pressure is omitted or
+
+If a Hypertherm adapter is not installed on the system, program run
+
+set to 0, the pressure control is set to
+
+will be paused with an M01 break to allow the user to set the specified
+
+Automatic.
+
+air pressure.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 55
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+MACHINE MAINTENANCE
+IN THIS SECTION, YOU'LL LEARN:
+About the required maintenance procedures that you must do so that this machine operates as
+designed.
+Before operating the machine in any way, you must read and understand this section.
+
+CONTENTS
+8.1 Maintenance Safety
+8.2 Maintenance Schedules
+8.3 Adjust Belt Tension
+8.4 Adjust Rack and Pinion Preload
+
+58
+58
+58
+59
+
+8: MACHINE MAINTENANCE
+
+8.2.3 Monthly
+
+8.1 MAINTENANCE SAFETY
+Read and understand the following safety messages before
+
+Clean the electrical cabinet vents of dust with a clean
+
+beginning any maintenance procedures.
+
+cloth or compressed air.
+
+8.1.1 All Maintenance Procedures
+
+Remove the slats and clean sediment buildup from the
+bottom of the water table.
+
+Understand that the machine is automatically controlled
+and can start at any time.
+
+8.2.4 Semi-Annually
+
+Power off the machine and disconnect the pneumatic
+
+Check drive belts for wear and re-tension if needed.
+
+supply before doing any maintenance procedures.
+
+Remove faceplate from torch lifter and clean lead screw
+
+When appropriate, lockout/tagout the and the pneumatic
+
+with a lint-free cloth.
+
+supply line before doing any maintenance procedures.
+
+8.2.5 As Needed
+
+Wear safety eye protection rated for ANSI Z87+.
+
+Replace the water table's slats when they have been
+
+8.1.2 Swarf Maintenance Procedures
+
+worn away too much to hold stock securely.
+
+Wear work gloves.
+
+8.3 ADJUST BELT TENSION
+
+8.2 MAINTENANCE SCHEDULES
+
+Tools and Items Required
+
+To keep your machine running as smoothly as possible, you
+
+l
+
+must regularly do the following maintenance procedures.
+
+Allen Key Set
+
+The drive belts on the 1300PL should be checked for wear and
+tensioned several times a year to avoid lost motion and
+
+Note: Before you begin any maintenance procedures,
+
+reduced machine accuracy.
+
+read and understand "Maintenance Safety" (above).
+
+1. Remove the motor belt cover over the servo motor
+pulley.
+
+If you disassemble any components, refer to the machine's
+reference drawings when you've completed the maintenance
+procedure. For information, see "Diagrams and Parts Lists"
+(page 71). For any additional support, we can help. Create a
+support ticket with Tormach Technical Support at
+tormach.com/how-to-submit-a-support-ticket for guidance on
+how to proceed.
+
+8.2.1 Daily
+Clean the machine of any dust or abrasive particle
+buildup with a vacuum and brushes.
+Wipe dust off of the linear rails with a clean cloth.
+2. Remove the belt covers from both sides of the gantry.
+
+8.2.2 Weekly
+Clean all exterior surfaces with a clean rag.
+Examine the water table's level and, if necessary, add
+water / rust inhibitor.
+Check your plasma torch consumables for wear and
+replace if needed.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 58
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+8: MACHINE MAINTENANCE
+
+3. Loosen the two mounting bolts holding the belt
+
+8.4.1 Y-Axis
+
+tensioner. Adjust the tensioner until the belt is tight
+enough to only deflect 0.125" (3 mm) when pressed with
+
+1. Remove the motor belt cover over the servo motor
+pulley.
+
+one finger.
+
+4. Tighten the tensioner mounting hardware and repeat for
+
+2. Remove the belt covers from both sides of the gantry.
+
+the other side of the gantry.
+5. Loosen the mounting hardware for the servo motor.
+
+3. Adjust the preload nut on the pinion mount assembly
+until the spring is compressed approximately 1/4" (6
+mm) from its fully slack position.
+
+6. Slide the servo back in its mounting slots until the belt is
+taught. It should deflect about 1/16" (1.5 mm) when
+pressed with one finger.
+7. Tighten all mounting hardware and re-install belt covers.
+
+8.4 ADJUST RACK AND PINION PRELOAD
+Tools and Items Required
+l
+
+Allen Key Set
+
+l
+
+Crescent Wrench
+
+4. Reinstall all belt covers and guards.
+
+The rack and pinion gear drive on the 1300PL uses a spring
+preload to allow the pinion gear to self adjust to compensate
+wear on the rack and reduce backlash. It is preset at the
+factory and will not need frequent adjustment.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 59
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+8: MACHINE MAINTENANCE
+
+8.4.2 X-Axis
+1. Remove the motor cover on the X-axis carriage.
+
+2. Locate and tighten the preload nut for the X motor
+assembly until the spring is compressed approximately
+1/4" (6 mm) from its fully slack position.
+
+3. Reinstall all belt covers and guards.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 60
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+TROUBLESHOOTING
+IN THIS SECTION, YOU'LL LEARN:
+About common causes of failure in this machine, and our recommendations for diagnosing and
+correcting them.
+WARNING! Electrocution Hazard - Electrical Cabinet: Do not make or disconnect connections under
+power.
+
+Before operating the machine in any way, you must read and understand this section.
+
+CONTENTS
+9.1 Ohmic Probing
+9.2 Touch Off
+9.3 Cutting
+9.4 Voltage Feedback
+9.5 Torch Height Control
+9.6 Servo Drives
+
+62
+64
+65
+66
+67
+69
+
+9: TROUBLESHOOTING
+9.1 OHMIC PROBING
+9.1.1 Ohmic Probe Does Not Trigger
+How to test ohmic probing:
+Open the electrical cabinet and locate the Tormach THCT Board (PN 39096). Have a helper touch the ground clamp to the torch cap and
+watch LED D8 on the bottom left of the board. If the LED lights up when the ground clamp contacts the torch cap, the THCT board is
+measuring contact between the cap and ground as intended.
+
+Switch to the Status tab in PathPilot and repeat the test with the ground clamp. Watch the status LED for ohmic touch. If it turns green
+when the ground clamp makes contact, the THCT board is communicating with PathPilot correctly.
+
+Cause: Faulty Connection Between Workpiece Clamp and Plasma Source
+Probability
+High
+
+How-To Steps
+
+Need More?
+
+Check that your ground clamp is connected to your workpiece and plasma
+
+Ohmic probing detects continuity
+
+source.
+
+between the torch cap and the ground
+connection of the work piece. If this
+connection is not solid, ohmic probing
+will not trigger.
+
+Cause: Faulty Work Clamp Connection Between Plasma Source and THCT Board
+Probability
+Low
+
+How-To Steps
+
+Need More?
+
+1. Open the electrical cabinet and locate the Tormach THCT board (PN
+
+Continuity to the workpiece clamp is
+measured through the plasma source
+
+39096).
+2. Using a multimeter in continuity mode, measure continuity between J2 Pin
+
+control cable Arc+ pin (since the torch
+
+1 (WORK) on the Tormach THCT Board (PN 39096) and the workpiece
+
+operates at a negative voltage relative
+
+clamp.
+
+to the workpiece). If this connection is
+
+3. If there is not continuity, check that the plasma source control cable is
+connected at the rear of the electrical cabinet. Pin 4 on this connector is
+
+faulty or high resistance the probe will
+not trigger.
+
+used for the workpiece clamp signal.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 62
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+9: TROUBLESHOOTING
+Cause: Ohmic Probe Wire Disconnected From the Torch Cap
+Probability
+Medium
+
+How-To Steps
+
+Need More?
+
+1. Check that the ohmic probe wire (481 on the electrical diagram) coming
+
+To test the wire for breaks, use a
+multimeter in continuity mode to
+
+from the X axis carriage is connected to the torch cap.
+2. Check that the connector on the rear of the electrical cabinet (X27 on the
+
+measure between the torch cap and
+Pin 5 on connector J2 (labeled CAP) on
+
+electrical diagram) is connected.
+
+the Tormach THCT board in the
+electrical cabinet.
+Cause: Ohmic Touch Sensitivity Adjusted Incorrectly
+Probability
+Low
+
+How-To Steps
+
+Need More?
+Sensitivity is adjustable to account for
+
+1. Open the electrical cabinet and locate the Tormach THCT board (PN
+
+different workpiece materials and
+
+39096).
+2. Adjust the "RV1" potentiometer clockwise to increase the sensitivity, until
+a ground clamp touched to the torch nose triggers the probe.
+
+situations (wet metal).
+See "Calibrate Initial Height Sensing"
+(page 39).
+
+Cause: THCT Board Disconnected From the Machine Control Board
+Probability
+Low
+
+How-To Steps
+
+Need More?
+
+1. Open the electrical cabinet and locate the Tormach THCT board (PN
+39096).
+2. Using a multimeter on continuity mode, check the connection between
+THCT J1 Pin 6 (PROBE-) and J9 Pin 5 on the main control board.
+3. Perform the same check between THCT J1 Pin 7 (PROBE+) and J9 Pin 6 on
+the main control board.
+4. If both connections measured good, switch the multimeter to DC Voltage
+mode and measure the voltage between J9 Pin 6 and 7 on the main control
+board. The reading should be -3.5v without the probe tripped, and +3.5v
+with the probe tripped.
+
+9.1.2 Ohmic Probe Triggers Early or Between Cuts
+Cause: Plasma Torch Cap Is Wet
+Probability
+High
+
+How-To Steps
+
+Need More?
+
+1. Use the TEST TORCH button to purge the torch cap. Make sure to jog away
+
+Water in the torch cap can cause ohmic
+probing to trigger because it creates a
+
+from the workpiece first.
+2. Using compressed air, blow any water out of your torch cap.
+3. Adjust ohmic touch sensitivity as detailed below.
+
+circuit between the torch nozzle (Arc-)
+and cap. Since the nozzle is electrically
+connected to the workpiece clamp
+(Arc+) by the arc voltage divider, this
+can trigger the ohmic probe.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 63
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+9: TROUBLESHOOTING
+Cause: Ohmic Touch Sensitivity Adjusted Incorrectly
+Probability
+High
+
+How-To Steps
+
+Need More?
+
+1. Position the torch in above the workpiece in a small puddle of water, so
+
+Ohmic touch sensitivity may need to be
+
+that the torch cap is touching the water but not the workpiece.
+
+adjusted when you switch between
+
+2. Open the electrical cabinet and locate the Tormach THCT board (PN
+
+styles of consumable or torch cap.
+
+39096).
+3. Adjust the "RV1" potentiometer counterclockwise to decrease the
+sensitivity until the ohmic probe is not triggered by the water but is still
+triggered if you lift the workpiece to touch the torch cap.
+
+9.2 TOUCH OFF
+9.2.1 The Torch Pierces Too High
+Cause: Torch Touch Trigger Depth Set Incorrectly
+Probability
+High
+
+How-To Steps
+
+Need More?
+
+Open the Settings tab and set the Torch Touch Trigger Depth as described
+
+Torch touch trigger depth is the
+
+in "Plasma Settings Reference" (page 46).
+
+difference between the Z location
+where the torch touches the material
+and the Z location where the touch
+switch in the floating Z head registers
+a touch-off.
+
+Cause: M207 Pierce Height Set Incorrectly
+Probability
+High
+
+How-To Steps
+
+Need More?
+
+If using M200 AutoFS, ensure that you have selected the correct material
+
+Using the M200 AutoFS system
+
+on the Main tab of PathPilot.
+
+chooses a pierce height appropriate for
+the material selected on the Main tab.
+
+Medium
+
+If not using M200 AutoFS to set pierce height automatically, make sure
+
+Check "Plasma Specific M-Codes"
+
+that you have a call to M207in your program to explicitly set a pierce
+
+(page 54) for more information.
+
+height.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 64
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+9: TROUBLESHOOTING
+9.2.2 The Torch Bends the Workpiece During Touch-off
+Cause: Ohmic Probing Disabled
+Probability
+
+How-To Steps
+
+High
+
+Need More?
+
+Open the Settings tab and ensure that the check-box for ohmic probing is
+
+If ohmic probing is disabled the plasma
+
+enabled.
+
+table will rely on the switch in the
+floating torch head to detect touch-off.
+This can be useful for painted
+materials, but you need to make sure
+that Torch Touch Trigger Depth is set
+correctly as noted above.
+If necessary to work around a bending
+workpiece, the workpiece or work
+coordinate system can be relocated to
+a position where the workpiece is
+better supported by the table's slats.
+
+9.3 CUTTING
+9.3.1 Torch Shuts Off During Cut
+Cause: Air source cannot keep up with demand
+Probability
+High
+
+How-To Steps
+
+Need More?
+
+Check the specifications for your compressor to make sure that it can
+
+The Hypertherm plasma sources can
+
+supply the CFM needed by your plasma source.
+
+detect inadequate air flow and will
+
+Check for restrictive fittings or hoses on the air path to your plasma source.
+
+shut off the plasma arc if not enough
+air is being provided to the unit.
+
+Cause: Gaps in material being cut
+Probability
+High
+
+How-To Steps
+
+Need More?
+
+If you are trying to cut across gaps or expanded metal, make sure your
+
+Most plasma sources will
+
+plasma source is in "expanded metal mode" and disable Torch Height
+
+automatically shut off the arc when
+
+Control in the PathPilot Settings menu.
+
+they encounter a gap while cutting
+unless placed in expanded metal /
+continuous pilot arc mode.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 65
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+9: TROUBLESHOOTING
+9.4 VOLTAGE FEEDBACK
+9.4.1 No Voltage Reading in PathPilot
+Cause: Bad control connection to plasma source
+Probability
+
+How-To Steps
+
+Need More?
+
+High
+
+Measure voltage input to THCT board in electrical cabinet:
+
+Your plasma source is required to have
+
+1. Using a multimeter set to DC volts, probe wires 442 and 495 on the THCT
+
+an internal voltage divider. By default,
+PathPilot is configured for a 50:1
+
+board with the torch off.
+
+divider.
+
+You should read close to 0 VDC.
+2. Have a helper press the TEST TORCH button in PathPilot and check the
+voltage. You should read your plasma source's open circuit voltage divided
+by 50 or around 2.5 VDC.
+3. If you do not read a voltage, you may need to replace your plasma source
+control cable. If you do read a voltage, proceed to checking THCT
+communication with the Machine Control Board.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 66
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+9: TROUBLESHOOTING
+Cause: THCT not communicating with Machine Control Board
+Probability
+Low
+
+How-To Steps
+
+Need More?
+The THCT communicates measured
+
+1. Verify that the THCT board power LED is on
+
+voltage from the plasma source back
+to the Machine Control Board using a
+differential frequency signal. This is
+much more immune to noise than a
+analog voltage.
+
+2. Using a multimeter that can measure frequency, measure the signal
+between wires 444 and 445. You should read a value between 80 kHz and
+120 kHz.
+l
+
+If you don't read any frequency, you may have a faulty THCT board.
+Contact Tormach Technical Support.
+
+3. Have a helper press the TEST TORCH button in PathPilot and check the
+frequency. You should read a frequency above 200 kHz (usually about 450
+kHz).
+4. If you read a frequency in both tests, check the connections for wires 444
+and 445 at the Machine Control Board. Reference the machine wiring
+diagram to make sure they are in the correct terminal blocks and firmly
+seated.
+
+9.5 TORCH HEIGHT CONTROL
+9.5.1 Torch Cuts Too High
+Cause: M210 Torch Height Control Voltage Set Too High
+Probability
+High
+
+How-To Steps
+
+Need More?
+
+If using M200 AutoFS, ensure that you have selected the correct material
+
+THC target voltage is set automatically
+
+and consumables on the Main tab of PathPilot.
+
+when you select a material on the
+
+If you are manually specifying voltage using the M210 M-Code, verify that
+
+main PathPilot screen and use the
+
+the P value in your G-Code is appropriate for the feed rate, cut current and
+
+M200 AutoFS function in your G-Code.
+
+consumables you are using according to the manufacturer's cut charts.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 67
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+9: TROUBLESHOOTING
+Cause: Incorrect Consumables Being Used
+Probability
+Medium
+
+How-To Steps
+
+Need More?
+
+If you have both FineCut and standard consumables, verify that the correct
+
+Standard consumables can require a
+
+nozzle is installed for the cut settings you have selected.
+
+THC voltage setting of up to 50V higher
+than FineCut consumables for the
+same cut current. Mixing up the two
+can produce a cut height error of more
+than 1" (25mm).
+
+Cause: Bad Workpiece Clamp Connection
+Probability
+High
+
+How-To Steps
+
+Need More?
+
+Make sure that the workpiece clamp is securely fastened to your material
+
+A bad workpiece clamp connection can
+
+and plugged in to the plasma source.
+
+produce an additional voltage drop that
+
+If you have your workpiece clamp cable routed through any terminal
+
+will cause higher than usual THC
+
+blocks, make sure that all connections are firmly tightened down.
+
+voltage values. This will effect the
+cutting height.
+
+Cause: Plasma Source Amperage Set Too High
+Probability
+High
+
+How-To Steps
+
+Need More?
+
+If you are using the AutoFS Material Picker, make sure that you have your
+plasma source cut current set to match the value suggested on the main
+page of PathPilot.
+If you are using the Hypertherm control kit to allow PathPilot to control cut
+current and air pressure, verify that the adapter is connected to the
+controller's USB port and the RS485 cable is plugged in to the back of the
+plasma source.
+
+9.5.2 Torch Drags on the Material When Cutting
+Cause: M208 Cut Height Set Too Low
+Probability
+High
+
+How-To Steps
+
+Need More?
+
+If using M200 AutoFS, ensure that you have selected the correct material
+
+After executing a G16 pierce, PathPilot
+
+and consumables on the Main tab of PathPilot.
+
+will move the torch to the height
+
+If you are manually specifying a cut height in your G-Code with M208 make
+
+specified by M208 or the AutoFS
+
+sure that the P value for height matches the consumables being used, cut
+
+system.
+If this height is too low, Torch Height
+
+current, and material.
+
+Control may not be able to activate and
+take over control of the Z axis because
+of safety limits on torch voltage.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 68
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+9: TROUBLESHOOTING
+Cause: Plasma Source Amperage Set Too Low
+Probability
+
+How-To Steps
+
+High
+
+Need More?
+
+If you are using the AutoFS Material Picker, make sure that you have your
+plasma source cut current set to match the value suggested on the main
+page of PathPilot.
+If you are using the Hypertherm control kit to allow PathPilot to control cut
+current and air pressure, verify that the adapter is connected to the
+controller's USB port and the RS-485 cable is plugged in to the back of the
+plasma source.
+
+9.6 SERVO DRIVES
+9.6.1 Servos Fault on Fast Direction Changes
+Cause: Power Supply not Connected to Backfeed Clamp
+Probability
+
+How-To Steps
+
+Need More?
+
+High
+
+Check for loose wires between the power supply and backfeed clamp (PN
+
+The servos used in the 1300PL feed a
+
+39102).
+
+significant amount of energy back into
+
+l
+
+Power off the main breaker.
+
+the power supply when braking. This
+
+l
+
+Measure the continuity between the V+ terminal of the power supply and
+
+energy is dissipated by the backfeed
+
+the + terminal on the backfeed clamp (follow wire 207).
+
+clamp.
+
+l
+
+Perform the same check for the V- terminal of the power supply to the terminal of the backfeed clamp (wire 208).
+
+l
+
+Power on the main breaker, release the E-Stop button and press the blue
+Reset button.
+
+l
+
+You should see a green power LED on the power supply and an orange ON
+LED on the backfeed clamp if they are connected correctly.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 69
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+9: TROUBLESHOOTING
+Cause: Faulty Backfeed Clamp
+Probability
+
+How-To Steps
+
+Low
+
+Check that the backfeed clamp is enabling itself.
+l
+
+Need More?
+
+Power on the main breaker, release the E-Stop button and press the blue
+Reset button.
+
+l
+
+Watch the status LEDs on the backfeed clamp. You should immediately see
+the ON LED.
+
+l
+
+After about 1.5 sec, you should see the ENABLE LED light. If you do not see
+the ENABLE LED light, your backfeed clamp is not sensing input voltage
+and needs to be replaced.
+
+Cause: Backfeed Clamp Not Triggering
+Probability
+
+How-To Steps
+
+Need More?
+
+Low
+
+Check that the backfeed clamp is triggering on hard braking.
+
+The braking energy is only dissipated in
+
+l
+
+Create a new G-Code program with the following test snippet:
+
+the backfeed clamp under very high
+braking situations, which is why a G-
+
+G1 Y20 X20 F1000
+
+Code program is used to test it instead
+
+G1 Y0 X0 F1000
+M99 (Repeat until Stop button is pressed)
+
+of simply jogging the machine back and
+forth.
+
+l
+
+Jog your machine to the -X, -Y corner and ZERO the X + Y axes and then run
+the test program.
+WARNING! The test program will run continuously until the Stop
+button is pressed. Make sure you are in a safe position away
+from the motion envelope.
+
+l
+
+Watch the orange CLAMP LED on the backfeed clamp when the axes are
+slowing down. You should see a momentary flicker (<5 ms).
+
+l
+
+If you see no activity from the CLAMP LED and either axis faults during the
+test, replace your backfeed clamp.
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 70
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+DIAGRAMS AND PARTS LISTS
+IN THIS SECTION, YOU'LL LEARN:
+About this machine’s components.
+NOTICE! Only use Tormach-approved parts when making replacements. If you don't replace parts with
+those listed in this section, you may void your warranty.
+
+CONTENTS
+10.1 Base Machine Exploded View
+10.2 Base Machine Parts List
+10.3 Frame Assembly Exploded View
+10.4 Frame Assembly Parts List
+10.5 Water Table Exploded View
+10.6 Water Table Assembly Parts List
+10.7 Y-Axis Gantry Assembly Exploded View
+10.8 Y-Axis Gantry Assembly Parts List
+10.9 X-Axis Carriage Assembly Exploded View
+10.10 X-Axis Carriage Assembly Parts List
+10.11 Z-Axis Lifter Assembly Exploded View
+10.12 Z-Axis Lifter Assembly Parts List
+
+72
+73
+74
+75
+77
+78
+79
+80
+82
+83
+84
+85
+
+10: DIAGRAMS AND PARTS LISTS
+10.1 BASE MACHINE EXPLODED VIEW
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 72
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+10: DIAGRAMS AND PARTS LISTS
+10.2 BASE MACHINE PARTS LIST
+ID
+
+Description
+
+Quantity
+
+1
+
+Frame Assembly (PN 50001)
+
+1
+
+2
+
+Electrical Cabinet Assembly (PN 50002)
+
+1
+
+3
+
+Water Table Assembly (PN 50003)
+
+1
+
+4
+
+Y-Axis Gantry Assembly (PN 50004)
+
+1
+
+5
+
+X-Axis Carriage Assembly (PN 50005)
+
+1
+
+6
+
+Z-Axis Lifter Assembly (PN 50006)
+
+1
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 73
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+10: DIAGRAMS AND PARTS LISTS
+10.3 FRAME ASSEMBLY EXPLODED VIEW
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 74
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+10: DIAGRAMS AND PARTS LISTS
+10.4 FRAME ASSEMBLY PARTS LIST
+
+ID
+
+Description
+
+Quantity
+
+1
+
+Frame X Tube (PN 50010)
+
+2
+
+2
+
+Frame Y Tube (PN 50011)
+
+2
+
+3
+
+Grounding Bar (PN 39097)
+
+1
+
+4
+
+Rack, Module 1, 1400 mm (PN 50047)
+
+2
+
+5
+
+Linear Rail for 1300P Y (PN 50020)
+
+2
+
+6
+
+Linear Rail, 20 mm (PN 50033)
+
+4
+
+7
+
+Water Table Rail Support (PN 50129)
+
+2
+
+8
+
+Front Panel Sheet Metal (PN 50015)
+
+1
+
+9
+
+Rear Panel Sheet Metal (PN 50016)
+
+1
+
+10
+
+Left Panel Sheet Metal (PN 50018)
+
+1
+
+11
+
+Right Panel Sheet Metal (PN 50019)
+
+1
+
+12
+
+Gantry Hard Stop, X-Axis (PN 50061)
+
+4
+
+13
+
+Frame End Cap X (PN 50013)
+
+4
+
+14
+
+Front Cable Tray (PN 50130)
+
+1
+
+15
+
+Side Cable Tray (PN 50131)
+
+1
+
+16
+
+1300P Frame Leg (PN 50009)
+
+2
+
+17
+
+Frame Leg, B (PN 50133)
+
+2
+
+18
+
+Water Table Track Shield (PN 50111)
+
+4
+
+19
+
+Screw, Socket Head Cap, M05 × 0.8 × 015 (PN 20001)
+
+72
+
+20
+
+Side Cable Tray Bracket (PN 50071)
+
+2
+
+21
+
+Push Button (Blue LED) (PN 37342)
+
+1
+
+22
+
+Emergency Stop Switch (PN 30462)
+
+1
+
+23
+
+Side Cable Tray Base (PN 50021)
+
+1
+
+24
+
+Side Cable Tray Top (PN 50022)
+
+1
+
+25
+
+Screw, Socket Head Cap, M06 × 1 × 015 (PN 20001)
+
+18
+
+26
+
+Screw, Socket Head Cap, M04 × 0.7 × 006 (PN 20001)
+
+4
+
+27
+
+Machine Foot, Leveling, M16 × 2 Thread (PN 50119)
+
+4
+
+28
+
+Nut, Hex, M16 (PN 20001)
+
+8
+
+29
+
+Screw, Button Head Cap, M08 × 1.25 × 010 (PN 20001)
+
+18
+
+30
+
+Screw, Socket Head Cap, M03 × 0.5 × 006 (PN 20001)
+
+16
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 75
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+10: DIAGRAMS AND PARTS LISTS
+ID
+
+Description
+
+Quantity
+
+31
+
+Screw, Socket Head Cap, M08 × 1.25 × 016 (PN 31681)
+
+14
+
+32
+
+Screw, Socket Head Cap, M10 × 1.5 × 060 (PN 20001)
+
+4
+
+33
+
+Nut, Hex, M10 (PN 36008)
+
+4
+
+34
+
+Screw, Socket Head Cap, M16 × 1.75 × 025 (PN 20001)
+
+4
+
+35
+
+Screw, Socket Head Cap, M04 × 0.7 × 010 (PN 30924)
+
+4
+
+36
+
+Screw, Button Head Cap, M05 × 0.8 × 010 (PN 35774)
+
+8
+
+37
+
+Energy Chain Link, Wide (PN 50017)
+
+28
+
+38
+
+Energy Chain End Link, Wide, Internal Tabs (PN 50819)
+
+1
+
+39
+
+Energy Chain End Link, Wide, External Tabs (PN 50820)
+
+1
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 76
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+10: DIAGRAMS AND PARTS LISTS
+10.5 WATER TABLE EXPLODED VIEW
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 77
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+10: DIAGRAMS AND PARTS LISTS
+10.6 WATER TABLE ASSEMBLY PARTS LIST
+ID
+
+Description
+
+Quantity
+
+1
+
+Water Table Sheet Metal (PN 50030)
+
+1
+
+2
+
+Water Table Roller (PN 50036)
+
+4
+
+3
+
+Screw, Thumb, M8 × 1.25 - 60, 2 Arm Plastic Head (PN 50117)
+
+2
+
+4
+
+Water Table Vertical Divider (PN 50032)
+
+13
+
+5
+
+Water Table Roller Axle (PN 50118)
+
+4
+
+6
+
+Water Table Roller Spacer (PN 50034)
+
+4
+
+7
+
+Washer, Flat, M8 (PN 30531)
+
+4
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 78
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+10: DIAGRAMS AND PARTS LISTS
+10.7 Y-AXIS GANTRY ASSEMBLY EXPLODED VIEW
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 79
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+10: DIAGRAMS AND PARTS LISTS
+10.8 Y-AXIS GANTRY ASSEMBLY PARTS LIST
+ID
+
+Description
+
+Quantity
+
+1
+
+Rack, Module 1, Plasma X-Axis (PN 50046)
+
+1
+
+2
+
+Gantry Cross Beam Extrusion (PN 50044)
+
+1
+
+3
+
+Linear Rail, 16 mm (PN 50045)
+
+2
+
+4
+
+Cross Beam Mount Block (PN 50043)
+
+2
+
+5
+
+Gantry Hard Stop, X-Axis (PN 50061)
+
+2
+
+6
+
+Y-Axis Pulley Mount Plate X+ (PN 50037)
+
+1
+
+7
+
+Y-Axis Drive Bearing (PN 50064)
+
+2
+
+8
+
+Y-Axis Drive Lock Nut (PN 50063)
+
+2
+
+9
+
+Timing Pulley, HTD-5, 25 Tooth, 14 mm Taper Lock (PN 50078)
+
+2
+
+10
+
+Y-Axis Belt Tensioner (PN 50073)
+
+2
+
+11
+
+Y-Axis Belt Tensioner L Bracket (PN 50134)
+
+2
+
+12
+
+Y-Axis Belt Tensioner Wheel (PN 50074)
+
+2
+
+13
+
+Y-Axis Belt Tensioner Wheel Bearing (PN 50135)
+
+4
+
+14
+
+Y-Axis Pinion Bearing (PN 50137)
+
+4
+
+15
+
+Y-Axis Pinion Bearing Spacer (PN 50138 )
+
+2
+
+16
+
+Y-Axis Pinion Mount Block (PN 50080)
+
+2
+
+17
+
+Y-Axis Pinion Shaft (PN 50081)
+
+2
+
+18
+
+Pinion, Module 1, 23T (PN 50072)
+
+2
+
+19
+
+Key Stock, 5 mm × 15 mm (PN 50143)
+
+4
+
+20
+
+Pin, 15 mm × 50 mm (PN 50049)
+
+4
+
+21
+
+Linear Rail Roller, 20 mm Rail (PN 50050)
+
+8
+
+22
+
+Y-Axis Roller Inner Spacer (PN 50069)
+
+8
+
+23
+
+Y-Axis Motor Mount, NEMA 34 (PN 50082)
+
+1
+
+24
+
+Y-Axis Drive Shaft (PN 50062)
+
+1
+
+25
+
+Y-Axis Rack and Pinion Tensioner Bracket, Top (PN 50052)
+
+2
+
+26
+
+Y-Axis Rack and Pinion Tensioner Bracket, Bottom (PN 50051)
+
+2
+
+27
+
+Y-Axis Drive Lock Washer (PN 50065)
+
+2
+
+28
+
+Plasma Y-Axis Servo, Clearpath CPM-SDSK-3411S-ELN (PN 39104)
+
+1
+
+29
+
+Y-Axis Pulley Mount Plate X- Mirrored (PN 50038)
+
+1
+
+30
+
+Timing Pulley, HTD-5, 40 Tooth, 14 mm Taper Lock (PN 50076)
+
+1
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 80
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+10: DIAGRAMS AND PARTS LISTS
+ID
+
+Description
+
+Quantity
+
+31
+
+Timing Pulley, HTD-5, 25 Tooth, 14 mm ID (PN 50077)
+
+1
+
+32
+
+Timing Pulley, HTD-5, 50 Tooth, 14 mm Shaft (PN 50079)
+
+2
+
+33
+
+Y-Axis Motor Pulley Cover (PN 50056)
+
+1
+
+34
+
+Gantry Cable Tray Base (PN 50059)
+
+1
+
+35
+
+Grounding Bar (PN 39097)
+
+1
+
+36
+
+Gantry Cable Tray Cover (PN 50060)
+
+1
+
+37
+
+Y-Axis Roller Outer Spacer (PN 50070)
+
+4
+
+38
+
+Y-Axis Roller Eccentric Adjust (PN 50066)
+
+4
+
+39
+
+Gantry Cable Tray Connector (PN 50041)
+
+1
+
+40
+
+Y-Axis Pulley Cover, X+ (PN 50039)
+
+1
+
+41
+
+Y-Axis Linear Roller Cover, X+ (PN 50140)
+
+1
+
+42
+
+Y-Axis Pulley Cover, X- (PN 50040)
+
+1
+
+43
+
+Y-Axis Linear Roller Cover, X- (PN 50141)
+
+1
+
+44
+
+Y-Axis Tensioner Bracket Retainer (PN 50142)
+
+2
+
+45
+
+Y-Axis Tensioner Pinion Mount (PN 50057)
+
+2
+
+46
+
+Timing Belt, HTD-5, Motor to Drive Shaft (PN 50112)
+
+1
+
+47
+
+Timing Belt, HTD-5, Drive Shaft to Pinion (PN 50113)
+
+1
+
+48
+
+T-Nut, M6, 8 mm WD (PN 50048)
+
+16
+
+49
+
+Compression Spring, 10.5 mm ID, 20 mm LG (PN 50053)
+
+2
+
+50
+
+Energy Chain Link, Narrow (PN 50055)
+
+29
+
+51
+
+Energy Chain End Link, Narrow, External (PN 50817)
+
+1
+
+52
+
+Energy Chain End Link, Narrow, Internal Tabs (PN 50818)
+
+1
+
+53
+
+Screw, Socket Head Cap, M8 × 1.25 - 16 (PN 31681)
+
+12
+
+54
+
+Screw, Socket Head Cap, M6 × 1 - 16 (PN 33117)
+
+26
+
+55
+
+Screw, Socket Head Cap, M8 × 1.25 - 25 (PN 31618)
+
+12
+
+56
+
+Screw, Socket Head Cap, M4 × 0.7 - 6 (PN 20001)
+
+17
+
+57
+
+Screw, Shoulder, M6 × 1 - 10 (PN 35926)
+
+4
+
+58
+
+Nut, Hex, M10 (PN 36008)
+
+2
+
+59
+
+Screw, Socket Head Cap, M4 × 0.7 - 10 (PN 30924)
+
+19
+
+60
+
+Washer, Flat, M8 (PN 50821)
+
+4
+
+61
+
+Screw, Socket Head Cap, M8 × 1.25 - 20 (PN 31895)
+
+2
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 81
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+10: DIAGRAMS AND PARTS LISTS
+10.9 X-AXIS CARRIAGE ASSEMBLY EXPLODED VIEW
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 82
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+10: DIAGRAMS AND PARTS LISTS
+10.10 X-AXIS CARRIAGE ASSEMBLY PARTS LIST
+ID
+
+Description
+
+Quantity
+
+1
+
+X-Axis Carriage (PN 50083)
+
+1
+
+2
+
+X Linear Rail Roller Shaft Support Plate, Eccentric (PN 50087)
+
+4
+
+3
+
+X Linear Rail Roller Shaft, Support Plate (PN 50086)
+
+4
+
+4
+
+Linear Rail Roller, 16 mm Rail (PN 50092)
+
+4
+
+5
+
+Linear Rail Roller, 16 mm Rail Flat (PN 50093)
+
+4
+
+6
+
+X-Axis Linear Rail Mounting Bracket (PN 50149)
+
+1
+
+7
+
+X-Axis Motor Bracket (PN 50115)
+
+1
+
+8
+
+Lead Screw, 8 mm × 170 mm (PN 50094)
+
+2
+
+9
+
+Linear Bearing, 8 mm (PN 50102)
+
+2
+
+10
+
+X-Axis Motor, ClearPath CPM-SDSK-2321S-EQN (PN 39105)
+
+1
+
+11
+
+Planetary Gear Box, NEMA 23, 5:1 (PN 50088)
+
+1
+
+12
+
+Pinion, Module 1, 23T (PN 50072)
+
+1
+
+13
+
+Screw, Socket Head Cap, M5 × 0.8 - 12 mm (PN 31353)
+
+4
+
+14
+
+Screw, Cone Point Set, M5x5 120° (PN 20001)
+
+1
+
+15
+
+Linear Rail Clamp, 8 mm (PN 50101)
+
+4
+
+16
+
+Screw, Socket Head Cap, M4 × 0.7 - 16 (PN 37751)
+
+8
+
+17
+
+Screw, Socket Head Cap, M5 × 0.8 - 16 (PN 30546)
+
+4
+
+18
+
+X-Axis Linear Roller Washer (PN 50148)
+
+4
+
+19
+
+Screw, Socket Head Countersunk, M5 × 0.8 - 14 (PN 20001)
+
+8
+
+20
+
+Screw, Socket Head Cap, M5 × 0.8 - 14 (PN 31563)
+
+8
+
+21
+
+Washer, Flat, M5 (PN 50822)
+
+8
+
+22
+
+Screw, Socket Head Cap, M6 × 1 - 16 (PN 33117)
+
+2
+
+23
+
+Screw, Socket Head Cap, M5 × 0.8 - 10 (PN 31641)
+
+4
+
+24
+
+Screw, Socket Head Cap, M4 × 0.7 - 12 (PN 31360)
+
+8
+
+25
+
+X Carriage Top Sheet Metal (PN 50085)
+
+1
+
+26
+
+X Carriage Back Cover Plate (PN 50084)
+
+1
+
+27
+
+X-Axis Tensioner Bracket (PN 50116)
+
+1
+
+28
+
+Z-Axis Compression Spring (PN 50122)
+
+1
+
+29
+
+Screw, Socket Head Cap, M4 × 0.7 - 10 (PN 30924)
+
+12
+
+30
+
+Screw, Socket Head Cap, M10 × 1.5 - 60 (PN 20001)
+
+1
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 83
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+10: DIAGRAMS AND PARTS LISTS
+10.11 Z-AXIS LIFTER ASSEMBLY EXPLODED VIEW
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 84
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+10: DIAGRAMS AND PARTS LISTS
+10.12 Z-AXIS LIFTER ASSEMBLY PARTS LIST
+ID
+
+Description
+
+Quantity
+
+1
+
+Lead Screw Nut, 8 mm (PN 50107)
+
+1
+
+2
+
+Lead Screw Coupler, 8 mm (PN 50108)
+
+1
+
+3
+
+Z-Axis Limit Switch Vertical Trigger (PN 50105)
+
+1
+
+4
+
+Z-Axis Limit Switch (PN 50104)
+
+2
+
+5
+
+Linear Rail, 8 mm × 225 mm (PN 50100)
+
+2
+
+6
+
+Z-Axis Lifter Touch Switch Trigger Plate (PN 50103)
+
+1
+
+7
+
+Z-Axis Motor Mount Front Cover (PN 50099)
+
+1
+
+8
+
+Duramax Torch
+
+1
+
+9
+
+Stepper, NEMA 23, 3 Stack, 8 mm Shaft (PN 39106)
+
+1
+
+10
+
+Z-Axis Linear Bearing Carrier (PN 50120)
+
+1
+
+11
+
+Linear Bearing, Round, 10 mm (PN 50146)
+
+2
+
+12
+
+Lead Screw, 8 mm × 170 mm (PN 50106)
+
+1
+
+13
+
+Z-Axis Compression Spring (PN 50122)
+
+1
+
+14
+
+Z-Axis Upper Linear Rail Mounting Plate (PN 50124)
+
+1
+
+15
+
+Z-Axis Lower Linear Rail Mounting Plate (PN 50125)
+
+1
+
+16
+
+Z-Axis Limit Switch Flag (PN 50121)
+
+1
+
+17
+
+Magnetic Breakaway Base (PN 50096)
+
+1
+
+18
+
+Magnetic Breakaway Kinematic Plate (PN 50126)
+
+1
+
+19
+
+Magnetic Breakaway Torch Holder Acorn Nut (PN 50703)
+
+2
+
+20
+
+Magnetic Breakaway Torch Holder Magnet (PN 50702 )
+
+4
+
+21
+
+Magnetic Breakaway Torch Holder Tether Clamp (PN 50701)
+
+1
+
+22
+
+Magnetic Breakaway Torch Holder Tether Base (PN 50700)
+
+1
+
+23
+
+Magnetic Breakaway Torch Holder Tether (PN 50704)
+
+1
+
+24
+
+Magnetic Breakaway Torch Top Clamp (PN 50699)
+
+1
+
+25
+
+Magnetic Breakaway Torch Bottom Clamp (PN 50150)
+
+1
+
+26
+
+Screw, Socket Head Countersunk, M5 × 0.8 - 12 (PN 38894)
+
+4
+
+27
+
+Screw, Socket Head Cap, M6 × 1 - 10 (PN 20001)
+
+2
+
+28
+
+Screw, Socket Head Cap, M4 × 0.7 - 16 (PN 37751)
+
+7
+
+29
+
+Screw, Socket Head Cap, M5 × 0.8 - 30 (PN 31602)
+
+2
+
+30
+
+Screw, Socket Head Cap, M5 × 0.8 - 12 mm (PN 31353)
+
+2
+
+31
+
+Screw, Socket Head Cap, M4 × 0.7 - 10 (PN 30924)
+
+6
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 85
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+10: DIAGRAMS AND PARTS LISTS
+ID
+
+Description
+
+Quantity
+
+32
+
+Z-Axis Motor Mount Sheet Metal (PN 50098)
+
+1
+
+33
+
+Lead Screw End Support (PN 50123)
+
+1
+
+34
+
+Screw, Cone Point Set, M5 × 8 90° (PN 30337)
+
+4
+
+35
+
+Screw, Socket Head Cap, M5 × 0.8 - 16 (PN 30546)
+
+3
+
+36
+
+Screw, Socket Head Cap, M5 × 0.8 - 10 (PN 31641)
+
+8
+
+37
+
+Screw, Socket Head Cap, M5 × 0.8 - 8 (PN 30844)
+
+2
+
+38
+
+Screw, Socket Head Cap, M4 × 0.7 - 8 (PN 30891)
+
+3
+
+39
+
+Screw, Socket Head Cap, M2 × 0.4 - 10 (PN 20001)
+
+6
+
+40
+
+Screw, Socket Head Cap, M6 × 1 - 16 (PN 33117)
+
+4
+
+41
+
+Screw, Cone Point Set, M4 × 16 90° (PN 20001)
+
+2
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 86
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+ELECTRICAL SCHEMATICS
+IN THIS SECTION, YOU'LL LEARN:
+About the electrical schematics for this machine’s electronics.
+
+CONTENTS
+11.1 230 Vac Power (Sheet 2)
+11.2 24 Vdc Controls (Sheet 3)
+11.3 Axis Drive Control (Sheet 4)
+11.4 A-Axis Driver (Sheet 5)
+11.5 Plasma Source Control (Sheet 6)
+11.6 Machine Control Board (Sheet 7)
+11.7 Torch Limit and Breakaway Switches (Sheet 8)
+11.8 Accessory and Auxiliary Power (Sheet 9)
+11.9 Grounds (Sheet 10)
+11.10 Terminal Strips (Sheets 11-16)
+
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+
+GND1
+
+102/N
+
+N
+
+101
+
+L
+
+-P1
+
+Page 88
+
+104/N
+
+6
+2
+
+LOCATION:
+
+106/N
+
+-TB1
+
+4
+
+3
+
+2
+
+1
+
++L1
+
+Machine Schematic
+Electrical Panel
+
+P9 - COL5
+
+114/N
+
+N'
+
+N
+
+P10 - COL10
+
+113
+
+L'
+
+112/N
+
+P9 - COL5
+
+7
+EMI Filter
+L
+
+111
+
+Machine Breaker
+
+6
+
+107
+
+5
+
+124/N
+
+Accessory Breaker
+
+105
+
+Main Breaker
+3
+
+103
+
+4
+2
+
+Main Disconnect
+
+Tormach, Inc
+
+Document realized with version : 2018.0.2.14
+
+CONTRACT:
+
+P10 - COL8
+
+3 meter cord
+
+5
+1
+
+4
+
+4
+
+1
+
+-CB1
+37345
+20A
+
+3
+1
+
+-CB3
+37345
+20A
+
+4
+2
+
+2
+
+-FL1
+32350
+20A
+
+3
+
+User data 1
+
+2
+9/4/2020
+1
+9/24/2019
+0
+5/24/2018
+REV.
+DATE
+
+User data 2
+
+CHANGES
+
+1300PL Production Run 1
+
+Add DIP switch settings for Z
+
+P9 - COL3
+
+pdenhartog
+pdenhartog
+pdenhartog
+NAME
+
+P9 - COL3
+
+117
+118/N
+
+P4 - COL1
+
+P3 - COL1
+
+P3 - COL1
+
+P4 - COL1
+
+114/N
+
+113
+
+9
+
+115
+
+8
+
+7
+
+6
+
+5
+
+8
+
+116/N
+
+-TB1
+
+-K2
+37343
+Drive Contactor
+
+2
+
+-DISC1
+30454
+
+1071 Uniek Dr.
+Waunakee, WI 53597
+
+NEMA 6-20 Plug
+
+G
+
+3
+1
+
+-CB2
+37346
+10A
+
+GND2
+
+6
+5
+1
+3
+
+10
+9
+2
+4
+
+©Tormach® 2023
+Specifications subject to change without notice.
+-K1
+37343
+Downdraft Contactor
+
+1
+
+02
+
+SCHEME
+
+2
+
+REVISION
+
+10
+
+11: ELECTRICAL SCHEMATICS
+11.1 230 VAC POWER (SHEET 2)
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+SOLIDWORKS Electrical
+
+Page 89
+
+114/N
+
+L
+N
+ECM Power
+P7 - COL9
+
+P7 - COL9
+
+GND3
+
+1071 Uniek Dr.
+Waunakee, WI 53597
+
+Tormach, Inc
+
+Document realized with version : 2018.0.2.14
+
+CONTRACT:
+
+P2 - COL9
+
++V
+-V
+
+-PS1
+50461
+2A
+100-240V AC
+24V DC
+
+402
+
+401
+
+402
+
+401
+
+-TB2
+
+5
+
+4
+
+3
+
+2
+
+1
+
+LOCATION:
+
+402
+
+401
+
++L1
+
+401
+
+GND4
+
+403
+
+404
+
+2
+3
+4
+5
+
+2
+3
+4
+5
+
+GND31
+
+486
+
+484
+
+483
+
+485
+
+P9 - COL9
+
+P7 - COL9
+
+7
+
+-TB2
+
+402
+
+402
+
+402
+
+405
+
+405
+
+404
+
+404
+
+404
+
+405
+
+P9 - COL8
+
+402
+
+402
+
+402
+
+User data 1
+
+Reset
+
+14
+
+13
+
+pdenhartog
+pdenhartog
+pdenhartog
+NAME
+
+6
+
+5
+
+2
+4
+
+-K1
+
+A2
+
+A1
+
+9
+
+13
+
+8
+
+6
+
+5
+
+-K2
+37343
+Drive Contactor
+
+User data 2
+
+CHANGES
+
+1300PL Production Run 1
+
+14
+
+12
+
+10
+
+9
+
+A2
+
+A1
+
+-K2
+
+Add DIP switch settings for Z
+
+02-7
+
+02-7
+
+Accessory V+
+
+3
+
+1
+
+-K1
+37343
+Downdraft Contactor
+
+404
+
+404
+
+404
+
+2
+9/4/2020
+1
+9/24/2019
+0
+5/24/2018
+REV.
+DATE
+
+8
+
+7
+
+6
+
+13
+
+12
+
+11
+
+10
+
+9
+
+8
+
+Emergency Stop
+
++L2 - Reset Panel
+
+Electrical Panel
+
+-D1
+37514
+
+P7 - COL9
+
+P7 - COL9
+
+1
+
+1
+
+-X1 -X2
+
+Accessory V-
+
+14
+
+Machine Schematic
+
+Electrical Cabinet Fan
+
+P8 - COL1
+
+402
+
+6
+
+1
+
+5
+
+2
+
+24V DC Power Supply
+
+P10 - COL8
+
+4
+
+-S1
+30462
+
+113
+
+3
+
+3
+5
+
+2
+
+-FAN1
+37526
+24V
+
+P10 - COL10
+13
+
+©Tormach® 2023
+Specifications subject to change without notice.
+-K2
+37343
+Drive Contactor
+
+-S2
+37342
+-S2
+
+4
+6
+
+P2 - COL9
+
+1
+
+03-5
+
+06-3
+
+02-7
+
+02-7
+
+03
+
+SCHEME
+
+2
+
+REVISION
+
+-D2
+37514
+
+10
+
+11: ELECTRICAL SCHEMATICS
+
+11.2 24 VDC CONTROLS (SHEET 3)
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+SOLIDWORKS Electrical
+
+Page 90
+
+116/N
+
+208
+
+207
+
+-E1
+
+GND5
+
+THERMAL FUSE
+F1
+10A
+
+39102
+
+226
+
+225
+
+1071 Uniek Dr.
+Waunakee, WI 53597
+
+Tormach, Inc
+
+Document realized with version : 2018.0.2.14
+
+CONTRACT:
+
+Top Switches (Diagnostic):
+1: OFF
+2: OFF
+
+Main Block:
+1: OFF
+2: OFF
+3: ON
+4: ON
+5: OFF
+6: OFF
+7: ON
+8: ON
+
+-
+
++
+
+Backfeed Clamp
+
+Z Axis DIP Switches:
+
+P2 - COL9
+
+75V DC Power Supply
+
+L
+
+N
+
+115
+
++V
+-V
+
+-PS2
+39101
+6A
+100-240V
+75V
+
+P2 - COL9
+
+2
+
+P10 - COL8
+
+P7 - COL4
+P7 - COL4
+P7 - COL4
+P7 - COL4
+
+-TB3
+
+3
+
+6
+
+5
+
+4
+
+3
+
+2
+
+1
+
+226
+225
+
+448
+467
+449
+466
+
+LOCATION:
+
+BB+
+AA+
+VV+
+
+38686
+
++L1
+
+-DR1
+
+209
+210
+211
+212
+
+OUTOUT+
+ENEN+
+DIRDIR+
+STEPSTEP+
+
+Z Driver
+
+P5 - COL4
+
+P5 - COL4
+
+4
+
+6
+7
+
+4
+
+GND17
+
+209
+
+2
+
+211
+
+210
+
+1
+
+212
+
+-X5
+
+W4\1
+W4\2
+W4\3
+W4\4
+W4\5
+W4\6
+W4\7
+W4\8
+
+6
+7
+8
+
+8
+
+2
+
+1
+
+-X11
+
+5
+
+4
+
+4
+
+7
+
+3
+
+3
+
+6
+
+2
+
+2
+
+5
+
+1
+
+1
+
+2
+3
+4
+5
+6
+7
+8
+
+2
+3
+4
+5
+6
+7
+8
+
+7
+
+6
+
+4
+
+2
+
+1
+
+Red
+
+Black
+
+Green
+
+Green-yellow
+
+Blue
+
+W8\1
+W8\2
+W8\3
+W8\4
+W8\5
+W8\6
+W8\7
+W8\8
+
+W7\1
+
+W7\2
+
+W6\1
+W6\2
+W6\3
+W6\4
+W6\5
+W6\6
+W6\7
+W6\8
+
+W5\1
+
+W5\2
+
+Electrical Panel
+
+W9\B-
+
+W9\B+
+
+W9\GND
+
+W9\A-
+
+W9\A+
+
+-X12
+
+1
+
+1
+
+Machine Schematic
+
+P10 - COL10
+
+P7 - COL6
+P7 - COL6
+P7 - COL6
+P7 - COL6
+P7 - COL6
+P7 - COL6
+P7 - COL6
+P7 - COL6
+
+1
+
+2
+
+-X10
+
+-X7 -X9
+
+2
+
+226
+
+-X4
+1
+
+W2\1
+W2\2
+W2\3
+W2\4
+W2\5
+W2\6
+W2\7
+W2\8
+
+7
+
+7
+
+6
+
+4
+
+2
+
+1
+
+7
+
+6
+
+4
+
+2
+
+1
+
+222
+
+221
+
+User data 1
+
+2
+9/4/2020
+1
+9/24/2019
+0
+5/24/2018
+REV.
+DATE
+
+8
+
+Motor
+
+B+
+
+Z Motor
+
+-M2
+
+B- -M3
+
+39106
+
+Encoder
+
+3~
+
+Motor
+
+39104
+
+Encoder
+
+3~
+
+-M1
+
+39105
+
+Motor
+
+9
+
+User data 2
+
+CHANGES
+
+1300PL Production Run 1
+
+Add DIP switch settings for Z
+
+A-
+
+A+
+
+1
+2
+3
+4
+5
+6
+7
+8
+
+2
+
+3
+
+Y Motor
+
+1
+2
+3
+4
+5
+6
+7
+8
+
+2
+
+3
+
+X Motor
+
+pdenhartog
+pdenhartog
+pdenhartog
+NAME
+
+224
+
+223
+
+GND33
+
+-X14
+
+Bulkhead on X Carriage
+
+-X13
+
+Green
+Black
+White
+Blue
+Red
+Yellow
+Brown
+Orange
+
+Black
+
+Red
+
+Green
+Black
+White
+Blue
+Red
+Yellow
+Brown
+Orange
+
+Black
+
+Red
+
++L3 - Frame and Gantry
+
+6
+
+-X6 -X8
+
+1
+
+2
+
+-X3
+
+225
+
+P7 - COL6
+P7 - COL6
+P7 - COL6
+P7 - COL6
+P7 - COL6
+P7 - COL6
+P7 - COL6
+P7 - COL6
+
+226
+
+Blue
+
+225
+
+5
+
+Power
+Control
+Power
+
+©Tormach® 2023
+Specifications subject to change without notice.
+Control
+
+1
+
+04
+
+SCHEME
+
+2
+
+REVISION
+
+10
+
+11: ELECTRICAL SCHEMATICS
+11.3 AXIS DRIVE CONTROL (SHEET 4)
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+SOLIDWORKS Electrical
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 91
+
+2
+
+1071 Uniek Dr.
+Waunakee, WI 53597
+
+Tormach, Inc
+
+Document realized with version : 2018.0.2.14
+
+CONTRACT:
+
+1
+
+3
+
+226
+225
+
+500
+503
+501
+502
+
+BB+
+AA+
+VV+
+
+38686
+
+-DR2
+
+231
+232
+233
+234
+
+OUTOUT+
+ENEN+
+DIRDIR+
+STEPSTEP+
+
+A Drive
+
+5
+
+6
+
+P10 - COL10
+
+LOCATION:
+
++L1
+
+Machine Schematic
+Electrical Panel
+
+User data 1
+
+2
+9/4/2020
+1
+9/24/2019
+0
+9/6/2019
+REV.
+DATE
+
+7
+
+231
+
+4
+6
+
+2
+
+GND34
+232
+
+1
+
+233
+
+-X30
+
+7
+
+234
+
+Note: A Axis driver is an optional add-on. Not installed at factory.
+
+P4 - COL4
+P4 - COL4
+
+P7 - COL4
+P7 - COL4
+P7 - COL4
+P7 - COL4
+
+4
+
+pdenhartog
+pdenhartog
+pdenhartog
+NAME
+
+8
+
+User data 2
+
+CHANGES
+
+1300PL Production Run 1
+
+Add DIP switch settings for Z
+
+9
+
+05
+
+SCHEME
+
+2
+
+REVISION
+
+10
+
+11: ELECTRICAL SCHEMATICS
+
+11.4 A-AXIS DRIVER (SHEET 5)
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+SOLIDWORKS Electrical
+
+©Tormach® 2023
+Specifications subject to change without notice.
+6
+7
+
+440
+
+P7 - COL4
+
+P7 - COL4
+
+Page 92
+1071 Uniek Dr.
+Waunakee, WI 53597
+
+Document realized with version : 2018.0.2.14
+
+CONTRACT:
+
+7
+
+5
+
+441
+
+Tormach, Inc
+
+6
+
+4
+
+495
+
+P7 - COL2
+
+-X29
+
+4
+
+LOCATION:
+
+P10 - COL6
+
+5
+
+4
+
+3
+
+3
+
+2
+
+1
+
+442
+
+1
+
+P7 - COL1
+
+-X28
+
+2
+
+438
+
+3
+
+439
+
+437
+
+8
+
+P7 - COL9
+
+P7 - COL9
+
+2
+
+03-10
+10A
+-K2
+12
+
+1
+
++L1
+
+13
+
+14
+
+12
+
+6
+
+5
+
+4
+
+3
+
+7
+
+8
+
+9
+
+Electrical Panel
+
+User data 1
+
+2
+9/4/2020
+1
+9/24/2019
+0
+5/24/2018
+REV.
+DATE
+
+pdenhartog
+pdenhartog
+pdenhartog
+NAME
+
+Torch
+
+User data 2
+
+CHANGES
+
+1300PL Production Run 1
+
+Add DIP switch settings for Z
+
+Hypertherm Powermax 45 XP
+
+] Arc Ok
+
+] Arc Voltage (50x Divider)
+
+] Start Plasma
+
+6
+
+Machine Schematic
+
+482
+
+Ohmic Cap
+
+434
+
+435
+
+432
+
+433
+
+430
+
+431
+
+-X16
+Plasma Machine Interface
+38907
+
+5
+
+06
+
+SCHEME
+
+2
+
+REVISION
+
+10
+
+11: ELECTRICAL SCHEMATICS
+11.5 PLASMA SOURCE CONTROL (SHEET 6)
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+SOLIDWORKS Electrical
+
+443
+
++5v
+
+SHIELD
+
+495
+447
+
+GND
+
+PROBE-
+
+1071 Uniek Dr.
+Waunakee, WI 53597
+
+Tormach, Inc
+
+494
+
+FR-
+
+FO+
+
+481
+
+445
+
+442
+
+P6 - COL1
+
+-IN
+
+FO-
+
+444
+
+P10 - COL8
+
+CAP
+
+Tormach THCT
+39096
+
+SHIELD
+FR+
+
+Document realized with version : 2018.0.2.14
+
+CONTRACT:
+
+J1
+
+J2
+
+493
+
+P6 - COL1
+GND
+PROBE+
+
+LOCATION:
+
+Z Axis Control [
+
+Arc OK Input [
+
++L1
+
+P5 - COL4
+P5 - COL4
+
+P5 - COL4
+P5 - COL4
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+8
+
+1
+
+8
+
+1
+
+2
+-X18
+
+J11
+
+7
+
+J4
+Accessory Input 2
+
+P1
+
+Aux Control 2
+
+8
+
+1
+
+8
+
+1
+
+Electrical Panel
+
+2A
+
+F2
+PN 31123
+
+ACC FUSES
+2A
+
+F1
+
+J2
+
+Limit / Door Switches
+
+Accessory Input DIN Socket
+
+Machine Control Connector
+
+RS485
+
+J12
+
+W2\1
+W2\2
+W2\3
+W2\4
+W2\5
+W2\6
+W2\7
+W2\8
+
+P4 - COL5
+P4 - COL5
+P4 - COL5
+P4 - COL5
+P4 - COL5
+P4 - COL5
+P4 - COL5
+P4 - COL5
+
+RJ45
+
+W4\1
+W4\2
+W4\3
+W4\4
+W4\5
+W4\6
+W4\7
+W4\8
+
+P4 - COL5
+P4 - COL5
+P4 - COL5
+P4 - COL5
+P4 - COL5
+P4 - COL5
+P4 - COL5
+P4 - COL5
+
+J3
+Accessory Input 1
+
+1
+
+-X17
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+488
+
+6
+489
+
+5
+490
+
+3
+2
+
+Machine Schematic
+
+447
+
+493
+494
+
+443
+444
+445
+
+501
+500
+
+502
+503
+
+P4 - COL3
+P4 - COL3
+
+466
+467
+
+P4 - COL3
+P4 - COL3
+449
+448
+
+440
+
+P6 - COL1
+
+P6 - COL1
+
+441
+
+5
+
+2
+
+1
+487
+
+J1
+Spindle Control
+
+3
+
+4
+3
+
+J15
+
+1
+J14
+J13
+
+4
+
+J16
+J9
+Encoder
+
+4
+J6
+Axis Control
+
+4
+
+User data 1
+
+2
+9/4/2020
+1
+9/24/2019
+0
+5/24/2018
+REV.
+DATE
+
+2
+
+-E2
+
+3
+
+3
+
+Page 93
+
+4
+
+2
+
+J5
+
+8
+
+J8
+Turret Control
+
+901
+
+J7
+ECM Power
+
+Orange
+
+1
+
+2
+
+1
+
+2
+
+3
+
+4
+
+5
+
+1
+
+2
+
+3
+
+4
+
+pdenhartog
+pdenhartog
+pdenhartog
+NAME
+
+5
+
+©Tormach® 2023
+Specifications subject to change without notice.
+1
+
+J10
+24V DC Control
+6
+
+1
+
+P3 - COL6
+
+404
+
+P8 - COL1
+
+User data 2
+
+CHANGES
+
+1300PL Production Run 1
+
+Add DIP switch settings for Z
+
+471
+
+P8 - COL1
+
+469
+
+P8 - COL1
+
+P8 - COL1
+
+468
+
+470
+
+P8 - COL1
+
+497
+
+P3 - COL3
+
+P9 - COL8
+
+492
+
+P3 - COL3
+
+P3 - COL6
+
+405
+
+401
+
+P9 - COL8
+
+402
+
+P3 - COL6
+491
+
+P6 - COL1
+
+439
+
+402
+
+P6 - COL1
+
+437
+
+9
+
+07
+
+SCHEME
+
+2
+
+REVISION
+
+Limit Switch Cable
+
+24v (+)
+
+24v Accessory 2
+
+Downdraft Contactor
+
+24v Accessory 1
+
+24v (-)
+
+Arc On Output
+
+10
+
+11: ELECTRICAL SCHEMATICS
+
+11.6 MACHINE CONTROL BOARD (SHEET 7)
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+SOLIDWORKS Electrical
+
+3
+4
+5
+6
+
+468
+
+469
+
+470
+
+471
+
+P7 - COL9
+
+P7 - COL9
+
+P7 - COL9
+
+P7 - COL9
+
+Page 94
+
+6
+
+5
+
+4
+
+3
+
+2
+
+1
+
+Yellow
+
+Red
+
+Blue
+
+White
+
+Black
+
+Green
+
+1071 Uniek Dr.
+Waunakee, WI 53597
+
+Document realized with version : 2018.0.2.14
+
+CONTRACT:
+
+2
+
+P7 - COL9
+
+-X20
+
+Tormach, Inc
+
+1
+
+497
+
+P3 - COL4
+
+-X19
+
+401
+
+3
+
+W10\6
+
+W10\5
+
+W10\4
+
+W10\3
+
+W10\2
+
+W10\1
+
++L3 - Frame and Gantry
+
+2
+
+LOCATION:
+
+24v-
+
+24v+
+
+-X21
+
+6
+
+5
+
+4
+
+3
+
+2
+
+1
+
+4
+
++L1
+
+6
+
+5
+
+4
+
+3
+
+2
+
+1
+
+-X22
+
+Z Negative Limt
+
+480
+
+479
+
+Z Positive Limit
+
+6
+
+478
+
+477
+
+476
+
+504
+
+5
+
+-LS1
+V-/BL
+
+-LS4
+
+V+/BN
+
+Machine Schematic
+Electrical Panel
+
+Torch Crash Detection
+
+OUT/BK
+
+Torch Touch Switch
+
+-LS2
+
+©Tormach® 2023
+Specifications subject to change without notice.
+-LS3
+
+1
+
+User data 1
+
+2
+9/4/2020
+1
+9/24/2019
+0
+8/31/2018
+REV.
+DATE
+
+7
+
+pdenhartog
+pdenhartog
+pdenhartog
+NAME
+
+8
+
+User data 2
+
+CHANGES
+
+1300PL Production Run 1
+
+Add DIP switch settings for Z
+
+9
+
+08
+
+SCHEME
+
+2
+
+REVISION
+
+10
+
+11: ELECTRICAL SCHEMATICS
+11.7 TORCH LIMIT AND BREAKAWAY SWITCHES (SHEET 8)
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+SOLIDWORKS Electrical
+
+Page 95
+
+Document realized with version : 2018.0.2.14
+
+CONTRACT:
+
+1071 Uniek Dr.
+Waunakee, WI 53597
+
+Tormach, Inc
+
+P2 - COL9
+
+-FL2
+37358
+Downdraft Ventillation Noise Filter
+
+-TB1
+10
+
+L
+118/N
+
+118/N
+
+GND7
+
+LOCATION:
+
+12
+
+11
+
+118/N
+
+E
+P10 - COL8
+
+9
+
++L1
+
+124/N
+
+L
+
+N
+
+-X24
+
+107
+
+5
+
+Computer Power
+
+E
+
+Electrical Panel
+
+37599
+
+6
+
+Machine Schematic
+
+P2 - COL6
+
+Ventillation Power
+-X23 37350
+
+4
+
+User data 1
+
+2
+9/4/2020
+1
+9/24/2019
+0
+5/24/2018
+REV.
+DATE
+
+7
+
+8
+
+24V Switched Accessory
+
+pdenhartog
+pdenhartog
+pdenhartog
+NAME
+
+-X25
+
+3
+
+N
+P2 - COL6
+
+4
+402
+
+2
+
+117
+P2 - COL9
+
+GND9
+P10 - COL8
+
+1
+404
+P3 - COL8
+
+2
+492
+P7 - COL9
+
+3
+491
+P7 - COL9
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+9
+
+User data 2
+
+CHANGES
+
+1300PL Production Run 1
+
+Add DIP switch settings for Z
+
+P3 - COL6
+
+1
+
+09
+
+SCHEME
+
+2
+
+REVISION
+
+10
+
+11: ELECTRICAL SCHEMATICS
+
+11.8 ACCESSORY AND AUXILIARY POWER (SHEET 9)
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+SOLIDWORKS Electrical
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 96
+
+3
+
+-XS3
+39097
+Gantry Ground Bar
+
+-XS2
+39097
+Frame Ground Bar
+
+-XS1
+39097
+Water Table Ground Bar
+
+1071 Uniek Dr.
+Waunakee, WI 53597
+
+GND23
+GND24
+LOCATION:
+
+Work Clamps
+
+4
+
+GND25
+
+2
+
++L1
+
+5
+
+P6 - COL4
+
+6
+
+Machine Schematic
+
+X Carriage Ground
+
+GND26
+
++L3 - Frame and Gantry
+
+Tormach, Inc
+
+Document realized with version : 2018.0.2.14
+
+CONTRACT:
+
+1
+
+2
+3
+
+GND28
+482
+3
+
+2
+
+1
+
+Electrical Panel
+
+1
+
+GND27
+
+-X26 -X27
+
+481
+
+User data 1
+
+pdenhartog
+pdenhartog
+pdenhartog
+NAME
+
+P7 - COL1
+
+-TB4
+
+6
+
+5
+
+4
+
+3
+
+2
+
+1
+
+9
+
+GND34
+
+GND17
+
+GND4
+
+GND2
+
+User data 2
+
+CHANGES
+
+1300PL Production Run 1
+
+Add DIP switch settings for Z
+
+GND30
+
+GND29
+
+GND9
+
+GND7
+
+P9 - COL3
+P9 - COL5
+
+GND5
+
+P4 - COL2
+
+GND1
+GND3
+
+8
+
+P3 - COL3
+
+P2 - COL2
+
+2
+9/4/2020
+1
+9/24/2019
+0
+5/24/2018
+REV.
+DATE
+
+7
+
+10
+
+SCHEME
+
+2
+
+REVISION
+
+P5 - COL7
+
+P4 - COL5
+
+P3 - COL5
+
+P2 - COL7
+
+10
+
+11: ELECTRICAL SCHEMATICS
+11.9 GROUNDS (SHEET 10)
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+SOLIDWORKS Electrical
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 97
+
+Document realized with version : 2022.0.1.24
+
+CONTRACT:
+
+1071 Uniek Dr.
+Waunakee, WI 53597
+
+Tormach, Inc
+
+LOCATION:
+
++L1
+
+=F1+L1-FL2
+
+=F1+L1-FL2
+
+=F1+L1-K1:3
+
+=F1+L1-FL1:N'
+
+=F1+L1-K1:1
+
+=F1+L1-FL1:L'
+
+=F1+L1-CB1:2
+
+=F1+L1-CB1:4
+
+Machine Schematic
+
+11
+
+118/N
+
+9
+10
+
+117
+
+8
+
+114/N
+
+117
+
+114/N
+
+7
+
+114/N
+
+User data 1
+
+2
+9/4/2020
+1
+9/24/2019
+0
+6/8/2018
+REV.
+DATE
+
+=F1+L1-X23:N
+
+=F1+L1-K1:2
+
+=F1+L1-X23:L
+
+=F1+L1-K2:5
+
+=F1+L1-PS1:N
+
+=F1+L1-K2:6
+
+=F1+L1-PS1:L
+
+=F1+L1-CB2:1
+
+=F1+L1-CB3:1
+
+=F1+L1-CB2:3
+
+=F1+L1-CB3:3
+
+Electrical Panel
+
+118/N
+
+117
+
+114/N
+
+6
+
+113
+
+113
+
+106/N
+
+4
+5
+
+106/N
+
+105
+
+2
+3
+
+105
+
+1
+
+113
+
+113
+
+106/N
+
+105
+
+-TB1
+
+AC Terminal Strip
+
+pdenhartog
+pdenhartog
+pdenhartog
+NAME
+
+User data 2
+
+CHANGES
+
+1300PL Production Run 1
+
+Add DIP switch settings for Z
+
+2
+
+11
+
+SCHEME
+
+REVISION
+
+11: ELECTRICAL SCHEMATICS
+
+11.10 TERMINAL STRIPS (SHEETS 11-16)
+
+11.10.1 TB1: AC Terminal Strip (Sheet 11)
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+SOLIDWORKS Electrical
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 98
+
+CONTRACT:
+
+Document realized with version : 2022.0.1.24
+
+1071 Uniek Dr.
+Waunakee, WI 53597
+
+Tormach, Inc
+
+LOCATION:
+
++L1
+
+=F1+L1-K1:4
+
+12
+
+Machine Schematic
+
+118/N
+
+-TB1
+
+Electrical Panel
+
+AC Terminal Strip
+
+User data 1
+
+2
+9/4/2020
+1
+9/24/2019
+0
+6/8/2018
+REV.
+DATE
+
+pdenhartog
+pdenhartog
+pdenhartog
+NAME
+
+User data 2
+
+CHANGES
+
+1300PL Production Run 1
+
+Add DIP switch settings for Z
+
+2
+
+12
+
+SCHEME
+
+REVISION
+
+11: ELECTRICAL SCHEMATICS
+11.10.2 TB1: AC Terminal Strip (Sheet 12)
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+SOLIDWORKS Electrical
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 99
+
+Document realized with version : 2022.0.1.24
+
+CONTRACT:
+
+1071 Uniek Dr.
+Waunakee, WI 53597
+
+Tormach, Inc
+
+LOCATION:
+
++L1
+
+=F1+L1-K2:14
+
+=F1+L1-X1:3
+
+=F1+L1-ECM1:1
+
+=F1+L1-X25:4
+
+=F1+L1-ECM1:5
+
+=F1+L1-D1
+
+=F1+L1-ECM1:2
+
+=F1+L1-PS1:+V
+
+=F1+L1-ECM1:1
+
+=F1+L1-PS1:-V
+
+Machine Schematic
+
+11
+
+9
+
+404
+
+404
+
+8
+
+402
+
+10
+
+7
+
+402
+
+404
+
+6
+
+5
+
+402
+
+402
+
+4
+
+User data 1
+
+2
+9/4/2020
+1
+9/24/2019
+0
+6/8/2018
+REV.
+DATE
+
+=F1+L1-K2:A1
+
+=F1+L1-D2
+
+=F1+L1-X25:1
+
+=F1+L1-D2
+
+=F1+L1-K2:A2
+
+=F1+L1-K1:A2
+
+=F1+L1-FAN1
+
+=F1+L1-X1:1
+
+=F1+L1-FAN1
+
+=F1+L1-X19:1
+
+=F1+L1-X1:2
+
+Electrical Panel
+
+404
+
+404
+
+404
+
+402
+
+402
+
+402
+
+402
+
+402
+
+401
+
+3
+402
+
+401
+
+2
+
+401
+
+401
+
+1
+
+401
+
+-TB2
+
+Control Terminal Strip
+
+pdenhartog
+pdenhartog
+pdenhartog
+NAME
+
+User data 2
+
+CHANGES
+
+1300PL Production Run 1
+
+Add DIP switch settings for Z
+
+2
+
+13
+
+SCHEME
+
+REVISION
+
+11: ELECTRICAL SCHEMATICS
+
+11.10.3 TB2: Control Terminal Strip (Sheet 13)
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+SOLIDWORKS Electrical
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 100
+
+CONTRACT:
+
+Document realized with version : 2022.0.1.24
+
+1071 Uniek Dr.
+Waunakee, WI 53597
+
+Tormach, Inc
+
+LOCATION:
+
++L1
+
+=F1+L1-D1
+
+=F1+L1-ECM1:3
+
+13
+
+405
+
+Machine Schematic
+
+12
+
+405
+
+-TB2
+
+405
+
+User data 1
+
+2
+9/4/2020
+1
+9/24/2019
+0
+11/8/2018
+REV.
+DATE
+
+=F1+L1-K1:A1
+
+Electrical Panel
+
+Control Terminal Strip
+
+pdenhartog
+pdenhartog
+pdenhartog
+NAME
+
+User data 2
+
+CHANGES
+
+1300PL Production Run 1
+
+Add DIP switch settings for Z
+
+2
+
+14
+
+SCHEME
+
+REVISION
+
+11: ELECTRICAL SCHEMATICS
+11.10.4 TB2: Control Terminal Strip (Sheet 14)
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+SOLIDWORKS Electrical
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 101
+
+Document realized with version : 2022.0.1.24
+
+CONTRACT:
+
+1071 Uniek Dr.
+Waunakee, WI 53597
+
+Tormach, Inc
+
+LOCATION:
+
++L1
+
+=F1+L1-DR1:V-
+
+=F1+L1-PS2:+V
+
+=F1+L1-DR1:V+
+
+=F1+L1-PS2:-V
+
+5
+
+226
+
+Machine Schematic
+
+6
+
+4
+
+User data 1
+
+2
+9/4/2020
+1
+9/24/2019
+0
+9/5/2018
+REV.
+DATE
+
+=F1+L1-DR2:V-
+
+=F1+L1-X4:2
+
+=F1+L1-X3:1
+
+=F1+L1-DR2:V+
+
+=F1+L1-X4:1
+
+=F1+L1-X3:2
+
+Electrical Panel
+
+226
+
+226
+
+226
+
+225
+
+3
+226
+
+225
+
+2
+
+225
+
+225
+
+1
+
+225
+
+-TB3
+
+75v DC Terminal Strip
+
+pdenhartog
+pdenhartog
+pdenhartog
+NAME
+
+User data 2
+
+CHANGES
+
+1300PL Production Run 1
+
+Add DIP switch settings for Z
+
+2
+
+15
+
+SCHEME
+
+REVISION
+
+11: ELECTRICAL SCHEMATICS
+
+11.10.5 TB3: 75 Vdc Terminal Strip (Sheet 15)
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+SOLIDWORKS Electrical
+
+©Tormach® 2023
+Specifications subject to change without notice.
+
+Page 102
+
+CONTRACT:
+
+Document realized with version : 2022.0.1.24
+
+1071 Uniek Dr.
+Waunakee, WI 53597
+
+Tormach, Inc
+
+LOCATION:
+
++L1
+
+=F1+L1-X27:1
+
+=F1+L1-X24:E
+
+=F1+L1-X23:E
+
+=F1+L1-PS2
+
+=F1+L1-PS1
+
+=F1+L1-P1:G
+
+2
+3
+4
+5
+6
+
+GND3
+
+GND5
+
+GND7
+
+GND9
+
+GND29
+
+Machine Schematic
+
+7
+
+1
+
+GND1
+
+-TB4
+
+GND30
+
+GND34
+
+GND17
+
+GND4
+
+GND2
+
+User data 1
+
+2
+9/4/2020
+1
+9/24/2019
+0
+6/8/2018
+REV.
+DATE
+
+=F1+L1-X27:2
+
+=F1+L1-X30:4
+
+=F1+L1-X5:4
+
+=F1+L1-X1:5
+
+=F1+L1-FL1
+
+Electrical Panel
+
+Ground Terminal Strip
+
+pdenhartog
+pdenhartog
+pdenhartog
+NAME
+
+User data 2
+
+CHANGES
+
+1300PL Production Run 1
+
+Add DIP switch settings for Z
+
+2
+
+16
+
+SCHEME
+
+REVISION
+
+11: ELECTRICAL SCHEMATICS
+11.10.6 TB4: Ground Terminal Strip (Sheet 16)
+
+UM10720: 1300PL Operator's Manual (Version 1223A)
+For the most recent version, see tormach.com/support
+
+SOLIDWORKS Electrical
+
+

@@ -1,0 +1,95 @@
+For the wood workshop in Gannon's makerspace, these are the following available stations as well as materials:
+
+CNC Router
+A CNC (Computer Numerical Control) Router is a versatile, computer-controlled cutting machine used for precision shaping and cutting of various materials. This machine operates along multiple axes (usually 3 to 5), providing highly accurate cuts, engravings, and carvings for prototypes, custom components, and intricate designs. The CNC Router is widely used in manufacturing, design, and engineering labs due to its ability to automate complex cutting tasks with high precision and consistency.
+
+Materials:
+-Wood
+-Plastics
+-Foam
+-Metals (Aluminum, Brass)
+-Composite Materials
+
+Drill Press
+A fundamental machine tool used for precision drilling, reaming, and boring tasks. This machine is essential for creating accurate, repeatable holes in a variety of materials by vertically driving a rotating drill bit into the workpiece. It is designed for heavy-duty tasks and ensures precision and safety, making it a staple for machining operations in an engineering environment.
+
+Materials:
+-Metals (Steel, Aluminum, Brass)
+-Wood
+-Plastics
+-Composites
+
+Wood Lathe
+An essential machine tool designed for shaping, sanding, and finishing cylindrical objects from various materials. It functions by rotating the workpiece on its axis while cutting tools are applied to create symmetrical shapes, such as bowls, spindles, or handles. The versatility and precision of a wood lathe make it invaluable for hands-on learning and prototyping in woodworking, product design, and custom part fabrication.
+
+Materials:
+-Wood
+-Plastics
+
+Planer
+A vital machine tool designed to produce uniform thickness and smooth surfaces on boards or planks of wood. This tool is essential for material preparation, ensuring precision and consistency for subsequent machining or assembly operations. The planer works by shaving off thin layers of material from the surface of a wood piece, making it a key tool in achieving a flat and even surface.
+
+Materials:
+-Hardwoods (Oak, Maple, Walnut, Mahogany)
+-Softwoods (Pine, Cedar, Fir)
+
+Router Table
+A versatile tool that enhances the functionality of a handheld router by mounting it upside down on a stable work surface. This configuration allows for increased precision, control, and safety when shaping, cutting, or detailing wood materials. The router table is essential for intricate woodworking operations that require detailed edges, joints, and profiles.
+
+Materials:
+-Hardwoods (Oak, Maple, Walnut, Cherry)
+-Softwoods (Pine, Cedar, Fir)
+-Engineered woods (Plywood, MDF, Particleboard)
+
+Saw Stop Table Saw
+An advanced and highly precise cutting tool designed for woodworking and fabrication tasks. It is renowned for its safety features—especially its unique braking system, which instantly stops the blade when it comes in contact with skin, dramatically reducing the risk of injury. This table saw is widely used for precise cuts, such as ripping, cross-cutting, and dadoing, in various materials.
+
+Materials:
+-Hardwoods (Oak, Maple, Walnut, Cherry)
+-Softwoods (Pine, Cedar, Fir)
+-Engineered woods (Plywood, MDF, Particleboard)
+-Laminates
+-Plastic and acrylic sheets
+
+Wood Bandsaw
+A versatile and powerful cutting machine widely used for precision woodworking and fabrication tasks. It utilizes a continuous loop blade that moves over two wheels to make straight, curved, or irregular cuts in a variety of materials. The bandsaw’s ability to handle intricate cuts, re-sawing, and cross-cutting makes it essential for woodworking and prototyping projects.
+
+Materials:
+-Hardwoods (Oak, Maple, Walnut, Cherry)
+-Softwoods (Pine, Cedar, Fir)
+-Engineered woods (Plywood, MDF, Particleboard)
+-Laminates
+-Plastic
+-Foam and other soft materials
+
+Disc Sander
+A powerful machine designed for precision sanding, shaping, and finishing of wood and other soft materials. The sander features a rotating abrasive disc mounted vertically or horizontally on a workbench, providing a smooth and controlled surface for material finishing.
+
+Materials:
+-Hardwoods (Oak, Maple, Walnut, Mahogany)
+-Softwoods (Pine, Cedar, Fir)
+-Engineered woods (Plywood, MDF, Particleboard)
+-Laminates and Veneers
+-Plastic
+-Non-Ferrous Metals (Aluminum, Brass)
+-Foam and other soft materials
+
+Spindle Sander
+A specialized sanding machine used for smoothing and shaping curved or contoured edges on wood and other materials. It features a cylindrical sanding drum (or spindle) that oscillates vertically while rotating, ensuring even material removal and a fine finish. This machine is an essential tool in any engineering lab or makerspace that focuses on precision woodworking or fabrication of curved designs.
+
+Materials:
+-Hardwoods (Oak, Maple, Walnut)
+-Softwoods (Pine, Cedar)
+-Engineered woods (Plywood, MDF, Particleboard)
+-Laminates and Veneers
+-Plastic
+-Foam and other soft materials
+
+Jointer
+A vital woodworking tool used primarily to create flat surfaces on wooden boards, preparing them for further processing or assembly. By leveling and squaring edges and faces of lumber, the jointer ensures precise, straight edges for high-quality joinery and construction projects.
+
+Materials:
+-Hardwoods (Oak, Maple, Walnut)
+-Softwoods (Pine, Cedar)
+-Engineered woods (Plywood, MDF)
+-Composite Woods

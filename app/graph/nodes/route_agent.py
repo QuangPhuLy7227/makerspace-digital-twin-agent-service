@@ -1,5 +1,6 @@
 from app.graph.state import OrchestratorState
 
+
 def route_agent(state: OrchestratorState) -> OrchestratorState:
     intent = state.get("intent", "explanation")
 

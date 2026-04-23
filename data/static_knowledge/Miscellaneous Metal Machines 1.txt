@@ -1,0 +1,49 @@
+The makerspace also has other machines and items that include the following: 
+
+Laser Marking Machine
+A machine that uses a focused laser beam to permanently mark materials with text, logos, serial numbers, or designs. It is used on metals, plastics, ceramics, and composites, making it highly versatile for identification, branding, and traceability purposes. The laser marking process is fast, precise, and non-contact, ensuring clean, accurate markings without altering the material's structural properties.
+
+Materials:
+-Metals (Aluminum, stainless steel, titanium)
+-Plastics
+-Ceramics
+-Coated materials
+
+Vertical Bandsaw
+A versatile cutting tool used to cut metal, plastics, and composites. It features a continuous loop blade that moves vertically to cut intricate shapes, curves, or straight lines in various materials.
+
+Materials:
+-Metals (Steel, aluminum, brass, and copper)
+-Plastics (Acrylic, PVC, and Plycarbonate)
+-Composites (Fiberglass and carbon fiber)
+
+Vertical Knee Mill
+A versatile milling machine equipped with a vertically adjustable spindle head, allowing for precise control over cutting operations. It is used for machining metal and other rigid materials, performing tasks such as drilling, boring, and shaping. With the ability to move the worktable horizontally, the mill enables complex milling and precision work on materials like steel, aluminum, and cast iron.
+
+Materials:
+-Metals (Aluminum, steel, brass, copper)
+-Plastics
+-Composites
+
+MIG/TIG/Stick Welder
+MIG is a welding machine used in fabrication and manufacturing to fuse metal by heating with an electric arc while shielding the weld from contamination with an inert gas (typically argon).
+
+(Tungsten Inert Gas) provides precise, clean welds using a non-consumable tungsten electrode and inert gas to shield the weld area.
+
+(Shielded Metal Arc Welding or SMAW) is a portable and rugged machine used for welding a variety of metals using an electric arc.
+
+Materials:
+-Mild steel
+-Stainless steel
+-Aluminum
+-Magnesium
+-Copper alloys
+-Carbon steel
+-Cast iron
+
+Air/Hydraulic Shop Press
+A powerful pressing tool used to apply controlled force on materials for bending, straightening, and forming. It uses a combination of air and hydraulic pressure to perform tasks such as pressing bearings, bushings, or forming metal components. Capable of exerting tons of pressure, it is essential for heavy-duty fabrication and assembly work in metalworking and automotive repair.
+
+Materials:
+-Metals (Steel, aluminum)
+-Bearings, bushings, or shafts

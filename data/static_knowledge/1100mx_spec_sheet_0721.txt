@@ -1,0 +1,140 @@
+SPEC SHEET
+
+1100MX CNC MILLING MACHINE
+
+TORMACH.COM/1100MX
+
+TRAVELS
+X-Axis
+
+18 in. (457 mm)
+
+Y-Axis
+
+11 in. (279 mm)
+
+Z-Axis
+
+16.25 in. (413 mm)
+
+SPINDLE
+Spindle Power
+
+2 hp (1.49 kW)
+
+Maximum Speed
+
+10,000 RPM
+
+Transmission
+
+Poly-V Belt
+
+Spindle Taper
+
+BT30
+• Rigid Tapping
+• Tension/Compression
+• Thread Mill
+
+Thread Machining
+
+MAXIMUM FEED RATE
+X- and Y-Axis
+
+300 IPM (7.62 m/min)
+
+Z-Axis
+
+230 IPM (5.84 m/min)
+
+POWER
+Single-Phase 230 Vac,
+50/60 Hz, 20A breaker
+
+Power Required
+
+MACHINE SPECIFICATIONS
+34 in. × 9.5 in.
+(863 mm × 241 mm)
+5/8 in. (15.9 mm)
+(three slots)
+
+Table Size
+Table Slots
+Spindle Nose to Table Max Clearance
+
+16.5 in. (419 mm)
+
+Spindle Centerline to Machine Column
+
+11 in. (279 mm)
+
+Typical System Footprint
+
+69 in. × 56.5 in.
+(1753 mm × 1435 mm)
+
+Overall System Height
+
+96 in. (2439 mm)
+
+Typical System Weight
+
+1600 lbs. (726 kg)
+
+Maximum Weight on Table
+
+500 lbs. (227 kg)
+
+OPTIONAL ACCESSORIES
+Automatic Tool Changer
+PathPilot Operator Console
+4th Axis
+SmartCool™ Coolant System
+RapidTurn® Chucker Lathe Accessory
+
+MACHINE CONTROLLER
+User-friendly design
+
+FRAME
+Frame and Table
+
+Cast iron frame and table, with
+hand-scraped hydrodynamic ways
+and tapered adjustment gibs
+
+Way Surfaces
+
+Low-friction PTFE-filled,
+Acetyl-bonded sliding surface.
+Similar to Rulon® and Turcite®.
+
+WARRANTY
+1 Year Warranty against defects in material and workmanship.
+Extended Warranty available.
+
+©2021 Tormach (07/21)
+Specifications subject to change without notice.
+
+Support for up to 4-axis
+continuous machining
+A Better User Experience
+
+PathPilot HUB is
+a browser-based,
+full-featured PathPilot
+simulator, producing
+usable G-Code.
+
+Intuitive conversational
+programming
+Usable G-Code Memory:
+Brix Controller: 80 GB
+PathPilot Operator
+Console: 40 GB
+Built-in Dropbox™
+support for seamlessly
+transferring programs
+
+

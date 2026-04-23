@@ -1,0 +1,328 @@
+U.S. Consumer Product Safety Commission
+
+3D Printing: Potential Hazards
+and Risk Review
+October 30, 2019
+Richard McCallion, Program Area Risk Manager
+Mechanical, Recreational, Sports and Seniors
+
+This presentation has not been
+reviewed or approved by the
+Commission and may not reflect its
+views.
+
+CPSC’s Risk Management Group
+The Risk Management Group (RMG) is a division within the Office of
+Hazard Identification and Reduction (EXHR)
+• Program Area Risk Managers (PARMs):
+
+– Rick McCallion – Mechanical, Recreational, Sports, and Seniors
+– Susan Bathalon – Children’s Products
+– Rik Khanna – Fire and Combustion
+– Doug Lee – Electrical
+– Dr. Treye Thomas – Chemical, Nanotechnology, and Emerging Materials
+
+•
+•
+•
+•
+
+Voluntary Standards Coordinator – Patty Edwards
+Voluntary Standards Specialist – Scott Ayers
+FOIA and Product Safety Assessment (PSA) Coordinator – Dean LaRue
+Division Director – Patty Adair
+2
+
+What Is 3D printing and Why a Concern?
+•
+
+“Building (printing)” of consumer products/parts by adding material
+– Vertical layering process
+– Many different methods and materials
+o Polymers, metals, ceramics, concrete, glass, organics
+
+•
+
+Rapidly Growing Technology
+– Affordability/Ease of adaptation
+– Design/Engineering versatility
+– Printing time is decreasing (increase in production limits)
+– Expected increase in home and school environments
+o Every student will likely be exposed in the future
+– Manufacturers and small businesses are rapidly adopting this
+technology
+•
+
+Result: More consumer products will likely contain 3D printed parts
+
+3
+
+3D Printed Consumer Products
+
+4
+
+Terminology
+• 3D printing
+
+– General common or lay term used to describe a device that constructs
+consumer products by laying down thin layers of materials
+– Used to describe small scale consumer use devices
+
+• Additive manufacturing
+
+– More technical term to describe a device that can construct a complete
+product.
+– Used to describe large scale production
+
+• Small-Scale/Large-Scale manufacturing
+
+– Size and scope of the process from the purchase of raw materials,
+storage, production, finishing and product use.
+– Small Scale Printers can also be used in Large Manufacturing
+environments
+
+• Product Lifecycle
+
+– Series of events ranging from the purchase of raw material to the use
+and disposal of a home-manufactured product
+5
+
+Small-Scale Printing
+Children and 3D Printers
+
+• STEM education curriculum
+• Expect an increase in home,
+library, and school use
+• Every student will likely be exposed in the future
+6
+
+Distributed Manufacturing
+• Distributed Manufacturing (Local product production)
+– Rapidly growing trend
+• Financial support to purchase advanced equipment
+
+– Small Businesses in the local environment
+• Concerns about lack of training on equipment use and safety
+• Concerns about lack of Science/Engineering expertise in “Good
+Manufacturing Practices”
+– Quality control of materials, finished products, testing protocols?
+
+– Safe storage of materials
+– Will printed products meet mandatory and voluntary standards?
+• Products (e.g., pacifiers, toys, bike helmets, lead, phthalates)
+7
+
+3D Technology
+3D printing Processes
+
+✓ Material
+✓ Cost
+✓ Speed
+✓ Function/Purpose
+
+FDM/FFF – Fused Deposition Modeling/Fused Filament Fabrication
+SLA – Stereo lithography
+DLP – Digital Light Processing
+SLS – Selective Laser Sintering
+DMLS – Direct Laser Sintering
+SLM – Selective Laser Melting
+EBM – Electron Beam Melting
+Material Jetting
+DOD – Drop on Demand
+Sand Binder Jetting/Metal Binder Jetting
+8
+
+Two Broad Hazard Areas
+
+3D Printers
+and
+
+3D Printed Parts &
+Products
+9
+
+Fire and Combustion Hazards
+3D Printer Fire Hazards
+•
+•
+•
+•
+•
+•
+
+Thermal runaway error
+Max and Min temperature check failure
+Cooling fan failure
+Lack of fire suppression and detection at printer location
+Unsupervised printing
+Combustible/explosive dust generation
+
+3D Printer Product & Part Hazards
+
+• Noncompliance with flammability standards
+• Material compatibility concerns
+• Durability/performance degradation
+10
+
+Electrical Hazards
+Fire, electrical shock and mechanical hazards are possible
+from the 3D-printer
+• Hazards are mitigated with product certification to the voluntary
+standard
+
+Fire and Electrical shock hazards are likely if components or
+products are 3D printed using:
+• improper flame retardants
+• Improper UV inhibitors
+• insufficient mechanical barriers
+
+11
+
+Chemical Hazards
+Material Composition
+• Must understand the types of materials (metals, nanomaterials,
+thermoplastics, etc.) used for various additive/3D technologies.
+• Are they toxic under FHSA? What are the exposure limits? Can they be
+used safely in the home environment?
+Exposures during storage and production
+• Are materials safely stored and packaged (PPPA)?
+• What is released during product construction?
+• Do released chemicals accumulate in the indoor environment?
+• What type of engineering controls or PPE should be used by the consumer
+to reduce health risks?
+Types of finishing processes used
+• Do they fall under CPSC regulations?
+Durability of product
+• Are 3D constructed products as durable as traditionally manufactured
+products? Or will they degrade and release chemicals during product
+lifecycle?
+
+12
+
+Children’s Hazards
+Printing process hazards:
+• burns
+• exposure to additives or
+chemicals
+
+3D printed product hazards:
+• Mandatory regulation compliance uncertainty
+– Choking hazards
+• Small parts, pacifiers, rattles, small balls, figurines, toys
+
+– Exposure to phthalates
+– Replica toy guns (proper marking)
+
+• Durability
+13
+
+Mechanical Hazards
+Additive manufacturing removes barriers to mechanical design that
+can affect product safety
+• 3D printing allows designs impossible to produce using traditional
+manufacturing methods
+• Redefining material and mechanical engineering roles in product
+development
+
+Materials
+• Raw materials can have different mechanical properties
+• Limited post-production product treatment (e.g. heat treating metals)
+
+Manufacturing
+• QA/QC of parts – each produced part a prototype
+• Process changes to managing unsafe products
+(Corrective actions for multiple similar prototypical products)
+14
+
+Staff Activities on 3D Printing
+
+• Research
+• Engagement
+• Voluntary Standards
+
+15
+
+Research Activities
+• Developed interagency agreement with NIST, EPA
+and DOD
+– Carbon nanotubes in 3D printers research completed
+– Researching toxicity of 3D materials with DOD ACE
+ERDC and Duke University
+
+• Signed research agreement with EPA and NIOSH
+• VOCs, particulates, metals
+• Health effects
+
+16
+
+Staff Engagement
+• Presentations and discussions with state, federal and
+international stakeholders
+
+– Letters to SDOs
+– Indo-US meeting follow-up planned for ~2020
+– German Regulator/UK research contacts
+– Initiated federal interagency teleconference on research
+activities
+– Hosted federal interagency meeting on August 20, 2019
+– Recent public meeting on UL research: Influence of 3D
+Printing by Material Extrusion on UL 94 and UL746A
+Material Properties
+
+17
+
+Voluntary Standards Activities
+•
+
+UL Printer Safety Committee
+– CPSC staff on advisory board
+– UL 2904 Methods for detecting VOCs and particulates
+
+•
+
+ISOJG68/ASTMF42 Joint Committee
+– Development of mechanical and emissions testing methods
+
+•
+
+ASTM/ISO Additive Manufacturing Center of Excellence
+– Intended to coordinate R&D efforts for standards development
+
+•
+
+ANSI America Makes Roadmap
+– Identified existing standards and areas of need for additive manufacturing
+
+•
+
+UL 60950 Information Technology Equipment Standard
+(staff on UL STP)
+
+•
+
+UL/CSA/IEC 62368-1 Audio/Video Information and Communication
+Technology Equipment Standard (staff on UL STP)
+
+18
+
+Challenges and Opportunities
+• International collaboration
+– Research and development is global, not US-centric
+• Material properties, production and performance
+– Lack of understanding of new technologies
+• Durability of products is a concern across risk areas
+
+• Educating users on Good Manufacturing Practices and
+Environmental, Health and Safety Practices
+• Open source software – circumvent expertise
+• Supply Chain changes – TBD impact on safety
+• Consumer as Manufacturer – Bypass traditional safety
+19
+
+Thank You
+
+11/7/2019
+
+20
+
+

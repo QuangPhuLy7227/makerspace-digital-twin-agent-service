@@ -1,0 +1,1426 @@
+Approaches to Safe 3D Printing:
+
+A Guide for Makerspace Users, Schools,
+Libraries, and Small Businesses
+
+Centers for Disease Control
+and Prevention
+National Institute for Occupational
+Safety and Health
+
+Front and back covers:
+Photo by ©AzmanJaka/iStock/Getty Images Plus
+
+Approaches to Safe 3D Printing:
+
+A Guide for Makerspace Users, Schools,
+Libraries, and Small Businesses
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Centers for Disease Control and Prevention
+National Institute for Occupational Safety and Health
+
+This document is in the public domain and may be freely copied or reprinted.
+
+Disclaimer
+Mention of any company or product does not constitute endorsement by the National Institute
+for Occupational Safety and Health (NIOSH). In addition, citations to websites external to
+NIOSH do not constitute NIOSH endorsement of the sponsoring organizations or their
+programs or products. Furthermore, NIOSH is not responsible for the content of these websites.
+All Web addresses referenced in this document were accessible as of the publication date.
+
+Get More Information
+Find NIOSH products and get answers to workplace safety and health questions:
+1-800-CDC-INFO (1-800-232-4636) | TTY: 1-888-232-6348
+CDC/NIOSH INFO: cdc.gov/info | cdc.gov/niosh
+Monthly NIOSH eNews: https://www.cdc.gov/niosh/enews/
+
+Suggested Citation
+NIOSH [2023]. Approaches to safe 3D printing: a guide for makerspace users, schools, libraries,
+and small businesses. By Hodson L, Dunn KL, Dunn KH, Glassford E, Hammond D, Roth G.
+Cincinnati, OH: U.S. Department of Health and Human Services, Centers for Disease Control
+and Prevention, National Institute for Occupational Safety and Health, DHHS (NIOSH) Publication 2024-103, https://doi.org/10.26616/NIOSHPUB2024103.
+DHHS (NIOSH) Publication No. 2024-103
+DOI: https://doi.org/10.26616/NIOSHPUB2024103
+November 2023
+
+ii | Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses
+
+Foreword
+Use of three-dimensional (3D) printing technology is becoming a prominent part of our modern world. However, some 3D printer users have expressed concerns about potential exposures to
+ultrafine particles, chemicals, and safety hazards. These printers are often used in non-industrial
+workplace settings such as makerspaces, schools, libraries, and small businesses.
+Based on these concerns, NIOSH began evaluating emissions from different printer and filament
+combinations operating in both chamber studies and workplace environments to understand
+the potential health and safety risks. This report summarizes NIOSH’s findings and recommendations for controls to protect workers using 3D printers in makerspaces, schools, libraries, and
+small businesses.
+
+John Howard, MD
+Director, National Institute for Occupational
+Safety and Health
+Centers for Disease Control and Prevention
+
+Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses | iii
+
+This page intentionally blank.
+
+Contents
+Foreword .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Abbreviations .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Acknowledgments  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+iii
+vii
+ix
+
+1 Introduction  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+1
+
+2 Types of 3D Printing in Non-industrial Workplaces  . . . . . . . . . . . . . . . . . . . . . . . . 
+
+2
+
+2.1 Fused filament fabrication  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+2
+
+2.2 Vat photopolymerization .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+4
+
+3 Potential Health and Safety Risks from the Use of 3D Printers . . . . . . . . . . . . . . . 
+
+5
+
+3.1 Pre-printing  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+5
+
+3.2 Printing .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+5
+
+3.3 Post-printing .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+5
+
+3.4 Maintenance and cleaning .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+6
+
+3.5 Emissions  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+6
+
+3.6 Solvents  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+7
+
+3.7 Heat  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+7
+
+3.8 Mechanical risks/moving parts .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+8
+
+3.9 Lasers .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+8
+
+3.10 Electrical .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+8
+
+3.11 Noise .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+8
+
+3.12 Robotics and automated systems .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+9
+
+3.13 Take-home exposures .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+9
+
+4 Risk Management Considerations  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+9
+
+4.1 Risk management plan .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+9
+
+4.2 Hierarchy of controls .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+10
+
+4.3 Elimination/substitution  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+11
+
+4.4 Engineering controls .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+11
+
+4.5 Administrative controls .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+18
+
+4.6 Personal protective equipment .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+19
+
+5 Exposure Assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+20
+
+6 Additional Information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+21
+
+7 Conclusions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+21
+
+References .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Appendix A: Workplace Poster  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+
+22
+27
+
+vi | Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses
+
+Abbreviations
+3D
+
+three-dimensional
+
+ABS
+
+acrylonitrile butadiene styrene
+
+ACH
+
+air changes per hour
+
+ACGIH®
+
+American Conference of Governmental Industrial Hygienists
+
+ANSI
+
+American National Standards Institute
+
+ASSE
+
+American Society of Safety Engineers
+
+CAD
+
+computer-aided design
+
+CFR
+
+Code of Federal Regulations
+
+CLEAPSS
+
+Consortium of Local Education Authorities for the
+Provision of Science Services
+
+CLIP
+
+continuous liquid interface production
+
+dB(A)
+
+decibels, A-weighted
+
+DLP
+
+digital light processing
+
+DPP
+
+daylight polymer printing
+
+FDA
+
+Food and Drug Administration
+
+FFF
+
+fused filament fabrication
+
+HEPA
+
+high efficiency particulate air
+
+HIPS
+
+high-impact polystyrene
+
+HSE
+
+Health and Safety Executive
+
+IARC
+
+International Agency for Research on Cancer
+
+ILO
+
+International Labour Organization
+
+ISO
+
+International Organization for Standardization
+
+laser
+
+light amplification by stimulated emission of radiation
+
+LEV
+
+local exhaust ventilation
+
+LIA
+
+Laser Institute of America
+
+NIH
+
+National Institutes of Health
+
+NRTL
+
+Nationally Recognised Testing Laboratories
+
+OSHA
+
+Occupational Safety and Health Administration
+
+PAH
+
+polycyclic aromatic hydrocarbon
+
+PC
+
+polycarbonate
+
+PEL
+
+permissible exposure limit
+
+PET
+
+polyethylene terephthalate
+
+PETG
+
+polyethylene terephthalate glycol-modified
+
+Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses | vii
+
+PLA
+
+polylactic acid
+
+PPE
+
+personal protective equipment
+
+PVA
+
+polyvinyl alcohol
+
+REL
+
+recommended exposure limit
+
+SDS
+
+safety data sheet
+
+SLA
+
+stereolithography
+
+TWA
+
+time­-weighted average
+
+UK
+
+United Kingdom
+
+UV
+
+ultraviolet
+
+VOC
+
+volatile organic compound
+
+viii | Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses
+
+Acknowledgments
+The authors appreciate the contributions of the following NIOSH personnel who provided
+guidance, feedback, and review of the document, including Elizabeth Arnold, BS; Jacob Bartels,
+MS; Lauren Bowers, BS; Charles Geraci, PhD (retired); Mark Methner, PhD; Susan Moore,
+PhD; Yong Qian, PhD; Aleksandr Stefaniak, PhD; and Jay Vietas, PhD.
+Special appreciation is expressed to the following individuals for serving as external reviewers and
+providing comments that contributed to the development of this document:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dave Abrams, MSPH
+ARS Environmental Health, Inc.
+John Baker, MS, MBA
+BSI EHS Services and Solutions
+Jean Bossart, M. Eng.
+Marston Science Library, University of Florida
+Janet Carter, PhD
+OSHA
+Joanna Matherson, PhD
+Consumer Product Safety Commission
+Keith Rickabaugh, BS, MBA
+RJ Lee Corp.
+Sayon Robinson, PhD
+Consumer Product Safety Commission
+Jim Sillhart, MES
+University of Pennsylvania
+
+Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses | ix
+
+This page intentionally blank.
+
+1 Introduction
+Three-dimensional (3D) printing technology is becoming a prominent part of modern innovation due to its usefulness in accelerating product development and prototyping, as well as in
+producing complex and precision parts [Campbell et al. 2011; Campbell et al. 2012]. Parts built
+by 3D printing (sometimes referred to as additive manufacturing) are built layer by layer and are
+highly customizable. It can take weeks or months to build and receive a part using traditional
+manufacturing (e.g., machining, molding) processes. However, 3D printing can turn computeraided design (CAD) models into physical parts within a few hours, producing one-off concept
+models, functional prototypes, and even small production runs for testing. 3D printing allows
+designers and engineers to bring ideas to fruition faster, and it helps companies bring products
+more quickly to the market. In addition to industrial applications, 3D printers are now available
+for use in diverse non-industrial places such as makerspaces, schools (including colleges and
+universities), libraries, and small businesses. A makerspace is a place where people with shared
+interests, especially in computing or technology, can gather to work on projects while sharing
+ideas, equipment, and knowledge.
+Concerns have been raised about potential exposure to ultrafine particles (having a primary
+particle size less than 100 nanometers) and chemicals in addition to possible safety hazards from
+using 3D printers [Bharti and Singh 2017; Chan et al. 2018; CLEAPSS 2020; Moorefield-Lang
+2014; Roney et al. 2016; Sesto 2017]. Despite the rapid growth in availability and use of 3D
+printers, little scientific literature has focused on the potential implications of exposure to emissions from 3D printing equipment. Substances associated with similar types of plastics and resins that are used in 3D printers have been identified as causative agents of occupational diseases
+in the manufacturing sector. For example, volatile organic compounds (VOCs) and polycyclic
+aromatic hydrocarbons (PAHs), along with metal dust emissions and ultrafine particles, can
+cause disease, and all have been detected in 3D printer emissions [Stefaniak et al. 2017a, 2017b,
+2019a,b,c; Steinle 2016; Stephens et al. 2013]. Because 3D printing is an emerging industry
+with a relatively short history, it is difficult to know the potential occupational health outcomes
+stemming from exposure to these emissions.
+To understand the potential health and safety risks, NIOSH has evaluated emissions from
+different printer and feedstock combinations operating in chamber studies and workplace
+environments. NIOSH then used this knowledge to create risk management recommendations
+to protect workers. This document summarizes the findings and suggests options for controls
+to protect workers and users from exposures to ultrafine particles, chemicals, and safety hazards
+while using 3D printers in makerspaces, schools, libraries, and small businesses.
+
+Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses | 1
+
+2 Types of 3D Printing in
+Non-industrial Workplaces
+There are several types of 3D printing processes, but fused filament fabrication and vat photopolymerization are the types most likely to be found in makerspaces, schools, libraries, and small
+businesses due to lower purchase and material costs [Bharti and Singh 2017].
+
+2.1 Fused filament fabrication
+
+Photo by MakerBot
+
+Fused filament fabrication (FFF) is the most common type of 3D printing process and is used
+by most desktop 3D printers (Figure 1). FFF printers are the most popular for libraries simply
+because they are inexpensive, take up minimal space, and are easy to set up and use [Bharti and
+Singh 2017; Moorefield-Lang 2014].
+
+Figure 1. FFF desktop 3D printers.
+
+Feedstock material in the form of a filament is fed into the extruder of the printer head (Figure 2),
+where the filament is heated to a temperature high enough to soften or melt it. This softened
+filament then extrudes from the computer-controlled nozzle to create an object one layer at a time.
+The print platform lowers, or the print head raises, to add subsequent layers and eventually to
+complete the printed part.
+Some FFF printers use a support material in addition to the modeling material. The modeling
+material is what constitutes the final product, while the support acts as scaffolding that can be
+removed (broken off or dissolved) after printing is complete.
+Desktop FFF 3D printers use a wide variety of filament materials including, but not limited to,
+the following:
+
+
+Polylactic acid (PLA)
+
+
+
+Acrylonitrile butadiene styrene (ABS)
+
+
+
+Nylon
+
+
+
+Polyethylene terephthalate (PET) or polyethylene terephthalate glycol-modified (PETG)
+
+
+
+Polyvinyl alcohol (PVA)
+
+
+
+Polycarbonate (PC)
+
+
+
+High-impact polystyrene (HIPS)
+
+
+
+Other polymers including those containing ceramic materials
+
+2 | Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses
+
+Illustration by NIOSH
+
+Figure 2. Schematic of a fused filament print head.
+
+The most commonly used types of 3D printer media are PLA, ABS, and nylon. PLA is a type of
+biodegradable plastic made from a variety of natural substances that include sugar, corn starch, or
+sugar cane. Many features make PLA desirable for 3D printing. It is the filament of choice for most
+extrusion-based 3D printers because it can be printed at a low temperature (typically 190–220°C,
+or 374–428°F), and it does not require a heated bed [Tyson 2018]. ABS is a plastic made from
+petroleum-based substances. ABS is quite strong and is often used to create toys such as Lego®
+building blocks [Hoffman 2018]. Nylon is a synthetic polymer created from a chemical class of
+substances known as polyamides. Nylon is resilient, strong, and durable, yet flexible. It melts at a
+higher temperature (about 240°C , or 464°F) than ABS and PLA filaments [Hoffman 2018].
+Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses | 3
+
+PET is rarely used as a 3D printing filament, but its variant PETG is becoming increasingly
+popular. The “G” stands for “glycol-modified,” and the resulting filament is clearer, less brittle, and most importantly, more amenable for printing than its base form (i.e., PET). For this
+reason, PETG is often considered an excellent middle ground filament between PLA and ABS,
+since it is more flexible and durable than PLA and easier to print with than ABS [All3DP 2022].
+Once the 3D object is formed, it may undergo post-processing such as removal of support materials
+chemically, or manually smoothing edges by sanding, or painting.
+
+2.2 Vat photopolymerization
+Vat photopolymerization technology uses a vat of liquid photopolymer resin that is cured by an
+ultraviolet (UV) or laser light source focused onto a build platform (Figure 3). The light source
+causes a reaction with photoinitiators in the resin that induce cross-linking of resin polymers,
+which results in solidification. By repeatedly exposing layers of resin to ultraviolet light, an object is
+built layer by layer. This 3D printing process is popular for its fine details and exactness.
+Once completed, the 3D object is removed from the printer and detached from the supporting
+platform. The 3D object usually undergoes post-processing, which typically involves placing the
+3D object in a chemical bath (often isopropanol) to remove any excess resin and then post-curing
+in a UV oven. These actions render the finished item stronger and more stable. Depending on
+the object, it may then go through a hand-sanding process and subsequent painting. Photopolymers are thermosets, meaning that the material strengthens as it is heated, and once cured by
+a UV light, it cannot be remelted. Vat photopolymerization 3D printing technologies include,
+but are not limited to, the following: stereolithography (SLA), digital light processing (DLP),
+continuous liquid interface production (CLIP), and daylight polymer printing (DPP).
+
+Illustration by PROFORM AG
+
+Figure 3. Vat photopolymerization, SLA printer using a “bottom-up” approach to build a part. Image
+source: Proform Rapid Prototyping, 2018. “Stereolithography 3D Printing” (https://www.proform.ch/
+en/technologies/3d-printing/stereolithography).
+4 | Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses
+
+3 Potential Health and Safety Risks
+from the Use of 3D Printers
+Potential health and safety hazards vary widely depending on the technology and materials used,
+as well as where the printers are located and any controls that may be in place.
+
+3.1 Pre-printing
+Depending on the type of 3D printing, some pre-printing activities can have potential health
+and safety risks. Some activities with higher potential for inhalation and skin exposures during
+pre-printing include cleaning the printer heads and nozzles [NIOSH 2020a]. This hazard is due
+to the associated solvents and other cleaners used during this step and the potential exposure to
+those chemicals. Some chemicals in liquid resins used for vat photopolymerization 3D printing
+may cause skin irritation or sensitization [Bowers 2022]. Inadvertent contact with the nozzle of
+an FFF 3D printer during pre-printing heating can cause skin burns. Activities with lower potential for inhalation and skin exposures include loading solid filaments into printers, changing
+printer heads/nozzles, and prepping the build plate [NIOSH 2020a].
+
+3.2 Printing
+Potential exposures can occur during the 3D printing process. Activities with higher potential
+for exposures during the print process include using printers in a small workspace or general
+office area, working near the printer, and attending to a printer quickly after print failures and
+during printer start up [Azimi et al. 2016; Kim et al. 2015; NIOSH 2020a; Stefaniak et al.
+2017b; Steinle 2016; Stephens et al. 2013; Yi et al. 2016].
+Activities with lower potential for exposure include printing in an enclosed chamber equipped
+with a filtering device, or exhausted to the outdoors, and using video camera monitoring to
+avoid standing too close to the printer [Azimi et al. 2016; Kim et al. 2015; NIOSH 2020a;
+Stefaniak et al. 2017b; Steinle 2016; Stephens et al. 2013; Yi et al. 2016].
+
+3.3 Post-printing
+Post-printing work activities can also result in variable potential for exposure. Some examples of
+activities with higher potential for exposure include opening printer doors, removing support
+structures using solvents or other chemicals, or post-processing activities with filaments that
+contain nanomaterials [Azimi et al. 2016; Dunn et al. 2020a; Kim et al. 2015; NIOSH 2020a;
+Stefaniak et al. 2017a; Steinle 2016; Stephens et al. 2013; Yi et al. 2016].
+Exposure during post-printing can be decreased by cleaning or finishing a printed object inside a
+containment (enclosed) system, wearing personal protective equipment (PPE) including appropriate gloves, changing printer filaments, and scraping the build plate with hand tools [Azimi et
+al. 2016; Kim et al. 2015; NIOSH 2020a; Steinle 2016; Stephens et al. 2013; Yi et al. 2016].
+
+Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses | 5
+
+3.4 Maintenance and cleaning
+Maintenance and cleaning (including housekeeping) are work activities that can have variable
+potential for exposure based on the type of printing being done. Examples of activities with higher
+potential for inhalation and skin exposures include cleaning the printer head/build plate with solvents,
+and maintenance of the printer [NIOSH 2020a,b]. Preventative maintenance in these printers may
+also expose workers and users to the print materials, laser, electrical, and robotic hazards.
+Examples of work activities with lower potential for exposure include changing the filament(s),
+general housekeeping, and collecting waste [NIOSH 2020a].
+
+3.5 Emissions
+Polymer feedstock materials can release ultrafine particles (< 100 nm diameter) and volatile and
+semi-volatile organic compounds (VOCs) if sufficiently heated [Azimi et al. 2016; Bharti and Singh
+2017; Du Preez et al. 2018; Kim et al. 2015; Moorefield-Lang 2014; Stefaniak et al. 2017a,b, 2018,
+2019a,b,c; Stephens et al. 2013; Yi et al. 2016; Zhang et al. 2017]. Exposures to ultrafine particles and
+VOCs in combination have been associated with adverse respiratory (asthma; cough; itchiness of eyes,
+nose, and throat) and cardiovascular health effects (hypertension) [Chan et al. 2018; Donaldson et al.
+2004; House et al. 2017; Rumchev et al. 2007; Stefaniak et al. 2017b].
+Research has shown that emissions generated from 3D printing processes depend on the type
+of 3D printing filament or resin used. Furthermore, the filament material, coloration, extruder
+temperature, and many other factors can influence particle and VOC emission rates [Deng et al.
+2016; Dunn et al. 2020a,b; Du Preez et al. 2018; Floyd et al. 2017; Hall et al. 2019; Kim et al.
+2015; Stabile et al. 2017; Stefaniak et al. 2017a,b, 2018, 2019a,b,c; Stephens et al. 2013; Yi et
+al. 2016; Zhang et al. 2017]. Printing with engineered nanomaterial-containing filaments can
+emit nanomaterial-containing, ultrafine particulate matter [Stefaniak et al. 2018].
+Stefaniak et al. [2019a] evaluated emissions from vat photopolymerization printers and determined
+they released particles and organic vapors during operation at levels similar to or exceeding those of
+other types of 3D printing processes. The average particle and VOC emission yields were significantly higher and particle sizes were significantly smaller for DLP-type printers compared with
+SLA-type printers, indicating an influence of printer technology on emissions. The results from
+chemical analyses have shown that emissions included multi-constituent particles composed of
+metals such as chromium (Cr), nickel (Ni), iron (Fe), and/or zinc (Zn) [Stefaniak et al. 2019a].
+Emission rates found in NIOSH studies using an enclosed chamber with FFF printers were comparable to those of other published studies using similar 3D printing materials [Azimi et al. 2016;
+Mendes et al. 2017; Stefaniak et al. 2017a, 2019c; Steinle 2016; Yi et al. 2016; Zhang et al. 2017].
+Note that predicting exposure levels to printer emissions is difficult when based solely on controlledenvironment chamber studies. Workplaces will have many variables, such as room design, ventilation
+type and rate, workers or users moving around in the room, and characteristics of the emission
+source. A NIOSH field study determined that background-corrected particulate concentrations in
+a conference room with multiple operating FFF printers were much lower than those particulate
+concentrations measured from one printer in a test chamber. This was likely due to the conference
+room’s greater size and supply air ventilation (12–14 air changes per hour), as compared with the
+enclosed test chamber [Dunn et al. 2020b].
+
+6 | Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses
+
+Differences in FFF printer emissions evaluated in a chamber study primarily depended on the
+extruder temperature (higher temperatures resulted in larger emissions), while other conditions
+such as filament color and build plate temperature had smaller effects [Zhang et al. 2017].
+Filament brand, likely through differences in trace components in the bulk material, also had a
+substantial effect on emissions [Zhang et al. 2017].
+Inhaling emissions from certain filaments used in the material extrusion processes (FFF printers)
+appears to be the primary route of exposure, and this exposure can be associated with adverse
+respiratory and cardiovascular health effects [House et al. 2017, Chan et al. 2018, Stefaniak et
+al. 2017c]. House et al. [2017] reported a case of work-related asthma in a worker exposed to
+emissions while operating material extrusion processes using an ABS filament. In a survey of
+workers who were directly involved in the maintenance and use of 3D printers using PLA, ABS,
+and nylon filaments, 59% (27 of 46) reported respiratory symptoms [Chan et al. 2018]. In an
+animal toxicology study, the mean arterial pressure of the test group was 28% higher than the
+control group, which indicated that inhalation of emissions was responsible for the observed
+acute hypertension [Stefaniak et al. 2017a]. It is unclear if these respiratory and cardiovascular
+effects are associated with inhaling emitted particles, organic vapors, or both. Given these emerging reports of adverse health effects from 3D printing exposures, the magnitude and characteristics of the emissions and potential exposures need to be understood so that informed decisions
+can be made about risk management.
+
+3.6 Solvents
+Solvents, including isopropanol, ethanol, methanol, acetone, or chloroform, are sometimes used
+in post-printing processes that involve material surface finishing, vapor polishing, support material
+removal, or cleaning of the build plate. Many solvents are flammable, and associated vapors can
+create an explosion hazard in areas with inadequate ventilation.
+Acetone can cause eye and respiratory tract irritation, and chloroform causes depression of the
+central nervous system and is identified as possibly carcinogenic [IARC 1999, NIOSH 2007].
+Some support materials used in 3D printing are removed by dissolving them in an alkaline (basic)
+bath containing a 2% solution of sodium hydroxide at pH 13. Sodium hydroxide is corrosive, can
+cause chemical burns, and is also a respiratory irritant [NIOSH 2007].
+In addition to relevant safety data sheets (SDSs), the NIOSH Pocket Guide to Chemical
+Hazards (https://www.cdc.gov/niosh/docs/2005-149/default.html) is a useful resource on key
+information for many chemicals found in the work environment.
+
+3.7 Heat
+Temperatures of 190°C to 260°C are typically reached by the FFF extrusion nozzle to soften plastic to
+the right consistency for 3D printing [Tyson 2018]. Such temperatures can cause skin burns if users
+touch heated components or products before they have time to cool. Skin burns are also common
+when 3D printer users try to remove melted plastic from the nozzle while the nozzle is still hot.
+Some 3D printers may have heated build platforms that operate between 55°C to 120°C. Heated
+build platforms improve print quality by keeping the extruded plastic warm, and thus they prevent
+warping. The heated build platform may be hot enough to cause a thermal skin burn.
+
+Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses | 7
+
+While properly functioning and set, nozzles are usually below the temperature required to create
+a fire hazard.
+
+3.8 Mechanical risks/moving parts
+3D printers contain many moving parts that include stepper motors, pulleys, threaded rods,
+carriages, and small fans. Even though most stepper motors do not have enough power to cause
+serious injuries, they can still trap a user’s finger, long hair, loose clothing, head covering, or head
+scarf. Although many systems isolate the moving parts behind enclosures, caution should be
+taken if the printer is opened for maintenance or repair if the unit is not de-energized. See the
+OSHA resource “Control of Hazardous Energy (Lockout/Tagout)” (https://www.osha.gov/
+control-hazardous-energy).
+
+3.9 Lasers
+Vat photopolymerization SLA printers use high-powered lasers (which is an acronym for “light
+amplification by stimulated emission of radiation”). These 3D printers use lasers that present a skin
+and eye hazard (FDA Class IIIb or IV), but are considered nonhazardous during printing (FDA
+Class I) because the laser is enclosed within the printing chamber. Maintenance of the printer may
+expose users to unguarded lasers if the unit is not de-energized. Effects of exposure to unguarded,
+energized Class IIIb or Class IV lasers can range from skin burns to irreversible injury to the skin
+and eyes, including blindness. Lasers may also present a fire hazard. See the OSHA website for
+more resources at “Laser Hazards” (https://www.osha.gov/laser-hazards/hazards) and “Control of
+Hazardous Energy (Lockout/Tagout)” (https://www.osha.gov/control-hazardous-energy).
+
+3.10 Electrical
+Most desktop FFF 3D printers do not have any added electrical safety features beyond regular
+internal fuses or external transformers. The voltages in the exposed parts of 3D printers usually
+do not exceed 12V to 24V, which is generally considered safe [Selection and use of work practices,
+29 CFR 1910.333, 2022]. More generalizable potential hazards may originate from using the
+electrical machinery itself. Shock or mechanical injury during maintenance, or malfunction, is
+possible if the unit is not de-energized. Sparking electrical equipment can also potentially be a
+source of ignition for fire or explosion. See the OSHA resource “Control of Hazardous Energy”
+(https://www.osha.gov/control-hazardous-energy).
+
+3.11 Noise
+High noise levels are typically not a concern with 3D printing, but they should still be considered a potential hazard. A single 3D printer may not seem noisy, but the noise of several printers
+placed together in a room could exceed the NIOSH recommended exposure limit (REL) of 85
+dB(A) as an 8-hour time-weighted average [NIOSH 1998]. If a user needs to raise their voice to
+be heard within an arm’s length of a printer, the noise level could be a hazard [NCEH 2022]. In
+such a case, a hazard assessment is recommended.
+Post-processing activities can generate high noise levels and should be considered as potential
+hazards when 3D printing. For example, cutting, grinding, and polishing activities typically
+generate high noise levels, especially when using power tools.
+8 | Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses
+
+3.12 Robotics and automated systems
+Automated systems are essential in large-scale 3D printing applications and may also show up in
+makerspaces or small businesses. Additional autonomous systems may be further incorporated
+for support processes (such as loading feedstock), unloading products, transporting consumables
+and products, and in post-processes. Such systems may create or mitigate potential hazards related
+to their operations. For instance, a robotic system that helps remove and transport products may
+reduce the worker’s ergonomic stress, but it adds the potential hazard of collision with the robot.
+Similarly, the ability to operate remotely or autonomously may lower exposures to health and
+safety hazards (e.g., hazards from inhalation) at the 3D printer but may increase the rate of user
+error (and associated hazards) in the workplace [Roth et al. 2019].
+
+3.13 Take-home exposures
+Contamination of work surfaces and areas can lead to exposures. Operators may inadvertently
+transport materials beyond the workplace on their shoes, garments, body, and personal items.
+This is especially likely for resins and semi- or non-VOCs, but may also occur with metals. These
+exposures may be unanticipated and uncontrolled and may represent a secondary exposure risk
+for others (such as family members) who may come into contact with the resins or other chemicals from the clothing [Roth et al. 2019]. These exposures may be of additional concern when
+3D printers are used in homes and garages by home-based businesses and hobbyists.
+
+4 Risk Management Considerations
+4.1 Risk management plan
+The management of makerspaces, schools, libraries, and small businesses should write a comprehensive risk management plan for 3D printing. The plan should be readily available and accessible
+to all students, patrons, and employees, including temporary employees, contractors, trainees, and
+other users. The development of the plan should be a collaborative effort that includes all affected
+workers and users. The plan should address all aspects of safely using 3D printers and printing
+materials throughout the facility, and it should specify measures that the employer is taking to
+protect employees and all users. Since chemicals are used in the forms of polymers, resins, and
+solvents, the requirements of the “OSHA Hazard Communication Standard” (https://www.
+osha.gov/hazcom) must be met, including providing SDSs and training all affected employees
+[Hazard communication, 29 CFR 1910.1200, 2022]. The plan should characterize the hazards
+associated with each of the work activities (pre-printing, printing, post-printing, post-processing,
+maintenance, and cleaning) and provide best practices and standard operating procedures that
+follow the hierarchy of controls (Section 4.2) to reduce the potential hazards.
+Health and safety committees can be used to engage workers in developing risk management
+plans, including for risks associated with 3D printing. Both employee and management representatives should be included on the committee. Helpful guidance can be found on the OSHA
+website at “Recommended Practices for Safety and Health Programs” (https://www.osha.gov/
+shpguidelines/index.html).
+Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses | 9
+
+4.2 Hierarchy of controls
+Health and safety professionals have learned to prioritize certain types of controls over others because they are effective, practical, and reliable. Such a strategy is known as the hierarchy of controls
+(Figure 4). The hierarchy of controls groups actions by their likely effectiveness in eliminating
+hazards and/or reducing risks. In most cases, the preferred approach is at the top of the hierarchy.
+This approach eliminates or substitutes hazardous materials or processes, or installs engineering
+controls to reduce potential exposures. Until such controls are in place, or if they are not effective
+or practical, administrative measures and PPE might be needed. NIOSH’s “Hierarchy of Controls”
+webpage (https://www.cdc.gov/niosh/topics/hierarchy/) provides more information.
+The range of experience by those who operate 3D printers in makerspaces, schools, libraries, and
+small businesses reinforces the value of the hierarchy of controls. Approaches near the bottom
+of the hierarchy depend heavily on training, compliance, and oversight. Users of varying education and skill, or with varying incentives, may not react as much to training and compliance
+measures. In contrast, controlling material usage and instituting engineering controls are usually
+effective, in addition to being something that printer and facility owners can manage independently of the user. Because 3D printing may be a part of the larger mission of makerspaces,
+schools, libraries, and small businesses, safety resources should be used efficiently.
+The recommendations in the following sections are actions that address 3D printing health and
+safety in the workplace.
+
+Illustration by NIOSH
+
+Figure 4. Hierarchy of controls (adapted from ANSI/ASSE Z590.3-2011).
+
+10 | Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses
+
+4.3 Elimination/substitution
+Eliminating or substituting hazardous processes or materials removes or reduces hazards and
+protects users more effectively than other approaches. Eliminating a hazard removes it completely,
+such as removing unnecessary, hazardous post-processing steps. Substituting materials could be
+done by choosing to build with lower-particle emission materials. Researchers have noted that
+printing with ABS material yields higher airborne ultrafine particle concentrations than PLA
+materials [Byrley et al. 2019; Kim et al. 2015; Stefaniak et al. 2017b, 2019c]. This suggests
+substituting PLA for ABS can reduce the hazard from ultrafine particulate emissions, provided
+printing PLA is within the printer’s specifications and otherwise appropriate for the task.
+Evaluating the type of material used and deciding whether substitutions can be made can be a
+valuable practice. Ongoing research has found that 3D printer emissions can vary just because of
+the color of filaments. For example, a field study noted that True Orange PLA filament produced
+lower ultrafine particle emissions (three to four orders of magnitudes lower) than Slate Gray
+impact-resistant PLA filament or True Yellow ABS filament [Dunn et al. 2020b]. The True Orange
+PLA also produced lower ultrafine particle emissions than filaments tested in other 3D printing
+studies [Azimi et al. 2016; Mendes et al. 2017; Stefaniak et al. 2017b; Steinle 2016]. Emission
+rates for True Orange PLA were also at least three orders of magnitude lower than those measured
+during a study by Stefaniak et al. [2017b] of eight different PLA and ABS filaments. Where emissions data are available for feedstocks of varying color and materials, designers, managers, and users
+should consider their options to minimize emissions.
+
+4.4 Engineering controls
+Engineering controls reduce user exposures by removing the hazard from the process or by placing
+a barrier between the hazard and the user. Properly designed, used, and maintained engineering
+controls protect users effectively without placing primary responsibility of implementation on
+the user. For example, acceptable room ventilation should help remove particles and maintain
+a healthy work environment. Based on assessing three makerspaces at a university, Secondo et
+al. [2020] recommended a minimum of six air changes per hour (ACH) within the makerspace
+and/or using a portable HEPA (high efficiency particulate air) filter to lower ultrafine particle
+concentrations during printer operation. A study by Viitanen et al. [2021] concluded that for
+regular or long-time use of desktop 3D printers, the general ventilation specification of three
+ACH was not a sufficient control measure for ultrafine emissions. Some localities may also have
+specific codes that require mechanical exhaust in addition to room ventilation.
+Engineering controls can also include placing 3D printers inside ventilated enclosures, or
+installing printers under a fume hood or next to a local exhaust to provide source control. Such
+a strategy is more efficient than general dilution ventilation. NIOSH engineers have evaluated
+control of particulate emissions (including ultrafine) at the point of generation using local exhaust ventilation (LEV) and HEPA filtration [Dunn et al. 2020b, Stefaniak et al. 2019a]. Using
+a filtered enclosing hood placed over a 3D printer resulted in a reduction of 97% to 99% of
+particle emissions [Hall et al. 2019]. Viitanen et al. [2021] retrofitted an enclosure around a 3D
+printer and were able to reduce particle emissions by 97%. When a LEV system was attached
+to the enclosure and the exhausted air was vented outdoor through a HEPA filter, the reduction
+increased to 99% [Viitanen et al. 2021].
+
+Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses | 11
+
+Furthermore, NIOSH engineers designed and tested a custom low-cost engineering control to
+fit one type of a 3D printer (the MakerBot Replicator+ printer) that effectively captured and
+reduced printer emissions by at least 98% [Dunn et al. 2020b]. To accomplish this reduction in
+particle number concentration, they replaced the existing plastic cover that supplied cooling air
+from three directions to the extruder with a NIOSH-designed print head capture hood. This print
+head was 3D printed. The hood supplied cooling air in only one direction (Figure 5). In addition,
+NIOSH engineers added a hose connection and an expanded slot for air suction to the NIOSH
+capture hood (Figure 6). They measured emissions in a conference room with 20 printers operating
+simultaneously, each equipped with LEV (Figure 7). The use of this engineering control reduced
+the peak particle concentrations (size ranging from 10 to 420 nm in diameter) from greater than
+20,000 particles per cubic centimeter (p/cm3) to less than background (1,000 p/cm3). When
+equipped with a HEPA and charcoal filter, this low-cost control could potentially be retrofitted
+onto other 3D printer brands and models to reduce both particle and VOC emissions.
+
+Illustrations and Photos by NIOSH
+
+Figure 5. 3D-printed replacement extruder cover to capture and exhaust ultrafine particles
+[Dunn et al. 2020b].
+
+12 | Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses
+
+Photo by NIOSH
+
+Figure 6. Low-cost air cleaner assembly connected to a modified extruder cover [Dunn et al. 2020b].
+
+Photo by NIOSH
+
+Figure 7. Twenty MakerBot Replicator+ 3D printers equipped with individual local exhaust
+ventilation (LEV) engineering controls in a conference room [Dunn et al. 2020b].
+
+NIOSH engineers have developed other custom low-cost engineering controls for open frame
+desktop 3D printers in addition to the one developed for the MakerBot Replicator+ 3D printer.
+For example, NIOSH engineers developed a LEV control for the Monoprice Maker Ultimate
+3D Printer MK11 that is at least 99.6% efficient in capturing particle (size range = 10–420 nm)
+emissions when evaluated with and without controls in laboratory chamber experiments [NIOSH
+2022]. The LEV control for the Monoprice MK11 was developed and tested with the same filtration system used on the MakerBot Replicator+ 3D printer. Figure 8 shows a 3D CAD drawing
+of the Monoprice MK11 control, and Figure 9 depicts the evaluated version connected to the 3D
+printer and hose/fan/filter system.
+
+Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses | 13
+
+Illustration by NIOSH
+
+Photo by NIOSH
+
+Figure 8. 3D CAD drawing of a
+NIOSH-designed LEV control for a
+Monoprice Maker Ultimate MK11 3D
+printer [NIOSH 2022].
+
+Figure 9. The NIOSH-designed LEV control for the
+Monoprice Maker Ultimate MK 11, connected to a
+filtration system [NIOSH 2022].
+
+These low-cost engineering controls are just two examples of custom engineering controls that can be
+designed and installed on individual, open-frame-style desktop 3D printers. NIOSH will continue to
+design these types of systems for other popular 3D printers. NIOSH has made the designs publicly
+available through the National Institutes of Health website at “NIH 3D” (https://3d.nih.gov/)—an
+open-source library of 3D printable designs. These and other retrofit engineering controls can
+reduce 3D printer emissions, thereby reducing the potential for worker exposures. Before retrofit
+engineering controls are added to 3D printers in the workplace, a qualified safety and health professional should do a risk assessment. The assessment should verify that adding the engineering control
+does not increase fire risk, violate Nationally Recognized Testing Laboratory (NRTL) approval, void
+the manufacturer’s warranty, or cause additional safety or health risks. NRTL is an independent
+laboratory that tests and certifies electrical products for the North American market. Engineering
+controls introduced by the manufacturer into the original design of a 3D printer are preferred over
+retrofit controls.
+Users of multiple 3D printers could also consider building an enclosed rack around the printer
+shelves with see-through Plexiglas® or clear acrylic doors and walls. The rack should also have a
+ventilation fan so that emissions are exhausted to the outdoors (Figure 10). An appropriately sized
+fan could also be fitted with a filter to trap VOCs and particulates. The design should consider
+electrical supply limitations and avoid the use of power strips. A similar custom-built ventilated
+enclosure effectively reduced particle concentrations in a print room by over 99% and reduced the
+total organic chemical concentration by almost 70% (Figure 11) [NIOSH 2017].
+14 | Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses
+
+Illustration by NIOSH
+
+Figure 10. Drawing of a ventilated Plexiglas® enclosure surrounding a bank of 3D printers.
+
+Photo by NIOSH
+
+Figure 11. Custom-built ventilated enclosure connected to a floor fan with particle and organic filters.
+
+Custom enclosures can be built in multiple configurations to hold a wide variety of different sizes
+and numbers of 3D printers. When designing an enclosure to contain emissions from multiple 3D
+printers, be sure to consider the amount and location of exhaust airflow and the sizing and location of make-up air slots in the enclosure. Ventilated enclosures should be designed with enough
+ventilation to remove VOCs and particles while maintaining temperatures inside the enclosure that
+Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses | 15
+
+are consistent with operating specifications recommended by the manufacturers of the 3D printing
+equipment. Some designers of enclosures for 3D printers take advantage of the heat generated by
+heated build plates and hot extruder nozzles. They locate exhaust air takeoffs near the top of the
+enclosure while providing slots for make-up air near the bottom of the enclosure. Another common design of enclosures is to use a cross-flow of air, with exhaust air takeoffs on one end and open
+slots on the other (Figure 10).
+
+Illustration by NIOSH
+
+Sizing and placement of exhaust air ducts and make-up air slots on ventilated enclosures may
+also depend on the need to reduce air velocities inside the enclosure. This prevents warping of the
+3D-printed product while still maintaining containment and temperature requirements. Higher
+airflow will be necessary to contain emissions if doors to the chamber are left open. Exhaust airflow
+from custom chambers can be exhausted to the outdoors. Federal, state, and local air pollution
+control requirements should be consulted. The airflow could be filtered and recirculated, provided the control has been evaluated to ensure contaminants are not released back into the room.
+Custom enclosure containment efficiency can be evaluated qualitatively using smoke visualization
+techniques or quantitatively using tracer gas techniques or ultrafine particle measurements. In
+addition, solvents and other VOCs in the room air can be quantified using air sampling techniques
+with charcoal tubes or other suitable sampling media (see Section 5.0).
+
+Figure 12. Exhausting to the outdoors using a manufacturerinstalled connection.
+
+16 | Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses
+
+Additional engineering controls to be considered include the following:
+
+
+
+
+
+
+
+
+
+
+
+
+Connecting larger enclosed 3D printers to rigid or flexible exhaust ducting to route
+emissions to the outdoors (Figure 12).
+Printing in a room that is under a negative air pressure differential relative to adjacent
+areas. This means air flows into the printing area from surrounding areas.
+Using HEPA-filtered LEV near printing. If concerned about VOCs, add gas and vapor
+filters to LEV.
+Using a ventilated glove box or containment system for cleaning and finishing activities
+involving chemicals (for example, cleaning or spray-painting parts).
+Using a ventilated enclosure or downdraft table for cutting and grinding parts during
+post-processing.
+Locating exhaust fans to minimize runs of exhaust duct at positive pressure relative to the
+room(s).
+
+
+
+Using a HEPA-filtered and fire/explosion-certified vacuum to collect waste.
+
+
+
+Grounding and bonding of equipment for static, fire, and electrical safety.
+
+
+
+Maintaining clearance from combustibles and installed fire suppression nozzles (sprinklers).
+
+
+
+Placing printers in areas with fire detection and suppression systems.
+
+
+
+
+
+
+
+
+Using “sticky mats” on floors at printing area exits/entrances to minimize transfer of particles on the soles of footwear from inside the 3D printing area to other areas of the facility.
+Selecting the lowest printing temperature that achieves the desired result.
+Utilizing enclosures or guards (such as silicon nozzle socks or an aluminum cover) that
+prevent the user from coming into contact with the various parts that pose a risk of burn,
+such as the nozzle and heated bed.
+Equipping enclosures with an interlock system that pauses any printing when the
+enclosure access is opened.
+
+Recent research by the Health and Safety Executive (HSE) in the United Kingdom found that
+exposures from an FFF 3D printer could be reduced by the following:
+
+
+Setting a lower printer nozzle temperature.
+
+
+
+Using a filament with a lower emission rate.
+
+
+
+Placing the printer in a clear enclosing hood fitted with an extraction fan and particulate filter.
+
+
+
+Maintaining an enclosure “clearance time” of about 20 minutes after printing is complete
+before opening [Hall et al. 2019].
+
+Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses | 17
+
+4.5 Administrative controls
+“Administrative controls” refer to employer-established work practices and policies to reduce or
+prevent hazardous exposures. Their effectiveness depends on employer commitment and user
+acceptance. Regular monitoring and reinforcement are necessary to ensure that policies and
+procedures are followed consistently. If the risk cannot be avoided, policies should limit personnel
+exposure to 3D printers, printer emissions, and associated activities. For example, keep printers in
+a separately ventilated room that users only enter when necessary to retrieve completed parts or do
+printer maintenance.
+Administrative controls can include the following:
+General
+
+
+Incorporating 3D printing into the workplace safety (risk management) plan.
+
+
+
+Training users on 3D printing hazards and available controls.
+
+
+
+Restricting access to 3D printing areas to essential personnel only.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Developing written procedures that cover receiving and disposing of materials (filaments,
+resins, solvents), operation, and maintenance activities.
+Maintaining controls that came on the printer (e.g., laser protection, heat shields,
+machine guarding).
+Considering purchase of 3D printers that have an approval from a Nationally Recognized
+Testing Laboratory (NRTL).
+Reducing time spent near the printing process (e.g., by remote monitoring, or leaving
+the area when direct intervention or monitoring is not required).
+Maintaining as much distance as possible between printers and users.
+Confining long hair, loose clothing, head coverings, or head scarves before using any
+3D printing devices.
+Prohibiting the consumption of food or drinks in work areas.
+Storing and working with small quantities of solvents in well ventilated areas that are
+away from possible ignition sources and ensuring that containers are suitable, clearly
+labeled, and stored appropriately.
+
+Cleaning
+
+
+Cleaning work areas frequently, including between prints or daily.
+
+
+
+Using wet wiping for cleaning purposes.
+
+
+
+Using a HEPA-filtered vacuum. Do not dry sweep or use compressed air.
+
+
+
+
+
+Properly handling filters during removal, replacement, and disposal, as well as checking
+and replacing seals as needed.
+Handling and disposing of all waste materials (including cleaning materials and gloves)
+in compliance with all applicable federal, state, and local regulations.
+
+18 | Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses
+
+Spills
+
+
+
+
+
+
+Maintaining a chemical spill kit nearby, particularly if solvents are used for maintenance
+and/or post-processing activities.
+Providing an emergency eyewash station in the immediate vicinity of any process that
+uses alkaline chemicals or other solvents.
+Using absorbent pads in the event of leak or spill of printing material or other chemicals.
+
+Hot temperatures
+
+
+Turning off an FFF printer if the nozzle clogs and allowing time to ventilate and cool
+down before removing the cover.
+
+Lasers
+
+
+Following guidance issued by the Laser Institute of America (LIA): American National
+Standard for Safe Use of Lasers (ANSI Z136) [LIA 2014].
+
+Noise
+
+
+Following the OSHA regulations for occupational noise exposures if noise levels equal or
+exceed an 8-hour time-weighted average (TWA) sound level of 85 decibels measured on
+the A scale [Occupational noise exposure, 29 CFR 1910.95, 2022].
+
+4.6 Personal protective equipment
+PPE is the least effective means for controlling hazardous exposures. Proper use of PPE requires
+a comprehensive program and a high level of user involvement and commitment. The correct
+PPE must be chosen for each hazard. Supporting programs such as training, fit testing, changeout
+schedules, and medical assessment (for respirator usage) may be needed or required by law. PPE
+should not be the sole method for controlling hazardous exposures. Because PPE is only effective if
+properly selected, used, and maintained, PPE should be relied upon only until effective engineering
+and administrative controls are in place. When using PPE as a control, the following suggestions
+should be considered:
+
+
+
+
+
+
+
+
+Following all PPE recommendations found in the SDS for the materials (print media,
+solvents, etc.) in use.
+Using respiratory protection when indicated and when engineering controls cannot control exposures, and in accordance with federal regulations [General requirements, 29 CFR
+1910.132, 2022; Respiratory protection, 29 CFR 1910.134, 2022]. NIOSH guidance
+on respirators can be found on the “Respirators” webpage at www.cdc.gov/niosh/topics/
+respirators/.
+Using eye protection (safety glasses, goggles, or face shields) during activities where airborne particulates or liquid spraying may be present (e.g., pouring resins, using solvents,
+cutting, grinding, or sanding).
+Consult manufacturer’s guidance on when laser eye protection is necessary. If uncertain,
+consult an occupational safety and health professional.
+
+Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses | 19
+
+
+
+Using nitrile or appropriate chemical-resistant gloves.
+
+
+
+Using thermal gloves to prevent burns from hot printer heads.
+
+
+
+Considering the use of lab coats or coveralls.
+
+
+
+
+
+Preventing migration or cross-contamination of materials into non-work areas by not
+allowing PPE to be worn outside work areas.
+Using PPE that is appropriate for the surrounding activities. For example, a user cleaning a
+printer next to another workstation may require the other user to wear the same level of PPE.
+
+5 Exposure Assessment
+The emissions from 3D printers can be evaluated using industrial hygiene sampling tools and
+techniques [Hall et al. 2019; Stefaniak et al. 2019a]. A person experienced with industrial hygiene
+sampling techniques should be consulted. Direct reading instruments such as condensation particle
+counters or optical particle counters can determine variations in number, mass concentration, and/
+or approximate size range of particles. Since not all instruments can determine the presence of all
+types of particles at all size ranges, a suite of direct-reading instruments may be necessary. Using
+these instruments in data-log mode, along with accurate field notes detailing user work processes
+throughout the day, can provide insight into specific activities or tasks that contribute to an increase or decrease in particle concentrations or counts.
+VOCs can be collected using either specific sampling collection media (such as sorbent tubes) connected to a sampling pump, or by the use of diffusion badges, an evacuated cylinder, or a photoionization detector. Metals can be collected on various filter media. Analysis should be completed by
+a laboratory proficient in industrial hygiene sample analysis, such as a laboratory accredited by the
+American Industrial Hygiene Association. The sampling results can be compared by knowledgeable
+health and safety professionals to established occupational exposure limits such as the NIOSH
+RELs, American Conference of Governmental Industrial Hygienists (ACGIH®) threshold limit
+values, and OSHA permissible exposure limits (PELs) [Air contaminants, 29 CFR 1910.1000,
+2022; ACGIH 2022; NIOSH 2007].
+Noise levels can be determined using a sound level meter and results compared with the NIOSH
+REL of 85 decibels, A-weighted (dBA) (for 8 hours), and OSHA PEL of 90 dBA (for 8 hours)
+[NIOSH 1998; Occupational noise exposure, 29 CFR 1910.95, 2022]. Note that OSHA has a
+hearing conservation requirement when noise levels equal or exceed an 8-hour TWA sound level of
+85 dB measured on the A scale [Occupational noise exposure, 29 CFR 1910.95, 2022]. The free
+NIOSH Sound Level Meter App (https://www.cdc.gov/niosh/topics/noise/app.html) is useful
+for identifying areas or tasks that should be further evaluated by calibrated instruments. The app
+should not be used to assess compliance with OSHA standards, however.
+
+20 | Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses
+
+6 Additional Information
+The NIOSH workplace poster “3D Printing with Filaments: Health and Safety Questions to Ask”
+(https://www.cdc.gov/niosh/docs/2020-115/default.html) (Appendix A) presents different control options and information to reduce exposure to potential hazards [NIOSH 2020a]. The poster
+has information on the following:
+
+
+Characterization of potential hazards
+
+
+
+Work activities
+
+
+
+Engineering controls
+
+
+
+Administrative controls
+
+
+
+PPE
+
+While it is unlikely that makerspaces, schools, libraries, and other small businesses would be using
+metal powder bed fusion 3D printers, NIOSH has also produced a workplace poster that addresses
+printing with metal powders, “3D Printing with Metal Powders: Health and Safety Questions to
+Ask” (https://doi.org/10.26616/NIOSHPUB2020114) [NIOSH 2020b].
+The UK Consortium of Local Education Authorities for the Provision of Science Services
+(CLEAPSS) and the Health and Safety Executive (HSE) have also produced a guidance publication
+that applies to schools; “3D Printing In Schools and Colleges: Managing the Risks” is available at
+http://dt.cleapss.org.uk/Resource-File/3D-printing-in-schools-and-colleges-managing-the-risks.
+pdf [CLEAPSS 2020]. The HSE also has published “Measuring and Controlling Emissions from
+Polymer Filament Desktop 3D Printers” [Hall et al. 2019].
+
+7 Conclusions
+The rapid growth and improvements in 3D printing technology have enabled many industries to
+benefit from it, and 3D printers are increasingly being used in non-industrial workplaces such as
+makerspaces, schools, libraries, and small businesses. People have expressed concerns about potential exposure to ultrafine particles and VOCs emitted from 3D printers in these workplace settings.
+This report provides a variety of options and considerations to manage the potential occupational
+health and safety risks in non-industrial workplaces. Always remember that no set of safety recommendations can be “one-size-fits-all,” because a variety of printing types, processes, and print
+materials can be used in different frequencies and durations while 3D printing in different settings.
+Makerspaces, schools, libraries, and small businesses should develop a site-specific risk management
+plan that follows the hierarchy of controls, as described in this report, as a basic reference. Using
+ventilated enclosures, LEV, administrative controls, and PPE can prevent unnecessary exposures,
+control odors, and reduce emissions during 3D-printing and associated tasks.
+
+Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses | 21
+
+References
+ACGIH [2022]. ACGIH® TLVs and BEIs: threshold limit values for chemical substances and
+physical agents and biological exposure indices. Cincinnati, OH: American Conference of Governmental Industrial Hygienists Worldwide, 2022, https://www.acgih.org/science/tlv-bei-guidelines/.
+Air contaminants, 29 CFR 1910.1000 (2022), PDF file, https://www.govinfo.gov/content/pkg/
+CFR-2022-title29-vol6/pdf/CFR-2022-title29-vol6-sec1910-1000.pdf.
+All3DP [2022]. The ultimate filament guide best 3D printer filament: the main types in 2022.
+München, Germany: All3DP GmbH, https://all3dp.com/1/3d-printer-filament-types-3d-printing-3d-filament/.
+ANSI/ASSE [2011]. PtD Standard Z590.3-2011, Prevention through Design: guidelines for
+addressing occupational risks in design and redesign processes. Des Plaines, IL: American National
+Standards Institute/American Society of Safety Engineers, https://store.assp.org/PersonifyEbusiness/Store/Product-Details/productId/226753699.
+Azimi P, Zhao D, Pouzet C, Crain N, Stephens B [2016]. Emissions of ultrafine particles and volatile organic compounds from commercially available desktop three-dimensional printers with multiple filaments. Environ Sci Technol 50(3):1260–1268, https://doi.org/10.1021/acs.est.5b04983.
+Bharti N, Singh S [2017]. Three-dimensional (3-D) printers in libraries: perspective and
+preliminary safety analysis. J Chem Educ 94(7):879–885, https://doi.org/10.1021/acs.
+jchemed.6b00745.
+Bowers LN, Ranpara AC, Roach KA, Knepp AK, Arnold ED, Stefaniak AB, Virji MA [2022].
+Comparison of product safety data sheet ingredient lists with skin irritants and sensitizers present
+in a convenience sample of light-curing resins used in additive manufacturing. Regul Toxicol Pharmacol 133:105198, https://doi.org/10.1016/j.yrtph.2022.105198.
+Byrley P, George BJ, Boyes WK, Rogers K [2019]. Particle emissions from fused deposition
+modeling 3D printers: evaluation and meta-analysis. Sci Total Environ 655:395–407, https://doi.
+org/10.1016/j.scitotenv.2018.11.070.
+Campbell I, Bourell D, Gibson I [2012]. Additive manufacturing: rapid prototyping comes of age.
+Rapid Prototyp J 18(4):255–258, https://doi.org/10.1108/13552541211231563.
+Campbell T, Williams C, Ivanova O, Garrett B [2011]. Could 3-D printing change the world?
+Technologies, potential, and implications of additive manufacturing. Washington, DC: Atlantic
+Council, https://www.atlanticcouncil.org/in-depth-research-reports/report/could-3d-printingchange-the-world/.
+Chan FL, House R, Kudla I, Lips-zyc JC, Rajaram N, Tarlo SM [2018]. Health survey of employees
+regularly using 3D printers. Occup Med 68(3):211, https://doi.org/10.1093/occmed/kqy042.
+CLEAPSS [2020]. 3D printing in schools and colleges: managing the risks. Consortium of Local
+Education Authorities for the Provision of Science Services (CLEAPSS) and the Health and Safety
+Executive (HSE), http://dt.cleapss.org.uk/Resource-File/3D-printing-in-schools-and-collegesmanaging-the-risks.pdf.
+Deng Y, Cao SJ, Chen A, Guo Y [2016]. The impact of manufacturing parameters on submicron
+particle emissions from a desktop 3D printer in the perspective of emission reduction. Build Environ
+104:311–319, https://doi.org/10.1016/j.buildenv.2016.05.021.
+22 | Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses
+
+Donaldson K, Stone V, Tran CL, Kreyling W, Borm PJ [2004]. Nanotoxicology. Occup Environ
+Med 61:727–728, http://doi.org/10.1136/oem.2004.013243.
+Du Preez S, Johnson A, LeBouf RF, Linde SJL, Stefaniak AB, Du Plessis J [2018]. Exposures
+during industrial 3-D printing and post-processing tasks. Rapid Prototyp J 24(5):865–871, http://
+doi.org/10.1108/RPJ-03-2017-0050.
+Dunn KL, Dunn KH, Hammond D, Lo S [2020a]. Three-dimensional printer emissions and
+employee exposures to ultrafine particles during the printing of thermoplastic filaments containing carbon nanotubes or carbon nanofibers. J Nanoparticle Res 22(46):1–13, https://doi.
+org/10.1007/s11051-020-4750-8.
+Dunn KL, Hammond D, Menchaca K, Dunn KH, Roth G [2020b]. Reducing ultrafine particulate emission from multiple 3D printers in an office environment using a prototype engineering
+control. J Nanoparticle Research 22(5):112, https://doi.org/10.1007/s11051-020-04844-4.
+Floyd EL, Wang J, Regens JL [2017]. Fume emissions from a low-cost 3-D printer with various filaments. J Occup Environ Hyg 14:523–533, https://doi.org/10.1080/15459624.2017.1302587.
+General requirements, 29 CFR 1910.132 (2022), PDF file, https://www.govinfo.gov/content/
+pkg/CFR-2022-title29-vol5/pdf/CFR-2022-title29-vol5-sec1910-132.pdf.
+Hall S, Pengelly I, Staff J, Plant N, Evans G [2019]. Measuring and controlling emissions from
+polymer filament desktop 3D printers. Health and Safety Executive (HSE). Derbyshire, UK:
+Health and Safety Executive, https://www.hse.gov.uk/research/rrpdf/rr1146.pdf.
+Hazard communication, 29 CFR 1910.1200 (2022), PDF file, https://www.govinfo.gov/content/
+pkg/CFR-2022-title29-vol6/pdf/CFR-2022-title29-vol6-sec1910-1200.pdf.
+Hoffman T [2018]. 3D printer filaments explained. PC Magazine, April 28, https://www.pcmag.
+com/how-to/3d-printer-filaments-explained.
+House R, Rajaram N, Tarlo SM [2017]. Case report of asthma associated with 3D printing. Occup
+Med 67(8):652–654, https://doi.org/10.1093/occmed/kqx129.
+IARC [1999]. Monographs on the evaluation of carcinogenic risks to humans. Vol. 73. Lyon,
+France: World Health Organization, International Agency for Research on Cancer, https://
+monographs.iarc.fr/wp-content/uploads/2018/06/mono73.pdf.
+ILO [2010]. International Chemical Safety Card. Chloroform. Geneva, Switzerland: World Health
+Organization, International Labour Office, https://www.ilo.org/dyn/icsc/showcard.display?p_
+lang=en&p_card_id=0027&p_version=2
+ISO [2015]. Additive manufacturing—general principles—terminology. Geneva, Switzerland: International Organization for Standardization ISO/ASTM, https://www.iso.org/standard/69669.html.
+Kim Y, Yoon C, Ham S, Park J, Kim S, Ohhun Kwon, Tsai P-J [2015]. Emissions of nanoparticles
+and gaseous material from 3D printer operation. Environ Sci Technol 49:12044–12053, https://
+doi.org/10.1021/acs.est.5b02805.
+LIA [2014] American national standard for safe use of lasers. Orlando, FL: Laser Institute of America,
+https://webstore.ansi.org/standards/lia/ansiz1362014.
+Mendes L, Kangas A, Kukko K, Mølgaard B, Säämänen A, Kanerva T, Ituarte IF, Huhtiniemi
+M, Stockmann-Juvala H, Partanen J, Hämeri K, Eleftheriadis K, Viitanen [2017]. Characterization of emissions from a desktop 3D printer. J Indust Ecol 21:S94–S106, https://doi.
+org/10.1111/jiec.12569.
+Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses | 23
+
+Moorefield-Lang H [2014]. Makers in the library: case studies of 3-D printers and makerspaces in
+library settings. Library Hi Tech 32(4):583–593, https://doi.org/10.1108/LHT-06-2014-0056.
+NCEH [2022]. What noises cause hearing loss? Atlanta, GA: U.S. Department of Health and
+Human Services, Centers for Disease Control and Prevention, National Center for Environmental
+Health, https://www.cdc.gov/nceh/hearing_loss/what_noises_cause_hearing_loss.html.
+NIOSH [1998]. Criteria for a recommended standard: occupational noise exposure. Cincinnati,
+OH: U.S. Department of Health and Human Services, Centers for Disease Control and Prevention,
+National Institute for Occupational Safety and Health, DHHS (NIOSH) Publication No. 98-126,
+https://www.cdc.gov/niosh/docs/98-126/.
+NIOSH [2007]. NIOSH pocket guide to chemical hazards. Cincinnati, OH: U.S. Department of
+Health and Human Services, Centers for Disease Control and Prevention, National Institute for
+Occupational Safety and Health, DHHS (NIOSH) Publication No. 2005-149, https://www.cdc.
+gov/niosh/docs/2005-149/default.html.
+NIOSH [2017]. Evaluation of 3-D printer emissions and personal exposures at a manufacturing
+workplace. By Stefaniak AB, Hammond DR, Johnson AR, Knepp AK, LeBouf RF. Morgantown,
+WV: U.S. Department of Health and Human Services, Centers for Disease Control and Prevention,
+National Institute for Occupational Safety and Health, HHE 2017-0059-3291, https://www.cdc.
+gov/niosh/hhe/reports/pdfs/2017-0059-3291.pdf.
+NIOSH [2020a]. 3D printing with filaments: health and safety questions to ask. Cincinnati, OH:
+U.S. Department of Health and Human Services, Centers for Disease Control and Prevention,
+National Institute for Occupational Safety and Health, DHHS (NIOSH) Publication No. 2020-115,
+https://www.cdc.gov/niosh/docs/2020-115/default.html.
+NIOSH [2020b]. 3D printing with metal powders: health and safety questions to ask. Cincinnati,
+OH: U.S. Department of Health and Human Services, Centers for Disease Control and Prevention, National Institute for Occupational Safety and Health, DHHS (NIOSH) Publication No.
+2020-114, https://www.cdc.gov/niosh/docs/2020-114/default.html.
+NIOSH [2022]. Design and evaluation of low cost, custom, retrofitted engineering controls for
+3D printing. By O’Connor C, Barnes C, Kent L, Hammond D. Cincinnati, OH: U.S. Department of Health and Human Services, Centers for Disease Control and Prevention, National
+Institute for Occupational Safety and Health, EPHB Report No. 2022-DFSE-959, https://www.
+cdc.gov/niosh/surveyreports/pdfs/2022-DFSE-959.pdf.
+Occupational noise exposure, 29 CFR 1910.95 (2022), PDF file, https://www.govinfo.gov/content/pkg/CFR-2022-title29-vol5/pdf/CFR-2022-title29-vol5-sec1910-95.pdf.
+Respiratory protection, 29 CFR 1910.134 (2022), PDF file, https://www.govinfo.gov/content/
+pkg/CFR-2022-title29-vol5/pdf/CFR-2022-title29-vol5-sec1910-134.pdf.
+Roney S, Klein A, Hart A [2016]. The health effects of 3D printing: basic steps you can take to
+protect your patrons and staff. American Libraries Magazine, October 11, https://americanlibrariesmagazine.org/2016/10/11/the-health-effects-of-3d-printing/.
+Roth GA, Geraci CL, Stefaniak A, Murashov V, Howard J [2019]. Potential occupational hazards
+of additive manufacturing, J Occup Environ Hyg 16(5):321–328, https://doi.org/10.1080/15459
+624.2019.1591627.
+24 | Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses
+
+Rumchev K, Brown H, Spickett J [2007]. Volatile organic compounds: do they present a risk to
+our health? Rev Environ Health 22(1):67–82, https://doi.org/10.1515/REVEH.2007.22.1.39.
+Scungio M, Vitanza T, Stabile L, Buonanno G, Morawska L [2017]. Characterization of particle
+emission from laser printers, Sci Total Environ 586:623–630, https://www.sciencedirect.com/
+science/article/pii/S0048969717302711.
+Secondo L, Adawi H, Cuddehe J, Hopson K, Schumacher A, Mendoza L, Cartin C, Lewinski N
+[2020]. Comparative analysis of ventilation efficiency on ultrafine particle removal in university
+MakerSpaces. Atmos Environ 224:117321.
+Selection and use of work practices, 29 CFR 1910.333 (2022), PDF file, https://www.govinfo.
+gov/content/pkg/CFR-2022-title29-vol5/pdf/CFR-2022-title29-vol5-sec1910-333.pdf.
+Sesto [2017]. 3D printing in schools—health & safety FAQ. Javelin Technologies, Inc., https://
+www.javelin-tech.com/blog/2017/01/3d-printing-school-health-safety-faq/.
+Stabile L, Scungio M, Buonanno G, Arpino F, Ficco G [2017]. Airborne particle emission of
+a commercial 3D printer: the effect of filament material and printing temperature. Indoor Air
+27:398–408, https://onlinelibrary.wiley.com/doi/full/10.1111/ina.12310.
+Stefaniak AB, Bowers LN, Knepp AK, Virji MA, Birch ME, Ham JE,Wells JR, Qi C, SchweglerBerry D, Friend S, Johnson AR, Martin SB Jr., Qian Y, LeBouf RF, Birch Q, Hammond D [2018].
+Three-dimensional printing with nano-enabled filaments releases polymer particles containing
+carbon nanotubes into air. Indoor Air 28(6):840–851, https://doi.org/10.1111/ina.12499.
+Stefaniak AB, Bowers LN, Knepp AK, Luxton TP, Peloquin DM, Baumann EJ, Ham JE, Wells JR,
+Johnson AR, LeBouf RF, Su F-C, Martin SB, Virji MA [2019a]. Particle and vapor emissions from
+vat polymerization desktop-scale 3-dimensional printers, J Occup Environ Hyg 16:8, 519–531,
+https://doi.org/10.1080/15459624.2019.1612068.
+Stefaniak AB, Johnson AR, du Preez S, Hammond DR, Wells JR, Ham JE, LeBouf RF, Martin
+SB Jr., Duling MG, Bowers LN, Knepp AK, de Beer DJ, du Plessis JL [2019b]. Insights into
+emissions and exposures from use of industrial-scale additive manufacturing machines. Saf Health
+Work 10(2):229–236, https://doi.org/10.1016/j.shaw.2018.10.003.
+Stefaniak AB, Johnson AR, du Preez S, Hammond DR, Wells JR, Ham JE, LeBouf RF, Menchaca
+KW, Martin SB Jr., Duling MG, Bowers LN, Knepp AK, Su FC, de Beer DJ, du Plessis JL [2019c].
+Evaluation of emissions and exposures at workplaces using desktop 3-dimensional printers. J Chem
+Health Saf 26(2):19–30, https://doi.org/10.1016/j.jchas.2018.11.001.
+Stefaniak AB, LeBouf RF, Duling MG, Yi J, Abukabda A, McBride CR, Nurkiewicz TR [2017a].
+Inhalation exposure to 3-dimentional printer stimulates acute hypertension and microvascular
+dysfunction. Toxicol Appl Pharmacol 335(15):1–5, https://doi.org/10.1016/j.taap.2017.09.016.
+Stefaniak AB, LeBouf RF, Yi J, Ham J, Nurkiewicz T, Schwegler-Berry D, Chen B, Wells J, Duling
+M, Lawrence R, Martin S, Johnson A, Virji M [2017b]. Characterization of chemical contaminants generated by a desktop fused deposition modeling 3-dimensional printer. J Occup Environ
+Hyg 14(7):540–550, https://doi.org/10.1080/15459624.2017.1302589.
+Steinle P [2016]. Characterization of emissions from a desktop 3D printer and indoor air measurements in office settings. J Occup Environ Hyg 13(2):121–132, https://doi.org/10.1080/1545962
+4.2015.1091957.
+Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses | 25
+
+Stephens B, Azimi P, El Orch Z, Ramos T [2013]. Ultrafine particle emissions from desktop 3D
+printers. Atmos Environ 79(2013):334–339, https://doi.org/10.1016/j.atmosenv.2013.06.050.
+Tyson M [2018]. Advanced guide to printing PLA filament. 3D Printing Solutions, May 21,
+https://www.3dprintingsolutions.com.au/User-Guides/how-to-3d-print-pla-filament.
+Viitanen A-K, Kallonen K, Kirsi K, Kanerva T, Saukko E, Hussein T, Hämeri K, Säämänen
+A. [2021]. Technical control of nanoparticle emissions from desktop 3D printing. Indoor Air
+31(4):1061–1071, https://doi.org/10.1111/ina.12791.
+Yi J, LeBouf R, Duling M, Nurkiewicz T, Chen B, Schwegler-Berry D [2016]. Emission of particulate matter from a desktop three-dimensional (3D) printer. J Toxicol Environ Part A 79(11)
+453–465, https://doi.org/10.1080/15287394.2016.1166467.
+Zhang Q, Wong JPS, Davis AY, Black MS, Weber RJ [2017]. Characterization of particle emissions
+from consumer fused deposition modeling 3-D printers. Aerosol Sci Technol 51(11):1275–1286,
+https://www.doi.org/10.1080/02786826.2017.1342029.
+
+26 | Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses
+
+Appendix A: Workplace Poster
+
+Approaches to Safe 3D Printing: A Guide for Makerspace Users, Schools, Libraries, and Small Businesses | 27
+
+Promoting productive workplaces through safety and health research
+
+DHHS (NIOSH) Publication No. 2024-103
+DOI: https://doi.org/10.26616/NIOSHPUB2024103
+
+

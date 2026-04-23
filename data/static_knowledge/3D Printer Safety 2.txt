@@ -1,0 +1,337 @@
+3D PRINTING/ADDITIVE
+MANUFACTURING SAFETY
+2023
+
+https://ehs.wisc.edu/
+
+06/2023
+
+TABLE OF CONTENTS
+Purpose ....................................................................................................................................................... 2
+3D Printing Overview ................................................................................................................................ 2
+3D Printer Types .................................................................................................................................... 2
+3D Printing Hazards .............................................................................................................................. 3
+General Safety Provisions ........................................................................................................................4
+Signage ...................................................................................................................................................4
+Chemical Storage ..................................................................................................................................4
+Spill Procedures ..................................................................................................................................... 5
+Training ................................................................................................................................................... 5
+Fused deposition modeling ...................................................................................................................... 5
+Hazards & Safety Practices.................................................................................................................. 5
+Stereolithography ...................................................................................................................................... 7
+Hazards & Safety Practices.................................................................................................................. 7
+Binder jetting & powder bed fusion......................................................................................................... 7
+Metal Powders ....................................................................................................................................... 7
+Lasers/Radiation ...................................................................................................................................8
+
+PURPOSE
+3D printing, also known as Additive Manufacturing, is the process by which a three-dimensional
+object is built from a computer model by laying down successive layers of material. At UWMadison, students and researchers are finding a growing number of 3D Printing applications
+including electronics prototyping, modeling, Makerspace learning.
+Production processes and materials vary greatly between 3D printing applications, each having
+its own unique set of health and safety hazards. EHS has provided safety guidelines which are
+detailed in this document.
+
+3D PRINTING OVERVIEW
+3D Printer Types
+3D printing methods are typically organized into seven categories based on the way the
+material is joined:
+• Fused Deposition Modeling – A thermoplastic filament such is melted and deposited
+in layers by a moving nozzle. Most low-cost, consumer-grade desktop printers use FDM
+• Stereolithography (SLA) –Works by focusing a UV laser on a photopolymer resin,
+which hardens the resin in successive layers.
+
+Page 2
+
+•
+
+Material Jetting – Selectively deposits droplets of feed material, such as inks, onto a
+build platform. When the droplets cool and solidify, the next layer is deposited on top.
+• Binder Jetting – A liquid binder is sprayed onto a bed of ceramic or metal powder,
+causing it to solidify. The resulting structure is typically heated in an oven to remove the
+binder and fuse the remaining metal or ceramic.
+• Powder Bed Fusion –Plastic, metal, ceramic, or glass powders are fused together
+using lasers or other energy source to form a solid structure.
+• Directed Energy Deposition (DED) – A metal powder or wire is melted at the same
+time it is being deposited by a moving print head.
+• Sheet Lamination – Creates 3D objects by using a laser or other sharp blade to cut
+and bond thin layered materials (e.g., paper, aluminum foil) together layer-by-layer.
+FDM and SLA printers comprise the majority of printers at UW-Madison.
+
+3D Printing Hazards
+The hazards of 3D printing are as varied as its applications:
+• Chemical Vapors – Plastic filaments have been shown to produce Volatile Organic
+Compounds (VOCs) when heated in 3D printing processes. Exposure to VOCs can
+headache, nausea, and eye, nose, and throat irritation. Organic solvents used in postprocessing vapor baths such as alcohol and acetone vaporize readily and pose an
+inhalation hazard.
+• Nanoparticle Emissions – When heated, filaments produce inhalable nanoparticles
+(NPs) when heated during 3D printing. Additionally, the use of NP-containing media
+can emit inhalable NPs into the surrounding atmosphere. The health effects of NPs are
+not well understood, but preliminary research suggests that inhalation is associated with
+cardiovascular and pulmonary diseases.
+• Corrosive Baths – Support material can be removed by placing prints in a heated
+corrosive bath containing sodium hydroxide or other caustic chemicals. Exposure to
+these chemicals can cause serious chemical burns, scarring, and vision damage.
+• Vapor Baths – ABS objects can be smoothed or “polished” by placing them in a closed
+vessel filled with a small quantity of acetone or other organic solvent, which vaporizes
+and reacts with the ABS plastic. These solvents are usually flammable and can cause
+symptoms when inhaled such as headache, nausea, and respiratory tract irritation.
+• Biological Material – Printers using biological material can produce aerosols which
+may be inhaled or deposited onto nearby surfaces.
+• Heat – Components such as UV lamps, motors, heat beds, and print heads become hot
+during operation and can cause burns when touched.
+• Flammability – Fine metal powders such as aluminum, steel, and titanium can
+spontaneously combust under normal atmospheric conditions (known as pyrophoricity).
+Organic solvents like acetone used in vapor polishing can combust when exposed to a
+heat source. Chemicals used in bed preparation such as hairspray are flammable.
+• Inert Gas – 3D printers sometimes use inert gases such as nitrogen or argon to create a
+noncombustible atmosphere in the printing chamber. Some aerosol jet printers use an
+inert gas as part of the aerosolization and deposition process. If inert gas is introduced
+
+Page 3
+
+•
+•
+
+•
+
+into the surrounding atmosphere, it can displace oxygen and present an asphyxiation
+hazard.
+Electric Shock – Unguarded electrical components and damaged power cords can
+result in electric shock.
+Mechanical Hazards – Hands and fingers can get pinched by moving printer
+components while in operation. CNC post-processing of metal parts presents
+mechanical and noise hazards.
+Ultraviolet Light/Lasers – Eye exposure to the UV lights used in SLA printers can
+cause temporary or permanent vision loss. Directed Energy Deposition and Powder Bed
+Fusion printers often use powerful Class 4 lasers which can cause permanent eye injury
+from direct or reflected light.
+
+GENERAL SAFETY PROVISIONS
+•
+•
+•
+•
+
+•
+•
+
+•
+•
+
+Before operating a 3D printer, ensure you are familiar with the correct, safe operation of
+the printer.
+Always follow the manufacturer’s instructions on printer setup and usage.
+Safety Data Sheets for materials used with 3D printers should be reviewed prior to use.
+Employees and students should have access to electronic or printed copies.
+Never bypass safety controls or defeat interlocks once the printing process has started.
+This will decrease the risk of exposure to hand/finger pinches from moving parts and
+reduce air contamination.
+Do not place flammable liquids near 3D printers. The heated components of 3D printers
+can cause the flammable liquid to catch fire.
+If the manufacturer offers enclosures or exhaust ventilation kits, they should be
+purchased. When hazardous/volatile materials will be used/created during print runs,
+they printer(s) must be exhausted to building ventilation.
+Never work alone when using hazardous chemicals. It is permissible to work alone if
+using consumer grade printers that use solid media.
+Know the locations of emergency equipment relevant to the hazards of your printer,
+such as fire extinguishers and eyewash stations.
+
+Signage
+Rooms containing any quantity of hazardous chemicals should have a current and accurate lab
+door emergency card. These door cards provide first glance information to an emergency
+responder. They allow responders to ensure they are prepared for whatever may be in the lab
+and warn responders who may not be adequately protected from the listed hazards not to
+enter. They also provide necessary contact information for custodians or others who may find
+or hear something amiss in the lab after hours.
+Chemical Storage
+Chemicals should be stored in a designated, labeled chemical storage cabinet. Do not store
+flammable substances like resin polymers, rubbing alcohol, and acetone in non-rated
+
+Page 4
+
+refrigerators/freezers. This can cause an explosion. Large bottles of chemicals should be
+stored no more than two feet from floor level.
+If multiple types of chemicals will be stored in the same cabinet, refer to UW-Madison’s
+Chemical Safety Guide to determine if they are compatible for storage. If chemicals are
+determined to be incompatible, contact EH&S Chemical Safety Office for further guidance.
+
+Spill Procedures
+Keep a chemical spill kit in locations using chemicals. FDM printers using solid media do not
+require a spill kit. Spills under one liter may be cleaned up using the chemical spill kit. For spills
+over one liter, contact EHS for cleanup at chemsafety@fpm.wisc.edu.
+
+Training
+All individuals operating 3D printers should receive the following training, and training should be
+documented (topics covered, date, employee names and signatures)
+•
+•
+•
+
+Chemical Safety: The OSHA Laboratory Standard and Disposing of Hazardous
+Chemicals.
+Site Specific Training with PI or lab manager
+Laser Safety (If handling un-enclosed lasers, such as during assembly and maintenance)
+
+FUSED DEPOSITION MODELING
+Hazards & Safety Practices
+VOCs and Nanoparticles—When plastic filament is heated, it produces volatile organic
+compounds (VOCs) and nanoparticles that can be inhaled. All FDM users are encouraged to
+use an enclosure.
+PLA filaments may be used without ventilation or enclosure. A local exhaust or filtered
+enclosures are usually required to use other filament types such as ABS, PMMA, PETG, and
+nylon. If using filaments other than PLA, please contact Campus Renovation Services to
+determine an appropriate ventilation setup. When hazardous/volatile materials will be
+used/created during print runs, printer(s) must be exhausted to building ventilation.
+Flammable Chemicals—Organic solvents like ethanol, isopropyl alcohol, and acetone used in
+bed preparation can catch fire upon contact with heat.
+When cleaning with flammables, use a wetted towel rather than a spray bottle. Aerosolized
+flammables can catch fire upon contact heated components.
+Containers 750mL in size or smaller can be kept on working surfaces, away from heat sources.
+Larger containers should be stored in a designated chemical storage area.
+Sharps—Removing support material using sharp instruments like razors and clippers can cause
+cuts and abrasions. Handle sharp instruments with care and know the location of a first aid kit.
+
+Page 5
+
+Electrical—Assembly and maintenance of printers can expose electrical components capable
+of causing shocks. Always assemble and disassemble according to manufacturer instructions.
+Ensure the power cable does not fray.
+Heat—FDM printers use multiple heated components like print nozzles and print beds. Only
+handle components that are cool.
+
+Post-Processing Baths
+Support material may be removed by submerging prints into a bath which can contain water or
+a caustic solution. All liquids used in these baths should be disposed of as hazardous waste via
+EHS, including water. Special safety precautions should be taken when using caustic baths to
+remove support material. The alkaline chemicals used in caustic baths can cause chemical burns
+and permanent blindness. The following PPE should always be worn when using the caustic
+bath:
+• Long pants
+• Closed-toe shoes
+• Laboratory coat
+• Nitrile gloves that cover the cuffs of the lab coat
+• Splash goggles
+• Chemical-resistant apron
+Ensure that PPE is kept in good condition. Regularly check PPE for cracks, holes, and signs of
+wear.
+A functioning eyewash station must be kept within 10 seconds or 55 feet of an alkaline bath.
+Keep the eyewash station unobstructed and easily accessible. Plumbed eyewashes must be
+tested weekly and recorded.
+Use instruments such as tongs when adding and retrieving objects from the bath. Never add or
+remove objects with your hands, even with gloves on. It is permissible to add and remove
+objects while the bath is being agitated if no splashing is observed and all PPE is worn. It is
+permissible for the bath to operate unattended.
+Never use the caustic bath alone. In the event of an eye exposure, use the eyewash
+immediately and have another employee call 911. In the event of a skin exposure, wash for 15
+minutes under tepid water and have another employee call 911.
+Caustic powder/liquid concentrates should be kept in a dedicated chemical storage cabinet
+with “Chemical Storage Area” and “Corrosive Material” labels placed conspicuously on the
+outside of the cabinet.
+Place used liquid in EHS-provided plastic containers (carboys), complete the Waste Pickup
+Tag, and contact EHS for waste pickup Never pour caustic solution down the drain. When
+mixing a new caustic bath, fill the container with water first and slowly add the caustic
+powder/liquid second.
+Dispose of hazardous material waste using the EHS Chemical Disposal request form
+
+Page 6
+
+STEREOLITHOGRAPHY
+Hazards & Safety Practices
+Flammable Resins—The resins used by SLA printers are usually flammable. They should be
+kept away from heat sources and stored in a flammable-safe storage cabinet. Wear disposable
+nitrile gloves while handling resins.
+Sharps—Removing support material using sharp instruments like razors and clippers can cause
+cuts and abrasions. Handle sharp instruments with care and know the location of a first aid kit.
+Ultraviolet Light—SLA printers use UV lasers, lamps, or other UV light sources that can cause
+eye damage. Interlocks must never be defeated, and UV-blocking enclosures should always be
+kept in place during operation. If removing the enclosure or defeating the interlocks is required
+for maintenance, UV-blocking safety glasses must be worn. Work should take place in a location
+with the fewest people in the direct line-of-sight to minimize potential exposures. EHS must be
+notified if the light source needs to be exposed for assembly, maintenance, or other procedure.
+The lab/shop where a UV source is being used must be signed appropriately. Contact the
+Office of Radiation Safety for assistance.
+Electrical Hazards—Assembly and maintenance can expose electrical components capable of
+causing shocks. Always assemble and disassemble according to manufacturer instructions.
+Ensure the power cable does not fray.
+Post-Processing—Prints that have not been cured and have residual resin should be handled
+with nitrile gloves. UV ovens are often used to cure finished prints. EHS must be contacted if
+users plan to make a DIY curing oven. Post-processing baths using organic solvents should be
+kept away from heat sources.
+Used liquid should be disposed of as hazardous waste via EHS.
+
+BINDER JETTING & POWDER BED FUSION
+Binder jetting and powder bed fusion are typically more hazardous than FDM and SLA.
+Following UW-Madison safety policies and manufacturer instructions are essential.
+
+Metal Powders
+All metal powders of any composition and particle size should be treated as hazardous,
+including alloys and mixtures containing non-metallic substances. Metal powders should be
+used with great caution.
+Personal exposure can cause chronic health effects, and improper handling can result in fire or
+explosion.
+The following safety practices should be followed for any operation handling or producing metal
+powders:
+
+Page 7
+
+•
+
+•
+•
+•
+
+Conduct activities in a manner minimizes the release of airborne dust and the possibility
+of spillage. When cleaning small parts, utilize a fume hood to reduce opportunity for
+exposure.
+A Class D fire extinguisher must be present. Contact Fire and Life Safety for assistance.
+Only use vacuums designed for use with metal powders. Conventional vacuums can
+cause fire or explosion. Vacuums should be electrically grounded.
+Never let machines operate unattended.
+
+The following Personal Protective Equipment should be worn when handling metal powders:
+• Long pants
+• Closed-toe shoes
+• Laboratory coat
+• Nitrile, butyl, or neoprene gloves that cover the cuffs of the lab coat
+• Safety glasses, safety goggles, or full-face respirator
+• Half-face or full-face respirator with P100 filters
+Closed containers may be handled without PPE. E-mail the EHS Occupational & Environmental
+Safety Office for assistance with respirators.
+
+Lasers/Radiation
+Energetic radiation such as lasers and electron beams can cause significant injury. Contact EHS
+Laser Safety at 608-219-6963 or lasersafety@wisc.edu to determine appropriate control
+measures.
+
+Page 8
+
+Fused Deposition Modeling
+
+Stereolithography
+
+Material Jetting
+
+Page 9
+
+Binder Jetting
+
+Powder Bed Fusion
+
+Page 10
+
+Directed Energy Deposition
+
+Sheet Lamination/Lamination Object Manufacturing
+
+Page 11
+
+Additional Resources
+Underwriters Laboratory (UL) 200B Guidance Document: Safe Use of 3D
+Printing for Institutions of Higher Education
+The National Institute for Occupational Safety and Health (NIOSH): 3D
+Printing Safety at Work / Additive Manufacturing/3D Printing
+
+Page 12
+
+

@@ -1,0 +1,139 @@
+SPEC SHEET
+
+PCNC 440 CNC MILLING MACHINE
+
+TORMACH.COM/440
+
+TRAVELS
+X-Axis
+
+10 in. (254 mm)
+
+Y-Axis
+
+6.25 in. (159 mm)
+
+Z-Axis
+
+10 in. (254 mm)
+
+SPINDLE
+Spindle Power
+
+0.75 hp (0.56 kW)
+
+Maximum Speed
+
+10,000 RPM
+
+Transmission
+
+Poly-V Belt
+
+Spindle Taper
+
+R8
+
+Thread Machining
+
+Thread Mill
+
+MAXIMUM FEED RATE
+X- and Y-Axis
+
+135 IPM (3.43 m/min)
+
+Z-Axis
+
+110 IPM (2.79 m/min)
+
+POWER
+Single-Phase 115 Vac,
+50/60 Hz, 15A breaker
+
+Power Required
+
+MACHINE SPECIFICATIONS
+18 in. × 6.3 in.
+(457 mm × 160 mm)
+3/8 in. (9.5 mm)
+(three slots)
+
+Table Size
+Table Slots
+Spindle Nose to Table Max Clearance
+
+11 in. (279 mm)
+
+Spindle Centerline to Machine Column
+
+6.5 in. (165 mm)
+
+Typical System Footprint
+
+42 in. × 36 in.
+(1067 mm × 914 mm)
+
+Overall System Height
+
+72 in. (1829 mm)
+
+Typical System Weight
+
+600 lbs. (272 kg)
+
+Maximum Weight on Table
+
+150 lbs. (68 kg)
+
+OPTIONAL ACCESSORIES
+Automatic Tool Changer
+Power Drawbar
+4th Axis
+SmartCool™ Coolant System
+Full Enclosure
+Flood Coolant
+
+MACHINE CONTROLLER
+User-friendly design
+
+FRAME
+Frame and Table
+
+Cast iron frame and table, with
+hand-scraped hydrodynamic ways
+and tapered adjustment gibs
+
+Way Surfaces
+
+Low-friction PTFE-filled,
+Acetyl-bonded sliding surface.
+Similar to Rulon® and Turcite®
+
+WARRANTY
+1 Year Warranty against defects in material and workmanship.
+Extended Warranty available.
+
+©2021 Tormach (07/21)
+Specifications subject to change without notice.
+
+A Better User Experience
+
+Support for up to 4-axis
+continuous machining
+Intuitive conversational
+programming
+
+PathPilot HUB is
+a browser-based,
+full-featured PathPilot
+simulator, producing
+usable G-Code.
+
+Usable G-Code Memory:
+80 GB
+Built-in Dropbox™
+support for seamlessly
+transferring programs
+
+

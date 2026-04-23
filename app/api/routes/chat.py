@@ -1,9 +1,10 @@
 from fastapi import APIRouter
-from app.api.schemas.chat import ChatRequest, ChatResponse
+from app.api.schemas.chat import ChatRequest, ChatResponse, ConvAIResponsePayload
 from app.graph.flows.main_orchestrator import run_orchestrator
 from app.utils.ids import new_request_id
 
 router = APIRouter()
+
 
 @router.post("", response_model=ChatResponse)
 async def chat(request: ChatRequest):
@@ -18,9 +19,20 @@ async def chat(request: ChatRequest):
         "trace": [],
         "errors": [],
         "tool_results": {},
+        "session_memory": {},
     }
 
     final_state = await run_orchestrator(state)
+
+    raw_agent_output = final_state.get("agent_output", {})
+
+    convai_payload = final_state.get("convai")
+    if not convai_payload:
+        convai_payload = raw_agent_output.get("convai")
+
+    session_memory = final_state.get("session_memory")
+    if not session_memory:
+        session_memory = raw_agent_output.get("session_memory", {})
 
     return ChatResponse(
         request_id=request_id,
@@ -30,5 +42,7 @@ async def chat(request: ChatRequest):
         grounded=final_state.get("grounded", False),
         confidence=final_state.get("confidence", 0.0),
         trace=final_state.get("trace", []),
-        raw_agent_output=final_state.get("agent_output", {}),
+        raw_agent_output=raw_agent_output,
+        convai=ConvAIResponsePayload(**convai_payload) if convai_payload else None,
+        session_memory=session_memory or {},
     )

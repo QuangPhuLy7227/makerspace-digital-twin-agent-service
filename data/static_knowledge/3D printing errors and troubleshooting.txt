@@ -1,0 +1,1225 @@
+3 D Print Quality
+Troubleshooting Guide
+
+Print Quality Troubleshooting Guide .......................................................................... 1
+Overview ..................................................................................................................... 1
+1.
+
+Not Extruding at Start of Print............................................................................ 4
+1.1 Filament was not loaded into extruder before printing ............................ 4
+1.2 The distance between nozzle and bed is too close ................................... 5
+1.3 The filament stripped against the drive gear ............................................. 5
+1.4 The extruder is clogged .............................................................................. 6
+
+2.
+
+Print Not Sticking to the Bed .............................................................................. 7
+2.1 Build platform is not level .......................................................................... 8
+2.2 Nizzle starts too far away from the bed ..................................................... 8
+2.3 First layer is printing too fast ..................................................................... 9
+2.4 Temperature or cooling settings ................................................................ 9
+2.5 The build platform (tape, glues and materials) ....................................... 11
+2.6 When all else fails: Brims and Rafts ......................................................... 11
+
+3.
+
+Not Extruding Enough Plastic ........................................................................... 13
+3.1 Incorrect filament diameter ..................................................................... 13
+3.2 Increase the extrusion speed ................................................................... 14
+
+4.
+
+Extruding Too Much Plastic .............................................................................. 15
+
+5.
+
+Holes and Gaps in the Top Layers ..................................................................... 17
+5.1 Not enough top solid layers ..................................................................... 18
+5.2 Infill percentage is too low ....................................................................... 19
+5.3 Under-extrusion ....................................................................................... 19
+
+6.
+
+Stringing or Oozing ........................................................................................... 20
+
+6.1 Retraction distance .................................................................................. 21
+6.2 Retraction speed ...................................................................................... 22
+6.3 Temperature is too high ........................................................................... 22
+7.
+
+Overheating ...................................................................................................... 24
+7.1 Insufficient cooling ................................................................................... 24
+7.2 Print at too high temperature .................................................................. 25
+7.3 Printing too fast........................................................................................ 25
+7.4 When all above fall, try to print multiple parts at once .......................... 26
+
+8.
+
+Layer Shifting or Misalignment ........................................................................ 27
+8.1 Nozzle moves too fast .............................................................................. 28
+8.2 Mechanical or Electrical issues ................................................................ 29
+
+9.
+
+Layer Separation and Splitting.......................................................................... 31
+9.1 Layer height is too large ........................................................................... 32
+9.2 Print temperature is too low.................................................................... 33
+
+10. Grinding Filament ............................................................................................. 34
+10.1 Increase the extruder temperature ....................................................... 35
+10.2 Print too fast .......................................................................................... 35
+10.3 Check for a nozzle clog ........................................................................... 36
+11. Clogged Extruder .............................................................................................. 37
+11.1 Manually push the filament to extruder................................................ 38
+11.2 Reload the filament ............................................................................... 38
+11.3 Clean out the nozzle .............................................................................. 39
+12. Stops Extruding in the Middle of a Print .......................................................... 40
+12.1 Out of filament....................................................................................... 41
+
+12.2 The filament has stripped against the drive gear .................................. 41
+12.3 The extruder is clogged.......................................................................... 41
+12.4 Overheated extruder motor driver ........................................................ 42
+13. Weak Infill ......................................................................................................... 43
+13.1 Increase infill density ............................................................................. 44
+13.2 Lower print speed .................................................................................. 44
+14. Curling or Rough Corners ................................................................................. 45
+15. Scars on Top Surface ......................................................................................... 47
+15.1 Extruding too much plastic .................................................................... 47
+16. Holes and Gaps in Floor Corners ...................................................................... 48
+16.1 Not enough perimeters.......................................................................... 49
+16.2 Not enough top solid layers ................................................................... 49
+16.3 Infill density is too low ........................................................................... 50
+17. Lines on the Side of Print ................................................................................. 51
+17.1 Inconsistent extrusion............................................................................ 52
+17.2 Temperature variation ........................................................................... 52
+17.3 Mechanical issues .................................................................................. 53
+18. Vibrations and Ringing ..................................................................................... 54
+18.1 Print too fast .......................................................................................... 55
+18.2 Firmware acceleration ........................................................................... 55
+18.3 Mechanical issues .................................................................................. 56
+19. Very Small Features Not Being Printed ............................................................ 57
+19.1 Redesign the parts with thicker features ............................................... 58
+19.2 Install a nozzle with a smaller tip size .................................................... 58
+
+19.3 Force the software to print small features ............................................ 59
+20. Inconsistent Extrusion ...................................................................................... 60
+20.1 Filament is getting stuck or tangled ....................................................... 61
+20.2 Clogged extruder ................................................................................... 61
+20.3 Layer height is very low ......................................................................... 62
+20.4 Poor quality filament ............................................................................. 62
+20.5 Mechanical issues of extruder ............................................................... 63
+
+Print Quality Troubleshooting Guide
+Overview
+
+Use the thumbnails below to identify the print quality issue that you are
+seeing in your own 3D printed parts. You can click on the words under the
+thumbnail to jump that portion of the guide for immediate recommendations on
+how to resolve the issue. If you are not able to locate your issues from the
+thumbnails, scroll down and read through each section of the guide for more
+detail.
+
+Not Extruding at Start of Print
+Print Not Sticking to the Bed
+
+1
+
+Not Extruding Enough Plastic
+
+Extruding Too Much Plastic
+
+Holes and Gaps in the Top
+
+Stringing or Oozing
+
+Layers
+
+Overheating
+Layer shifting or Misalignment
+
+Grinding Filament
+
+2
+
+Clogged Extruder
+
+Layer Separation and Splitting
+
+Stops Extruding Mid Print
+
+Weak Infill
+
+Gaps in Floor Corners
+
+Very Small Features Not Being
+Printed
+
+3
+
+Curling or Rough Corners
+
+Scars on Top Surface
+
+Lines on the Side of Print
+
+Vibrations and Ringing
+
+Inconsistent Extrusion
+
+1. Not Extruding at Start of Print
+
+This issue is very common for new 3D printer owners, but thankfully, it is also
+very easy to resolve. There are four possible causes if your extruder does not
+extrude plastic at the beginning of your print. We will walk through each one
+below and explain how to solve the problem.
+1.1 Filament was not loaded into extruder before printing
+
+Most extruders have a problem of leaking plastic when they keep still at a
+high temperature. The hot plastic inside the nozzle tends to ooze out of the tip,
+which creates a void inside the nozzle where the plastic has drained out. This
+idle oozing can occur at the beginning of a print when you are first preheating
+your extruder, and also at the end of the print while the extruder is slowly cooling.
+If your extruder has lost some plastic due to oozing, the next time you try to
+extrude, it will take a few seconds before plastic starts to come out of the nozzle
+again. If you are trying to start a print after you nozzle has been oozing, you may
+notice the same delayed extrusion.
+To solve this issue, make sure that you prime your extruder right before
+beginning a print so that the nozzle is full of plastic and ready to extrude. A
+common way to do this in Cura is by including something called a skirt. The skirt
+will draw a circle around your part, and in the process, it will prime the extruder
+with plastic.
+
+4
+
+If you need extra priming, you can increase the number of skirt outlines on
+the Expert tab in Cura. You can also use control knob in 3D printer to extrude
+plastic before printing.
+
+1.2 The distance between nozzle and bed is too close
+
+If the nozzle is too close to the bed, there will not be enough room for plastic
+to come out of the extruder. The hole in the top of the nozzle is essentially blocked
+so that no plastic can come out. An easy way to recognize this issue is if the print
+does not extrude plastic for the first layer or two, but begins to extrude normally
+around the 3rd or 4th layers. To solve this problem, you can adjust the four screws
+at the corners of the hot bed, turn the screws clockwise and the hot bed will move
+down. Turn a little once to increase the distance until there is enough space for
+plastic extrusion (The distance is about the thickness of a piece of A4 Paper ).
+
+1.3 The filament stripped against the drive gear
+
+3D printers use a small gear to push the filament back and forth. The teeth on
+this gear bite into the filament and allow it to accurately control the position of the
+filament. However, if you notice lots of plastic shavings or it looks like there is a
+section missing from your filament, then it’s possible that the drive gear has removed
+too much plastic. Once this happens, the drive gear won’t have anything left to grab
+onto when it tries to move the filament back and forth. Please see the Grinding
+Filament section for instructions on how to fix this issue.
+5
+
+1.4 The extruder is clogged
+
+If none of the above suggestions are able to resolve the issue, then it is likely
+that your extruder is clogged. This can happen if foreign debris is trapped inside
+the nozzle, when hot plastic sits inside the extruder too long, or if the thermal
+cooling for the extruder is not sufficient and the filament begins to soften outside of
+the desired melt zone. We successfully used relative diameter drill (or relative
+diameter copper line of electric wire) to unclog extruders by feeding it into the nozzle
+tip. You need to heat the extruder to 200 ℃ when you do this. Attention not hurt by
+the hot extruder. Please contact your printer manufacturer if you need disassemble
+the extruder.
+
+6
+
+2. Print Not Sticking to the Bed
+
+It is very important that the first layer of your print is strongly connected to
+the printer’s build platform so that the remainder of your part can be built on this
+foundation. If the first layer is not sticking to the build platform, it will create
+7
+
+problems later on. There are many different ways to cope with these first layer
+adhesion problems, so we will examine several typical causes below and explain
+how to address each one.
+2.1 Build platform is not level
+
+3D printer uses 4 screws to control the position of the bed. If you have trouble
+to get your first layer to stick to the bed, the first thing you need to verify is that
+your printer’s bed is flat and level. If the bed is not level, one side of your bed
+may be too close to the nozzle, while the other side is too far away. Achieving a
+perfect first layer requires a level print bed. 3D printer already has a useful bed
+leveling video that guide you through the bed leveling process.
+You can find this video by visiting website www.3d.com to Download Center and
+download the video or watch online.
+
+2.2 Nizzle starts too far away from the bed
+
+Once your bed has been properly leveled, you still need to make sure that
+the nozzle is starting at the correct height relative to the build platform. Your goal
+is to locate your extruder the perfect distance away from the build plate — not
+too far and not too close. For good adhesion to the build plate, you want your
+filament to be slightly adhesive against the build plate. You can adjust the four
+screws at the corners of the hot bed, turn the screws anticlockwise and the hot
+bed will move up. Turn a little once to reduce the distance until there is suitable
+room for filament extrusion(The distance is about the thickness of a piece of A4
+8
+
+paper). Be careful to only make small adjustments to this setting. Each layer of
+your part is usually only around 0.2mm thick, so a small adjustment goes a long
+way.
+2.3 First layer is printing too fast
+
+As you extrude the first layer of plastic, you want the plastic can properly
+bond to the surface of build platform before starting the next layer. If you print the
+first layer too fast, the plastic may not have time to bond to the build platform. For
+this reason, it is typically very useful to print the first layer at a slower speed so
+that the plastic has time to bond to the bed. Cura provides a setting for this exact
+feature. If you click on “Advanced” and go to the Speed tab, you will see a setting
+labeled “Bottom Layer Speed”. For example, if you set a first layer speed of 20,
+it means that your first layer will print 20mm/s. If you feel that your printer is
+moving too fast on the first layer, try reducing this setting.
+
+2.4 Temperature or cooling settings
+
+Plastic tends to shrink when its temperature is down. To provide a useful
+example, imagine a 100mm wide part that is being printed with ABS plastic. If the
+extruder was printing this plastic at 230 degrees Celsius, but it was being
+deposited onto a cold build platform, it is likely that the plastic would quickly cool
+down after leaving the hot nozzle. 3D printer also includes cooling fans that speed
+up this cooling process when they are being used. If this ABS part cooled down
+to a room temperature of 30℃, the 100mm wide part would shrink by almost
+1.5mm.Unfortunately, the build platform on your printer is not going to shrink this
+9
+
+much, since it is typically kept at a fairly constant temperature. Because of this
+fact, the plastic will tend to separate from the build platform as it cools. This is an
+important fact to keep in mind as you print your first layer. If you notice that the
+layer seems to stick initially, but later separates from the print bed as it cools, it
+is possible that your temperature and cooling settings are to blame.
+In order to print high-temperature materials like ABS, 3D printer includes a
+heated bed to help combat these problems. If the bed it heated to maintain a
+temperature of 70-100℃ for the entire print, it will keep the first layer warm so that
+it does not shrink. As a general starting point, PLA tends to adhere well to a bed
+that is heated to 40-6℃, while ABS generally works better if the bed is heated to
+70-100℃. You can adjust these settings by the control panel. The specific setting
+process: Press the knob to enter the menu, and go to the Control tab, confirm,
+then go to the Bed tab, confirm, then turn the knob to adjust the temperature.
+You may also want to try disabling that cooling fan for the first few layers of your
+printer so that the initial layers do not cool down too quickly. You can
+read “Cura Tutorial” to learn how to resolve this issue.
+If you are using ABS plastic, it is common to disable the cooling fan for the
+entire print. If you are working in a breezy environment, you may also want to try
+to insulate your printer to keep the wind away from your part.
+
+10
+
+2.5 The build platform (tape, glues and materials)
+
+Different plastics tend to adhere better to different materials. If you are going
+to print directly onto these surfaces, it is always a good idea to make sure that
+your build platform is free of dust, grease, or oils before starting the print.
+Cleaning your print bed with some water or isopropyl rubbing alcohol can make
+a big difference. There are several types of tape that stick well to common 3D
+printing materials. Strips of tape can be applied to the build platform surface and
+easily removed or replaced if you want to print with a different material. For
+example, PLA tends to stick well to blue painter’s tape while ABS tends to stick
+better to Kapton tape (otherwise known as Polyimide film). You can use
+temporary glue or spray on the top of their build platforms. Hair spray, glue sticks,
+and other sticky substances tend to work very well if everything else has failed.
+Feel free to experiment to see what works best for you!
+
+2.6 When all else fails: Brims and Rafts
+
+Sometimes you are printing a very small part that simply does not have
+enough surface area to stick to the build platform surface. Cura includes several
+options that can help increase this surface area to provide a larger surface to stick
+to the print bed. One of these options is called a “brim.” The brim adds extra rings
+around the exterior of your part, similar to how a brim of a hat increases the
+circumference of the hat. This option can be enabled by going to the “Support” tab
+end enabling the “Platform adhesion type” option. Cura also allows users to add
+11
+
+a raft under their part, which can also be used to provide a larger surface for bed
+adhesion. If you are interested in these options, please take a look at
+“Cura Tutorial”, which explains things in greater detail.
+
+12
+
+3. Not Extruding Enough Plastic
+
+Cura includes some settings used to determine how much plastic the 3D printer
+should extruder. However, because the 3D printer does not provide any feedback
+about how much plastic actually leaves the nozzle, it’s possible that there may be
+less plastic exiting the nozzle than what the software expects (otherwise known as
+under-extrusion). If this happens, you may start to notice gaps between adjacent
+extrusions of each layer. The most reliable way to test whether or not your printer is
+extruding enough plastic is to print a simple 20mm tall cube with at least 3 perimeter
+outlines. At the top of the cube, check and see whether the 3 perimeters are strongly
+bonded together or not. If there are gaps between the 3 perimeters, then you are
+under-extruding. If the 3 perimeters are touching and do not have any gaps, then you
+are likely encountering a different issue. If you determine that you are underextruding,
+there are several possible causes for this, which we have summarized below.
+
+3.1 Incorrect filament diameter
+
+The first thing you need to verify is that the software knows the filament
+diameter that you are using. You can find this setting by clicking “Basic” and going
+to the “Filament” tab. Check to make sure that this value matches the filament
+that you purchased. You may even want to measure your filament yourself using
+a pair of calipers to make sure that you truly have the correct diameter specified
+in the software. The most common values for the filament diameter are 1.75mm
+and 2.85mm. The diameter of 3D printer filament is
+13
+
+1.75mm.
+
+3.2 Increase the extrusion speed
+
+If your filament diameter is correct, but you are still seeing under-extrusion
+issues, then you need to adjust your extrusion speed. This is a very useful setting
+in 3D printer control panel that allows you to easily modify the amount of plastic
+that is extruded (otherwise known as the flow rate). You can find this setting by
+turning the knob to enter “Configuration” .Specific setting process as follows:
+Press the knob to enter the menu, choose “Configuration”, confirm， turn to
+“motion”, confirm, find “Esteps/mm” tab, turn the knob to adjust extrusion speed.
+The default value is 95mm/s, you can change it to 97mm/s. that means the plastic
+will be extruded more 2mm/s than before. Try increasing your extrusion speed
+and then reprint the test cube to see if you still have gaps between your
+perimeters. Notice that increasing a little once to avoid extruding too much plastic.
+
+14
+
+4. Extruding Too Much Plastic
+
+The software is constantly working together with your printer to make sure that
+your nozzle is extruding the correct amount of plastic. This precise extrusion is
+an important factor in achieving good print quality. However, most 3D printers
+have no way of monitoring how much plastic is actually extruded. If your extrusion
+
+15
+
+settings are not configured properly, the printer may extruder more plastic than
+the software expects. This over-extrusion will result in excess plastic that can ruin
+the outer dimensions of your part. To resolve this issue, there are only a few
+settings you need to verify in 3D control panel. Please see the Not Extruding
+Enough Plastic section for a more detailed description. While those instructions
+are for under-extrusion, you will adjust the same settings for over-extrusion, just
+in the opposite direction. For example, if increasing the extrusion speed helps
+with under-extrusion, then you should decrease the
+extrusion speed for over-extrusion issues.
+
+16
+
+5. Holes and Gaps in the Top Layers
+
+To save plastic, most 3D printed parts are created to have a solid shell that
+surrounds a porous, partially hollow interior. For example, the interior of the part
+may use a 30% infill percentage, which means that only 30% of the interior is
+17
+
+solid plastic, while the rest is air. While the interior of the part may be partially
+hollow, we want the exterior to remain solid. To do this, 3D allows you to specify
+how many solid layers you want on the top and bottom of your part. For example,
+if you were printing a simple cube with 5 top and bottom solid layers, the software
+would print 5 completely solid layers at the top and bottom of the print, but
+everything else in the middle would be printed as a partially hollow layer. This
+technique can save a tremendous amount of plastic and time, while still creating
+very strong parts. However, depending on what settings you are using, you may
+notice that the top solid layers of your print are not completely solid. You may see
+gaps or holes between the extrusions that make up these solid layers. If you have
+encountered this issue, here are several simple settings that you can adjust to fix
+it.
+
+5.1 Not enough top solid layers
+
+The first setting to adjust is the number of top solid layers. When you try to
+print a 100% solid layer on top of your partially hollow infill, the solid layer has to
+span across the hollow air pockets of your infill. When this happens, the
+extrusions for the solid layer have a tendency to droop or sag down into the air
+pocket. Because of this, you generally want to print several solid layers at the top
+of your print to ensure a nice flat, completely solid surface. As a good rule of
+thumb, you want the solid section at the top of your print to be at least 0.6mm
+thick. So if you are using a 0.2mm layer height, you would need at least 3 top
+solid layers. If you are printing at a lower layer height such as 0.1mm, you may
+need 6 solid layers at the top of your print to achieve the same effect. If you are
+noticing gaps between the extrusions in your top surface, the first thing you
+18
+
+should try is increasing the number of top solid layers. For example, if you noticed
+the problem using only 0.6mm solid layers, try printing with 1mm solid layers to
+see if the problem is improved. Note that additional solid layers will occur within
+your part dimension and do not add size to the exterior of your part.
+You can adjust the solid layer settings by clicking “Basic” and selecting the
+Bottom/Top Thickness tab.
+
+5.2 Infill percentage is too low
+
+The infill on the inside of your part will act as the foundation for the layers above it.
+The top solid layers of your part will need to print on top of this foundation. If you
+infill percentage is very low, there will be large air gaps in your infill. For example, if
+you using an infill percentage of only 10%, the remaining 90% of the interior of your
+part would be hollow, and this would create some very large air gaps that the solid
+layers would need to print on top of. If you have tried increasing the number of top
+solid layers and you are still seeing gaps in the top of your print, you may want to
+try increasing your infill percentage to see if the gaps go away. For example, if your
+infill percentage was previously 10%, try using a 30% infill percentage, as this
+would provide a much better foundation for the solid layers at the top of your print.
+5.3 Under-extrusion
+
+If you have tried increasing the infill percentage and the number of top solid
+layers, yet you are still seeing gaps in the tops of your print, then you likely have
+an under-extrusion issue. This means that your nozzle is not extruding as much
+plastic as the software expects. For a full description of this issue and how to
+correct it, please read the Not Extruding Enough Plastic section.
+
+19
+
+6. Stringing or Oozing
+
+Stringing (otherwise known as oozing, whiskers, or “hairy” prints) occurs
+when small strings of plastic are left behind on a 3D printed model. This is
+typically due to plastic oozing out of the nozzle while the extruder is moving to a
+20
+
+new location. Thankfully, there are several settings in Cura can help with this
+issue. The most common setting that is used to combat excessive stringing is
+something that is known as retraction. If retraction is enabled, when the extruder
+is done printing one section of your model, the filament will be pulled backwards
+into the nozzle to act as a countermeasure against oozing. When it is time to
+begin printing again, the filament will be pushed back into the nozzle so that
+plastic once again begins extruding from the tip. To ensure retraction is enabled,
+click “Basic” and click on the Quality tab. Ensure that the retraction option is
+enabled for your extruder. In the sections below, we will discuss the important
+retraction settings as well as several other settings that can be used to combat
+stringing, such as the extruder temperature settings.
+
+6.1 Retraction distance
+
+The most important retraction setting is the retraction distance. This
+determines how much plastic is pulled out of the nozzle. In Cura, you can click
+“Advanced” and click Retraction tab to set retraction distance. In general, the
+more plastic that is retracted from the nozzle, the less likely the nozzle is to ooze
+while moving. Most direct-drive extruders only require a retraction distance of 3.5
+mm. If you encounter stringing with your prints, try increasing the retraction
+distance by 0.5mm every time and test again to see if the performance improves.
+
+21
+
+6.2 Retraction speed
+
+Retraction speed determines how fast the filament is retracted from the
+nozzle. If you retract too slowly, the plastic will slowly ooze down through the
+nozzle and may start leaking before the extruder is done moving to its new
+destination. If you retract too quickly, the filament may separate from the hot
+plastic inside the nozzle, or the quick movement of the drive gear may even grind
+away pieces of your filament. There is usually a sweet spot somewhere between
+30-50 mm/s where retraction performs best. Cura has already provided many
+pre-configured profiles that can give you a starting point for what retraction speed
+works best, but the ideal value can vary depending on the material that you are
+using, so you may want to experiment to see if different speeds decrease the
+amount of stringing that you see.
+6.3 Temperature is too high
+
+The next most common cause for excessive stringing is the extruder
+temperature. If the temperature is too high, the plastic inside the nozzle will
+become extremely viscous and will leak out of the nozzle much more easily.
+However, if the temperature is too low, the plastic will still be somewhat solid and
+will have difficulty extruding from the nozzle. If you feel you have the correct
+retraction settings, but you are still encountering these issues, try decreasing
+your extruder temperature by 5-10 degrees. This can have a significant impact
+on the final print quality. You can adjust these settings through 3D control panel
+by turning the knob. First press the knob to enter the menu, choose “Control”,
+
+22
+
+confirm and choose “Nozzle”, confirm. Then turn the knob to adjust the
+temperature.
+
+23
+
+7. Overheating
+
+The plastic that exits your extruder may be anywhere from 190 to 240
+degrees Celsius. While the plastic is still hot, it is pliable and can easily be formed
+into different shapes. However, as it cools, it quickly becomes solid and retains
+its shape. You need to achieve the correct balance between temperature and
+cooling so that your plastic can flow freely through the nozzle, but it can quickly
+solidify to maintain the exact dimensions of your 3D printed part. If this balance
+is not achieved, you may start to notice some print quality issues where the
+exterior of your part is not as precise and defined as you would like. As you can
+see in the image above, the filament extruded at the top of the pyramid was not
+able to cool quickly enough to retain its shape. The section below will examine
+several common causes for overheating and how to prevent them.
+
+7.1 Insufficient cooling
+
+The most common cause for overheating is that the plastic is not being
+cooled fast enough. When this happens, the hot plastic is free to change shapes
+as it slowly cools. For many plastics, it is much better to quickly cool the layers
+to prevent them from changing shape after being printed. 3D printer includes a
+cooling fan, try increasing the power of the fan to cool the plastic faster. Please
+read “Cura Tutorial” to learn how to increase fan’s power
+
+24
+
+7.2 Print at too high temperature
+
+If you are already using a cooling fan and you are still seeing this issue, you
+may need to try printing at a lower temperature. If the plastic is extruded at a
+lower temperature it will be able to solidify faster and retain its shape. Try lowering
+the print temperature by 5-10 degrees to see if it helps. Please read “Cura Tutorial”
+to learn how to set the temperature. Be careful not to lower the temperature too
+far, as otherwise the plastic may not be hot enough to extrude through the small
+opening in your nozzle.
+7.3 Printing too fast
+
+If you print each layer very quickly, you might not need enough time for the
+previous layer to properly cool before you try to deposit the next layer on top of
+it. This is particularly important for very small parts where each layer only requires
+a few seconds to print. Even with a cooling fan, you may still need to decrease
+the printing speed for these small layers to ensure you provide enough time for
+the layer to solidify. Cura includes a very simple option to do exactly that. Click
+“Advanced” and you will see “Minimal layer time” under “Cool” tab. This section
+is used to automatically slow down the printing speed for small layers to ensure
+they have enough time to cool and solidify before printing the next layer. For
+example, if you allow the software to adjust the printing speed for layers that take
+not less than 10 seconds to print, the program will automatically slow down the
+printing speed for these small layers.
+This is a vital feature for combating these overheating issues.
+
+25
+
+7.4 When all above fall, try to print multiple parts at once
+
+If you have already tried the 3 items above and you are still having trouble
+achieving sufficient cooling, there’s one more thing you can try. You can create a
+copy of the part you are trying to print in Cura by selecting model, (Select the
+model > Right clicking > Multiply object) or import a second object that can be
+printed at the same time. By printing two objects at once, you can provide more
+cooling time for each individual part. The hot nozzle will need to move to a
+different location on the build platform to print the second part, which provides a
+short relief for your first part to cool down. This is a simple, yet very effective
+strategy for fixing overheating problems.
+
+26
+
+8. Layer Shifting or Misalignment
+
+Most 3D printers use an open-loop control system, which is a fancy way to
+say that they have no feedback about the actual location of the nozzle. The printer
+simply attempts to move the nozzle to a specific location, and hopes that it gets
+27
+
+there. In most cases, this works fine because the stepper motors that drive the
+printer are quite powerful, and there are no significant loads to prevent the nozzle
+from moving. However, if something does go wrong, the printer would have no
+way to detect this. For example, if you happened to bump into your printer while
+it was printing, you might cause the nozzle to move to a new position. The
+machine has no feedback to detect this, so it would just keep printing as if nothing
+had happened. If you notice misaligned layers in your print, it is usually due to
+one of the causes below. Unfortunately, once these errors occur, the printer has
+no way to detect and fix the problem, so we will explain how to resolve these
+issues below.。
+
+8.1 Nozzle moves too fast
+
+If you are printing at a very high speed, the motors for your 3D printer may
+struggle to keep up. If you attempt to move the printer faster than the motors can
+handle, you will typically hear a clicking sound as the motor fails to achieve the
+desired position. If this happens, the remainder of the print will be misaligned with
+everything that was printed before it. If you feel that your printer may be moving
+too fast, try to reduce the printing speed to see if it helps. You can turn the knob
+on the control panel of 3D printer to reduce print speed.
+
+28
+
+8.2 Mechanical or Electrical issues
+
+If the layer misalignment continues, even after reducing your print speed,
+then it is likely due to mechanical or electrical issues with the printer. For example,
+most 3D printers use belts that allow the motors to control the position of the
+nozzle. The belts are typically made of a rubber material and reinforced with
+some steel wire to provide additional strength. Over time, these belts may stretch,
+which can impact the belt tension that is used to position the nozzle. If the tension
+becomes too loose, the belt may slip on top of the drive pulley, which means the
+pulley is rotating, but the belt is not moving. If the belt was originally installed too
+tight, this can also cause issues. An overtightened belt can create excess friction
+in the bearings that will prevent the motors from spinning. Ideal assembly
+requires a belt that is somewhat tight to prevent slipping, but not too tight to where
+the system is unable to rotate. If you start noticing issues with misaligned layers,
+you should verify that your belts all have the appropriate tension, and none
+appear to be too loose or too tight. If you think there may be a problem, please
+consult the printer manufacturer for instructions on how to adjust the belt tension.
+
+Many 3D printers also include a series of belts that are driven by pulleys
+attached to a stepper motor shaft using a small set-screw (otherwise known as a
+grub screw). These set-screws anchor the pulley to the shaft of the motor so that
+the two items spin together. However, if the set-screw loosens, the pulley will no
+longer rotate together with the motor shaft. This means that the motor may be
+spinning, but the pulley and belts are not moving. When this happens, the nozzle
+does not get to the desired location, which can impact the alignment of all future
+29
+
+layers of the print. So if layer misalignment is a reoccurring problem, you should
+verify that all of the motor fasteners are properly tightened.
+
+There are also several other common electrical issues that can cause the
+motors to lose their position. For example, if there is not enough electrical current
+getting to the motors, they won’t have enough power to spin. It is also possible
+that the motor driver electronics could overheat, which causes the motors to stop
+spinning temporarily until the electronics cool down. While this is not an
+exhaustive list, it provides a few ideas for common electrical and mechanical
+causes that you may want to check if layer shifting is a persistent problem.
+
+30
+
+9. Layer Separation and Splitting
+
+3D printing works by building the object one layer at a time. Each successive
+layer is printed on top of the previous layer, and in the end this creates the desired
+3D shape. However, for the final part to be strong and reliable, you need to make
+31
+
+sure that each layer adequately bonds to the layer below it. If the layers do not
+bond together well enough, the final part may split or separate. We will examine
+several typical causes for this below and provide suggestions for resolving each
+one.
+9.1 Layer height is too large
+
+Most 3D printing nozzles have a diameter between 0.3-0.5mm. The plastic
+squeezes through this tiny opening to create a very thin extrusion that can
+produce extremely detailed parts. However, these small nozzles also create
+some limitations for what layer heights can be used. When you print one layer of
+plastic on top of another, you need to make sure that the new layer is being
+pressed against the layer below it so that the two layers will bond together. As a
+general rule of thumb, you need to make sure that the layer height you select is
+20% smaller than your nozzle diameter. For example, if you have a 0.4mm nozzle,
+you can’t go too far past a layer height of 0.32mm, or each layer of plastic will not
+be able to properly bond to the layer beneath it. So if you notice that your prints
+are separating and the layers are not sticking together, the first thing you should
+check is your layer height compared to the size of your nozzle. Try reducing the
+layer height to see if it helps the layers bond together better. You can do this by
+clicking “Basic” and setting “Layer height” in Cura. Please read “Cura Tutorial” to
+learn more.
+
+32
+
+9.2 Print temperature is too low
+
+Warm plastic will always bond together much better than cold plastic. If you
+notice that your layers aren’t bonding together and you are certain that your
+layer height isn’t too large, it is possible that your filament needs to be printed a
+higher temperature to create a strong bond. For example, if you tried to print
+ABS plastic at 190℃, you would likely find that the layers of your part will easily
+break apart. This is because ABS typically needs to be printed around 220240℃to create a strong bond between the layers of your print. So if you feel this
+may be the problem, verify that you are using the correct temperature for the
+filament you have purchased. Try increasing the temperature by 5- 10 degrees
+to see if the adhesion improves. Please read “Cure Tutorial” or “3D printer
+Control Panel Instructions” to learn how to set print temperature.
+
+33
+
+10. Grinding Filament
+
+Most 3D printers use a small drive gear that grabs the filament and
+sandwiches it against another bearing. The drive gear has sharp teeth that allow
+it to bite into the filament and push it forward or backward, depending on which
+34
+
+direction the drive gear spins. If the filament is unable to move, yet the drive gear
+keeps spinning, it can grind away enough plastic from the filament so that there
+is nothing left for the gear teeth to grab on to. Many people refer to this situation
+as the filament being “stripped,” because too much plastic has been stripped
+away for the extruder to function correctly. If this is happening on your printer, you
+will typically see lots of small plastic shavings from the plastic that has been
+ground away. You may also notice that the extruder motor is spinning, but the
+filament is not being pulled into the extruder body. We will explain the easiest way
+to resolve this issue below.
+
+10.1 Increase the extruder temperature
+
+If you continue to encounter filament grinding, try to increase the extruder
+temperature by 5-10 degrees so that the plastic flows easier. Please read “Cure
+Tutorial” or “3D printer Control Panel Instructions” to learn how to set extruder
+temperature. Plastic will always flow easier at a higher temperature, so this can
+be a very helpful setting to adjust.
+
+10.2 Print too fast
+
+If you continue to encounter filament grinding, even after increasing the
+temperature, then the next thing you should do is decrease the printing speed.
+By doing this, the extruder motor will not need to spin as fast, since the filament
+is extruded over a longer period of time. The slower rotation of the extruder motor
+35
+
+can help avoid grinding issues. In 3D control panel, you can press the knob to
+enter the menu and choose “Configuration” and then choose “motion”,
+find“Esteps/mm” to adjust extrusion speed. The default value is 95mm/s. you
+modify it to 93mm/s. That means it will be 2mm plastic less extruded from the
+nozzle per second. Decrease only a little once to avoid Not Extruding Enough
+Plastic and then see if the filament grinding goes away.
+10.3 Check for a nozzle clog
+
+If you are still encountering filament grinding after increasing the temperature
+and slowing down the print speed, then it’s likely your nozzle is partially clogged.
+Please read the Clogged Extruder section for instructions on how to troubleshoot
+this issue.
+
+36
+
+11. Clogged Extruder
+
+Your 3D printer must melt and extrude many kilograms of plastic over its
+lifetime. To make things more complicated, all of this plastic must exit the extruder
+through a tiny hole that is only as big as a single grain of sand.
+
+37
+
+Inevitably, there may come a time where something goes wrong with this process
+and the extruder is no longer able to push plastic through the nozzle. These jams
+or clogs are usually due to something inside the nozzle that is blocking the plastic
+from freely extruding. While this may be daunting the first time it happens, but we
+will walk through several easy troubleshooting steps that can be used to fix a
+jammed nozzle.
+
+11.1 Manually push the filament to extruder
+
+One of the first things you may need to try is manually pushing the filament
+into the extruder. Open 3D’s Control Panel and heat your extruder to the
+appropriate temperature for your plastic. Next, use the Control knob to extruder
+a small amount of plastic, for example, 10mm. Please refer to “Tutorial of filament
+drawing out and push in”. As the extruder motor is spinning, lightly use your
+hands to help push the filament into the extruder. In many cases, this added force
+will be enough to advance the filament past the problem area.
+
+11.2 Reload the filament
+
+If the filament still doesn’t move, the next thing you should do is unload the
+filament. Verify that the extruder is heated to the appropriate temperature, then
+push the filament into extruder and draw it out quickly. As before, you may need
+to apply some additional force if the filament isn’t moving. Once the filament is
+removed, use a pair of scissors to cut away the melted or damaged portion of the
+38
+
+filament. Then reload the filament and see if you are able to extrude with the new,
+undamaged section of filament. Please refer to “Tutorial of filament drawing out
+and push in”.
+
+11.3 Clean out the nozzle
+
+If you can’t extrude the new section of plastic through the nozzle, then it’s
+likely you will need to clean out the nozzle before proceeding. Many users have
+had success heating their extruder to 200℃ and then manually pulling the filament
+out (hopefully along with any debris that was inside). You can use relative
+diameter drill (or relative diameter copper line of electric wire) to unclog extruders
+by feeding it into the nozzle tip. There are plenty of other methods and each
+extruder is different, so please consult your printer manufacturer for precise
+instructions.
+
+39
+
+12. Stops Extruding in the Middle of a Print
+
+If your printer was extruding properly at the beginning of your print, but
+suddenly stopped extruding later on, there are typically only a few things that
+could have caused this problem. We will explain each common cause below and
+provide suggestions for fixing the issue. If your printer was having trouble
+40
+
+extruding at the very beginning of the print, please see the Not Extruding at Start
+of Print section.
+12.1 Out of filament
+
+This one is pretty obvious, but before checking the other issues, first verify
+that you still have filament leading into the nozzle. If the spool has run out, you
+will need to load a new spool before continuing the print.
+
+12.2 The filament has stripped against the drive gear
+
+During a print, the extruder motor is constantly spinning trying to push the
+filament into the nozzle so that your printer can keep extruding plastic. If you try
+to print too quickly or you try to extrude too much plastic, this motor may end up
+grinding away the filament until there is nothing left for the drive gear to grab onto.
+If your extruder motor is spinning, but the filament is not moving, then this is likely
+the cause. Please see the Grinding Filament section for more details on how to
+resolve the issue.
+
+12.3 The extruder is clogged
+
+If none of the above causes apply to you, then it is very likely that the extruder
+is clogged. If this happens in the middle of the print, you may want to check and
+make sure that the filament is clean and that there is no dust on the spool. If
+41
+
+enough dust is attached to the filament, it can cause a clog as it builds up inside
+the nozzle. There are several other possible causes for a clogged extruder, so
+please see the clogged extruder description in the Not Extruding at
+Start of Print section for more details.
+12.4 Overheated extruder motor driver
+
+The extruder motor has to work incredibly hard during your print. It is constantly
+spinning back and forth, pushing and pulling plastic back and forth.
+
+This quick motion requires quite a bit of current, and if the printer’s electronics do
+not have sufficient cooling, it can cause the motor driver electronics to overheat.
+These motor drivers typically have a thermal cutoff that will cause the driver to
+stop working if the temperature gets too high. If this happens, the X and Y axis
+motors will be spinning and moving the extruder nozzle, but the extruder motor
+will not be moving at all. 3D printer includes a cooling fan to cool down
+temperature for the extruder motor. You can also turn off the printer and allow the
+electronics to cool down.
+
+42
+
+13. Weak Infill
+
+The infill inside your 3D printed part plays a very important role in the overall
+strength of your model. The infill is responsible for connecting the outer shells of
+your 3D print, and must also support upper surfaces that will be printed on top of
+43
+
+the infill. If your infill appears to be weak or stringy, you may want to adjust a few
+settings within the software to add additional strength to this section of your print.
+13.1 Increase infill density
+
+In printing process, the fill density print has a great influence to its strength.
+If the infill density is very low, there will be a large number of empty gaps in the
+interior. Increase infill density appropriately can make print more firmly.
+
+13.2 Lower print speed
+
+The infill is typically printed faster than any other portion of your 3D print. If
+you try to print the infill too fast, the extruder won’t be able to keep up and you
+will start to notice under-extrusion on the inside of your part. This underextrusion
+will tend to create weak, stringy infill since the nozzle is not able to extrude as
+much plastic as the software would like. If you have tried several infill patterns,
+but continue to have problems with weak infill, try reducing the print speed. To do
+this, click “Advanced” and select the Speed.
+
+Adjust the “Infill speed”, which directly controls the speed that is used for the infill.
+For example, if you were previously printing at 60mm/s, try decreasing that value
+by 50% to see if the infill starts to become stronger and more solid.
+
+44
+
+14. Curling or Rough Corners
+
+If you are seeing curling issues later on in your print, it typically points to
+overheating issues. The plastic is extruded at a very hot temperature, and if it
+does not cool quickly, it may change shape over time. Curling can be prevented
+45
+
+by rapidly cooling each layer so that it does not have time to deform before it has
+solidified. Please read the Overheating section for a more detailed description of
+this issue and how to resolve it. If you are noticing the curling at the very
+beginning of your print, please see the Print Not Sticking to the Bed section to
+address first layer issues.
+
+46
+
+15. Scars on Top Surface
+
+One of the benefits of 3D printing is that each part is constructed one layer
+at a time. This means that for each individual layer, the nozzle can freely move
+to any portion of your print bed, since the part is still being constructed down
+below. While this provides for very fast printing times, you may notice that the
+nozzle leaves a mark when it travels on top of a previously printed layer. This is
+typically most visible on the top solid layers of your part. These scars and marks
+occur when the nozzle tries to move to a new location, but ends up dragging
+across previously printed plastic. The section below will explore several possible
+causes for this and provide recommendations for what settings can be adjusted
+to prevent it from happening.
+
+15.1 Extruding too much plastic
+
+One of the first things you should verify is that you are not extruding too much
+plastic. If you extrude too much plastic, each layer will tend to be slightly thicker
+than intended. This means that when the nozzle tries to move across each layer,
+it may drag through some of the excess plastic. Before you look at any other
+settings, you should make sure that you are not extruding too much plastic.
+Please read the Extruding Too Much Plastic section for more details.
+
+47
+
+16. Holes and Gaps in Floor Corners
+
+When building 3D printed part, each layer relies on the foundation from the
+layer below. However, the amount of plastic that is used for the print is also a
+concern, so a balance must be achieved between the strength of the foundation
+and the amount of plastic that is used. If the foundation is not strong enough, you
+
+48
+
+will start to see holes and gaps between the layers. This is typically most obvious
+in the corners, where the size of the part is changing (for example, if you were
+printing a 20mm cube on top of a 40mm cube). When you transition to the smaller
+size, you need to make sure that you have a sufficient foundation to support the
+sidewalls of the 20mm cube. There are several typical causes for these weak
+foundations. We will discuss each one below and present the settings that can
+be used in Cura to improve the print.
+
+16.1 Not enough perimeters
+
+Adding more outline perimeters to your part will greatly improve the strength
+of the foundation. Because the interior of your part is typically partially hollow, the
+thickness of the perimeter walls has a significant effect. To adjust this setting,
+click “Basic” and click on the “Shell thickness” to set the value.. For example, if
+you were previously printing with 0.6mm perimeters, try the same print with
+1.2mmperimeters to see if the gaps disappear.
+
+16.2 Not enough top solid layers
+
+Another common cause for a weak foundation is not having enough solid
+layers for the top surfaces of your print. A thin ceiling will not be able to adequately
+support the structures that are printed on top of them. This setting can be
+adjusted by clicking “Basic” and selecting the “Bottom/Top thickness” to set
+
+49
+
+appropriate value. If you were previously using only 0.6mm solid layers, try the
+same print with 1.2mm top solid layers to see if the foundation is improved.
+16.3 Infill density is too low
+
+The final setting you should check is the infill density. You will set the value
+under the“Fill Density” tab of “Basic”. The top solid layers will be built on top of
+the infill, so it is important that there is enough infill to support these layers. For
+example, if you were previously using a infill percentage of 20%, try increasing
+that value to 40% to see if the print quality improves.
+
+50
+
+17. Lines on the Side of Print
+
+The sides of your 3D printed part are composed of hundreds of individual layers.
+If things are working properly, these layers will appear to be a single, smooth surface.
+
+51
+
+However, if something goes wrong with just one of these layers, it is usually clearly
+visible from the outside of the print. These improper layers may appear to look like
+lines or ridges on the sides of your part. Many times the defects will appear to be
+cyclical, meaning that the lines appear in a repeating pattern (i.e. once every 15
+layers). The section below will look at several common causes for these issues.
+
+17.1 Inconsistent extrusion
+
+The most common cause for this issue is poor filament quality. If the
+filament does not have very tight tolerances, then you will notice this variation on
+the side walls of your print. For example, if your filament diameter varied by just
+5% over the length of the spool, the width of the plastic extruded from the nozzle
+could change by as much as 0.05mm. This extra extrusion will create a layer that
+is wider than all the others, which will end up looking like a line on the side of the
+print. To create a perfectly smooth side wall, your printer needs to be able to
+produce a very consistent extrusion which requires high-quality plastic.
+
+17.2 Temperature variation
+
+Most 3D printers use a thermistor to regulate the temperature of the extruder.
+If this thermistor is not tuned properly, the temperature of the extruder may
+fluctuate over time. Due to the nature of how thermistor works, this fluctuation is
+frequently cyclical, meaning that the temperature will vary with a sine wave
+pattern. As the temperature gets hotter, the plastic may flow differently than when
+it is cooler. This will cause the layers of the print to extrude differently, creating
+
+52
+
+visible ridges on the sides of your print. A properly tuned printer should be able
+to maintain the extruder temperature within
++/-3degrees. During your print, you can use 3D printer’s control panel to monitor the
+temperature of your extruder. If it is varying by more than 3 degrees, you may need
+to recalibrate your thermistor. Please consult your printer manufacturer for exact
+instructions on how to do this.
+
+17.3 Mechanical issues
+
+If you know that inconsistent extrusion and temperature variation are not to
+blame, then there may be a mechanical issue that is causing lines and ridges on
+the sides of your print. For example, if the print bed wobbles or vibrates while
+printing, this can cause the nozzle position to vary. This means that some layers
+may be slightly thicker than others. These thicker layers will produce ridges on
+the sides of your print. Another common issue is a Z-axis threaded rod that is not
+being positioned properly. For example, due to backlash issues or poor motor
+controller micro-stepping settings. Even a small change in the bed position can
+have a major impact on the quality of each layer that is printed.
+
+53
+
+18. Vibrations and Ringing
+
+Ringing is a wavy pattern that may appear on the surface of your print due
+to printer vibrations or wobbling. Typically, you will notice this pattern when the
+extruder is making a sudden direction change, such as near a sharp corner. For
+54
+
+example, if you were printing a 20mm cube, each time the extruder changes to
+print a different face of the cube, it would need to change directions. The inertia
+of the extruder can create vibrations when these sudden direction changes occur,
+which will be visible of the print itself. We will look at the most common ways to
+address ringing, by examining each cause in the list below.
+18.1 Print too fast
+
+The most common cause for ringing is that your printer is trying to move too
+fast. When the printer suddenly changes direction, these quick movements will
+create additional force that can cause the lingering vibrations. If you feel that your
+printer may be moving too fast, try to reduce the printing speed. To do this, click
+“Basic” and select the“Print speed” tab to set suitable value.
+
+18.2 Firmware acceleration
+
+The firmware that runs on your 3D printer’s electronics typically implements
+acceleration controls to help prevent sudden direction changes. The acceleration
+settings will cause the printer to slowly ramp up in speed and then to slowly
+decelerate before changing directions. This functionality is vital for preventing
+ringing. If you are comfortable working with your printer’s firmware, you may even
+want to try decreasing the acceleration settings so that the speed changes more
+gradually. This can help reduce ringing even further.
+
+55
+
+18.3 Mechanical issues
+
+If nothing else has been able to resolving the ringing issues, then you may
+want to look for mechanical issues that could be causing the excessive vibrations.
+For example, there could be a loose screw or a broken bracket that is allowing
+excessive vibrations to occur. Watch your printer closely while it is running and
+try to identify where the vibrations are coming from. We’ve had many users that
+eventually traced these issues back to mechanical problems with the printer, so
+it’s worth checking if none of the suggestions above were able to help.
+
+56
+
+19. Very Small Features Not Being Printed
+
+Your printer includes a nozzle with a fixed size that allows you to accurately
+reproduce very small features. For example, many printers include a nozzle with a
+0.4mm diameter hole in the tip. While this works well for most parts, you may start to
+57
+
+encounter issues when trying to print extremely thin features that are smaller than
+the nozzle diameter. For example, if you were trying to print a 0.2mm thick wall with
+a 0.4mm nozzle. The reason for this is that you cannot accurately produce a 0.2mm
+extrusion from a 0.4mm nozzle.
+The extrusion width should always be equal to or greater than the nozzle diameter.
+Because of this, when you click “Layers” in Cura, you may notice that the software
+removes these small features from the preview. This is the software’s way of telling
+you that you cannot print these very tiny features using the current nozzle on your
+3D printer. If you are frequently printing very small parts, this may be a recurring
+issue that you encounter. There are several options that will allow you to
+successfully print these small parts. We will example each one in the section below.
+19.1 Redesign the parts with thicker features
+
+The first and most obvious option is to redesign the part so that it only
+includes features that are larger than your nozzle diameter. This typically involves
+editing the 3D model in the original CAD package to modify the size of the small
+features. Once you have thickened the small features, you can reimport the
+model into Cura to verify that your printer is capable of reproducing the 3D shape
+you created. If the features are visible in the Layers, then the printer will be
+capable of reproducing the revised features.
+
+19.2 Install a nozzle with a smaller tip size
+
+In many cases, you are not able to modify the original 3D model. For example,
+it may be a part that someone else designed or one that you downloaded from
+
+58
+
+the internet. In this case, you may want to consider obtaining a second nozzle for
+your 3D printer that allows it to print smaller features. Many printers have a
+removable nozzle tip, which makes these aftermarket adjustments quite easy.
+For example, many users purchase a 0.3mm nozzle as well as a 0.5mm nozzle
+to provide two options. Consult your printer manufacturer for exact instructions
+on how to install a smaller nozzle tip size.
+
+19.3 Force the software to print small features
+
+If you are not able to redesign the original 3D model, and you can’t install
+a smaller nozzle on your 3D printer, then you have one last option. You can force
+the software to print these small features. However, it is likely that this may have
+some print quality consequences. If you click on “Advanced” and go to the Nozzle
+size tab, you can manually set the extrusion width that the software should use
+for your printer. For example, if you have a 0.4mm nozzle, you could select a
+manual extrusion width of 0.3mm to force the software to print features as small
+as 0.3mm in size. However, as we mentioned above, most nozzles are not
+capable of accurately producing an extrusion that is smaller than the tip size, so
+monitor your printer closely to ensure that the quality is acceptable for these fine
+features.
+
+59
+
+20. Inconsistent Extrusion
+
+For your printer to be able to create accurate parts, it needs to be capable of
+extruding a very consistent amount of plastic. If this extrusion varies across
+different parts of your print, it is going to affect the final print quality. Inconsistent
+extrusion can usually be identified by watching your printer closely as it prints.
+
+60
+
+For example, if the printer is printing a straight line that is 20mm long, but you
+notice that the extrusion seems rather bumpy or seems to vary in size, then you
+are likely experiencing this issue. We have summarized the most common
+causes for inconsistent extrusion, and explained how each one can be addressed.
+
+20.1 Filament is getting stuck or tangled
+
+The first thing you should check is the spool of plastic that is feeding into
+your printer. You need to make sure that this spool is able to rotate freely and that
+the plastic is easily being unwound from the spool. If the filament becomes
+tangled, or the spool has too much resistance to spin freely, it will impact how
+evenly the filament is extruded through the nozzle.
+
+20.2 Clogged extruder
+
+If the filament is not tangled and can easily be pushed into the extruder, then
+the next thing to check is the nozzle itself. It is possible that there is some small
+debris or foreign plastic inside the nozzle that is preventing proper extrusion. An
+easy way to check this is to use3D printer’s control panel to manually extrude
+some plastic from the nozzle. Watch to make sure that the plastic is extruding
+evenly and consistently. If you notice problems, you may need to clean the nozzle.
+Please consult your manufacturer for instructions on how to properly clean the
+inside of the nozzle.
+
+61
+
+20.3 Layer height is very low
+
+If the filament is spinning freely and the extruder is not clogged, it may be
+useful to check a few settings within Cura. For example, if you are trying to print
+at an extremely low layer height, such as 0.01mm, there is very little room for the
+plastic to exit the nozzle. This gap below the nozzle is only 0.01mm tall, which
+means that the plastic may have a difficult time exiting the extruder. Double check
+to make sure you are using a reasonable layer height for your printer. You can
+view this setting by clicking “Basic” and selecting the Layer height tab. If you are
+printing at a very small layer height, try increasing the value to see if the problem
+goes away.
+
+20.4 Poor quality filament
+
+One of the most common causes for inconstant extrusion that we have not
+mentioned yet is the quality of the filament that you are printing with. Low quality
+filament may contain extra additives that impact the consistency of the plastic.
+Others may have an inconsistent filament diameter, which will also cause
+inconsistent extrusion. Finally, many plastics also have a tendency to degrade
+over time. For example, PLA tends to absorb moisture from the air, and over time,
+this will cause the print quality to degrade. This is why many spools of plastic
+include a desiccant in the package to help remove any moisture from the spool.
+If you think your filament may be at fault, try swapping the spool for a new,
+unopened, high-quality spool to see if the problem goes away.
+
+62
+
+20.5 Mechanical issues of extruder
+
+If you have verified everything above and are still having problems with
+inconsistent extrusion, then you may want to check for mechanical issues with
+your extruder. For example, many extruders use a drive gear with sharp teeth
+that bite into the filament. This allows the extruder to move the filament back and
+forth easily. These extruders also typically include an adjustment that changes
+how hard the drive gear is pressed into the filament. If this setting is too loose,
+the drive gear teeth won’t cut far enough into the filament, which impacts the
+extruder’s ability to accurately control the position of the filament.
+Consult to see if your printer has a similar adjustment.
+
+63
+
+

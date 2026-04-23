@@ -17,6 +17,15 @@ class Settings(BaseSettings):
 
     agent_max_tool_calls: int = 5
 
+    # New: static knowledge / RAG
+    static_knowledge_dir: str = "data/static_knowledge"
+    rag_index_dir: str = "data/rag_index"
+    rag_embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
+    rag_top_k: int = 4
+    rag_chunk_size: int = 900
+    rag_chunk_overlap: int = 150
+    static_knowledge_use_llm: bool = False
+
     model_config = SettingsConfigDict(
         env_file=".env",
         env_file_encoding="utf-8",
